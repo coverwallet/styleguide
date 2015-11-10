@@ -1,0 +1,70 @@
+/*
+
+General Typography
+
+Styleguide 1
+*/
+
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 400;
+    font-family: $principal-fonts;
+    color: #272727;
+
+    span{
+        font-weight: bold;
+    }
+}
+
+h1, .h1{
+    font-size: 54px;
+}
+
+h2, .h2{
+    font-size: 44px;
+}
+
+h3, .h3{
+    font-size: 34px;
+}
+
+h4, .h4{
+    font-size: 24px;
+}
+
+h5, .h5{
+    font-size: 18px;
+}
+
+h6, .h6{
+    font-size: 14px;
+}
+
+/*
+Base headers
+
+Markup:
+    <h1>H1 title <span>with span</span></h1>
+    <h2>H2 title <span>with span</span></h2>
+    <h3>H3 title <span>with span</span></h3>
+    <h4>H4 title <span>with span</span></h4>
+    <h5>H5 title <span>with span</span></h5>
+    <h6>H6 title <span>with span</span></h6>
+
+    Styleguide 1.1
+*/
+
+/*
+Base headers with span
+
+Markup:
+    <h1>H1 title <span>with span</span></h1>
+    <h2>H2 title <span>with span</span></h2>
+    <h3>H3 title <span>with span</span></h3>
+    <h4>H4 title <span>with span</span></h4>
+    <h5>H5 title <span>with span</span></h5>
+    <h6>H6 title <span>with span</span></h6>
+
+    Styleguide 1.2
+*/

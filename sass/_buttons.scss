@@ -1,0 +1,35 @@
+/*
+Standard buttons
+
+Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.
+
+Styleguide 3
+*/
+
+// Base styles & states
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
+//
+// Markup:
+// <button type="submit" class="btn {{modifier_class}}">Button</button>
+//
+// Styleguide 3.1
+button, .btn {
+  font-size: 16px;
+  border-radius: 3px;
+  color: #fff;
+  background-color: $orange;
+  padding: 15px 20px;
+  border:none;
+
+  &:hover{
+      background-color: $dark-gray;
+  }
+  &.disabled,
+  &[disabled] {
+    cursor: default;
+    background-color: $dark-gray;
+  }
+}

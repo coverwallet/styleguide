@@ -1,0 +1,37 @@
+@mixin cw-border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+@mixin cw-hide-tablet() {
+    @include media($tablet) {
+        display: none;
+    }
+}
+@mixin cw-image-responsive() {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+mixin to add icon to element
+*/
+@mixin cw-icon-before($icon, $padding-right:0, $color: #000) {
+    &:before {
+        @extend .fa;
+        @extend .fa-#{$icon};
+        padding-right: #{$padding-right};
+        color: #{$color};
+    }
+}
+
+
+/*
+bourbon-net, override span-columns to add min-height:1px
+*/
+@mixin cw-span-columns($cols){
+    @include span-columns($cols);
+    min-height: 1px;
+}

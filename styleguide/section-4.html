@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>kss-node Styleguide</title>
+    <meta name="description" content="" />
+    <meta name="generator" content="kss-node" />
+    <link rel="stylesheet" href="public/kss.css" />
+    <link rel="stylesheet" href="public/coverwallet.css" />
+    <link rel="stylesheet" href="public/coverwallet-styleguide.css">
+
+    <!--[if lt IE 9]>
+    <script src="public/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body id="kss-node">
+      <div class="header-top">
+        <img src="public/img/logo.png" id="logo"/>
+    </div>
+    <div class="kss-wrapper">
+      <div class="kss-sidebar">
+        <div class="kss-sidebar-inner">
+          <header class="kss-header">
+            <h1 class="kss-doc-title"><a href="./">CoverWallet Styleguide</a></h1>
+          </header>
+          <nav class="kss-nav">
+            <ul class="kss-menu" data-kss-ref="4">
+              <li class="kss-menu-item"><a href="./index.html"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">General Typography</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Standar colors</span></a></li>
+              <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Standard buttons</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Standard forms styles</span></a></li>
+            </ul>
+            <ul class="kss-menu-child">
+              <li class="kss-menu-item"><a href="#section-4.1"><span class="kss-ref">4.1</span><span class="kss-name">Standards forms</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.2"><span class="kss-ref">4.2</span><span class="kss-name">Different inputs</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="kss-content">
+        <article class="kss-article">
+          <section id="section-4" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">4</span> Standard forms styles</h1>
+          </section>
+          <section id="section-4.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.1</span> Standards forms</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form [modifier class]">
+   <div class="form-group">
+       <label for="name">Name</label>
+       <input type="text" id="name" class="form-control" placeholder="Name"/>
+   </div>
+   <div class="form-group">
+       <label for="surname">Surname</label>
+       <input type="text" id="surname" class="form-control" placeholder="Surname"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form--light</div>
+                  <div class="kss-modifier-description">
+                    Form over blue background
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form form--light">
+   <div class="form-group">
+       <label for="name">Name</label>
+       <input type="text" id="name" class="form-control" placeholder="Name"/>
+   </div>
+   <div class="form-group">
+       <label for="surname">Surname</label>
+       <input type="text" id="surname" class="form-control" placeholder="Surname"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class=&quot;form [modifier class]&quot;&gt;
+   &lt;div class=&quot;form-group&quot;&gt;
+       &lt;label for=&quot;name&quot;&gt;Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; id=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Name&quot;/&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;form-group&quot;&gt;
+       &lt;label for=&quot;surname&quot;&gt;Surname&lt;/label&gt;
+       &lt;input type=&quot;text&quot; id=&quot;surname&quot; class=&quot;form-control&quot; placeholder=&quot;Surname&quot;/&gt;
+   &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-4.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.2</span> Different inputs</h1>
+            <div class="kss-description">
+              <p>Add any of the following classes to the <code>.form-control</code> base class.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group">
+       <label for="email">Email</label>
+        <input type="text" id="email" class="form-control [modifier class]" placeholder="Email"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-control--long</div>
+                  <div class="kss-modifier-description">
+                    Long form
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group">
+       <label for="email">Email</label>
+        <input type="text" id="email" class="form-control form-control--long" placeholder="Email"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-control--error</div>
+                  <div class="kss-modifier-description">
+                    Show error style
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group">
+       <label for="email">Email</label>
+        <input type="text" id="email" class="form-control form-control--error" placeholder="Email"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-control--email</div>
+                  <div class="kss-modifier-description">
+                    Email icon
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group">
+       <label for="email">Email</label>
+        <input type="text" id="email" class="form-control form-control--email" placeholder="Email"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
+   &lt;div class=&quot;form-group&quot;&gt;
+       &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
+        &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-control [modifier class]&quot; placeholder=&quot;Email&quot;/&gt;
+   &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+        </article>
+        <footer class="kss-footer">
+          <div>Created using <a href="https://github.com/kss-node/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
+        </footer>
+      </div>
+    </div>
+    <script src="public/kss.js"></script>
+    <script src="public/jquery-1.9.1.min.js"></script>
+    <!--[if gt IE 8]><!-->
+    <script src="public/highlight.pack.js"></script>
+    <!--<![endif]-->
+    <script src="public/main.js"></script>
+    
+  </body>
+</html>

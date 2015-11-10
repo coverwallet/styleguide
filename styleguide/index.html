@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>kss-node Styleguide</title>
+    <meta name="description" content="" />
+    <meta name="generator" content="kss-node" />
+    <link rel="stylesheet" href="public/kss.css" />
+    <link rel="stylesheet" href="public/coverwallet.css" />
+    <link rel="stylesheet" href="public/coverwallet-styleguide.css">
+
+    <!--[if lt IE 9]>
+    <script src="public/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body id="kss-node">
+      <div class="header-top">
+        <img src="public/img/logo.png" id="logo"/>
+    </div>
+    <div class="kss-wrapper">
+      <div class="kss-sidebar">
+        <div class="kss-sidebar-inner">
+          <header class="kss-header">
+            <h1 class="kss-doc-title"><a href="./">CoverWallet Styleguide</a></h1>
+          </header>
+          <nav class="kss-nav">
+            <ul class="kss-menu" data-kss-ref="styleguide.homepage">
+              <li class="kss-menu-item"><a href="./index.html"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">General Typography</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Standar colors</span></a></li>
+              <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Standard buttons</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Standard forms styles</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="kss-content">
+        <article class="kss-article">
+          <section id="section-0" class="kss-section kss-overview">
+             <h2 id="format">Format</h2>
+<p>kss-node is almost compatible with KSS documentation. But kss-node can depend on only comment in source code because it has Markup: directive for showing the sample markup.</p>
+<p>Here is a basic format for kss-node documentation.</p>
+<pre><code>/*
+Buttons
+
+A majority of buttons in the site are built from the same base class.
+
+:hovered    - Highlight the button when hovered.
+:disabled   - Make the button change appearance to reflect it being disabled.
+.primary    - Indicate that the button is the primary feature of this form.
+
+Markup:
+&lt;a href=&quot;#&quot; class=&quot;button {$modifiers}&quot;&gt;Link Button&lt;/a&gt;
+&lt;button class=&quot;button {$modifiers}&quot;&gt;Button Element&lt;/button&gt;
+
+Styleguide 1.1
+*/
+.button {
+  ...
+}
+.button:hover {
+  ...
+}
+.button:disabled {
+  ...
+}
+.button.primary {
+  ...
+}
+</code></pre><p>kss-node also supports CSS preprocessors such as LESS, SASS and Stylus. You can use the // comment section for writing your document.</p>
+<pre><code>// Buttons
+//
+// A majority of buttons in the site are built from the same base class.
+//
+// :hovered    - Highlight the button when hovered.
+// :disabled   - Make the button change appearance to reflect it being disabled.
+// .primary    - Indicate that the button is the primary feature of this form.
+//
+// Markup:
+// &lt;a href=&quot;#&quot; class=&quot;button {$modifiers}&quot;&gt;Link Button&lt;/a&gt;
+// &lt;button class=&quot;button {$modifiers}&quot;&gt;Button Element&lt;/button&gt;
+//
+// Styleguide 1.1
+.button {
+  ...
+  &amp;:hover {
+    ...
+  }
+  &amp;:disabled {
+    ...
+  }
+  .primary {
+    ...
+  }
+}
+</code></pre><p>As you see in the above samples, kss-node comment has some blocks. From the top,</p>
+<p>Element&#39;s title
+Element&#39;s description
+List of modifier classes or pseudo-classes
+HTML markup
+Reference to the element&#39;s position in the styleguide
+And each description supports the Markdown writing.</p>
+<hr>
+<h2 id="naming-conventions">Naming Conventions</h2>
+<p>Naming conventions are a team decision. If, like me, you are dealing with your CSS on your own, you can go nuts and use something that suits you. Personally, I go with Nicolas Gallagher’s methodology which is influenced by the well-known Yandex BEM system.</p>
+<p>BEM stands for Block Element Modifier, a clever and clean way to name your CSS classes. Yes, I said classes, not IDs. I don’t use any IDs in my CSS and neither should you. Any. IDs are overkill and can lead to specificity issues. Of course, IDs are still very useful for JavaScript hooks and HTML anchors.</p>
+<p>The point behind the BEM syntax is to provide context directly into the selector in order to make them easily understandable to anyone new to the project.</p>
+<p>Here is a very basic example of BEM:</p>
+<pre><code>.block { }
+.block--modifier { }
+.block__element { }
+.block__element--modifier { }
+</code></pre><p>Yes, double dashes, double underscores. We’ll see why in a moment.</p>
+<p>So, what’s up with BEM? It looks long and ugly. Well yes it is! But the fact that is is long and ugly is actually what makes it efficient.</p>
+<p>The main idea is simple: when you build a component, you give it a name. A child element of the component will be named like this <code>`.{{ name of component }}__{{ name of child-element }}</code>. When an element is slightly modified it will be named <code>``.{{ name of component }}--{{ name of modifier }}</code>. Of course, a child-element can be modified as well.</p>
+<p>So what’s up with the double dashes and underscores? Well, these allow hyphenated names like <code>.my-component</code>. Then you can read <code>.my-component--disabled</code> without a problem. Same goes for the double underscores. Worry not, you will get used to it very quickly.</p>
+<p>Since nothing’s better than a good ol’ example, here is a step-wizard module I wrote at work using the BEM naming system</p>
+<pre><code>.steps { }
+.steps__item { }
+.steps__item--first { }
+.steps__item--last { }
+.steps__item--active { }
+.steps__item--done { }
+.steps__link { }
+</code></pre><p>As you can see, we deal with 3 different elements:</p>
+<ul>
+<li><code>.steps</code> which is the module wrapper</li>
+<li><code>.steps__item</code> which is the main element for the module since it has at least 4 modified states</li>
+<li><code>.steps__link</code>, another element in the module</li>
+</ul>
+
+          </section>
+        </article>
+        <footer class="kss-footer">
+          <div>Created using <a href="https://github.com/kss-node/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
+        </footer>
+      </div>
+    </div>
+    <script src="public/kss.js"></script>
+    <script src="public/jquery-1.9.1.min.js"></script>
+    <!--[if gt IE 8]><!-->
+    <script src="public/highlight.pack.js"></script>
+    <!--<![endif]-->
+    <script src="public/main.js"></script>
+    
+  </body>
+</html>

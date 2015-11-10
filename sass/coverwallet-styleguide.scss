@@ -1,0 +1,30 @@
+@import 'coverwallet';
+
+.color{
+
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0;
+
+    &.color-dark-gray{
+        background-color: $dark-gray;
+    }
+    &.color-light-gray{
+        background-color: $light-gray;
+        color: #000;
+    }
+    &.color-gray{
+        background-color: $gray;
+        color: #000;
+    }
+    &.color-blue{
+        background-color: $blue;
+    }
+    &.color-light-blue{
+        background-color: $light-blue;
+    }
+    &.color-orange{
+        background-color: $orange;
+    }
+}

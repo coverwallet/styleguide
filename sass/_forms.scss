@@ -1,0 +1,88 @@
+.form, form {
+    .form-group {
+        label {
+            color: $light-blue;
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            text-align: left;
+            margin: 0 auto;
+            padding: 1em 0 0.2em 16px;
+        }
+        input.form-control{
+            background-color: transparent;
+            border-radius: 0;
+            border: 1px solid $dark-gray;
+            padding-left: 15px;
+            width: 100%;
+            height: 65px;
+            text-align: left;
+            font-size: 1em;
+            max-width: 600px;
+            color: #333;
+            font-weight: 100;
+            &.form-control--long {
+                height: 38px;
+            }
+            &.form-control--error {
+                border-color: #f00;
+            }
+            &.form-control--email{
+                background-image: image-url('logo.png')
+            }
+        }
+    }
+
+    &.form--light{
+        input.form-control{
+            border-color: #fff;
+        }
+    }
+}
+
+/*
+ Standard forms styles
+
+ Styleguide 4
+*/
+
+/*
+ Standards forms
+
+ .form--light    - Form over blue background
+
+ Markup:
+ <form class="form {{modifier_class}}">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" class="form-control" placeholder="Name"/>
+    </div>
+    <div class="form-group">
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" class="form-control" placeholder="Surname"/>
+    </div>
+ </form>
+
+ Styleguide 4.1
+*/
+
+/*
+ Different inputs
+
+ Add any of the following classes to the `.form-control` base class.
+
+ .form-control--long   - Long form
+ .form-control--error  - Show error style
+ .form-control--email  - Email icon
+
+ Markup:
+ <form class="form">
+    <div class="form-group">
+        <label for="email">Email</label>
+         <input type="text" id="email" class="form-control {{modifier_class}}" placeholder="Email"/>
+    </div>
+ </form>
+
+ Styleguide 4.2
+*/
