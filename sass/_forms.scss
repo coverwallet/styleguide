@@ -1,4 +1,5 @@
-.form, form {
+.form,
+form {
     .form-group {
         label {
             color: $light-blue;
@@ -10,7 +11,7 @@
             margin: 0 auto;
             padding: 1em 0 0.2em 16px;
         }
-        input.form-control{
+        .form-input {
             background-color: transparent;
             border-radius: 0;
             border: 1px solid $dark-gray;
@@ -22,20 +23,46 @@
             max-width: 600px;
             color: #333;
             font-weight: 100;
-            &.form-control--long {
+            &.form-input--long {
                 height: 38px;
             }
-            &.form-control--error {
+            &.form-input--error {
                 border-color: #f00;
             }
-            &.form-control--email{
-                background-image: image-url('logo.png')
+            &.form-input--email {
+                background-image: image-url('email.png');
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+            &.form-input--password {
+                background-image: image-url('password.png');
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+        }
+        .form-checkbox {
+            input {
+                display: none;
+            }
+            label {
+                display: inline-block;
+                max-width: 100%;
+                margin-bottom: 5px;
+                font-weight: 700;
+            }
+            input+label {
+                font-size: 22px;
+                height: 25px;
+                width: 25px;
+                 :before {
+                    padding-right: 0;
+                    color: $gray;
+                }
             }
         }
     }
-
-    &.form--light{
-        input.form-control{
+    &.form--light {
+        input.form-input {
             border-color: #fff;
         }
     }
@@ -46,7 +73,6 @@
 
  Styleguide 4
 */
-
 /*
  Standards forms
 
@@ -56,33 +82,49 @@
  <form class="form {{modifier_class}}">
     <div class="form-group">
         <label for="name">Name</label>
-        <input type="text" id="name" class="form-control" placeholder="Name"/>
+        <input type="text" id="name" class="form-input" placeholder="Name"/>
     </div>
     <div class="form-group">
         <label for="surname">Surname</label>
-        <input type="text" id="surname" class="form-control" placeholder="Surname"/>
+        <input type="text" id="surname" class="form-input" placeholder="Surname"/>
     </div>
  </form>
 
  Styleguide 4.1
 */
-
 /*
- Different inputs
+ Different inputs text, password, email
 
- Add any of the following classes to the `.form-control` base class.
+ Add any of the following classes to the `.form-input` base class.
 
- .form-control--long   - Long form
- .form-control--error  - Show error style
- .form-control--email  - Email icon
+ .form-input--long   - Long form
+ .form-input--error  - Show error style
+ .form-input--email  - Email icon
+ .form-input--password  - Password icon
 
  Markup:
  <form class="form">
     <div class="form-group">
         <label for="email">Email</label>
-         <input type="text" id="email" class="form-control {{modifier_class}}" placeholder="Email"/>
+        <input type="text" id="email" class="form-input {{modifier_class}}" placeholder="Email"/>
     </div>
  </form>
 
  Styleguide 4.2
+*/
+/*
+ Checkbox inputs
+
+ Markup:
+ <form class="form">
+     <div class="form-group">
+         <div class="form-checkbox">
+             <input type="checkbox" id="checkbox"/>
+             <label for="checkbox"></label>
+         </div>
+         <label for="email">Checkbox</label>
+     </div>
+ </form>
+
+ Styleguide 4.3
 */
