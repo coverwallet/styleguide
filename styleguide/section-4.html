@@ -38,8 +38,9 @@
             <ul class="kss-menu-child">
               <li class="kss-menu-item"><a href="#section-4.1"><span class="kss-ref">4.1</span><span class="kss-name">Standards forms</span></a></li>
               <li class="kss-menu-item"><a href="#section-4.2"><span class="kss-ref">4.2</span><span class="kss-name">Different inputs text, password, email</span></a></li>
-              <li class="kss-menu-item"><a href="#section-4.3"><span class="kss-ref">4.3</span><span class="kss-name">Checkbox inputs</span></a></li>
-              <li class="kss-menu-item"><a href="#section-4.4"><span class="kss-ref">4.4</span><span class="kss-name">Select inputs</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.3"><span class="kss-ref">4.3</span><span class="kss-name">Error and help messages</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.4"><span class="kss-ref">4.4</span><span class="kss-name">Checkbox inputs</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.5"><span class="kss-ref">4.5</span><span class="kss-name">Select inputs</span></a></li>
             </ul>
           </nav>
         </div>
@@ -213,7 +214,49 @@
             </div>
           </section>
           <section id="section-4.3" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">4.3</span> Checkbox inputs</h1>
+            <h1 class="kss-title"><span class="kss-ref">4.3</span> Error and help messages</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form  [modifier class]">
+   <div class="form-group">
+       <label for="email">Email</label>
+       <input type="text" id="email" class="form-input form-input--error" placeholder="Email"/>
+       <span class="help-block" >Please enter a valid email</span>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form--light</div>
+                  <div class="kss-modifier-description">
+                    Message over blue background
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form  form--light">
+   <div class="form-group">
+       <label for="email">Email</label>
+       <input type="text" id="email" class="form-input form-input--error" placeholder="Email"/>
+       <span class="help-block" >Please enter a valid email</span>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class=&quot;form  [modifier class]&quot;&gt;
+   &lt;div class=&quot;form-group&quot;&gt;
+       &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
+       &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-input form-input--error&quot; placeholder=&quot;Email&quot;/&gt;
+       &lt;span class=&quot;help-block&quot; &gt;Please enter a valid email&lt;/span&gt;
+   &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-4.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.4</span> Checkbox inputs</h1>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
@@ -255,8 +298,8 @@
               </div>
             </div>
           </section>
-          <section id="section-4.4" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">4.4</span> Select inputs</h1>
+          <section id="section-4.5" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.5</span> Select inputs</h1>
             <div class="kss-description">
               <p></form></p>
 
