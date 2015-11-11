@@ -66,7 +66,7 @@ module.exports = function(grunt) {
                 options: {
                     sassDir: 'sass',
                     cssDir: 'styleguide/public',
-                    imagesDir: 'styleguide/images',
+                    imagesDir: 'styleguide/public/images',
                     httpFontsPath: 'fonts',
                     fontsDir: './fonts',
                     imagesPath: './images'
@@ -93,7 +93,8 @@ module.exports = function(grunt) {
         kss: {
             options: {
                 template: './template',
-                css: 'public/coverwallet-styleguide.css'
+                css: 'public/coverwallet-styleguide.css',
+                js: '../js/selectFx.js'
             },
             dist: {
                 files: {

@@ -38,6 +38,7 @@
               <li class="kss-menu-item"><a href="#section-4.1"><span class="kss-ref">4.1</span><span class="kss-name">Standards forms</span></a></li>
               <li class="kss-menu-item"><a href="#section-4.2"><span class="kss-ref">4.2</span><span class="kss-name">Different inputs text, password, email</span></a></li>
               <li class="kss-menu-item"><a href="#section-4.3"><span class="kss-ref">4.3</span><span class="kss-name">Checkbox inputs</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.4"><span class="kss-ref">4.4</span><span class="kss-name">Select inputs</span></a></li>
             </ul>
           </nav>
         </div>
@@ -61,6 +62,13 @@
        <label for="surname">Surname</label>
        <input type="text" id="surname" class="form-input" placeholder="Surname"/>
    </div>
+   <div class="form-group">
+       <label for="select-example">Select</label>
+       <select  class="form-select select-example-form">
+          <option>Option 1</option>
+          <option>Option 2</option>
+       </select>
+   </div>
 </form>
                 </div>
               </div>
@@ -81,6 +89,13 @@
        <label for="surname">Surname</label>
        <input type="text" id="surname" class="form-input" placeholder="Surname"/>
    </div>
+   <div class="form-group">
+       <label for="select-example">Select</label>
+       <select  class="form-select select-example-form">
+          <option>Option 1</option>
+          <option>Option 2</option>
+       </select>
+   </div>
 </form>
                 </div>
               </div>
@@ -93,6 +108,13 @@
    &lt;div class=&quot;form-group&quot;&gt;
        &lt;label for=&quot;surname&quot;&gt;Surname&lt;/label&gt;
        &lt;input type=&quot;text&quot; id=&quot;surname&quot; class=&quot;form-input&quot; placeholder=&quot;Surname&quot;/&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;form-group&quot;&gt;
+       &lt;label for=&quot;select-example&quot;&gt;Select&lt;/label&gt;
+       &lt;select  class=&quot;form-select select-example-form&quot;&gt;
+          &lt;option&gt;Option 1&lt;/option&gt;
+          &lt;option&gt;Option 2&lt;/option&gt;
+       &lt;/select&gt;
    &lt;/div&gt;
 &lt;/form&gt;</code></pre>
               </div>
@@ -232,6 +254,37 @@
               </div>
             </div>
           </section>
+          <section id="section-4.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.4</span> Select inputs</h1>
+            <div class="kss-description">
+              <p></form></p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form">
+    <div class="form-group">
+        <label for="select-example">Select</label>
+        <select id="select-example" class="form-select">
+           <option>Option 1</option>
+           <option>Option 2</option>
+        </select>
+    </div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;select-example&quot;&gt;Select&lt;/label&gt;
+        &lt;select id=&quot;select-example&quot; class=&quot;form-select&quot;&gt;
+           &lt;option&gt;Option 1&lt;/option&gt;
+           &lt;option&gt;Option 2&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
         </article>
         <footer class="kss-footer">
           <div>Created using <a href="https://github.com/kss-node/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
@@ -244,6 +297,7 @@
     <script src="public/highlight.pack.js"></script>
     <!--<![endif]-->
     <script src="public/main.js"></script>
-    
+    <script src="../js/selectFx.js"></script>
+
   </body>
 </html>

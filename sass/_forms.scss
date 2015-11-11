@@ -40,6 +40,45 @@ form {
                 background-repeat: no-repeat;
                 background-position: right center;
             }
+            &::-webkit-input-placeholder {
+               /* WebKit, Blink, Edge */
+               color: $dark-gray;
+           }
+            &:-moz-placeholder {
+               /* Mozilla Firefox 4 to 18 */
+               color: $dark-gray;
+               opacity: 1;
+           }
+            &::-moz-placeholder {
+               /* Mozilla Firefox 19+ */
+               color: $dark-gray;
+               opacity: 1;
+           }
+            &:-ms-input-placeholder {
+               /* Internet Explorer 10-11 */
+               color: $dark-gray;
+           }
+        }
+        .form-select{
+            @extend .cs-select;
+            max-width: 600px;
+            color: $dark-gray;
+            input{
+                display: none;
+            }
+            .cs-placeholder{
+                height: 64px;
+                line-height: 32px;
+                border: 1px solid #000;
+                &:after{
+                    @extend .fa;
+                    content: $fa-var-arrow-down;
+                }
+            }
+
+            &.cs-active{
+                color: $blue;
+            }
         }
         &.form-group--checkbox {
             @include clearfix;
@@ -79,6 +118,44 @@ form {
     &.form--light {
         input.form-input {
             border-color: #fff;
+            color: #fff;
+            &::-webkit-input-placeholder {
+               /* WebKit, Blink, Edge */
+               color: $light-blue;
+           }
+            &:-moz-placeholder {
+               /* Mozilla Firefox 4 to 18 */
+               color: $light-blue;
+               opacity: 1;
+           }
+            &::-moz-placeholder {
+               /* Mozilla Firefox 19+ */
+               color: $light-blue;
+               opacity: 1;
+           }
+            &:-ms-input-placeholder {
+               /* Internet Explorer 10-11 */
+               color: $light-blue;
+           }
+        }
+        .form-select{
+            background: inherit;
+            color: $light-blue;
+            input{
+                display: none;
+            }
+            .cs-placeholder{
+                height: 64px;
+                border: 1px solid #fff;
+                &:after{
+                    @extend .fa;
+                    content: $fa-var-arrow-down;
+                }
+            }
+
+            &.cs-active{
+                color: $blue;
+            }
         }
     }
 }
@@ -102,6 +179,13 @@ form {
     <div class="form-group">
         <label for="surname">Surname</label>
         <input type="text" id="surname" class="form-input" placeholder="Surname"/>
+    </div>
+    <div class="form-group">
+        <label for="select-example">Select</label>
+        <select  class="form-select select-example-form">
+           <option>Option 1</option>
+           <option>Option 2</option>
+        </select>
     </div>
  </form>
 
@@ -149,4 +233,21 @@ form {
  </form>
 
  Styleguide 4.3
+*/
+/*
+ Select inputs
+
+ Markup:
+ <form class="form">
+     <div class="form-group">
+         <label for="select-example">Select</label>
+         <select id="select-example" class="form-select">
+            <option>Option 1</option>
+            <option>Option 2</option>
+         </select>
+     </div>
+
+ </form>
+
+ Styleguide 4.4
 */
