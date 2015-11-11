@@ -59,6 +59,12 @@ form {
                color: $dark-gray;
            }
         }
+        .help-block{
+            display:inline-block;
+            color: $dark-gray;
+            width: 100%;
+            margin-top: 10px;
+        }
         .form-select{
             @extend .cs-select;
             max-width: 600px;
@@ -113,6 +119,9 @@ form {
                 color: black;
                 padding: 0;
             }
+            .help-block{
+                color: #fff;
+            }
         }
     }
     &.form--light {
@@ -156,6 +165,9 @@ form {
             &.cs-active{
                 color: $blue;
             }
+        }
+        .help-block{
+            color: #fff;
         }
     }
 }
@@ -212,6 +224,25 @@ form {
  Styleguide 4.2
 */
 /*
+ Error and help messages
+
+ .form--light    - Message over blue background
+
+ Markup:
+ <form class="form  {{modifier_class}}">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input form-input--error" placeholder="Email"/>
+        <span class="help-block" >Please enter a valid email</span>
+    </div>
+ </form>
+
+ Styleguide 4.3
+*/
+
+
+
+/*
  Checkbox inputs
 
  Markup:
@@ -232,7 +263,7 @@ form {
      </div>
  </form>
 
- Styleguide 4.3
+ Styleguide 4.4
 */
 /*
  Select inputs
@@ -249,5 +280,5 @@ form {
 
  </form>
 
- Styleguide 4.4
+ Styleguide 4.5
 */
