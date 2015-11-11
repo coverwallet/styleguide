@@ -3752,8 +3752,8 @@ Styleguide 2.2
 */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('../../fonts/fontawesome-webfont.eot?1447233518');
-  src: url('../../fonts/fontawesome-webfont.eot?1447233518') format("embedded-opentype"), url('../../fonts/fontawesome-webfont.woff2?1447233518') format("woff2"), url('../../fonts/fontawesome-webfont.woff?1447233518') format("woff"), url('../../fonts/fontawesome-webfont.ttf?1447233518') format("truetype"), url('../../fonts/fontawesome-webfont.svg?1447233518#fontawesomeregular') format("svg");
+  src: url('fonts/fontawesome-webfont.eot?1447244226');
+  src: url('fonts/fontawesome-webfont.eot?1447244226') format("embedded-opentype"), url('fonts/fontawesome-webfont.woff2?1447244226') format("woff2"), url('fonts/fontawesome-webfont.woff?1447244226') format("woff"), url('fonts/fontawesome-webfont.ttf?1447244226') format("truetype"), url('fonts/fontawesome-webfont.svg?1447244226#fontawesomeregular') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3893,14 +3893,14 @@ form .form-group .form-input.form-input--error {
 /* line 33, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--email,
 form .form-group .form-input.form-input--email {
-  background-image: url('/images/email.png?1447180477');
+  background-image: url('/images/email.png?1447244226');
   background-repeat: no-repeat;
   background-position: right center;
 }
 /* line 38, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--password,
 form .form-group .form-input.form-input--password {
-  background-image: url('/images/password.png?1447180498');
+  background-image: url('/images/password.png?1447244226');
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -4152,7 +4152,7 @@ ul.list.list--type-3 li:before {
   height: 48px;
   width: 48px;
   cursor: pointer;
-  background: url('/images/close-icon.png?1447243680');
+  background: url('/images/close-icon.png?1447244226');
   background-size: contain;
 }
 
