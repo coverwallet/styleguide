@@ -1,5 +1,5 @@
-(function ($) {
-    $(function () {
+(function($) {
+    $(function() {
 
         var $window = $(window),
             $document = $(document),
@@ -18,7 +18,7 @@
             var scrollTop = $window.scrollTop(),
                 $anchors = $childMenu.find('a'),
                 activeIndex;
-            $anchors.each(function (index) {
+            $anchors.each(function(index) {
                 var $target = $($(this).attr('href').replace(/\./g, '\\.')),
                     offsetTop = $target.offset().top,
                     offsetBottom = offsetTop + $target.outerHeight(true);
@@ -40,13 +40,11 @@
                 if ($sidebarInner.outerHeight() > $window.height()) {
                     $sidebar.height($window.height());
                     $window.on('scroll', scrollSidebar).trigger('scroll');
-                }
-                else {
+                } else {
                     $sidebar.height('auto');
                     $window.off('scroll', scrollSidebar);
                 }
-            }
-            else {
+            } else {
                 $sidebar.removeClass('kss-fixed');
                 $sidebar.height('auto');
                 $window.off('scroll', scrollSidebar);
@@ -58,13 +56,12 @@
             if (event.handled !== true) {
                 var scrollTop = $window.scrollTop(),
                     maxScrollTop = $document.height() - $window.height();
-                if (scrollTop >= 0 && prevScrollTop >= 0 && scrollTop <= maxScrollTop && prevScrollTop <= maxScrollTop) {  // for Mac scrolling
+                if (scrollTop >= 0 && prevScrollTop >= 0 && scrollTop <= maxScrollTop && prevScrollTop <= maxScrollTop) { // for Mac scrolling
                     $sidebar.scrollTop($sidebar.scrollTop() + (scrollTop - prevScrollTop));
                 }
                 prevScrollTop = scrollTop;
                 event.handled = true;
-            }
-            else {
+            } else {
                 return false;
             }
         }
@@ -86,12 +83,22 @@
         // Syntax hightlignting
         hljs.initHighlightingOnLoad();
 
-        $(".kss-menu-child a").click(function(e){
+        $(".kss-menu-child a").click(function(e) {
             e.preventDefault();
             var id = $(this).attr('href').replace('.', '\\.');
-            $("body").animate({scrollTop: $(id).offset().top - 70});
+            $("body").animate({
+                scrollTop: $(id).offset().top - 70
+            });
             return false;
         });
+
+
+        new SelectFX(document.querySelector('#select-example'));
+        var selects = document.querySelectorAll('.select-example-form');
+        for(var i = 0, length = selects.length; i < length; i++){
+            new SelectFX(selects[i]);
+        }
+
 
     });
 }(jQuery));

@@ -25,7 +25,7 @@
             <h1 class="kss-doc-title"><a href="./">CoverWallet Styleguide</a></h1>
           </header>
           <nav class="kss-nav">
-            <ul class="kss-menu" data-kss-ref="3">
+            <ul class="kss-menu" data-kss-ref="5">
               <li class="kss-menu-item"><a href="./index.html"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
               <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">General Typography</span></a></li>
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Standar colors</span></a></li>
@@ -35,63 +35,88 @@
               <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Popup</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-3.1"><span class="kss-ref">3.1</span><span class="kss-name">Base styles &amp; states</span></a></li>
+              <li class="kss-menu-item"><a href="#section-5.1"><span class="kss-ref">5.1</span><span class="kss-name">Standards list</span></a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div class="kss-content">
         <article class="kss-article">
-          <section id="section-3" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">3</span> Standard buttons</h1>
-            <div class="kss-description">
-              <p>Button styles can be applied to anything with the .btn class applied. However, typically you&#39;ll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.</p>
-
-            </div>
+          <section id="section-5" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">5</span> Standard list styles</h1>
           </section>
-          <section id="section-3.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">3.1</span> Base styles &amp; states</h1>
+          <section id="section-5.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">5.1</span> Standards list</h1>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                  <button type="submit" class="btn [modifier class]">Button</button>
+                  <ul class="list [modifier class]">
+   <li>Item 1</li>
+   <li>Item 2</li>
+</ul>
                 </div>
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">:hover</div>
+                  <div class="kss-modifier-name">.list--type-1</div>
                   <div class="kss-modifier-description">
-                    Hover state.
+                    With check
                   </div>
                 </div>
                 <div class="kss-modifier-example">
-                  <button type="submit" class="btn pseudo-class-hover">Button</button>
+                  <ul class="list list--type-1">
+   <li>Item 1</li>
+   <li>Item 2</li>
+</ul>
                 </div>
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">:active</div>
+                  <div class="kss-modifier-name">.list--type-1-big</div>
                   <div class="kss-modifier-description">
-                    Active state.
+                    With check and more big
                   </div>
                 </div>
                 <div class="kss-modifier-example">
-                  <button type="submit" class="btn pseudo-class-active">Button</button>
+                  <ul class="list list--type-1-big">
+   <li>Item 1</li>
+   <li>Item 2</li>
+</ul>
                 </div>
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.disabled</div>
+                  <div class="kss-modifier-name">.list--type-2</div>
                   <div class="kss-modifier-description">
-                    Disabled button. If you use <code>&lt;button&gt;</code> element, that is acceptable to add <code>disabled</code> attribute instead.
+                    With check circle - blue
                   </div>
                 </div>
                 <div class="kss-modifier-example">
-                  <button type="submit" class="btn disabled">Button</button>
+                  <ul class="list list--type-2">
+   <li>Item 1</li>
+   <li>Item 2</li>
+</ul>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.list--type-3</div>
+                  <div class="kss-modifier-description">
+                    With check circle - dark gray
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <ul class="list list--type-3">
+   <li>Item 1</li>
+   <li>Item 2</li>
+</ul>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;button type=&quot;submit&quot; class=&quot;btn [modifier class]&quot;&gt;Button&lt;/button&gt;</code></pre>
+                <pre><code class="lang-html">&lt;ul class=&quot;list [modifier class]&quot;&gt;
+   &lt;li&gt;Item 1&lt;/li&gt;
+   &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
               </div>
             </div>
           </section>

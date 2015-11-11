@@ -123,3 +123,11 @@ As you can see, we deal with 3 different elements:
 - ``.steps`` which is the module wrapper
 - ``.steps__item`` which is the main element for the module since it has at least 4 modified states
 - ``.steps__link``, another element in the module
+
+
+Icons
+------
+
+We use font-awesome to icon fonts.
+
+[font-awesome](https://fortawesome.github.io/Font-Awesome/)

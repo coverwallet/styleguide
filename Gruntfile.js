@@ -66,27 +66,35 @@ module.exports = function(grunt) {
                 options: {
                     sassDir: 'sass',
                     cssDir: 'styleguide/public',
-                    imagesPath:'./images'
+                    imagesDir: 'styleguide/public/images',
+                    httpFontsPath: 'fonts',
+                    fontsDir: './fonts',
+                    imagesPath: './images'
                 }
-            }
-        },
-
-        watch: {
-            options: {
-                livereload: true
-            },
-            sass: {
-                files: ['./sass/**/*'],
-                tasks: ['kss:dist', 'compass:guide']
             }
         },
         clean: [
             './dist'
         ],
+        copy: {
+            fonts: {
+                expand:true,
+                cwd:'bower_components/fontawesome/fonts/',
+                src: '**',
+                dest: 'styleguide/public/fonts/',
+            },
+            images: {
+                expand:true,
+                cwd:'images/',
+                src: '**',
+                dest: 'styleguide/public/images/',
+            },
+        },
         kss: {
             options: {
                 template: './template',
-                css: 'public/coverwallet-styleguide.css'
+                css: 'public/coverwallet-styleguide.css',
+                js: '../js/selectFx.js'
             },
             dist: {
                 files: {
@@ -103,6 +111,15 @@ module.exports = function(grunt) {
                     base: '.'
                 }
             }
+        },
+        watch: {
+            options: {
+                livereload: true
+            },
+            sass: {
+                files: ['./sass/**/*'],
+                tasks: ['kss:dist', 'compass:guide', 'copy']
+            }
         }
 
     };
@@ -110,15 +127,15 @@ module.exports = function(grunt) {
     grunt.initConfig(grunt.util._.extend(taskConfig, {}));
 
     grunt.registerTask('serve', [
-        'clean', 'kss:dist', 'compass:guide', 'connect:server', 'watch'
+        'clean', 'kss:dist', 'compass:guide', 'copy', 'connect:server', 'watch'
     ]);
 
     grunt.registerTask('styleguide', [
-        'clean', 'kss:dist', 'compass:guide'
+        'clean', 'kss:dist', 'compass:guide', 'copy'
     ]);
 
     grunt.registerTask('dist', [
-        'clean', 'sass:dist', 'cssmin:dist'
+        'clean', 'compass:dist', 'cssmin:dist'
     ]);
 
 };

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>kss-node Styleguide</title>
+    <title>CoverWallet Styleguide</title>
     <meta name="description" content="" />
     <meta name="generator" content="kss-node" />
     <link rel="stylesheet" href="public/kss.css" />
@@ -16,7 +16,7 @@
   </head>
   <body id="kss-node">
       <div class="header-top">
-        <img src="public/img/logo.png" id="logo"/>
+        <img src="public/images/logo.png" id="logo"/>
     </div>
     <div class="kss-wrapper">
       <div class="kss-sidebar">
@@ -31,10 +31,14 @@
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Standar colors</span></a></li>
               <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Standard buttons</span></a></li>
               <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Standard forms styles</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Standard list styles</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Popup</span></a></li>
             </ul>
             <ul class="kss-menu-child">
               <li class="kss-menu-item"><a href="#section-4.1"><span class="kss-ref">4.1</span><span class="kss-name">Standards forms</span></a></li>
-              <li class="kss-menu-item"><a href="#section-4.2"><span class="kss-ref">4.2</span><span class="kss-name">Different inputs</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.2"><span class="kss-ref">4.2</span><span class="kss-name">Different inputs text, password, email</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.3"><span class="kss-ref">4.3</span><span class="kss-name">Checkbox inputs</span></a></li>
+              <li class="kss-menu-item"><a href="#section-4.4"><span class="kss-ref">4.4</span><span class="kss-name">Select inputs</span></a></li>
             </ul>
           </nav>
         </div>
@@ -52,11 +56,18 @@
                   <form class="form [modifier class]">
    <div class="form-group">
        <label for="name">Name</label>
-       <input type="text" id="name" class="form-control" placeholder="Name"/>
+       <input type="text" id="name" class="form-input" placeholder="Name"/>
    </div>
    <div class="form-group">
        <label for="surname">Surname</label>
-       <input type="text" id="surname" class="form-control" placeholder="Surname"/>
+       <input type="text" id="surname" class="form-input" placeholder="Surname"/>
+   </div>
+   <div class="form-group">
+       <label for="select-example">Select</label>
+       <select  class="form-select select-example-form">
+          <option>Option 1</option>
+          <option>Option 2</option>
+       </select>
    </div>
 </form>
                 </div>
@@ -72,11 +83,18 @@
                   <form class="form form--light">
    <div class="form-group">
        <label for="name">Name</label>
-       <input type="text" id="name" class="form-control" placeholder="Name"/>
+       <input type="text" id="name" class="form-input" placeholder="Name"/>
    </div>
    <div class="form-group">
        <label for="surname">Surname</label>
-       <input type="text" id="surname" class="form-control" placeholder="Surname"/>
+       <input type="text" id="surname" class="form-input" placeholder="Surname"/>
+   </div>
+   <div class="form-group">
+       <label for="select-example">Select</label>
+       <select  class="form-select select-example-form">
+          <option>Option 1</option>
+          <option>Option 2</option>
+       </select>
    </div>
 </form>
                 </div>
@@ -85,20 +103,27 @@
                 <pre><code class="lang-html">&lt;form class=&quot;form [modifier class]&quot;&gt;
    &lt;div class=&quot;form-group&quot;&gt;
        &lt;label for=&quot;name&quot;&gt;Name&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;name&quot; class=&quot;form-control&quot; placeholder=&quot;Name&quot;/&gt;
+       &lt;input type=&quot;text&quot; id=&quot;name&quot; class=&quot;form-input&quot; placeholder=&quot;Name&quot;/&gt;
    &lt;/div&gt;
    &lt;div class=&quot;form-group&quot;&gt;
        &lt;label for=&quot;surname&quot;&gt;Surname&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;surname&quot; class=&quot;form-control&quot; placeholder=&quot;Surname&quot;/&gt;
+       &lt;input type=&quot;text&quot; id=&quot;surname&quot; class=&quot;form-input&quot; placeholder=&quot;Surname&quot;/&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;form-group&quot;&gt;
+       &lt;label for=&quot;select-example&quot;&gt;Select&lt;/label&gt;
+       &lt;select  class=&quot;form-select select-example-form&quot;&gt;
+          &lt;option&gt;Option 1&lt;/option&gt;
+          &lt;option&gt;Option 2&lt;/option&gt;
+       &lt;/select&gt;
    &lt;/div&gt;
 &lt;/form&gt;</code></pre>
               </div>
             </div>
           </section>
           <section id="section-4.2" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">4.2</span> Different inputs</h1>
+            <h1 class="kss-title"><span class="kss-ref">4.2</span> Different inputs text, password, email</h1>
             <div class="kss-description">
-              <p>Add any of the following classes to the <code>.form-control</code> base class.</p>
+              <p>Add any of the following classes to the <code>.form-input</code> base class.</p>
 
             </div>
             <div class="kss-modifier-block">
@@ -107,14 +132,14 @@
                   <form class="form">
    <div class="form-group">
        <label for="email">Email</label>
-        <input type="text" id="email" class="form-control [modifier class]" placeholder="Email"/>
+       <input type="text" id="email" class="form-input [modifier class]" placeholder="Email"/>
    </div>
 </form>
                 </div>
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.form-control--long</div>
+                  <div class="kss-modifier-name">.form-input--long</div>
                   <div class="kss-modifier-description">
                     Long form
                   </div>
@@ -123,14 +148,14 @@
                   <form class="form">
    <div class="form-group">
        <label for="email">Email</label>
-        <input type="text" id="email" class="form-control form-control--long" placeholder="Email"/>
+       <input type="text" id="email" class="form-input form-input--long" placeholder="Email"/>
    </div>
 </form>
                 </div>
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.form-control--error</div>
+                  <div class="kss-modifier-name">.form-input--error</div>
                   <div class="kss-modifier-description">
                     Show error style
                   </div>
@@ -139,14 +164,14 @@
                   <form class="form">
    <div class="form-group">
        <label for="email">Email</label>
-        <input type="text" id="email" class="form-control form-control--error" placeholder="Email"/>
+       <input type="text" id="email" class="form-input form-input--error" placeholder="Email"/>
    </div>
 </form>
                 </div>
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.form-control--email</div>
+                  <div class="kss-modifier-name">.form-input--email</div>
                   <div class="kss-modifier-description">
                     Email icon
                   </div>
@@ -155,7 +180,23 @@
                   <form class="form">
    <div class="form-group">
        <label for="email">Email</label>
-        <input type="text" id="email" class="form-control form-control--email" placeholder="Email"/>
+       <input type="text" id="email" class="form-input form-input--email" placeholder="Email"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-input--password</div>
+                  <div class="kss-modifier-description">
+                    Password icon
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group">
+       <label for="email">Email</label>
+       <input type="text" id="email" class="form-input form-input--password" placeholder="Email"/>
    </div>
 </form>
                 </div>
@@ -164,9 +205,83 @@
                 <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
    &lt;div class=&quot;form-group&quot;&gt;
        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-        &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-control [modifier class]&quot; placeholder=&quot;Email&quot;/&gt;
+       &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-input [modifier class]&quot; placeholder=&quot;Email&quot;/&gt;
    &lt;/div&gt;
 &lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-4.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.3</span> Checkbox inputs</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form">
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox">
+            <input type="checkbox" id="checkbox"/>
+            <label for="checkbox"></label>
+        </div>
+        <label for="email">Checkbox</label>
+    </div>
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox">
+            <input type="checkbox" id="checkbox" checked/>
+            <label for="checkbox"></label>
+        </div>
+        <label for="email">Checkbox checked</label>
+    </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
+    &lt;div class=&quot;form-group form-group--checkbox&quot;&gt;
+        &lt;div class=&quot;form-checkbox&quot;&gt;
+            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox&quot;/&gt;
+            &lt;label for=&quot;checkbox&quot;&gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;label for=&quot;email&quot;&gt;Checkbox&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;form-group form-group--checkbox&quot;&gt;
+        &lt;div class=&quot;form-checkbox&quot;&gt;
+            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox&quot; checked/&gt;
+            &lt;label for=&quot;checkbox&quot;&gt;&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;label for=&quot;email&quot;&gt;Checkbox checked&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-4.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">4.4</span> Select inputs</h1>
+            <div class="kss-description">
+              <p></form></p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form">
+    <div class="form-group">
+        <label for="select-example">Select</label>
+        <select id="select-example" class="form-select">
+           <option>Option 1</option>
+           <option>Option 2</option>
+        </select>
+    </div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
+    &lt;div class=&quot;form-group&quot;&gt;
+        &lt;label for=&quot;select-example&quot;&gt;Select&lt;/label&gt;
+        &lt;select id=&quot;select-example&quot; class=&quot;form-select&quot;&gt;
+           &lt;option&gt;Option 1&lt;/option&gt;
+           &lt;option&gt;Option 2&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/div&gt;</code></pre>
               </div>
             </div>
           </section>
@@ -182,6 +297,7 @@
     <script src="public/highlight.pack.js"></script>
     <!--<![endif]-->
     <script src="public/main.js"></script>
-    
+    <script src="../js/selectFx.js"></script>
+
   </body>
 </html>
