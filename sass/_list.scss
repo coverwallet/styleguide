@@ -1,0 +1,62 @@
+ul.list {
+    list-style: none;
+    &.list--type-1 {
+        li {
+            @include cw-icon-before(check, 10px, $blue);
+            &:before {
+                margin-left: -25px;
+            }
+        }
+
+    }
+    &.list--type-1-big {
+        li {
+            font-size: 34px;
+            color: $blue;
+            @include cw-icon-before(check, 10px, $blue);
+            &:before {
+                margin-left: -25px;
+            }
+        }
+    }
+    &.list--type-2 {
+        li {
+            @include cw-icon-before(check-circle, 10px, $blue);
+            &:before {
+                margin-left: -25px;
+            }
+        }
+    }
+
+    &.list--type-3 {
+        li {
+            @include cw-icon-before(check-circle, 10px, $dark-gray);
+            &:before {
+                margin-left: -25px;
+            }
+        }
+    }
+}
+
+/*
+ Standard list styles
+
+ Styleguide 5
+*/
+/*
+ Standards list
+
+ .list--type-1        - With check
+ .list--type-1-big    - With check and more big
+ .list--type-2        - With check circle - blue
+ .list--type-3        - With check circle - dark gray
+
+
+ Markup:
+ <ul class="list {{modifier_class}}">
+    <li>Item 1</li>
+    <li>Item 2</li>
+ </ul>
+
+ Styleguide 5.1
+*/
