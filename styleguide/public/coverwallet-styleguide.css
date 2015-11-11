@@ -5077,8 +5077,8 @@ Styleguide 2.2
 */
 @font-face {
   font-family: 'FontAwesome';
-  src: url('fonts/fontawesome-webfont.eot?1447244226');
-  src: url('fonts/fontawesome-webfont.eot?1447244226') format("embedded-opentype"), url('fonts/fontawesome-webfont.woff2?1447244226') format("woff2"), url('fonts/fontawesome-webfont.woff?1447244226') format("woff"), url('fonts/fontawesome-webfont.ttf?1447244226') format("truetype"), url('fonts/fontawesome-webfont.svg?1447244226#fontawesomeregular') format("svg");
+  src: url('fonts/fontawesome-webfont.eot?1447264143');
+  src: url('fonts/fontawesome-webfont.eot?1447264143') format("embedded-opentype"), url('fonts/fontawesome-webfont.woff2?1447264143') format("woff2"), url('fonts/fontawesome-webfont.woff?1447264143') format("woff"), url('fonts/fontawesome-webfont.ttf?1447264143') format("truetype"), url('fonts/fontawesome-webfont.svg?1447264143#fontawesomeregular') format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5093,8 +5093,12 @@ html {
 }
 
 /*
+    Mixin to set border radius to element
+
+*/
+/*
     Mixin to do responsive image
-    
+
 */
 /*
     Mixin to add icon to element
@@ -5306,14 +5310,14 @@ form .form-group .form-input.form-input--error {
 /* line 33, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--email,
 form .form-group .form-input.form-input--email {
-  background-image: url('/styleguide/public/images/email.png?1447244226');
+  background-image: url('/styleguide/public/images/email.png?1447264143');
   background-repeat: no-repeat;
   background-position: right center;
 }
 /* line 38, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--password,
 form .form-group .form-input.form-input--password {
-  background-image: url('/styleguide/public/images/password.png?1447244226');
+  background-image: url('/styleguide/public/images/password.png?1447264143');
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -5404,7 +5408,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label {
   height: 25px;
   width: 25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 .form .form-group.form-group--checkbox .form-checkbox input + label:before,
 form .form-group.form-group--checkbox .form-checkbox input + label:before {
   padding-right: 0px;
@@ -5417,7 +5421,7 @@ form .form-group.form-group--checkbox .form-checkbox input:checked + label {
   height: 25px;
   width: 25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 .form .form-group.form-group--checkbox .form-checkbox input:checked + label:before,
 form .form-group.form-group--checkbox .form-checkbox input:checked + label:before {
   padding-right: 0;
@@ -5612,7 +5616,7 @@ button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
 ul.list {
   list-style: none;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-1 li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -5626,7 +5630,7 @@ ul.list.list--type-1-big li {
   font-size: 34px;
   color: #438bd7;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-1-big li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -5635,7 +5639,7 @@ ul.list.list--type-1-big li:before {
 ul.list.list--type-1-big li:before {
   margin-left: -25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-2 li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -5644,7 +5648,7 @@ ul.list.list--type-2 li:before {
 ul.list.list--type-2 li:before {
   margin-left: -25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-3 li:before {
   padding-right: 10px;
   color: #454855;
@@ -5697,7 +5701,7 @@ ul.list.list--type-3 li:before {
   height: 48px;
   width: 48px;
   cursor: pointer;
-  background: url('/styleguide/public/images/close-icon.png?1447244226');
+  background: url('/styleguide/public/images/close-icon.png?1447264143');
   background-size: contain;
 }
 

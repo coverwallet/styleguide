@@ -1,3 +1,7 @@
+/*
+    Mixin to set border radius to element
+
+*/
 @mixin cw-border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
@@ -7,7 +11,7 @@
 
 /*
     Mixin to do responsive image
-    
+
 */
 @mixin cw-image-responsive() {
     display: block;
