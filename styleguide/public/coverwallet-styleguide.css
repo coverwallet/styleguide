@@ -3893,14 +3893,14 @@ form .form-group .form-input.form-input--error {
 /* line 33, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--email,
 form .form-group .form-input.form-input--email {
-  background-image: url('/images/email.png?1447244226');
+  background-image: url('/styleguide/images/email.png?1447244226');
   background-repeat: no-repeat;
   background-position: right center;
 }
 /* line 38, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--password,
 form .form-group .form-input.form-input--password {
-  background-image: url('/images/password.png?1447244226');
+  background-image: url('/styleguide/images/password.png?1447244226');
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -4152,7 +4152,7 @@ ul.list.list--type-3 li:before {
   height: 48px;
   width: 48px;
   cursor: pointer;
-  background: url('/images/close-icon.png?1447244226');
+  background: url('/styleguide/images/close-icon.png?1447244226');
   background-size: contain;
 }
 
