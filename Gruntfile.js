@@ -66,8 +66,8 @@ module.exports = function(grunt) {
                 options: {
                     sassDir: 'sass',
                     cssDir: 'styleguide/public',
-                    httpGeneratedImagesPath: '../../images',
-                    httpFontsPath: '../../fonts',
+                    imagesDir: 'images',
+                    httpFontsPath: 'fonts',
                     fontsDir: './fonts',
                     imagesPath: './images'
                 }
