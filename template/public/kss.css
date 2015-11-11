@@ -16,6 +16,7 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 99999999;
 }
 #kss-node div.header-top #logo {
   width: 166px !important;
