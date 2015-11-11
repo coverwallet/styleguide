@@ -5093,8 +5093,12 @@ html {
 }
 
 /*
+    Mixin to set border radius to element
+
+*/
+/*
     Mixin to do responsive image
-    
+
 */
 /*
     Mixin to add icon to element
@@ -5404,7 +5408,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label {
   height: 25px;
   width: 25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 .form .form-group.form-group--checkbox .form-checkbox input + label:before,
 form .form-group.form-group--checkbox .form-checkbox input + label:before {
   padding-right: 0px;
@@ -5417,7 +5421,7 @@ form .form-group.form-group--checkbox .form-checkbox input:checked + label {
   height: 25px;
   width: 25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 .form .form-group.form-group--checkbox .form-checkbox input:checked + label:before,
 form .form-group.form-group--checkbox .form-checkbox input:checked + label:before {
   padding-right: 0;
@@ -5612,7 +5616,7 @@ button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
 ul.list {
   list-style: none;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-1 li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -5626,7 +5630,7 @@ ul.list.list--type-1-big li {
   font-size: 34px;
   color: #438bd7;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-1-big li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -5635,7 +5639,7 @@ ul.list.list--type-1-big li:before {
 ul.list.list--type-1-big li:before {
   margin-left: -25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-2 li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -5644,7 +5648,7 @@ ul.list.list--type-2 li:before {
 ul.list.list--type-2 li:before {
   margin-left: -25px;
 }
-/* line 27, ../../sass/_mixins.scss */
+/* line 31, ../../sass/_mixins.scss */
 ul.list.list--type-3 li:before {
   padding-right: 10px;
   color: #454855;
