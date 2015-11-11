@@ -3768,10 +3768,46 @@ html {
 }
 
 /*
-mixin to add icon to element
+    Mixin to do responsive image
+    
 */
 /*
-bourbon-net, override span-columns to add min-height:1px
+    Mixin to add icon to element
+
+    $icon - Icon of fontawesome
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+/*
+    Mixin to hide element in tablets
+
+*/
+/*
+    Mixin to hide element in mobile
+
+*/
+/*
+    Mixin to hide element in desktop
+
+*/
+/*
+    Mixin to set columns for mobile
+
+    $cols - Number of cols
+
+*/
+/*
+    Mixin to set columns for tablet
+
+    $cols - Number of cols
+
+*/
+/*
+    Mixin to set columns for desktop
+
+    $cols - Number of cols
+
 */
 /*
 
@@ -3937,7 +3973,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label {
   height: 25px;
   width: 25px;
 }
-/* line 22, ../../sass/_mixins.scss */
+/* line 27, ../../sass/_mixins.scss */
 .form .form-group.form-group--checkbox .form-checkbox input + label:before,
 form .form-group.form-group--checkbox .form-checkbox input + label:before {
   padding-right: 0px;
@@ -3950,7 +3986,7 @@ form .form-group.form-group--checkbox .form-checkbox input:checked + label {
   height: 25px;
   width: 25px;
 }
-/* line 22, ../../sass/_mixins.scss */
+/* line 27, ../../sass/_mixins.scss */
 .form .form-group.form-group--checkbox .form-checkbox input:checked + label:before,
 form .form-group.form-group--checkbox .form-checkbox input:checked + label:before {
   padding-right: 0;
@@ -4067,7 +4103,7 @@ button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
 ul.list {
   list-style: none;
 }
-/* line 22, ../../sass/_mixins.scss */
+/* line 27, ../../sass/_mixins.scss */
 ul.list.list--type-1 li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -4081,7 +4117,7 @@ ul.list.list--type-1-big li {
   font-size: 34px;
   color: #438bd7;
 }
-/* line 22, ../../sass/_mixins.scss */
+/* line 27, ../../sass/_mixins.scss */
 ul.list.list--type-1-big li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -4090,7 +4126,7 @@ ul.list.list--type-1-big li:before {
 ul.list.list--type-1-big li:before {
   margin-left: -25px;
 }
-/* line 22, ../../sass/_mixins.scss */
+/* line 27, ../../sass/_mixins.scss */
 ul.list.list--type-2 li:before {
   padding-right: 10px;
   color: #438bd7;
@@ -4099,7 +4135,7 @@ ul.list.list--type-2 li:before {
 ul.list.list--type-2 li:before {
   margin-left: -25px;
 }
-/* line 22, ../../sass/_mixins.scss */
+/* line 27, ../../sass/_mixins.scss */
 ul.list.list--type-3 li:before {
   padding-right: 10px;
   color: #454855;

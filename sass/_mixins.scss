@@ -4,11 +4,11 @@
     -ms-border-radius: $radius;
     border-radius: $radius;
 }
-@mixin cw-hide-tablet() {
-    @include media($tablet) {
-        display: none;
-    }
-}
+
+/*
+    Mixin to do responsive image
+    
+*/
 @mixin cw-image-responsive() {
     display: block;
     max-width: 100%;
@@ -16,7 +16,12 @@
 }
 
 /*
-mixin to add icon to element
+    Mixin to add icon to element
+
+    $icon - Icon of fontawesome
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
 */
 @mixin cw-icon-before($icon, $padding-right:0, $color: #000) {
     &:before {
@@ -27,11 +32,71 @@ mixin to add icon to element
     }
 }
 
+/*
+    Mixin to hide element in tablets
+
+*/
+@mixin cw-hide-tablet() {
+    @include media($tablet) {
+        display: none;
+    }
+}
 
 /*
-bourbon-net, override span-columns to add min-height:1px
+    Mixin to hide element in mobile
+
 */
-@mixin cw-span-columns($cols){
-    @include span-columns($cols);
-    min-height: 1px;
+@mixin cw-hide-mobile() {
+    @include media($mobile) {
+        display: none;
+    }
+}
+
+/*
+    Mixin to hide element in desktop
+
+*/
+@mixin cw-hide-desktop() {
+    @include media($desktop) {
+        display: none;
+    }
+}
+
+/*
+    Mixin to set columns for mobile
+
+    $cols - Number of cols
+
+*/
+@mixin cw-span-columns-mobile($cols){
+    @include media($mobile){
+        @include span-columns($cols);
+        min-height: 1px;
+    }
+}
+
+/*
+    Mixin to set columns for tablet
+
+    $cols - Number of cols
+
+*/
+@mixin cw-span-columns-tablet($cols){
+    @include media($mobile){
+        @include span-columns($cols);
+        min-height: 1px;
+    }
+}
+
+/*
+    Mixin to set columns for desktop
+
+    $cols - Number of cols
+
+*/
+@mixin cw-span-columns-desktop($cols){
+    @include media($mobile){
+        @include span-columns($cols);
+        min-height: 1px;
+    }
 }
