@@ -160,6 +160,7 @@ form {
             .cs-placeholder{
                 height: 64px;
                 border: 1px solid #fff;
+                color: $light-blue;
                 &:after{
                     @extend .fa;
                     content: $fa-var-arrow-down;

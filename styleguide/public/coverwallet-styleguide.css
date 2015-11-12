@@ -5505,18 +5505,19 @@ form.form--light .form-select input {
 form.form--light .form-select .cs-placeholder {
   height: 64px;
   border: 1px solid #fff;
+  color: #afcff1;
 }
-/* line 163, ../../sass/_forms.scss */
+/* line 164, ../../sass/_forms.scss */
 .form.form--light .form-select .cs-placeholder:after,
 form.form--light .form-select .cs-placeholder:after {
   content: "";
 }
-/* line 169, ../../sass/_forms.scss */
+/* line 170, ../../sass/_forms.scss */
 .form.form--light .form-select.cs-active,
 form.form--light .form-select.cs-active {
   color: #438bd7;
 }
-/* line 173, ../../sass/_forms.scss */
+/* line 174, ../../sass/_forms.scss */
 .form.form--light .help-block,
 form.form--light .help-block {
   color: #fff;
