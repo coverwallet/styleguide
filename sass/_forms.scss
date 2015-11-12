@@ -235,9 +235,9 @@ form {
  Markup:
  <form class="form  {{modifier_class}}">
     <div class="form-group">
-        <label for="email">Email</label>
-        <input type="text" id="email" class="form-input form-input--email form-input--error" placeholder="Email"/>
-        <span class="help-block" >Please enter a valid email</span>
+        <label for="name-light">Name</label>
+        <input type="text" id="name-light" class="form-input  form-input--error" placeholder="Name"/>
+        <span class="help-block" >Please enter a valid name</span>
     </div>
  </form>
 
