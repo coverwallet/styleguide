@@ -125,7 +125,7 @@ form {
         }
     }
     &.form--light {
-        input.form-input {
+        .form-input {
             border-color: #fff;
             color: #fff;
             &::-webkit-input-placeholder {
@@ -145,6 +145,10 @@ form {
             &:-ms-input-placeholder {
                /* Internet Explorer 10-11 */
                color: $light-blue;
+           }
+
+           &.form-input--error{
+               border-color: $dark-gray;
            }
         }
         .form-select{
@@ -232,7 +236,7 @@ form {
  <form class="form  {{modifier_class}}">
     <div class="form-group">
         <label for="email">Email</label>
-        <input type="text" id="email" class="form-input form-input--error" placeholder="Email"/>
+        <input type="text" id="email" class="form-input form-input--email form-input--error" placeholder="Email"/>
         <span class="help-block" >Please enter a valid email</span>
     </div>
  </form>

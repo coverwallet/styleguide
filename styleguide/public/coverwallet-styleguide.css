@@ -5310,14 +5310,14 @@ form .form-group .form-input.form-input--error {
 /* line 33, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--email,
 form .form-group .form-input.form-input--email {
-  background-image: url('/styleguide/public/images/email.png?1447264143');
+  background-image: url('/./styleguide/styleguide/public/images/email.png?1447264143');
   background-repeat: no-repeat;
   background-position: right center;
 }
 /* line 38, ../../sass/_forms.scss */
 .form .form-group .form-input.form-input--password,
 form .form-group .form-input.form-input--password {
-  background-image: url('/styleguide/public/images/password.png?1447264143');
+  background-image: url('/./styleguide/styleguide/public/images/password.png?1447264143');
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -5449,65 +5449,70 @@ form .form-group.form-group--checkbox .help-block {
   color: #fff;
 }
 /* line 128, ../../sass/_forms.scss */
-.form.form--light input.form-input,
-form.form--light input.form-input {
+.form.form--light .form-input,
+form.form--light .form-input {
   border-color: #fff;
   color: #fff;
 }
 /* line 131, ../../sass/_forms.scss */
-.form.form--light input.form-input::-webkit-input-placeholder,
-form.form--light input.form-input::-webkit-input-placeholder {
+.form.form--light .form-input::-webkit-input-placeholder,
+form.form--light .form-input::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #afcff1;
 }
 /* line 135, ../../sass/_forms.scss */
-.form.form--light input.form-input:-moz-placeholder,
-form.form--light input.form-input:-moz-placeholder {
+.form.form--light .form-input:-moz-placeholder,
+form.form--light .form-input:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #afcff1;
   opacity: 1;
 }
 /* line 140, ../../sass/_forms.scss */
-.form.form--light input.form-input::-moz-placeholder,
-form.form--light input.form-input::-moz-placeholder {
+.form.form--light .form-input::-moz-placeholder,
+form.form--light .form-input::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #afcff1;
   opacity: 1;
 }
 /* line 145, ../../sass/_forms.scss */
-.form.form--light input.form-input:-ms-input-placeholder,
-form.form--light input.form-input:-ms-input-placeholder {
+.form.form--light .form-input:-ms-input-placeholder,
+form.form--light .form-input:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
   color: #afcff1;
 }
 /* line 150, ../../sass/_forms.scss */
+.form.form--light .form-input.form-input--error,
+form.form--light .form-input.form-input--error {
+  border-color: #454855;
+}
+/* line 154, ../../sass/_forms.scss */
 .form.form--light .form-select,
 form.form--light .form-select {
   background: inherit;
   color: #afcff1;
 }
-/* line 153, ../../sass/_forms.scss */
+/* line 157, ../../sass/_forms.scss */
 .form.form--light .form-select input,
 form.form--light .form-select input {
   display: none;
 }
-/* line 156, ../../sass/_forms.scss */
+/* line 160, ../../sass/_forms.scss */
 .form.form--light .form-select .cs-placeholder,
 form.form--light .form-select .cs-placeholder {
   height: 64px;
   border: 1px solid #fff;
 }
-/* line 159, ../../sass/_forms.scss */
+/* line 163, ../../sass/_forms.scss */
 .form.form--light .form-select .cs-placeholder:after,
 form.form--light .form-select .cs-placeholder:after {
   content: "";
 }
-/* line 165, ../../sass/_forms.scss */
+/* line 169, ../../sass/_forms.scss */
 .form.form--light .form-select.cs-active,
 form.form--light .form-select.cs-active {
   color: #438bd7;
 }
-/* line 169, ../../sass/_forms.scss */
+/* line 173, ../../sass/_forms.scss */
 .form.form--light .help-block,
 form.form--light .help-block {
   color: #fff;
@@ -5573,7 +5578,7 @@ form.form--light .help-block {
  <form class="form  {{modifier_class}}">
     <div class="form-group">
         <label for="email">Email</label>
-        <input type="text" id="email" class="form-input form-input--error" placeholder="Email"/>
+        <input type="text" id="email" class="form-input form-input--email form-input--error" placeholder="Email"/>
         <span class="help-block" >Please enter a valid email</span>
     </div>
  </form>
@@ -5735,7 +5740,7 @@ ul.list.list--type-3 li:before {
   height: 48px;
   width: 48px;
   cursor: pointer;
-  background: url('/styleguide/public/images/close-icon.png?1447264143');
+  background: url('/./styleguide/styleguide/public/images/close-icon.png?1447264143');
   background-size: contain;
 }
 

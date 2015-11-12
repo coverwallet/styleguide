@@ -66,10 +66,10 @@ module.exports = function(grunt) {
                 options: {
                     sassDir: 'sass',
                     cssDir: 'styleguide/public',
-                    imagesDir: 'styleguide/public/images',
+                    imagesDir: './styleguide/styleguide/public/images',
                     httpFontsPath: 'fonts',
                     fontsDir: './fonts',
-                    imagesPath: './images'
+                    imagesPath: 'images'
                 }
             }
         },
