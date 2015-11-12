@@ -81,6 +81,21 @@ form {
                     content: $fa-var-arrow-down;
                 }
             }
+            .cs-options{
+                li {
+                    span{
+                        &:hover{
+                            background: $light-blue;
+                        }
+                    }
+                    &.cs-selected{
+                        span:after{
+                            @extend .fa;
+                            content: $fa-var-check;
+                        }
+                    }
+                }
+            }
 
             &.cs-active{
                 color: $blue;
