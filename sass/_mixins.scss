@@ -96,11 +96,21 @@
     Mixin to set columns for desktop
 
     $cols - Number of cols
-
 */
 @mixin cw-span-columns-desktop($cols){
     @include media($mobile){
         @include span-columns($cols);
         min-height: 1px;
     }
+}
+
+/*
+    Mixin to set opacity
+
+    $cols - Number of cols
+*/
+@mixin cw-opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
 }

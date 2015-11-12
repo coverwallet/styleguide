@@ -5136,7 +5136,11 @@ html {
     Mixin to set columns for desktop
 
     $cols - Number of cols
+*/
+/*
+    Mixin to set opacity
 
+    $cols - Number of cols
 */
 /*
 
@@ -5648,7 +5652,9 @@ button:hover, .btn:hover {
 /* line 30, ../../sass/_buttons.scss */
 button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
   cursor: default;
-  background-color: #454855;
+  opacity: 0.25;
+  filter: alpha(opacity=25);
+  background-color: #f3a309;
 }
 
 /* line 1, ../../sass/_list.scss */
