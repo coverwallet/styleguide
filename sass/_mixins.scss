@@ -104,6 +104,18 @@
     }
 }
 
+
+/*
+    Mixin to set columns for all widths
+
+    $cols - Number of cols
+*/
+@mixin cw-span-columns($cols){
+    @include span-columns($cols);
+    min-height: 1px;
+}
+
+
 /*
     Mixin to set opacity
 
