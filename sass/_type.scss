@@ -19,8 +19,13 @@ h6,
     font-weight: 400;
     font-family: $principal-fonts;
     color: #272727;
+    margin: 10px 0;
     span {
         font-weight: bold;
+    }
+
+    &.light{
+        color: $blue;
     }
 }
 h1,
@@ -92,26 +97,30 @@ a, .link{
 /*
 Base headers
 
+.light       - Hover state.
+
 Markup:
-    <h1>H1 title <span>with span</span></h1>
-    <h2>H2 title <span>with span</span></h2>
-    <h3>H3 title <span>with span</span></h3>
-    <h4>H4 title <span>with span</span></h4>
-    <h5>H5 title <span>with span</span></h5>
-    <h6>H6 title <span>with span</span></h6>
+    <h1 class="{{modifier_class}}">H1 title </h1>
+    <h2 class="{{modifier_class}}">H2 title</h2>
+    <h3 class="{{modifier_class}}">H3 title</h3>
+    <h4 class="{{modifier_class}}">H4 title</h4>
+    <h5 class="{{modifier_class}}">H5 title</h5>
+    <h6 class="{{modifier_class}}">H6 title</h6>
 
     Styleguide 1.1
 */
 /*
 Base headers with span
 
+.light    - Blue color
+
 Markup:
-    <h1>H1 title <span>with span</span></h1>
-    <h2>H2 title <span>with span</span></h2>
-    <h3>H3 title <span>with span</span></h3>
-    <h4>H4 title <span>with span</span></h4>
-    <h5>H5 title <span>with span</span></h5>
-    <h6>H6 title <span>with span</span></h6>
+    <h1 class="{{modifier_class}}">H1 title <span>with span</span></h1>
+    <h2 class="{{modifier_class}}">H2 title <span>with span</span></h2>
+    <h3 class="{{modifier_class}}">H3 title <span>with span</span></h3>
+    <h4 class="{{modifier_class}}">H4 title <span>with span</span></h4>
+    <h5 class="{{modifier_class}}">H5 title <span>with span</span></h5>
+    <h6 class="{{modifier_class}}">H6 title <span>with span</span></h6>
 
     Styleguide 1.2
 */
