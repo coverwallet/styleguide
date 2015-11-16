@@ -66,6 +66,29 @@ h6,
     color: $light-blue;
 }
 
+a, .link{
+    @include transition(color 400ms, background-color 400ms);
+    color: $orange;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+
+    &:hover{
+        color: $dark-gray;
+        background-color: transparent;
+    }
+
+    &.link--light{
+        color: #fff;
+        &:hover{
+            color: #fff;
+        }
+    }
+}
+
 /*
 Base headers
 
@@ -92,3 +115,15 @@ Markup:
 
     Styleguide 1.2
 */
+
+// Links
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .link--light - With background color is blue
+// .link--light:hover - With background color is blue
+//
+// Markup:
+// <a href="#" class="link {{modifier_class}}">Link</a>
+//
+// Styleguide 1.3

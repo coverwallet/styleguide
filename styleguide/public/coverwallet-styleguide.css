@@ -5259,6 +5259,33 @@ h6,
   color: #afcff1;
 }
 
+/* line 69, ../../sass/_type.scss */
+a, .link {
+  -webkit-transition: color 400ms, background-color 400ms;
+  -moz-transition: color 400ms, background-color 400ms;
+  transition: color 400ms, background-color 400ms;
+  color: #f3a309;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+}
+/* line 79, ../../sass/_type.scss */
+a:hover, .link:hover {
+  color: #454855;
+  background-color: transparent;
+}
+/* line 84, ../../sass/_type.scss */
+a.link--light, .link.link--light {
+  color: #fff;
+}
+/* line 86, ../../sass/_type.scss */
+a.link--light:hover, .link.link--light:hover {
+  color: #fff;
+}
+
 /*
 Base headers
 
