@@ -5153,6 +5153,12 @@ html {
     $cols - Number of cols
 */
 /*
+    Mixin to set opacity
+
+    $property - width or height
+    $expresion - Expression to calculate
+*/
+/*
 
 General Typography
 

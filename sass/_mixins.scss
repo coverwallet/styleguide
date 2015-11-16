@@ -126,3 +126,15 @@
   $opacity-ie: $opacity * 100;
   filter: alpha(opacity=$opacity-ie); //IE8
 }
+
+
+/*
+    Mixin to set opacity
+
+    $property - width or height
+    $expresion - Expression to calculate
+*/
+@mixin calc($property, $expression) {
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
