@@ -5143,6 +5143,11 @@ html {
     $cols - Number of cols
 */
 /*
+    Mixin to set columns for all widths
+
+    $cols - Number of cols
+*/
+/*
     Mixin to set opacity
 
     $cols - Number of cols

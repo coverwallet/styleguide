@@ -86,7 +86,7 @@
 
 */
 @mixin cw-span-columns-tablet($cols){
-    @include media($mobile){
+    @include media($tablet){
         @include span-columns($cols);
         min-height: 1px;
     }
@@ -98,7 +98,7 @@
     $cols - Number of cols
 */
 @mixin cw-span-columns-desktop($cols){
-    @include media($mobile){
+    @include media($desktop){
         @include span-columns($cols);
         min-height: 1px;
     }
