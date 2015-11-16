@@ -81,6 +81,21 @@ form {
                     content: $fa-var-arrow-down;
                 }
             }
+            .cs-options{
+                li {
+                    span{
+                        &:hover{
+                            background: $light-blue;
+                        }
+                    }
+                    &.cs-selected{
+                        span:after{
+                            @extend .fa;
+                            content: $fa-var-check;
+                        }
+                    }
+                }
+            }
 
             &.cs-active{
                 color: $blue;
@@ -125,7 +140,7 @@ form {
         }
     }
     &.form--light {
-        input.form-input {
+        .form-input {
             border-color: #fff;
             color: #fff;
             &::-webkit-input-placeholder {
@@ -146,6 +161,10 @@ form {
                /* Internet Explorer 10-11 */
                color: $light-blue;
            }
+
+           &.form-input--error{
+               border-color: $dark-gray;
+           }
         }
         .form-select{
             background: inherit;
@@ -156,6 +175,7 @@ form {
             .cs-placeholder{
                 height: 64px;
                 border: 1px solid #fff;
+                color: $light-blue;
                 &:after{
                     @extend .fa;
                     content: $fa-var-arrow-down;
@@ -231,9 +251,9 @@ form {
  Markup:
  <form class="form  {{modifier_class}}">
     <div class="form-group">
-        <label for="email">Email</label>
-        <input type="text" id="email" class="form-input form-input--error" placeholder="Email"/>
-        <span class="help-block" >Please enter a valid email</span>
+        <label for="name-light">Name</label>
+        <input type="text" id="name-light" class="form-input  form-input--error" placeholder="Name"/>
+        <span class="help-block" >Please enter a valid name</span>
     </div>
  </form>
 

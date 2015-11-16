@@ -30,6 +30,7 @@ button, .btn {
   &.disabled,
   &[disabled] {
     cursor: default;
-    background-color: $dark-gray;
+    @include cw-opacity(0.25);
+    background-color: $orange;
   }
 }

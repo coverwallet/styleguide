@@ -66,10 +66,10 @@ module.exports = function(grunt) {
                 options: {
                     sassDir: 'sass',
                     cssDir: 'styleguide/public',
-                    imagesDir: 'styleguide/public/images',
+                    imagesDir: './styleguide/styleguide/public/images',
                     httpFontsPath: 'fonts',
                     fontsDir: './fonts',
-                    imagesPath: './images'
+                    imagesPath: 'images'
                 }
             }
         },
@@ -93,7 +93,7 @@ module.exports = function(grunt) {
         kss: {
             options: {
                 template: './template',
-                css: 'public/coverwallet-styleguide.css',
+                css: 'public/coverwallet-styleguide.css?t=' + new Date().getTime(),
                 js: '../js/selectFx.js'
             },
             dist: {
