@@ -5875,3 +5875,18 @@ ul.list.list--type-3 li:before {
   background: #438bd7;
   padding: 20px;
 }
+@media screen and (min-width: 769px) {
+  /* line 33, ../../sass/coverwallet-styleguide.scss */
+  .form--light {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    min-height: 1px;
+    margin-left: 17.05961%;
+  }
+  /* line 89, ../../bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+  .form--light:last-child {
+    margin-right: 0;
+  }
+}

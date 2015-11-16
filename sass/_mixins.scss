@@ -78,7 +78,7 @@
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{
-            @include shift(colsShift);
+            @include shift($colsShift);
         }
     }
 }
@@ -95,7 +95,7 @@
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{
-            @include shift(colsShift);
+            @include shift($colsShift);
         }
     }
 }
@@ -111,7 +111,7 @@
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{
-            @include shift(colsShift);
+            @include shift($colsShift);
         }
     }
 }
@@ -127,7 +127,7 @@
     @include span-columns($cols);
     min-height: 1px;
     @if $colsShift != ""{
-        @include shift(colsShift);
+        @include shift($colsShift);
     }
 }
 
