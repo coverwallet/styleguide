@@ -5135,17 +5135,20 @@ html {
     Mixin to set columns for tablet
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 
 */
 /*
     Mixin to set columns for desktop
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 */
 /*
     Mixin to set columns for all widths
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 */
 /*
     Mixin to set opacity

@@ -83,12 +83,16 @@
     Mixin to set columns for tablet
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 
 */
-@mixin cw-span-columns-tablet($cols){
+@mixin cw-span-columns-tablet($cols, $colsShift){
     @include media($tablet){
         @include span-columns($cols);
         min-height: 1px;
+        @if $colsShift != ""{
+            @include shift(colsShift);
+        }
     }
 }
 
@@ -96,11 +100,15 @@
     Mixin to set columns for desktop
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 */
-@mixin cw-span-columns-desktop($cols){
+@mixin cw-span-columns-desktop($cols, $colsShift){
     @include media($desktop){
         @include span-columns($cols);
         min-height: 1px;
+        @if $colsShift != ""{
+            @include shift(colsShift);
+        }
     }
 }
 
@@ -109,10 +117,14 @@
     Mixin to set columns for all widths
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 */
-@mixin cw-span-columns($cols){
+@mixin cw-span-columns($cols, $colsShift){
     @include span-columns($cols);
     min-height: 1px;
+    @if $colsShift != ""{
+        @include shift(colsShift);
+    }
 }
 
 
