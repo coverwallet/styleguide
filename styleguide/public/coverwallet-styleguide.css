@@ -5129,6 +5129,7 @@ html {
     Mixin to set columns for mobile
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 
 */
 /*

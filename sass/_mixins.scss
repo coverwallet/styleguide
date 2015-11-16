@@ -70,12 +70,16 @@
     Mixin to set columns for mobile
 
     $cols - Number of cols
+    $colsShift - Number of cols to shift
 
 */
-@mixin cw-span-columns-mobile($cols){
+@mixin cw-span-columns-mobile($cols, $colsShift:''){
     @include media($mobile){
         @include span-columns($cols);
         min-height: 1px;
+        @if $colsShift != ""{
+            @include shift(colsShift);
+        }
     }
 }
 
@@ -86,7 +90,7 @@
     $colsShift - Number of cols to shift
 
 */
-@mixin cw-span-columns-tablet($cols, $colsShift){
+@mixin cw-span-columns-tablet($cols, $colsShift:''){
     @include media($tablet){
         @include span-columns($cols);
         min-height: 1px;
@@ -102,7 +106,7 @@
     $cols - Number of cols
     $colsShift - Number of cols to shift
 */
-@mixin cw-span-columns-desktop($cols, $colsShift){
+@mixin cw-span-columns-desktop($cols, $colsShift:''){
     @include media($desktop){
         @include span-columns($cols);
         min-height: 1px;
@@ -119,7 +123,7 @@
     $cols - Number of cols
     $colsShift - Number of cols to shift
 */
-@mixin cw-span-columns($cols, $colsShift){
+@mixin cw-span-columns($cols, $colsShift:''){
     @include span-columns($cols);
     min-height: 1px;
     @if $colsShift != ""{
