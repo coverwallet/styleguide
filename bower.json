@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": [
       "sass/coverwallet.scss"
-  ]
+  ],
   "authors": [
     "Ra <raul@coverwallet.com>"
   ],
