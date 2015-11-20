@@ -2,8 +2,8 @@
   "name": "bourbon-test",
   "version": "1.0.0",
   "description": "",
-  "main": "Gruntfile.js",
-  "author": "",
+  "main": "sass/coverwallet.scss",
+  "author": "Ra <raul@coverwallet.com>",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
