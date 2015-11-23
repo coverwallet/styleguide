@@ -54,25 +54,6 @@ module.exports = function(grunt) {
             }
 
         },
-        compass: { // Task
-            dist: { // Target
-                options: { // Target options
-                    sassDir: 'sass',
-                    cssDir: 'css',
-                    environment: 'production'
-                }
-            },
-            guide: { // Another target
-                options: {
-                    sassDir: 'sass',
-                    cssDir: 'styleguide/public',
-                    imagesDir: './styleguide/styleguide/public/images',
-                    httpFontsPath: 'fonts',
-                    fontsDir: './fonts',
-                    imagesPath: 'images'
-                }
-            }
-        },
         clean: [
             './dist'
         ],
@@ -127,19 +108,19 @@ module.exports = function(grunt) {
     grunt.initConfig(grunt.util._.extend(taskConfig, {}));
 
     grunt.registerTask('serve', [
-        'clean', 'kss:dist', 'compass:guide', 'copy', 'connect:server', 'watch'
+        'clean', 'kss:dist', 'sass:guide', 'copy', 'connect:server', 'watch'
     ]);
 
     grunt.registerTask('styleguide', [
-        'clean', 'kss:dist', 'compass:guide', 'copy'
+        'clean', 'kss:dist', 'sass:guide', 'copy'
     ]);
 
     grunt.registerTask('dist', [
-        'clean', 'compass:dist', 'cssmin:dist'
+        'clean', 'sass:dist', 'cssmin:dist'
     ]);
 
     grunt.registerTask('dist-guide', [
-        'clean', 'kss:dist', 'compass:guide', 'copy'
+        'clean', 'kss:dist', 'sass:guide', 'copy'
     ]);
 
 };
