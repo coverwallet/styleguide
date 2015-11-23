@@ -138,4 +138,8 @@ module.exports = function(grunt) {
         'clean', 'compass:dist', 'cssmin:dist'
     ]);
 
+    grunt.registerTask('dist-guide', [
+        'clean', 'kss:dist', 'compass:guide', 'copy'
+    ]);
+
 };
