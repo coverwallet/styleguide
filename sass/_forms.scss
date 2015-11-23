@@ -31,12 +31,12 @@ form {
                 border-color: #f00;
             }
             &.form-input--email {
-                background-image: url($images-path + 'email.png');
+                background-image: url($cw-images-path + 'email.png');
                 background-repeat: no-repeat;
                 background-position: right center;
             }
             &.form-input--password {
-                background-image: url($images-path + 'password.png');
+                background-image: url($cw-images-path + 'password.png');
                 background-repeat: no-repeat;
                 background-position: right center;
             }
