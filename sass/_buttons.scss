@@ -5,7 +5,6 @@ Button styles can be applied to anything with the .btn class applied. However, t
 
 Styleguide 3
 */
-
 // Base styles & states
 //
 // :hover       - Hover state.
@@ -16,21 +15,22 @@ Styleguide 3
 // <button type="submit" class="btn {{modifier_class}}">Button</button>
 //
 // Styleguide 3.1
-button, .btn {
-  font-size: 16px;
-  border-radius: 3px;
-  color: #fff;
-  background-color: $orange;
-  padding: 15px 20px;
-  border:none;
-
-  &:hover{
-      background-color: $dark-gray;
-  }
-  &.disabled,
-  &[disabled] {
-    cursor: default;
-    @include cw-opacity(0.25);
+button,
+.btn {
+    font-size: 16px;
+    border-radius: 3px;
+    color: #fff;
     background-color: $orange;
-  }
+    padding: 15px 20px;
+    border: none;
+    display: inline-block;
+    &:hover {
+        background-color: $dark-gray;
+    }
+    &.disabled,
+    &[disabled] {
+        cursor: default;
+        @include cw-opacity(0.25);
+        background-color: $orange;
+    }
 }
