@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="public/kss.css" />
     <link rel="stylesheet" href="public/coverwallet.css" />
     <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="public/coverwallet-styleguide.css?t=1448294660221">
+    <link rel="stylesheet" href="public/coverwallet-styleguide.css?t=1448296931663">
 
     <!--[if lt IE 9]>
     <script src="public/html5shiv.js"></script>
@@ -264,16 +264,94 @@
                 <div class="kss-modifier-example">
                   <form class="form">
     <div class="form-group form-group--checkbox">
-        <div class="form-checkbox">
-            <input type="checkbox" id="checkbox"/>
-            <label for="checkbox"></label>
+        <div class="form-checkbox [modifier class]">
+            <input type="checkbox" id="checkbox[modifier class]"/>
+            <label for="checkbox[modifier class]"></label>
         </div>
         <label for="email">Checkbox</label>
     </div>
     <div class="form-group form-group--checkbox">
-        <div class="form-checkbox">
-            <input type="checkbox" id="checkbox" checked/>
-            <label for="checkbox"></label>
+        <div class="form-checkbox [modifier class]">
+            <input type="checkbox" id="checkbox[modifier class]-checked" checked/>
+            <label for="checkbox[modifier class]-checked"></label>
+        </div>
+        <label for="email">Checkbox checked</label>
+    </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-checkbox--blue</div>
+                  <div class="kss-modifier-description">
+                    Blue checkbox
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox form-checkbox--blue">
+            <input type="checkbox" id="checkboxform-checkbox--blue"/>
+            <label for="checkboxform-checkbox--blue"></label>
+        </div>
+        <label for="email">Checkbox</label>
+    </div>
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox form-checkbox--blue">
+            <input type="checkbox" id="checkboxform-checkbox--blue-checked" checked/>
+            <label for="checkboxform-checkbox--blue-checked"></label>
+        </div>
+        <label for="email">Checkbox checked</label>
+    </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-checkbox--big</div>
+                  <div class="kss-modifier-description">
+                    Big checkbox
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox form-checkbox--big">
+            <input type="checkbox" id="checkboxform-checkbox--big"/>
+            <label for="checkboxform-checkbox--big"></label>
+        </div>
+        <label for="email">Checkbox</label>
+    </div>
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox form-checkbox--big">
+            <input type="checkbox" id="checkboxform-checkbox--big-checked" checked/>
+            <label for="checkboxform-checkbox--big-checked"></label>
+        </div>
+        <label for="email">Checkbox checked</label>
+    </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-checkbox--big.form-checkbox--blue</div>
+                  <div class="kss-modifier-description">
+                    Blue and big checkbox
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox form-checkbox--big form-checkbox--blue">
+            <input type="checkbox" id="checkboxform-checkbox--big form-checkbox--blue"/>
+            <label for="checkboxform-checkbox--big form-checkbox--blue"></label>
+        </div>
+        <label for="email">Checkbox</label>
+    </div>
+    <div class="form-group form-group--checkbox">
+        <div class="form-checkbox form-checkbox--big form-checkbox--blue">
+            <input type="checkbox" id="checkboxform-checkbox--big form-checkbox--blue-checked" checked/>
+            <label for="checkboxform-checkbox--big form-checkbox--blue-checked"></label>
         </div>
         <label for="email">Checkbox checked</label>
     </div>
@@ -283,16 +361,16 @@
               <div class="kss-markup">
                 <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
     &lt;div class=&quot;form-group form-group--checkbox&quot;&gt;
-        &lt;div class=&quot;form-checkbox&quot;&gt;
-            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox&quot;/&gt;
-            &lt;label for=&quot;checkbox&quot;&gt;&lt;/label&gt;
+        &lt;div class=&quot;form-checkbox [modifier class]&quot;&gt;
+            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox[modifier class]&quot;/&gt;
+            &lt;label for=&quot;checkbox[modifier class]&quot;&gt;&lt;/label&gt;
         &lt;/div&gt;
         &lt;label for=&quot;email&quot;&gt;Checkbox&lt;/label&gt;
     &lt;/div&gt;
     &lt;div class=&quot;form-group form-group--checkbox&quot;&gt;
-        &lt;div class=&quot;form-checkbox&quot;&gt;
-            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox&quot; checked/&gt;
-            &lt;label for=&quot;checkbox&quot;&gt;&lt;/label&gt;
+        &lt;div class=&quot;form-checkbox [modifier class]&quot;&gt;
+            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox[modifier class]-checked&quot; checked/&gt;
+            &lt;label for=&quot;checkbox[modifier class]-checked&quot;&gt;&lt;/label&gt;
         &lt;/div&gt;
         &lt;label for=&quot;email&quot;&gt;Checkbox checked&lt;/label&gt;
     &lt;/div&gt;
