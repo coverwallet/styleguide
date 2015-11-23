@@ -5196,27 +5196,27 @@ h6,
 /* line 55, ../../sass/_type.scss */
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #afcff1;
+  color: #ecf3fb;
 }
 
 /* line 59, ../../sass/_type.scss */
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #afcff1;
+  color: #ecf3fb;
   opacity: 1;
 }
 
 /* line 64, ../../sass/_type.scss */
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #afcff1;
+  color: #ecf3fb;
   opacity: 1;
 }
 
 /* line 69, ../../sass/_type.scss */
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #afcff1;
+  color: #ecf3fb;
 }
 
 /* line 74, ../../sass/_type.scss */
@@ -5298,7 +5298,7 @@ form .form-group {
 /* line 5, ../../sass/_forms.scss */
 .form .form-group label,
 form .form-group label {
-  color: #afcff1;
+  color: #ecf3fb;
   display: block;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -5406,7 +5406,7 @@ form .form-group .form-select .cs-placeholder:after {
 /* line 87, ../../sass/_forms.scss */
 .form .form-group .form-select .cs-options li span:hover,
 form .form-group .form-select .cs-options li span:hover {
-  background: #afcff1;
+  background: #ecf3fb;
 }
 /* line 92, ../../sass/_forms.scss */
 .form .form-group .form-select .cs-options li.cs-selected span:after,
@@ -5493,27 +5493,27 @@ form.form--light .form-input {
 .form.form--light .form-input::-webkit-input-placeholder,
 form.form--light .form-input::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #afcff1;
+  color: #ecf3fb;
 }
 /* line 150, ../../sass/_forms.scss */
 .form.form--light .form-input:-moz-placeholder,
 form.form--light .form-input:-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #afcff1;
+  color: #ecf3fb;
   opacity: 1;
 }
 /* line 155, ../../sass/_forms.scss */
 .form.form--light .form-input::-moz-placeholder,
 form.form--light .form-input::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #afcff1;
+  color: #ecf3fb;
   opacity: 1;
 }
 /* line 160, ../../sass/_forms.scss */
 .form.form--light .form-input:-ms-input-placeholder,
 form.form--light .form-input:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #afcff1;
+  color: #ecf3fb;
 }
 /* line 165, ../../sass/_forms.scss */
 .form.form--light .form-input.form-input--error,
@@ -5524,7 +5524,7 @@ form.form--light .form-input.form-input--error {
 .form.form--light .form-select,
 form.form--light .form-select {
   background: inherit;
-  color: #afcff1;
+  color: #ecf3fb;
 }
 /* line 172, ../../sass/_forms.scss */
 .form.form--light .form-select input,
@@ -5536,7 +5536,7 @@ form.form--light .form-select input {
 form.form--light .form-select .cs-placeholder {
   height: 64px;
   border: 1px solid #fff;
-  color: #afcff1;
+  color: #ecf3fb;
 }
 /* line 179, ../../sass/_forms.scss */
 .form.form--light .form-select .cs-placeholder:after,
@@ -5810,6 +5810,49 @@ ul.list.list--type-3 li:before {
 
  Styleguide 6.1
 */
+/*
+Fieldset
+
+Fieldset styles
+
+Styleguide 7
+*/
+/* line 9, ../../sass/_fieldset.scss */
+.fieldset {
+  padding: 0;
+  margin: 0;
+  border: 1px solid #e8e8e8;
+}
+/* line 13, ../../sass/_fieldset.scss */
+.fieldset__title {
+  color: #000;
+  text-transform: uppercase;
+  background: #ecf3fb;
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  padding-left: 15px;
+  border-bottom: 1px solid #438bd7;
+}
+/* line 23, ../../sass/_fieldset.scss */
+.fieldset__content {
+  background: inherit;
+  padding: 15px;
+}
+
+/*
+Standard fieldset styles
+
+Markup:
+<fieldset class="fieldset">
+    <div class="fieldset__title">Legend</div>
+    <div class="fieldset__content">
+        <h1>Ejemplo</h1>
+    </div>
+</fieldset>
+
+Styleguide 7.1
+*/
 /* line 3, ../../sass/coverwallet-styleguide.scss */
 .color {
   padding: 20px;
@@ -5823,7 +5866,7 @@ ul.list.list--type-3 li:before {
 }
 /* line 13, ../../sass/coverwallet-styleguide.scss */
 .color.color-light-gray {
-  background-color: #fbfbfb;
+  background-color: #e8e8e8;
   color: #000;
 }
 /* line 17, ../../sass/coverwallet-styleguide.scss */
@@ -5837,7 +5880,7 @@ ul.list.list--type-3 li:before {
 }
 /* line 24, ../../sass/coverwallet-styleguide.scss */
 .color.color-light-blue {
-  background-color: #afcff1;
+  background-color: #ecf3fb;
 }
 /* line 27, ../../sass/coverwallet-styleguide.scss */
 .color.color-orange {
