@@ -29,7 +29,6 @@ button,
     padding: 15px 20px;
     border: none;
     display: inline-block;
-    text-transform: uppercase;
     &:hover {
         background-color: $dark-gray;
     }
@@ -42,6 +41,7 @@ button,
     &.btn--blue{
         background-color: $blue;
         color: #fff;
+        text-transform: uppercase;
         &:hover {
             background-color: $dark-gray;
             color: #fff;

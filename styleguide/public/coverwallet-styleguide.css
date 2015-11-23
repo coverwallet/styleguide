@@ -5681,14 +5681,13 @@ button,
   padding: 15px 20px;
   border: none;
   display: inline-block;
-  text-transform: uppercase;
 }
-/* line 33, ../../sass/_buttons.scss */
+/* line 32, ../../sass/_buttons.scss */
 button:hover,
 .btn:hover {
   background-color: #454855;
 }
-/* line 36, ../../sass/_buttons.scss */
+/* line 35, ../../sass/_buttons.scss */
 button.disabled, button[disabled],
 .btn.disabled,
 .btn[disabled] {
@@ -5697,11 +5696,12 @@ button.disabled, button[disabled],
   filter: alpha(opacity=25);
   background-color: #f3a309;
 }
-/* line 42, ../../sass/_buttons.scss */
+/* line 41, ../../sass/_buttons.scss */
 button.btn--blue,
 .btn.btn--blue {
   background-color: #438bd7;
   color: #fff;
+  text-transform: uppercase;
 }
 /* line 45, ../../sass/_buttons.scss */
 button.btn--blue:hover,
