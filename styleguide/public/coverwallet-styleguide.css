@@ -5824,6 +5824,10 @@ Styleguide 7
   border: 1px solid #e8e8e8;
 }
 /* line 13, ../../sass/_fieldset.scss */
+.fieldset legend {
+  display: none;
+}
+/* line 16, ../../sass/_fieldset.scss */
 .fieldset__title {
   color: #000;
   text-transform: uppercase;
@@ -5834,7 +5838,7 @@ Styleguide 7
   padding-left: 15px;
   border-bottom: 1px solid #438bd7;
 }
-/* line 23, ../../sass/_fieldset.scss */
+/* line 26, ../../sass/_fieldset.scss */
 .fieldset__content {
   background: inherit;
   padding: 15px;
