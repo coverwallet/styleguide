@@ -9,7 +9,7 @@ Styleguide 7
 .fieldset{
     padding: 0;
     margin: 0;
-    border: 1px solid $light-gray;
+    border: 0;
     legend{
         display: none;
     }
@@ -22,10 +22,17 @@ Styleguide 7
         line-height: 40px;
         padding-left: 15px;
         border-bottom: 1px solid $blue;
+        border-left: 1px solid $light-gray;
+        border-top: 1px solid $light-gray;
+        border-right: 1px solid $light-gray;
     }
     &__content{
         background: inherit;
         padding: 15px;
+        border-top: 0;
+        border-left: 1px solid $light-gray;
+        border-bottom: 1px solid $light-gray;
+        border-right: 1px solid $light-gray;
     }
 }
 

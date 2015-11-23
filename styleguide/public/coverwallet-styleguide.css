@@ -5821,7 +5821,7 @@ Styleguide 7
 .fieldset {
   padding: 0;
   margin: 0;
-  border: 1px solid #e8e8e8;
+  border: 0;
 }
 /* line 13, ../../sass/_fieldset.scss */
 .fieldset legend {
@@ -5837,11 +5837,18 @@ Styleguide 7
   line-height: 40px;
   padding-left: 15px;
   border-bottom: 1px solid #438bd7;
+  border-left: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
 }
-/* line 26, ../../sass/_fieldset.scss */
+/* line 29, ../../sass/_fieldset.scss */
 .fieldset__content {
   background: inherit;
   padding: 15px;
+  border-top: 0;
+  border-left: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
 }
 
 /*
