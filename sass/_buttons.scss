@@ -5,32 +5,51 @@ Button styles can be applied to anything with the .btn class applied. However, t
 
 Styleguide 3
 */
-
 // Base styles & states
 //
 // :hover       - Hover state.
 // :active      - Active state.
 // .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
+// .btn--blue   - Blue button
+// .btn--blue:hover   - Blue button (Hover state)
+// .btn--blue:active   - Blue button (Active state)
+// .btn--blue.disabled   - Blue button (Disabled state)
 //
 // Markup:
 // <button type="submit" class="btn {{modifier_class}}">Button</button>
 //
 // Styleguide 3.1
-button, .btn {
-  font-size: 16px;
-  border-radius: 3px;
-  color: #fff;
-  background-color: $orange;
-  padding: 15px 20px;
-  border:none;
-
-  &:hover{
-      background-color: $dark-gray;
-  }
-  &.disabled,
-  &[disabled] {
-    cursor: default;
-    @include cw-opacity(0.25);
+button,
+.btn {
+    @include transition(none);
+    font-size: 16px;
+    border-radius: 3px;
+    color: #fff;
     background-color: $orange;
-  }
+    padding: 15px 20px;
+    border: none;
+    display: inline-block;
+    &:hover {
+        background-color: $dark-gray;
+    }
+    &.disabled,
+    &[disabled] {
+        cursor: default;
+        @include cw-opacity(0.25);
+        background-color: $orange;
+    }
+    &.btn--blue{
+        background-color: $blue;
+        color: #fff;
+        text-transform: uppercase;
+        &:hover {
+            background-color: $dark-gray;
+            color: #fff;
+        }
+        &.disabled,
+        &[disabled] {
+            cursor: default;
+            background-color: $blue;
+        }
+    }
 }

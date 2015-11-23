@@ -5668,25 +5668,53 @@ Button styles can be applied to anything with the .btn class applied. However, t
 
 Styleguide 3
 */
-/* line 19, ../../sass/_buttons.scss */
-button, .btn {
+/* line 22, ../../sass/_buttons.scss */
+button,
+.btn {
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
   font-size: 16px;
   border-radius: 3px;
   color: #fff;
   background-color: #f3a309;
   padding: 15px 20px;
   border: none;
+  display: inline-block;
 }
-/* line 27, ../../sass/_buttons.scss */
-button:hover, .btn:hover {
+/* line 32, ../../sass/_buttons.scss */
+button:hover,
+.btn:hover {
   background-color: #454855;
 }
-/* line 30, ../../sass/_buttons.scss */
-button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
+/* line 35, ../../sass/_buttons.scss */
+button.disabled, button[disabled],
+.btn.disabled,
+.btn[disabled] {
   cursor: default;
   opacity: 0.25;
   filter: alpha(opacity=25);
   background-color: #f3a309;
+}
+/* line 41, ../../sass/_buttons.scss */
+button.btn--blue,
+.btn.btn--blue {
+  background-color: #438bd7;
+  color: #fff;
+  text-transform: uppercase;
+}
+/* line 45, ../../sass/_buttons.scss */
+button.btn--blue:hover,
+.btn.btn--blue:hover {
+  background-color: #454855;
+  color: #fff;
+}
+/* line 49, ../../sass/_buttons.scss */
+button.btn--blue.disabled, button.btn--blue[disabled],
+.btn.btn--blue.disabled,
+.btn.btn--blue[disabled] {
+  cursor: default;
+  background-color: #438bd7;
 }
 
 /* line 1, ../../sass/_list.scss */
