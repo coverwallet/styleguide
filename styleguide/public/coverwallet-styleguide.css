@@ -4022,138 +4022,98 @@ div.cs-skin-circular {
 }
 
 /* line 205, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:first-child {
-  background-image: url("../img/1.png");
-}
-
-/* line 208, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:nth-child(2) {
-  background-image: url("../img/2.png");
-}
-
-/* line 211, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:nth-child(3) {
-  background-image: url("../img/3.png");
-}
-
-/* line 214, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:nth-child(4) {
-  background-image: url("../img/4.png");
-}
-
-/* line 217, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:nth-child(5) {
-  background-image: url("../img/5.png");
-}
-
-/* line 220, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:nth-child(6) {
-  background-image: url("../img/6.png");
-}
-
-/* line 223, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:nth-child(7) {
-  background-image: url("../img/7.png");
-}
-
-/* line 226, ../../sass/lib/_selectFx.scss */
-.cs-skin-circular .cs-options li:nth-child(8) {
-  background-image: url("../img/8.png");
-}
-
-/* line 229, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular .cs-options li.cs-focus {
   background-color: transparent;
   opacity: 0.7;
 }
 
 @media screen and (max-width: 30em) {
-  /* line 234, ../../sass/lib/_selectFx.scss */
+  /* line 210, ../../sass/lib/_selectFx.scss */
   .cs-skin-circular > span {
     width: 80px;
     height: 80px;
   }
 }
-/* line 239, ../../sass/lib/_selectFx.scss */
+/* line 215, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active > span::after {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
 
-/* line 243, ../../sass/lib/_selectFx.scss */
+/* line 219, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active > span {
   -webkit-transform: scale3d(0.75, 0.75, 1);
   transform: scale3d(0.75, 0.75, 1);
 }
 
-/* line 247, ../../sass/lib/_selectFx.scss */
+/* line 223, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options {
   opacity: 1;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
-/* line 252, ../../sass/lib/_selectFx.scss */
+/* line 228, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li {
   opacity: 1;
   -webkit-transition: -webkit-transform 0.3s,opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
 }
 
-/* line 257, ../../sass/lib/_selectFx.scss */
+/* line 233, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:hover {
   opacity: 0.7;
 }
 
-/* line 260, ../../sass/lib/_selectFx.scss */
+/* line 236, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:first-child {
   -webkit-transform: translate3d(0, -160px, 0);
   transform: translate3d(0, -160px, 0);
 }
 
-/* line 264, ../../sass/lib/_selectFx.scss */
+/* line 240, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:nth-child(2) {
   -webkit-transform: translate3d(113.14px, -113.14px, 0);
   transform: translate3d(113.14px, -113.14px, 0);
 }
 
-/* line 268, ../../sass/lib/_selectFx.scss */
+/* line 244, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:nth-child(3) {
   -webkit-transform: translate3d(160px, 0, 0);
   transform: translate3d(160px, 0, 0);
 }
 
-/* line 272, ../../sass/lib/_selectFx.scss */
+/* line 248, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:nth-child(4) {
   -webkit-transform: translate3d(113.14px, 113.14px, 0);
   transform: translate3d(113.14px, 113.14px, 0);
 }
 
-/* line 276, ../../sass/lib/_selectFx.scss */
+/* line 252, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:nth-child(5) {
   -webkit-transform: translate3d(0, 160px, 0);
   transform: translate3d(0, 160px, 0);
 }
 
-/* line 280, ../../sass/lib/_selectFx.scss */
+/* line 256, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:nth-child(6) {
   -webkit-transform: translate3d(-113.14px, 113.14px, 0);
   transform: translate3d(-113.14px, 113.14px, 0);
 }
 
-/* line 284, ../../sass/lib/_selectFx.scss */
+/* line 260, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:nth-child(7) {
   -webkit-transform: translate3d(-160px, 0, 0);
   transform: translate3d(-160px, 0, 0);
 }
 
-/* line 288, ../../sass/lib/_selectFx.scss */
+/* line 264, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular.cs-active .cs-options li:nth-child(8) {
   -webkit-transform: translate3d(-113.14px, -113.14px, 0);
   transform: translate3d(-113.14px, -113.14px, 0);
 }
 
-/* line 292, ../../sass/lib/_selectFx.scss */
+/* line 268, ../../sass/lib/_selectFx.scss */
 .cs-skin-circular .cs-options ul,
 .cs-skin-circular .cs-options li {
   position: absolute;
@@ -4161,7 +4121,7 @@ div.cs-skin-circular {
   height: 100%;
 }
 
-/* line 298, ../../sass/lib/_selectFx.scss */
+/* line 274, ../../sass/lib/_selectFx.scss */
 div.cs-skin-elastic {
   background: transparent;
   font-size: 1.5em;
@@ -4169,13 +4129,13 @@ div.cs-skin-elastic {
   color: #5b8583;
 }
 
-/* line 304, ../../sass/lib/_selectFx.scss */
+/* line 280, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic > span {
   background-color: #fff;
   z-index: 100;
 }
 
-/* line 308, ../../sass/lib/_selectFx.scss */
+/* line 284, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic > span::after {
   font-family: "icomoon";
   content: "\e005";
@@ -4183,7 +4143,7 @@ div.cs-skin-elastic {
   backface-visibility: hidden;
 }
 
-/* line 314, ../../sass/lib/_selectFx.scss */
+/* line 290, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic .cs-options {
   overflow: visible;
   background: transparent;
@@ -4193,7 +4153,7 @@ div.cs-skin-elastic {
   pointer-events: none;
 }
 
-/* line 322, ../../sass/lib/_selectFx.scss */
+/* line 298, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic .cs-options > ul::before {
   content: "";
   position: absolute;
@@ -4210,7 +4170,7 @@ div.cs-skin-elastic {
   transition: transform 0.3s;
 }
 
-/* line 337, ../../sass/lib/_selectFx.scss */
+/* line 313, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic .cs-options ul li {
   opacity: 0;
   -webkit-transform: translate3d(0, -25px, 0);
@@ -4219,7 +4179,7 @@ div.cs-skin-elastic {
   transition: opacity 0.15s, transform 0.15s;
 }
 
-/* line 344, ../../sass/lib/_selectFx.scss */
+/* line 320, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic .cs-options span {
   background-repeat: no-repeat;
   background-position: 1.5em 50%;
@@ -4227,37 +4187,17 @@ div.cs-skin-elastic {
   padding: 0.8em 1em 0.8em 4em;
 }
 
-/* line 350, ../../sass/lib/_selectFx.scss */
+/* line 326, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic .cs-options .cs-selected span::after {
   content: "";
 }
 
-/* line 353, ../../sass/lib/_selectFx.scss */
-.cs-skin-elastic .cs-options li.flag-france span {
-  background-image: url("../img/france.svg");
-}
-
-/* line 356, ../../sass/lib/_selectFx.scss */
-.cs-skin-elastic .cs-options li.flag-brazil span {
-  background-image: url("../img/brazil.svg");
-}
-
-/* line 359, ../../sass/lib/_selectFx.scss */
-.cs-skin-elastic .cs-options li.flag-safrica span {
-  background-image: url("../img/south-africa.svg");
-}
-
-/* line 362, ../../sass/lib/_selectFx.scss */
-.cs-skin-elastic .cs-options li.flag-argentina span {
-  background-image: url("../img/argentina.svg");
-}
-
-/* line 365, ../../sass/lib/_selectFx.scss */
+/* line 329, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic.cs-active .cs-options {
   pointer-events: auto;
 }
 
-/* line 368, ../../sass/lib/_selectFx.scss */
+/* line 332, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic.cs-active .cs-options > ul::before {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
@@ -4267,7 +4207,7 @@ div.cs-skin-elastic {
   animation: expand 0.6s ease-out;
 }
 
-/* line 376, ../../sass/lib/_selectFx.scss */
+/* line 340, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic.cs-active .cs-options ul li {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -4278,7 +4218,7 @@ div.cs-skin-elastic {
   animation: bounce 0.6s ease-out;
 }
 
-/* line 385, ../../sass/lib/_selectFx.scss */
+/* line 349, ../../sass/lib/_selectFx.scss */
 .cs-skin-elastic .cs-options span:hover,
 .cs-skin-elastic .cs-options li.cs-focus span,
 .cs-skin-elastic .cs-options .cs-selected span {
@@ -4368,12 +4308,12 @@ div.cs-skin-elastic {
   }
 }
 @media screen and (max-width: 30em) {
-  /* line 473, ../../sass/lib/_selectFx.scss */
+  /* line 437, ../../sass/lib/_selectFx.scss */
   div.cs-skin-elastic {
     font-size: 1em;
   }
 }
-/* line 477, ../../sass/lib/_selectFx.scss */
+/* line 441, ../../sass/lib/_selectFx.scss */
 div.cs-skin-overlay {
   background: transparent;
   font-size: 1.35em;
@@ -4384,19 +4324,19 @@ div.cs-skin-overlay {
   box-shadow: 0 10px 0 -5px rgba(0, 0, 0, 0.1);
 }
 
-/* line 486, ../../sass/lib/_selectFx.scss */
+/* line 450, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay > span {
   background: #fff;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-/* line 491, ../../sass/lib/_selectFx.scss */
+/* line 455, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay .cs-selected span::after {
   content: "";
 }
 
-/* line 494, ../../sass/lib/_selectFx.scss */
+/* line 458, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay .cs-options {
   position: fixed;
   width: 100%;
@@ -4415,7 +4355,7 @@ div.cs-skin-overlay {
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
-/* line 511, ../../sass/lib/_selectFx.scss */
+/* line 475, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay .cs-options > ul {
   position: absolute;
   top: 50%;
@@ -4425,14 +4365,14 @@ div.cs-skin-overlay {
   transform: translate3d(-50%, -50%, 0);
 }
 
-/* line 519, ../../sass/lib/_selectFx.scss */
+/* line 483, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay .cs-optgroup {
   width: 50%;
   padding: 1em 2em;
   float: left;
 }
 
-/* line 524, ../../sass/lib/_selectFx.scss */
+/* line 488, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay .cs-optgroup > span {
   font-size: 60%;
   text-transform: uppercase;
@@ -4441,7 +4381,7 @@ div.cs-skin-overlay {
   color: #bbb9b4;
 }
 
-/* line 531, ../../sass/lib/_selectFx.scss */
+/* line 495, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay li.cs-optgroup {
   opacity: 0;
   -webkit-transition: -webkit-transform 0.3s,opacity 0.3s;
@@ -4452,30 +4392,30 @@ div.cs-skin-overlay {
   transition-delay: 0.1s;
 }
 
-/* line 540, ../../sass/lib/_selectFx.scss */
+/* line 504, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay li.cs-optgroup ul {
   padding-left: 0;
 }
 
-/* line 543, ../../sass/lib/_selectFx.scss */
+/* line 507, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay li.cs-optgroup ul span {
   padding: 0.2em 0;
 }
 
-/* line 546, ../../sass/lib/_selectFx.scss */
+/* line 510, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay li.cs-optgroup:first-child {
   text-align: right;
   -webkit-transform: translate3d(1em, 0, 0);
   transform: translate3d(1em, 0, 0);
 }
 
-/* line 551, ../../sass/lib/_selectFx.scss */
+/* line 515, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay li.cs-optgroup:nth-child(2) {
   -webkit-transform: translate3d(-1em, 0, 0);
   transform: translate3d(-1em, 0, 0);
 }
 
-/* line 555, ../../sass/lib/_selectFx.scss */
+/* line 519, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay > span::after,
 .cs-skin-overlay.cs-active > span::after {
   font-family: "icomoon";
@@ -4484,13 +4424,13 @@ div.cs-skin-overlay {
   content: "\e013";
 }
 
-/* line 562, ../../sass/lib/_selectFx.scss */
+/* line 526, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay.cs-active > span {
   background: #fff;
   border-color: #fff;
 }
 
-/* line 566, ../../sass/lib/_selectFx.scss */
+/* line 530, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay.cs-active .cs-options {
   opacity: 1;
   -webkit-transform: perspective(1000px) translate3d(0, 0, 0);
@@ -4499,7 +4439,7 @@ div.cs-skin-overlay {
   transition: opacity 0.4s, transform 0.4s;
 }
 
-/* line 573, ../../sass/lib/_selectFx.scss */
+/* line 537, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay.cs-active li.cs-optgroup {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
@@ -4508,7 +4448,7 @@ div.cs-skin-overlay {
   transition-delay: 0s;
 }
 
-/* line 580, ../../sass/lib/_selectFx.scss */
+/* line 544, ../../sass/lib/_selectFx.scss */
 .cs-skin-overlay li.cs-optgroup li span:hover,
 .cs-skin-overlay li.cs-focus span,
 .cs-skin-overlay li.cs-selected span {
@@ -4517,25 +4457,25 @@ div.cs-skin-overlay {
 }
 
 @media screen and (max-width: 30em) {
-  /* line 587, ../../sass/lib/_selectFx.scss */
+  /* line 551, ../../sass/lib/_selectFx.scss */
   div.cs-skin-overlay {
     font-size: 1em;
   }
 }
 @media screen and (max-width: 30em) {
-  /* line 592, ../../sass/lib/_selectFx.scss */
+  /* line 556, ../../sass/lib/_selectFx.scss */
   .cs-skin-overlay .cs-optgroup {
     width: 100%;
     float: none;
   }
 }
 @media screen and (max-width: 30em) {
-  /* line 598, ../../sass/lib/_selectFx.scss */
+  /* line 562, ../../sass/lib/_selectFx.scss */
   .cs-skin-overlay li.cs-optgroup:first-child {
     text-align: left;
   }
 }
-/* line 602, ../../sass/lib/_selectFx.scss */
+/* line 566, ../../sass/lib/_selectFx.scss */
 div.cs-skin-rotate {
   background: transparent;
   font-size: 1.5em;
@@ -4545,7 +4485,7 @@ div.cs-skin-rotate {
   perspective: 1000px;
 }
 
-/* line 610, ../../sass/lib/_selectFx.scss */
+/* line 574, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate > span,
 .cs-skin-rotate .cs-options li {
   background: transparent;
@@ -4559,18 +4499,18 @@ div.cs-skin-rotate {
   transition: transform 0.3s, opacity 0.3s;
 }
 
-/* line 622, ../../sass/lib/_selectFx.scss */
+/* line 586, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate > span {
   border: 1px dashed #c0c6c4;
 }
 
-/* line 625, ../../sass/lib/_selectFx.scss */
+/* line 589, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate ul span::after {
   content: "";
   opacity: 0;
 }
 
-/* line 629, ../../sass/lib/_selectFx.scss */
+/* line 593, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-selected span::after {
   content: "\e00e";
   font-size: 1.5em;
@@ -4579,7 +4519,7 @@ div.cs-skin-rotate {
   transition: opacity 0.3s;
 }
 
-/* line 636, ../../sass/lib/_selectFx.scss */
+/* line 600, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options {
   background: transparent;
   top: 0;
@@ -4590,56 +4530,56 @@ div.cs-skin-rotate {
   transform-style: preserve-3d;
 }
 
-/* line 645, ../../sass/lib/_selectFx.scss */
+/* line 609, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options ul {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
-/* line 649, ../../sass/lib/_selectFx.scss */
+/* line 613, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options li {
   opacity: 0;
   -webkit-transform: rotate3d(0, 1, 0, 90deg);
   transform: rotate3d(0, 1, 0, 90deg);
 }
 
-/* line 654, ../../sass/lib/_selectFx.scss */
+/* line 618, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options li span {
   padding: 1em 0;
 }
 
-/* line 657, ../../sass/lib/_selectFx.scss */
+/* line 621, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options li:nth-child(2) {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
 }
 
-/* line 661, ../../sass/lib/_selectFx.scss */
+/* line 625, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options li:nth-child(3) {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 665, ../../sass/lib/_selectFx.scss */
+/* line 629, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options li:nth-child(4) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-/* line 669, ../../sass/lib/_selectFx.scss */
+/* line 633, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options li:nth-child(5) {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
 
-/* line 673, ../../sass/lib/_selectFx.scss */
+/* line 637, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate.cs-active > span {
   opacity: 0;
   -webkit-transform: rotate3d(0, 1, 0, -90deg);
   transform: rotate3d(0, 1, 0, -90deg);
 }
 
-/* line 678, ../../sass/lib/_selectFx.scss */
+/* line 642, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate.cs-active .cs-options li {
   opacity: 1;
   -webkit-transform: rotate3d(0, 1, 0, 0deg);
@@ -4647,19 +4587,19 @@ div.cs-skin-rotate {
   pointer-events: auto;
 }
 
-/* line 684, ../../sass/lib/_selectFx.scss */
+/* line 648, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate.cs-active .cs-options ul li {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-/* line 688, ../../sass/lib/_selectFx.scss */
+/* line 652, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate > span::after,
 .cs-skin-rotate .cs-selected span::after {
   font-family: "icomoon";
 }
 
-/* line 692, ../../sass/lib/_selectFx.scss */
+/* line 656, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate > span::after,
 .cs-skin-rotate.cs-active > span::after {
   content: "\e012";
@@ -4667,7 +4607,7 @@ div.cs-skin-rotate {
   transform: translate3d(0, -50%, 0) rotate3d(0, 0, 1, -90deg);
 }
 
-/* line 698, ../../sass/lib/_selectFx.scss */
+/* line 662, ../../sass/lib/_selectFx.scss */
 .cs-skin-rotate .cs-options li span:hover,
 .cs-skin-rotate .cs-options li.cs-focus span,
 .cs-skin-rotate .cs-selected span {
@@ -4676,7 +4616,7 @@ div.cs-skin-rotate {
 }
 
 @media screen and (max-width: 30em) {
-  /* line 705, ../../sass/lib/_selectFx.scss */
+  /* line 669, ../../sass/lib/_selectFx.scss */
   .cs-skin-rotate > span,
   .cs-skin-rotate .cs-options li {
     -webkit-transform-origin: 50% 50% -100px;
@@ -4684,20 +4624,20 @@ div.cs-skin-rotate {
   }
 }
 @media screen and (max-width: 30em) {
-  /* line 712, ../../sass/lib/_selectFx.scss */
+  /* line 676, ../../sass/lib/_selectFx.scss */
   div.cs-skin-rotate {
     font-size: 1em;
     width: 200px;
   }
 }
-/* line 717, ../../sass/lib/_selectFx.scss */
+/* line 681, ../../sass/lib/_selectFx.scss */
 div.cs-skin-slide {
   color: #fff;
   font-size: 1.5em;
   width: 300px;
 }
 
-/* line 722, ../../sass/lib/_selectFx.scss */
+/* line 686, ../../sass/lib/_selectFx.scss */
 div.cs-skin-slide::before {
   content: "";
   background: #282b30;
@@ -4712,13 +4652,13 @@ div.cs-skin-slide::before {
   transition: transform 0.3s;
 }
 
-/* line 735, ../../sass/lib/_selectFx.scss */
+/* line 699, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active::before {
   -webkit-transform: scale3d(1.1, 3.5, 1);
   transform: scale3d(1.1, 3.5, 1);
 }
 
-/* line 739, ../../sass/lib/_selectFx.scss */
+/* line 703, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide > span {
   height: 80px;
   line-height: 32px;
@@ -4726,7 +4666,7 @@ div.cs-skin-slide::before {
   transition: text-indent 0.3s,opacity 0.3s;
 }
 
-/* line 745, ../../sass/lib/_selectFx.scss */
+/* line 709, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide .cs-options {
   background: transparent;
   width: 70%;
@@ -4738,7 +4678,7 @@ div.cs-skin-slide::before {
   transform: translate3d(-50%, -50%, 0);
 }
 
-/* line 755, ../../sass/lib/_selectFx.scss */
+/* line 719, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide .cs-options li {
   opacity: 0;
   -webkit-transform: translate3d(30%, 0, 0);
@@ -4747,7 +4687,7 @@ div.cs-skin-slide::before {
   transition: transform 0.3s, opacity 0.3s;
 }
 
-/* line 762, ../../sass/lib/_selectFx.scss */
+/* line 726, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide .cs-options li span {
   text-transform: uppercase;
   font-weight: 500;
@@ -4756,61 +4696,61 @@ div.cs-skin-slide::before {
   padding: 0.8em 1em 0.8em 2.5em;
 }
 
-/* line 769, ../../sass/lib/_selectFx.scss */
+/* line 733, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide .cs-selected span::after {
   content: "";
 }
 
-/* line 772, ../../sass/lib/_selectFx.scss */
+/* line 736, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active > span {
   text-indent: -290px;
   opacity: 0;
 }
 
-/* line 776, ../../sass/lib/_selectFx.scss */
+/* line 740, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active > span::after {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
 
-/* line 780, ../../sass/lib/_selectFx.scss */
+/* line 744, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active .cs-options li {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   opacity: 1;
 }
 
-/* line 785, ../../sass/lib/_selectFx.scss */
+/* line 749, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active .cs-options li:first-child {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
 }
 
-/* line 789, ../../sass/lib/_selectFx.scss */
+/* line 753, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active .cs-options li:nth-child(2) {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 793, ../../sass/lib/_selectFx.scss */
+/* line 757, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active .cs-options li:nth-child(3) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-/* line 797, ../../sass/lib/_selectFx.scss */
+/* line 761, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active .cs-options li:nth-child(4) {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
 
-/* line 801, ../../sass/lib/_selectFx.scss */
+/* line 765, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide.cs-active .cs-options li:nth-child(5) {
   -webkit-transition-delay: 0.25s;
   transition-delay: 0.25s;
 }
 
-/* line 805, ../../sass/lib/_selectFx.scss */
+/* line 769, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide > span::after,
 .cs-skin-slide.cs-active > span::after {
   font-family: "icomoon";
@@ -4820,7 +4760,7 @@ div.cs-skin-slide::before {
   backface-visibility: hidden;
 }
 
-/* line 813, ../../sass/lib/_selectFx.scss */
+/* line 777, ../../sass/lib/_selectFx.scss */
 .cs-skin-slide .cs-options li span:hover,
 .cs-skin-slide .cs-options li.cs-focus span,
 .cs-skin-slide .cs-options li.cs-selected span {
@@ -4828,7 +4768,7 @@ div.cs-skin-slide::before {
   background: transparent;
 }
 
-/* line 819, ../../sass/lib/_selectFx.scss */
+/* line 783, ../../sass/lib/_selectFx.scss */
 [class^="icon-"] span:before,
 [class*=" icon-"] span:before {
   font-family: "icomoon";
@@ -4840,59 +4780,59 @@ div.cs-skin-slide::before {
   font-size: 1.5em;
 }
 
-/* line 829, ../../sass/lib/_selectFx.scss */
+/* line 793, ../../sass/lib/_selectFx.scss */
 .icon-camera span::before {
   content: "\e00b";
 }
 
-/* line 832, ../../sass/lib/_selectFx.scss */
+/* line 796, ../../sass/lib/_selectFx.scss */
 .icon-money span::before {
   content: "\e008";
 }
 
-/* line 835, ../../sass/lib/_selectFx.scss */
+/* line 799, ../../sass/lib/_selectFx.scss */
 .icon-heart span::before {
   content: "\e00a";
 }
 
-/* line 838, ../../sass/lib/_selectFx.scss */
+/* line 802, ../../sass/lib/_selectFx.scss */
 .icon-food span::before {
   content: "\e009";
 }
 
-/* line 841, ../../sass/lib/_selectFx.scss */
+/* line 805, ../../sass/lib/_selectFx.scss */
 .icon-shirt span::before {
   content: "\e00c";
 }
 
 @media screen and (max-width: 30em) {
-  /* line 845, ../../sass/lib/_selectFx.scss */
+  /* line 809, ../../sass/lib/_selectFx.scss */
   div.cs-skin-slide {
     font-size: 1em;
     width: 250px;
   }
 }
 @media screen and (max-width: 30em) {
-  /* line 851, ../../sass/lib/_selectFx.scss */
+  /* line 815, ../../sass/lib/_selectFx.scss */
   .cs-skin-slide > span {
     height: 60px;
     line-height: 28px;
   }
 }
 @media screen and (max-width: 30em) {
-  /* line 857, ../../sass/lib/_selectFx.scss */
+  /* line 821, ../../sass/lib/_selectFx.scss */
   .cs-skin-slide .cs-options {
     padding-top: 3em;
   }
 }
-/* line 861, ../../sass/lib/_selectFx.scss */
+/* line 825, ../../sass/lib/_selectFx.scss */
 div.cs-skin-underline {
   background: transparent;
   font-size: 1.8em;
   max-width: 400px;
 }
 
-/* line 866, ../../sass/lib/_selectFx.scss */
+/* line 830, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline > span {
   padding: 0.5em 3em 0.5em 0.5em;
   border-bottom: 3px solid #000;
@@ -4900,7 +4840,7 @@ div.cs-skin-underline {
   font-weight: bold;
 }
 
-/* line 872, ../../sass/lib/_selectFx.scss */
+/* line 836, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline > span::after {
   font-family: "icomoon";
   content: "\e003";
@@ -4911,7 +4851,7 @@ div.cs-skin-underline {
   transition: transform 0.5s;
 }
 
-/* line 881, ../../sass/lib/_selectFx.scss */
+/* line 845, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline .cs-options {
   background: #bbc7c8;
   opacity: 0;
@@ -4919,7 +4859,7 @@ div.cs-skin-underline {
   transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
 }
 
-/* line 887, ../../sass/lib/_selectFx.scss */
+/* line 851, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline ul span {
   position: relative;
   text-transform: uppercase;
@@ -4934,7 +4874,7 @@ div.cs-skin-underline {
   transition: opacity 0.3s, transform 0.3s;
 }
 
-/* line 900, ../../sass/lib/_selectFx.scss */
+/* line 864, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline ul span::before {
   content: "";
   position: absolute;
@@ -4949,27 +4889,27 @@ div.cs-skin-underline {
   transition: transform 0.3s;
 }
 
-/* line 913, ../../sass/lib/_selectFx.scss */
+/* line 877, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline.cs-active > span::after {
   -webkit-transform: translate3d(0, -50%, 0) rotate3d(0, 0, 1, 270deg);
   transform: translate3d(0, -50%, 0) rotate3d(0, 0, 1, 270deg);
 }
 
-/* line 917, ../../sass/lib/_selectFx.scss */
+/* line 881, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline.cs-active .cs-options {
   opacity: 1;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
-/* line 922, ../../sass/lib/_selectFx.scss */
+/* line 886, ../../sass/lib/_selectFx.scss */
 .cs-select ul span::after, .form .form-group .form-select ul span::after,
 form .form-group .form-select ul span::after {
   content: "";
   opacity: 0;
 }
 
-/* line 926, ../../sass/lib/_selectFx.scss */
+/* line 890, ../../sass/lib/_selectFx.scss */
 .cs-select .cs-selected span::after, .form .form-group .form-select .cs-selected span::after,
 form .form-group .form-select .cs-selected span::after {
   font-family: "icomoon";
@@ -4979,7 +4919,7 @@ form .form-group .form-select .cs-selected span::after {
   transition: opacity 0.3s 0.7s;
 }
 
-/* line 933, ../../sass/lib/_selectFx.scss */
+/* line 897, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline.cs-active ul span,
 .cs-skin-underline.cs-active ul span::before {
   opacity: 1;
@@ -4987,7 +4927,7 @@ form .form-group .form-select .cs-selected span::after {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 939, ../../sass/lib/_selectFx.scss */
+/* line 903, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline li:nth-child(5) span,
 .cs-skin-underline li:nth-child(5) span::before,
 .cs-skin-underline.cs-active li:first-child span,
@@ -4996,7 +4936,7 @@ form .form-group .form-select .cs-selected span::after {
   transition-delay: 0s;
 }
 
-/* line 946, ../../sass/lib/_selectFx.scss */
+/* line 910, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline li:nth-child(4) span,
 .cs-skin-underline li:nth-child(4) span::before,
 .cs-skin-underline.cs-active li:nth-child(2) span,
@@ -5005,14 +4945,14 @@ form .form-group .form-select .cs-selected span::after {
   transition-delay: 0.05s;
 }
 
-/* line 953, ../../sass/lib/_selectFx.scss */
+/* line 917, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline li:nth-child(3) span,
 .cs-skin-underline li:nth-child(3) span::before {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-/* line 958, ../../sass/lib/_selectFx.scss */
+/* line 922, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline li:nth-child(2) span,
 .cs-skin-underline li:nth-child(2) span::before,
 .cs-skin-underline.cs-active li:nth-child(4) span,
@@ -5021,7 +4961,7 @@ form .form-group .form-select .cs-selected span::after {
   transition-delay: 0.15s;
 }
 
-/* line 965, ../../sass/lib/_selectFx.scss */
+/* line 929, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline li:first-child span,
 .cs-skin-underline li:first-child span::before,
 .cs-skin-underline.cs-active li:nth-child(5) span,
@@ -5030,7 +4970,7 @@ form .form-group .form-select .cs-selected span::after {
   transition-delay: 0.2s;
 }
 
-/* line 972, ../../sass/lib/_selectFx.scss */
+/* line 936, ../../sass/lib/_selectFx.scss */
 .cs-skin-underline .cs-options li span:hover,
 .cs-skin-underline .cs-options li.cs-focus span,
 .cs-skin-underline li.cs-selected span {
@@ -5039,7 +4979,7 @@ form .form-group .form-select .cs-selected span::after {
 }
 
 @media screen and (max-width: 30em) {
-  /* line 979, ../../sass/lib/_selectFx.scss */
+  /* line 943, ../../sass/lib/_selectFx.scss */
   div.cs-skin-underline {
     font-size: 1.2em;
   }
@@ -5306,6 +5246,11 @@ a.link--light:hover, .link.link--light:hover {
   color: #fff;
 }
 
+/* line 97, ../../sass/_type.scss */
+strong, .strong {
+  font-weight: bold;
+}
+
 /*
 Base headers
 
@@ -5335,6 +5280,15 @@ Markup:
     <h6 class="{{modifier_class}}">H6 title <span>with span</span></h6>
 
     Styleguide 1.2
+*/
+/*
+Strong tags or class
+
+Markup:
+    <strong> Strong text </strong>
+    <span class="strong"> Strong span</strong>
+
+    Styleguide 1.4
 */
 /* line 3, ../../sass/_forms.scss */
 .form .form-group,
