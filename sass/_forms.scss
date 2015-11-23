@@ -127,6 +127,26 @@ form {
                     width: 25px;
                     @include cw-icon-before(check-circle, 0, $orange);
                 }
+
+                &.form-checkbox--big{
+                    input + label {
+                        font-size: 40px;
+                        height: 50px;
+                        width: 50px;
+                    }
+                    input:checked + label {
+                        font-size: 40px;
+                        height: 50px;
+                        width: 50px;
+                    }
+                    
+                }
+
+                &.form-checkbox--blue{
+                    input:checked + label {
+                        @include cw-icon-before(check-circle, 0, $blue);
+                    }
+                }
             }
             label {
                 float: left;
@@ -265,19 +285,23 @@ form {
 /*
  Checkbox inputs
 
+ .form-checkbox--blue    - Blue checkbox
+ .form-checkbox--big    - Big checkbox
+ .form-checkbox--big.form-checkbox--blue    - Blue and big checkbox
+
  Markup:
  <form class="form">
      <div class="form-group form-group--checkbox">
-         <div class="form-checkbox">
-             <input type="checkbox" id="checkbox"/>
-             <label for="checkbox"></label>
+         <div class="form-checkbox {{modifier_class}}">
+             <input type="checkbox" id="checkbox{{modifier_class}}"/>
+             <label for="checkbox{{modifier_class}}"></label>
          </div>
          <label for="email">Checkbox</label>
      </div>
      <div class="form-group form-group--checkbox">
-         <div class="form-checkbox">
-             <input type="checkbox" id="checkbox" checked/>
-             <label for="checkbox"></label>
+         <div class="form-checkbox {{modifier_class}}">
+             <input type="checkbox" id="checkbox{{modifier_class}}-checked" checked/>
+             <label for="checkbox{{modifier_class}}-checked"></label>
          </div>
          <label for="email">Checkbox checked</label>
      </div>

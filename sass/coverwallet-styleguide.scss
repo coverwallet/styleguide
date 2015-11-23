@@ -33,5 +33,5 @@
 .form--light{
     background: $blue;
     padding: 20px;
-    @include cw-span-columns-desktop(2, 2);
+    @include cw-span-columns-desktop(8, 0);
 }
