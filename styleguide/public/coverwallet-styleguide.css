@@ -3405,6 +3405,9 @@ html {
 
 */
 /*
+    Mixin to set box shado to element
+*/
+/*
     Mixin to do responsive image
 
 */
@@ -3577,6 +3580,9 @@ a, .link {
 
 strong, .strong {
   font-weight: bold !important; }
+
+body {
+  color: #272727; }
 
 /*
 Base headers

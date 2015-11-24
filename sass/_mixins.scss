@@ -10,6 +10,17 @@
 }
 
 /*
+    Mixin to set box shado to element
+*/
+@mixin cw-box-shadow($properties){
+    -webkit-box-shadow: $properties;
+    -moz-box-shadow: $properties;
+    -ms-box-shadow: $radius;
+    box-shadow: $properties;
+}
+
+
+/*
     Mixin to do responsive image
 
 */
