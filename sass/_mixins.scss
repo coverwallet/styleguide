@@ -15,7 +15,7 @@
 @mixin cw-box-shadow($properties){
     -webkit-box-shadow: $properties;
     -moz-box-shadow: $properties;
-    -ms-box-shadow: $radius;
+    -ms-box-shadow: $properties;
     box-shadow: $properties;
 }
 
