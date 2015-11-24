@@ -3,12 +3,12 @@
 //font-awesome fonts
 @font-face {
   font-family: 'FontAwesome';
-  src: url($cw-font-path + 'fontawesome-webfont.eot');
-  src: url($cw-font-path + 'fontawesome-webfont.eot') format('embedded-opentype'),
-    url($cw-font-path + 'fontawesome-webfont.woff2') format('woff2'),
-    url($cw-font-path + 'fontawesome-webfont.woff') format('woff'),
-    url($cw-font-path + 'fontawesome-webfont.ttf') format('truetype'),
-    url($cw-font-path + 'fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  src: url($cw-fonts-path + 'fontawesome-webfont.eot');
+  src: url($cw-fonts-path + 'fontawesome-webfont.eot') format('embedded-opentype'),
+    url($cw-fonts-path + 'fontawesome-webfont.woff2') format('woff2'),
+    url($cw-fonts-path + 'fontawesome-webfont.woff') format('woff'),
+    url($cw-fonts-path + 'fontawesome-webfont.ttf') format('truetype'),
+    url($cw-fonts-path + 'fontawesome-webfont.svg#fontawesomeregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
