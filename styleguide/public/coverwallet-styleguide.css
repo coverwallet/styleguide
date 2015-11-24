@@ -3729,7 +3729,8 @@ form .form-group {
     form .form-group.form-group--checkbox .form-checkbox input + label {
       font-size: 22px;
       height: 25px;
-      width: 25px; }
+      width: 25px;
+      cursor: pointer; }
       .form .form-group.form-group--checkbox .form-checkbox input + label:before,
       form .form-group.form-group--checkbox .form-checkbox input + label:before {
         padding-right: 0px;

@@ -119,6 +119,7 @@ form {
                     font-size: 22px;
                     height: 25px;
                     width: 25px;
+                    cursor: pointer;
                     @include cw-icon-before(circle-thin, 0px, $gray);
                 }
                 input:checked + label {
