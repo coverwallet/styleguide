@@ -3655,7 +3655,6 @@ form .form-group {
     display: block;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: 700;
     text-align: left;
     margin: 0 auto;
     padding: 0.2em 0 0.2em 0; }
@@ -4176,7 +4175,7 @@ ul.list {
     height: 48px;
     width: 48px;
     cursor: pointer;
-    background: image-url("close-icon.png");
+    background: url("images/close-icon.png");
     background-size: contain; }
 
 /*
