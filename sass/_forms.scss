@@ -310,19 +310,9 @@ form {
 
  Markup:
  <form class="form">
-    <div class="form-group form-group--readonly form-group--info">
+    <div class="form-group form-group--readonly">
         <label for="email">Email</label>
         <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
-        <div class="form-info">
-            Example form info
-        </div>
-    </div>
-    <div class="form-group form-group--info">
-        <label for="email">Email</label>
-        <input type="text" id="email" class="form-input " placeholder="Email" />
-        <div class="form-info">
-            Example form info
-        </div>
     </div>
  </form>
 
@@ -334,9 +324,16 @@ form {
 
  Markup:
  <form class="form">
-    <div class="form-group form-group--readonly {{modifier_class}}">
+    <div class="form-group form-group--readonly form-group--info">
         <label for="email">Email</label>
         <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
+        <div class="form-info">
+            Example form info
+        </div>
+    </div>
+    <div class="form-group form-group--info">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" />
         <div class="form-info">
             Example form info
         </div>
@@ -362,7 +359,7 @@ form {
     </div>
  </form>
 
- Styleguide 4.3
+ Styleguide 4.4
 */
 /*
  Different inputs text, password, email
@@ -382,7 +379,7 @@ form {
     </div>
  </form>
 
- Styleguide 4.4
+ Styleguide 4.5
 */
 /*
  Error and help messages
@@ -398,7 +395,7 @@ form {
     </div>
  </form>
 
- Styleguide 4.5
+ Styleguide 4.6
 */
 
 
@@ -428,7 +425,7 @@ form {
      </div>
  </form>
 
- Styleguide 4.6
+ Styleguide 4.7
 */
 /*
  Select inputs
@@ -445,5 +442,5 @@ form {
 
  </form>
 
- Styleguide 4.7
+ Styleguide 4.8
 */
