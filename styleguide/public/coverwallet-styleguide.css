@@ -388,7 +388,10 @@ form .form-group .form-select .cs-placeholder:after, .form .form-group .form-sel
 form .form-group .form-select .cs-options li.cs-selected span:after, .form .form-group.form-group--checkbox .form-checkbox input + label:before,
 form .form-group.form-group--checkbox .form-checkbox input + label:before, .form .form-group.form-group--checkbox .form-checkbox input:checked + label:before,
 form .form-group.form-group--checkbox .form-checkbox input:checked + label:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label:before,
-form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label:before, .form.form--light .form-select .cs-placeholder:after,
+form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label:before, .form .form-group.form-group--icons .form-icon.form-icon--edit:before,
+form .form-group.form-group--icons .form-icon.form-icon--edit:before, .form .form-group.form-group--icons .form-icon.form-icon--save:before,
+form .form-group.form-group--icons .form-icon.form-icon--save:before, .form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
+form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.form--light .form-select .cs-placeholder:after,
 form.form--light .form-select .cs-placeholder:after, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -450,7 +453,10 @@ form.form--light .form-select .cs-placeholder:after, ul.list.list--type-1 li:bef
 form .form-group .form-select .fa-pull-left.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.fa-pull-left:after,
 form .form-group .form-select .cs-options li.cs-selected span.fa-pull-left:after, .form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-left:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-left:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-left:before,
-form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-left:before, .form.form--light .form-select .fa-pull-left.cs-placeholder:after,
+form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-left:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--edit:before,
+form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before,
+form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before,
+form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-left.cs-placeholder:after,
 form.form--light .form-select .fa-pull-left.cs-placeholder:after, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before {
   margin-right: .3em; }
 
@@ -458,7 +464,10 @@ form.form--light .form-select .fa-pull-left.cs-placeholder:after, ul.list.list--
 form .form-group .form-select .fa-pull-right.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.fa-pull-right:after,
 form .form-group .form-select .cs-options li.cs-selected span.fa-pull-right:after, .form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-right:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-right:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-right:before,
-form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-right:before, .form.form--light .form-select .fa-pull-right.cs-placeholder:after,
+form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-right:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--edit:before,
+form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before,
+form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before,
+form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-right.cs-placeholder:after,
 form.form--light .form-select .fa-pull-right.cs-placeholder:after, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before {
   margin-left: .3em; }
 
@@ -473,7 +482,10 @@ form.form--light .form-select .fa-pull-right.cs-placeholder:after, ul.list.list-
 form .form-group .form-select .pull-left.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.pull-left:after,
 form .form-group .form-select .cs-options li.cs-selected span.pull-left:after, .form .form-group.form-group--checkbox .form-checkbox input + label.pull-left:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.pull-left:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-left:before,
-form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-left:before, .form.form--light .form-select .pull-left.cs-placeholder:after,
+form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-left:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--edit:before,
+form .form-group.form-group--icons .pull-left.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before,
+form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before,
+form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-left.cs-placeholder:after,
 form.form--light .form-select .pull-left.cs-placeholder:after, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before {
   margin-right: .3em; }
 
@@ -481,7 +493,10 @@ form.form--light .form-select .pull-left.cs-placeholder:after, ul.list.list--typ
 form .form-group .form-select .pull-right.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.pull-right:after,
 form .form-group .form-select .cs-options li.cs-selected span.pull-right:after, .form .form-group.form-group--checkbox .form-checkbox input + label.pull-right:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.pull-right:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-right:before,
-form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-right:before, .form.form--light .form-select .pull-right.cs-placeholder:after,
+form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-right:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--edit:before,
+form .form-group.form-group--icons .pull-right.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before,
+form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before,
+form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-right.cs-placeholder:after,
 form.form--light .form-select .pull-right.cs-placeholder:after, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before {
   margin-left: .3em; }
 
@@ -607,11 +622,14 @@ form.form--light .form-select .pull-right.cs-placeholder:after, ul.list.list--ty
 .fa-th-list:before {
   content: ""; }
 
-.fa-check:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before {
+.fa-check:before, .form .form-group.form-group--icons .form-icon.form-icon--save:before,
+form .form-group.form-group--icons .form-icon.form-icon--save:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before {
   content: ""; }
 
 .fa-remove:before,
 .fa-close:before,
+.form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
+form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
 .fa-times:before {
   content: ""; }
 
@@ -758,7 +776,8 @@ form.form--light .form-select .pull-right.cs-placeholder:after, ul.list.list--ty
 .fa-picture-o:before {
   content: ""; }
 
-.fa-pencil:before {
+.fa-pencil:before, .form .form-group.form-group--icons .form-icon.form-icon--edit:before,
+form .form-group.form-group--icons .form-icon.form-icon--edit:before {
   content: ""; }
 
 .fa-map-marker:before {
@@ -3628,14 +3647,14 @@ form .form-group {
   padding: 10px 0; }
   .form .form-group label,
   form .form-group label {
-    color: #ecf3fb;
+    color: #438bd7;
     display: block;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
     text-align: left;
     margin: 0 auto;
-    padding: 0.2em 0 0.2em 16px; }
+    padding: 0.2em 0 0.2em 0; }
   .form .form-group .form-input,
   form .form-group .form-input {
     background-color: transparent;
@@ -3646,7 +3665,6 @@ form .form-group {
     height: 65px;
     text-align: left;
     font-size: 1em;
-    max-width: 600px;
     color: #333;
     font-weight: 100; }
     .form .form-group .form-input.form-input--long,
@@ -3689,13 +3707,13 @@ form .form-group {
     color: #454855;
     width: 100%;
     margin-top: 10px; }
+  .form .form-group select.form-select,
+  form .form-group select.form-select {
+    display: none; }
   .form .form-group .form-select,
   form .form-group .form-select {
-    max-width: 600px;
+    max-width: initial;
     color: #454855; }
-    .form .form-group .form-select input,
-    form .form-group .form-select input {
-      display: none; }
     .form .form-group .form-select .cs-placeholder,
     form .form-group .form-select .cs-placeholder {
       height: 64px;
@@ -3740,7 +3758,7 @@ form .form-group {
       .form .form-group.form-group--checkbox .form-checkbox input + label:before,
       form .form-group.form-group--checkbox .form-checkbox input + label:before {
         padding-right: 0px;
-        color: #f5f5f5; }
+        color: dimgray; }
     .form .form-group.form-group--checkbox .form-checkbox input:checked + label,
     form .form-group.form-group--checkbox .form-checkbox input:checked + label {
       font-size: 22px;
@@ -3773,6 +3791,56 @@ form .form-group {
   .form .form-group.form-group--checkbox .help-block,
   form .form-group.form-group--checkbox .help-block {
     color: #fff; }
+  .form .form-group.form-group--readonly,
+  form .form-group.form-group--readonly {
+    border-bottom: 2px solid #438bd7;
+    padding-bottom: 5px; }
+    .form .form-group.form-group--readonly label,
+    form .form-group.form-group--readonly label {
+      padding-left: 0; }
+    .form .form-group.form-group--readonly .form-input,
+    form .form-group.form-group--readonly .form-input {
+      border: 0;
+      height: 30px; }
+    .form .form-group.form-group--readonly input,
+    form .form-group.form-group--readonly input {
+      padding: 0; }
+  .form .form-group.form-group--icons .form-input,
+  form .form-group.form-group--icons .form-input {
+    border: 0;
+    height: 30px;
+    max-width: 80%; }
+  .form .form-group.form-group--icons .form-icon,
+  form .form-group.form-group--icons .form-icon {
+    float: right;
+    margin-right: 10px;
+    font-size: 22px;
+    cursor: pointer; }
+    .form .form-group.form-group--icons .form-icon.form-icon--edit:before,
+    form .form-group.form-group--icons .form-icon.form-icon--edit:before {
+      padding-right: 0;
+      color: #438bd7; }
+    .form .form-group.form-group--icons .form-icon.form-icon--save:before,
+    form .form-group.form-group--icons .form-icon.form-icon--save:before {
+      padding-right: 0;
+      color: #438bd7; }
+    .form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
+    form .form-group.form-group--icons .form-icon.form-icon--cancel:before {
+      padding-right: 0;
+      color: #438bd7; }
+  .form .form-group.form-group--info,
+  form .form-group.form-group--info {
+    margin-bottom: 20px; }
+    .form .form-group.form-group--info .form-info,
+    form .form-group.form-group--info .form-info {
+      color: dimgray;
+      font-size: 13px;
+      margin-bottom: -26px;
+      margin-top: 3px; }
+
+.form.form--light label,
+form.form--light label {
+  color: #ecf3fb; }
 
 .form.form--light .form-input,
 form.form--light .form-input {
@@ -3823,6 +3891,10 @@ form.form--light .form-select {
 form.form--light .help-block {
   color: #fff; }
 
+.form.form--light .form-group--info .form-info,
+form.form--light .form-group--info .form-info {
+  color: #e8e8e8; }
+
 /*
  Standard forms styles
 
@@ -3839,9 +3911,12 @@ form.form--light .help-block {
         <label for="name">Name</label>
         <input type="text" id="name" class="form-input" placeholder="Name"/>
     </div>
-    <div class="form-group">
+    <div class="form-group form-group--info">
         <label for="surname">Surname</label>
         <input type="text" id="surname" class="form-input" placeholder="Surname"/>
+        <div class="form-info">
+            Example form info
+        </div>
     </div>
     <div class="form-group">
         <label for="select-example">Select</label>
@@ -3853,6 +3928,63 @@ form.form--light .help-block {
  </form>
 
  Styleguide 4.1
+*/
+/*
+ Form readonly
+
+ Markup:
+ <form class="form">
+    <div class="form-group form-group--readonly form-group--info">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
+        <div class="form-info">
+            Example form info
+        </div>
+    </div>
+    <div class="form-group form-group--info">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" />
+        <div class="form-info">
+            Example form info
+        </div>
+    </div>
+ </form>
+
+ Styleguide 4.2
+*/
+/*
+ Form readonly with info and not readonly with info
+
+ Markup:
+ <form class="form">
+    <div class="form-group form-group--readonly {{modifier_class}}">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
+        <div class="form-info">
+            Example form info
+        </div>
+    </div>
+ </form>
+
+ Styleguide 4.3
+*/
+/*
+ Form readonly with icons
+
+ .form-icon--edit    - Edit icon
+ .form-icon--save    - Save icon
+ .form-icon--cancel    - Cancel icon
+
+ Markup:
+ <form class="form">
+    <div class="form-group form-group--readonly form-group--icons">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
+        <div class="form-icon {{modifier_class}}"></div>
+    </div>
+ </form>
+
+ Styleguide 4.3
 */
 /*
  Different inputs text, password, email
@@ -3872,7 +4004,7 @@ form.form--light .help-block {
     </div>
  </form>
 
- Styleguide 4.2
+ Styleguide 4.4
 */
 /*
  Error and help messages
@@ -3888,7 +4020,7 @@ form.form--light .help-block {
     </div>
  </form>
 
- Styleguide 4.3
+ Styleguide 4.5
 */
 /*
  Checkbox inputs
@@ -3915,7 +4047,7 @@ form.form--light .help-block {
      </div>
  </form>
 
- Styleguide 4.4
+ Styleguide 4.6
 */
 /*
  Select inputs
@@ -3932,7 +4064,7 @@ form.form--light .help-block {
 
  </form>
 
- Styleguide 4.5
+ Styleguide 4.7
 */
 /*
 Standard buttons
@@ -4199,7 +4331,7 @@ Styleguide 8.1
     background-color: #e8e8e8;
     color: #000; }
   .color.color-gray {
-    background-color: #f5f5f5;
+    background-color: dimgray;
     color: #000; }
   .color.color-blue {
     background-color: #438bd7; }

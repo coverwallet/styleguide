@@ -3,14 +3,14 @@ form {
     .form-group {
         padding: 10px 0;
         label {
-            color: $light-blue;
+            color: $blue;
             display: block;
             text-transform: uppercase;
             letter-spacing: 1px;
             font-weight: 700;
             text-align: left;
             margin: 0 auto;
-            padding: 0.2em 0 0.2em 16px;
+            padding: 0.2em 0 0.2em 0;
         }
         .form-input {
             background-color: transparent;
@@ -21,7 +21,6 @@ form {
             height: 65px;
             text-align: left;
             font-size: 1em;
-            max-width: 600px;
             color: #333;
             font-weight: 100;
             &.form-input--long {
@@ -65,13 +64,13 @@ form {
             width: 100%;
             margin-top: 10px;
         }
+        select.form-select{
+            display: none;
+        }
         .form-select{
             @extend .cs-select;
-            max-width: 600px;
+            max-width: initial;
             color: $dark-gray;
-            input{
-                display: none;
-            }
             .cs-placeholder{
                 height: 64px;
                 line-height: 32px;
@@ -159,8 +158,60 @@ form {
                 color: #fff;
             }
         }
+
+        &.form-group--readonly{
+            border-bottom: 2px solid $blue;
+            padding-bottom: 5px;
+            label{
+                padding-left: 0;
+            }
+            .form-input{
+                border: 0;
+                height: 30px;
+
+            }
+            input{
+                padding:0;
+            }
+        }
+        &.form-group--icons{
+            .form-input{
+                border: 0;
+                height: 30px;
+                max-width: 80%;
+            }
+            .form-icon{
+                float:right;
+                margin-right: 10px;
+                font-size: 22px;
+                cursor: pointer;
+                &.form-icon--edit{
+                    @include cw-icon-before(pencil, 0, $blue);
+                }
+                &.form-icon--save{
+                    @include cw-icon-before(check, 0, $blue);
+                }
+                &.form-icon--cancel{
+                    @include cw-icon-before(close, 0, $blue);
+                }
+            }
+        }
+        &.form-group--info{
+            margin-bottom: 20px;
+
+            .form-info{
+                color: $gray;
+                font-size: 13px;
+                margin-bottom: -26px;
+                margin-top: 3px;
+            }
+        }
+
     }
     &.form--light {
+        label{
+            color: $light-blue;
+        }
         .form-input {
             border-color: #fff;
             color: #fff;
@@ -207,8 +258,14 @@ form {
                 color: $blue;
             }
         }
+
         .help-block{
             color: #fff;
+        }
+        .form-group--info{
+            .form-info{
+                color: $light-gray;
+            }
         }
     }
 }
@@ -229,9 +286,12 @@ form {
         <label for="name">Name</label>
         <input type="text" id="name" class="form-input" placeholder="Name"/>
     </div>
-    <div class="form-group">
+    <div class="form-group form-group--info">
         <label for="surname">Surname</label>
         <input type="text" id="surname" class="form-input" placeholder="Surname"/>
+        <div class="form-info">
+            Example form info
+        </div>
     </div>
     <div class="form-group">
         <label for="select-example">Select</label>
@@ -243,6 +303,66 @@ form {
  </form>
 
  Styleguide 4.1
+*/
+
+/*
+ Form readonly
+
+ Markup:
+ <form class="form">
+    <div class="form-group form-group--readonly form-group--info">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
+        <div class="form-info">
+            Example form info
+        </div>
+    </div>
+    <div class="form-group form-group--info">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" />
+        <div class="form-info">
+            Example form info
+        </div>
+    </div>
+ </form>
+
+ Styleguide 4.2
+*/
+
+/*
+ Form readonly with info and not readonly with info
+
+ Markup:
+ <form class="form">
+    <div class="form-group form-group--readonly {{modifier_class}}">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
+        <div class="form-info">
+            Example form info
+        </div>
+    </div>
+ </form>
+
+ Styleguide 4.3
+*/
+
+/*
+ Form readonly with icons
+
+ .form-icon--edit    - Edit icon
+ .form-icon--save    - Save icon
+ .form-icon--cancel    - Cancel icon
+
+ Markup:
+ <form class="form">
+    <div class="form-group form-group--readonly form-group--icons">
+        <label for="email">Email</label>
+        <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
+        <div class="form-icon {{modifier_class}}"></div>
+    </div>
+ </form>
+
+ Styleguide 4.3
 */
 /*
  Different inputs text, password, email
@@ -262,7 +382,7 @@ form {
     </div>
  </form>
 
- Styleguide 4.2
+ Styleguide 4.4
 */
 /*
  Error and help messages
@@ -278,7 +398,7 @@ form {
     </div>
  </form>
 
- Styleguide 4.3
+ Styleguide 4.5
 */
 
 
@@ -308,7 +428,7 @@ form {
      </div>
  </form>
 
- Styleguide 4.4
+ Styleguide 4.6
 */
 /*
  Select inputs
@@ -325,5 +445,5 @@ form {
 
  </form>
 
- Styleguide 4.5
+ Styleguide 4.7
 */

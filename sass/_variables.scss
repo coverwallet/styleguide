@@ -6,7 +6,7 @@ $blue: #438bd7;
 $dark-gray: #454855;
 $orange: #f3a309;
 $light-gray: #e8e8e8;
-$gray: #f5f5f5;
+$gray: darken($light-gray, 50%);
 $light-blue: #ecf3fb;
 
 $cw-images-path: 'images/' !default;

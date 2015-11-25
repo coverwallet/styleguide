@@ -99,7 +99,7 @@ module.exports = function(grunt) {
             },
             sass: {
                 files: ['./sass/**/*'],
-                tasks: ['kss:dist', 'compass:guide', 'copy']
+                tasks: ['kss:dist', 'sass:guide', 'copy']
             }
         }
 
