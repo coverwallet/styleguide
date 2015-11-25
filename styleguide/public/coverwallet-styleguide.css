@@ -3808,9 +3808,8 @@ form .form-group {
       padding: 0; }
   .form .form-group.form-group--icons .form-input,
   form .form-group.form-group--icons .form-input {
-    border: 0;
     height: 30px;
-    max-width: 80%; }
+    max-width: 84%; }
   .form .form-group.form-group--icons .form-icon,
   form .form-group.form-group--icons .form-icon {
     float: right;
@@ -3836,7 +3835,7 @@ form .form-group {
     form .form-group.form-group--info .form-info {
       color: dimgray;
       font-size: 13px;
-      margin-bottom: -26px;
+      margin-bottom: -27px;
       margin-top: 3px; }
 
 .form.form--light label,
