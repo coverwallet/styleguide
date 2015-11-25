@@ -3646,6 +3646,9 @@ Markup:
 .form .form-group,
 form .form-group {
   padding: 10px 0; }
+  .form .form-group:first-child,
+  form .form-group:first-child {
+    padding: 0 0 10px 0; }
   .form .form-group label,
   form .form-group label {
     color: #438bd7;
