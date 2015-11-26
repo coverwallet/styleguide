@@ -60,7 +60,7 @@ module.exports = function(grunt) {
         copy: {
             fonts: {
                 expand:true,
-                cwd:'bower_components/fontawesome/fonts/',
+                cwd:'fonts/',
                 src: '**',
                 dest: 'styleguide/public/fonts/',
             },

@@ -48,6 +48,23 @@
 }
 
 /*
+    Mixin to add coverwallet icon to element
+
+    $icon - Icon of coverwallet
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+@mixin cw-covericon-before($icon, $padding-right:0, $color: #000) {
+    &:before {
+        @extend .coverwallet-icon;
+        @extend .cwicon-#{$icon};
+        padding-right: #{$padding-right};
+        color: #{$color};
+    }
+}
+
+/*
     Mixin to hide element in tablets
 
 */

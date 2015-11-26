@@ -1,37 +1,135 @@
 @import 'coverwallet';
-
-.color{
-
+.color {
     padding: 20px;
     border-radius: 5px;
     color: white;
     margin: 10px 0;
-
-    &.color-dark-gray{
+    &.color-dark-gray {
         background-color: $dark-gray;
     }
-    &.color-light-gray{
+    &.color-light-gray {
         background-color: $light-gray;
         color: #000;
     }
-    &.color-gray{
+    &.color-gray {
         background-color: $gray;
         color: #000;
     }
-    &.color-blue{
+    &.color-blue {
         background-color: $blue;
     }
-    &.color-light-blue{
+    &.color-light-blue {
         background-color: $light-blue;
     }
-    &.color-orange{
+    &.color-orange {
         background-color: $orange;
     }
 }
-
-
-.form--light{
+.form--light {
     background: $blue;
     padding: 20px;
     @include cw-span-columns-desktop(8, 0);
+}
+
+.gallery-icons{
+    @include row();
+    ul{
+        @include cw-span-columns-desktop(6);
+        .gallery-icon{
+            font-size: 25px;
+        }
+    }
+}
+.styleguide-icon- {
+
+    &about {
+        @include cw-covericon-before(about, 0, #000);
+    }
+    &account {
+        @include cw-covericon-before(account, 0, #000);
+    }
+    &add {
+        @include cw-covericon-before(add, 0, #000);
+    }
+    &admin {
+        @include cw-covericon-before(admin, 0, #000);
+    }
+    &agent {
+        @include cw-covericon-before(agent, 0, #000);
+    }
+    &cancel {
+        @include cw-covericon-before(cancel, 0, #000);
+    }
+    &cancel-filled {
+        @include cw-covericon-before(cancel-filled, 0, #000);
+    }
+    &chat {
+        @include cw-covericon-before(chat, 0, #000);
+    }
+    &checklist {
+        @include cw-covericon-before(checklist, 0, #000);
+    }
+    &contact {
+        @include cw-covericon-before(contact, 0, #000);
+    }
+    &current {
+        @include cw-covericon-before(current, 0, #000);
+    }
+    &download {
+        @include cw-covericon-before(download, 0, #000);
+    }
+    &edit {
+        @include cw-covericon-before(edit, 0, #000);
+    }
+    &email {
+        @include cw-covericon-before(email, 0, #000);
+    }
+    &feedback {
+        @include cw-covericon-before(feedback, 0, #000);
+    }
+    &info {
+        @include cw-covericon-before(info, 0, #000);
+    }
+    &logout {
+        @include cw-covericon-before(logout, 0, #000);
+    }
+    &newpolicy {
+        @include cw-covericon-before(newpolicy, 0, #000);
+    }
+    &notifications {
+        @include cw-covericon-before(notifications, 0, #000);
+    }
+    &phone {
+        @include cw-covericon-before(phone, 0, #000);
+    }
+    &receipts {
+        @include cw-covericon-before(receipts, 0, #000);
+    }
+    &save {
+        @include cw-covericon-before(save, 0, #000);
+    }
+    &save-filled {
+        @include cw-covericon-before(save-filled, 0, #000);
+    }
+    &schedule {
+        @include cw-covericon-before(schedule, 0, #000);
+    }
+    &settings {
+        @include cw-covericon-before(settings, 0, #000);
+    }
+    &settings-filled {
+        @include cw-covericon-before(settings-filled, 0, #000);
+    }
+    &share {
+        @include cw-covericon-before(share, 0, #000);
+    }
+    &tellfriends {
+        @include cw-covericon-before(tellfriends, 0, #000);
+    }
+    &tyc {
+        @include cw-covericon-before(tyc, 0, #000);
+    }
+    &video {
+        @include cw-covericon-before(video, 0, #000);
+    }
 }
