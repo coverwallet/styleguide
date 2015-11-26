@@ -3406,11 +3406,177 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
 .fa-fonticons:before {
   content: ""; }
 
+@font-face {
+  font-family: "coverwallet";
+  src: url("fonts/coverwallet.eot");
+  src: url("fonts/coverwallet.eot?#iefix") format("embedded-opentype"), url("fonts/coverwallet.woff") format("woff"), url("fonts/coverwallet.ttf") format("truetype"), url("fonts/coverwallet.svg#coverwallet") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.coverwallet-icon, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before {
+  font-family: "coverwallet" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 html {
   box-sizing: border-box; }
 
 *, *::after, *::before {
   box-sizing: inherit; }
+
+/*
+ Coverwallet font
+
+ Styleguide 9
+*/
+/*
+ CoverWallet Icon list
+
+ To include icon, use mixin @include cw-covericon-before(name, padding, color)
+
+ Markup:
+ <div class="gallery-icons">
+     <ul class="list">
+        <li class='gallery-icon'><span class="styleguide-icon-about"></span> <span class='icon-name'>about</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-account"></span> <span class='icon-name'>account</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-add"></span> <span class='icon-name'>add</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-admin"></span> <span class='icon-name'>admin</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-agent"></span> <span class='icon-name'>agent</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-cancel"></span> <span class='icon-name'>cancel</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-cancel-filled"></span> <span class='icon-name'>cancel-filled</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-chat"></span> <span class='icon-name'>chat</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-checklist"></span> <span class='icon-name'>checklist</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-contact"></span> <span class='icon-name'>contact</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-current"></span> <span class='icon-name'>current</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-download"></span> <span class='icon-name'>download</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-edit"></span> <span class='icon-name'>edit</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-email"></span> <span class='icon-name'>email</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-feedback"></span> <span class='icon-name'>feedback</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-info"></span> <span class='icon-name'>info</span></li>
+    </ul>
+    <ul class="list">
+        <li class='gallery-icon'><span class="styleguide-icon-logout"></span> <span class='icon-name'>logout</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-newpolicy"></span> <span class='icon-name'>newpolicy</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-notifications"></span> <span class='icon-name'>notifications</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-receipts"></span> <span class='icon-name'>receipts</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-save-filled"></span> <span class='icon-name'>save-filled</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-schedule"></span> <span class='icon-name'>schedule</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-settings"></span> <span class='icon-name'>settings</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-settings-filled"></span> <span class='icon-name'>settings-filled</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-share"></span> <span class='icon-name'>share</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-tellfriends"></span> <span class='icon-name'>tellfriends</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-tyc"></span> <span class='icon-name'>tyc</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-video"></span> <span class='icon-name'>video</span></li>
+     </ul>
+</div>
+
+ Styleguide 9.1
+*/
+/*
+ FontAwesome font
+
+ To include icon, use mixin @include cw-icon-before(nameIcon, padding, color).
+ Name icons, visit: https://fortawesome.github.io/Font-Awesome/icons/
+
+
+ Styleguide 9.2
+*/
+.cwicon-about, .styleguide-icon-about:before {
+  content: "a"; }
+
+.cwicon-account, .styleguide-icon-account:before {
+  content: "b"; }
+
+.cwicon-add, .styleguide-icon-add:before {
+  content: "c"; }
+
+.cwicon-admin, .styleguide-icon-admin:before {
+  content: "d"; }
+
+.cwicon-agent, .styleguide-icon-agent:before {
+  content: "e"; }
+
+.cwicon-cancel, .styleguide-icon-cancel:before {
+  content: "f"; }
+
+.cwicon-cancel-filled, .styleguide-icon-cancel-filled:before {
+  content: "g"; }
+
+.cwicon-chat, .styleguide-icon-chat:before {
+  content: "h"; }
+
+.cwicon-checklist, .styleguide-icon-checklist:before {
+  content: "i"; }
+
+.cwicon-contact, .styleguide-icon-contact:before {
+  content: "j"; }
+
+.cwicon-current, .styleguide-icon-current:before {
+  content: "k"; }
+
+.cwicon-download, .styleguide-icon-download:before {
+  content: "l"; }
+
+.cwicon-edit, .styleguide-icon-edit:before {
+  content: "m"; }
+
+.cwicon-email, .styleguide-icon-email:before {
+  content: "n"; }
+
+.cwicon-feedback, .styleguide-icon-feedback:before {
+  content: "o"; }
+
+.cwicon-info, .styleguide-icon-info:before {
+  content: "p"; }
+
+.cwicon-logout, .styleguide-icon-logout:before {
+  content: "q"; }
+
+.cwicon-newpolicy, .styleguide-icon-newpolicy:before {
+  content: "r"; }
+
+.cwicon-notifications, .styleguide-icon-notifications:before {
+  content: "s"; }
+
+.cwicon-phone, .styleguide-icon-phone:before {
+  content: "t"; }
+
+.cwicon-receipts, .styleguide-icon-receipts:before {
+  content: "u"; }
+
+.cwicon-save, .styleguide-icon-save:before {
+  content: "v"; }
+
+.cwicon-save-filled, .styleguide-icon-save-filled:before {
+  content: "w"; }
+
+.cwicon-schedule, .styleguide-icon-schedule:before {
+  content: "x"; }
+
+.cwicon-settings, .styleguide-icon-settings:before {
+  content: "z"; }
+
+.cwicon-settings-filled, .styleguide-icon-settings-filled:before {
+  content: "A"; }
+
+.cwicon-share, .styleguide-icon-share:before {
+  content: "B"; }
+
+.cwicon-tellfriends, .styleguide-icon-tellfriends:before {
+  content: "C"; }
+
+.cwicon-tyc, .styleguide-icon-tyc:before {
+  content: "D"; }
+
+.cwicon-video, .styleguide-icon-video:before {
+  content: "E"; }
 
 /*
     Mixin to set border radius to element
@@ -3427,6 +3593,14 @@ html {
     Mixin to add icon to element
 
     $icon - Icon of fontawesome
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+/*
+    Mixin to add coverwallet icon to element
+
+    $icon - Icon of coverwallet
     $padding-right - Padding right (default 0)
     $color - Color of icon (default #000)
 
@@ -4345,3 +4519,141 @@ Styleguide 8.1
       margin-left: 0%; }
       .form--light:last-child {
         margin-right: 0; } }
+
+.gallery-icons {
+  display: block; }
+  .gallery-icons::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 769px) {
+    .gallery-icons ul {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 48.821174201%;
+      min-height: 1px; }
+      .gallery-icons ul:last-child {
+        margin-right: 0; } }
+  .gallery-icons ul .gallery-icon {
+    font-size: 25px; }
+
+.styleguide-icon-about:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-account:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-add:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-admin:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-agent:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-cancel:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-cancel-filled:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-chat:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-checklist:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-contact:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-current:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-download:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-edit:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-email:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-feedback:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-info:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-logout:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-newpolicy:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-notifications:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-phone:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-receipts:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-save:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-save-filled:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-schedule:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-settings:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-settings-filled:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-share:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-tellfriends:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-tyc:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-video:before {
+  padding-right: 0;
+  color: #000; }
