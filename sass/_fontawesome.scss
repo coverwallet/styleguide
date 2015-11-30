@@ -1,0 +1,27 @@
+
+@import "../bower_components/fontawesome/scss/variables";
+@import "../bower_components/fontawesome/scss/mixins";
+
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: $font-awesome-eot;
+  src: $font-awesome-eot-iefix format('embedded-opentype'),
+    $font-awesome-woff2 format('woff2'),
+    $font-awesome-woff format('woff'),
+    $font-awesome-ttf format('truetype'),
+    $font-awesome-svg format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@import "../bower_components/fontawesome/scss/core";
+@import "../bower_components/fontawesome/scss/larger";
+@import "../bower_components/fontawesome/scss/fixed-width";
+@import "../bower_components/fontawesome/scss/list";
+@import "../bower_components/fontawesome/scss/bordered-pulled";
+@import "../bower_components/fontawesome/scss/animated";
+@import "../bower_components/fontawesome/scss/rotated-flipped";
+@import "../bower_components/fontawesome/scss/stacked";
+@import "../bower_components/fontawesome/scss/icons";
