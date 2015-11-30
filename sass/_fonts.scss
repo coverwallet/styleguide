@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "coverwallet";
-  src:url($cw-fonts-path + "coverwallet.eot");
-  src:url($cw-fonts-path + "coverwallet.eot?#iefix") format("embedded-opentype"),
-    url($cw-fonts-path + "coverwallet.woff") format("woff"),
-    url($cw-fonts-path + "coverwallet.ttf") format("truetype"),
-    url($cw-fonts-path + "coverwallet.svg#coverwallet") format("svg");
+  src:$font-coverwallet-eot;
+  src:$font-coverwallet-eot  format("embedded-opentype"),
+    $font-coverwallet-woff  format("woff"),
+    $font-coverwallet-ttf  format("truetype"),
+    $font-coverwallet-svg  format("svg");
   font-weight: normal;
   font-style: normal;
 
