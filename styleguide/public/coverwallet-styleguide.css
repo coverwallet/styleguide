@@ -1311,6 +1311,9 @@ form .form-group .form-select .cs-selected span::after {
     fonts
 */
 /*
+images
+*/
+/*
     config to neat grid
 */
 /*
@@ -3409,7 +3412,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
 @font-face {
   font-family: "coverwallet";
   src: url("fonts/coverwallet.eot");
-  src: url("fonts/coverwallet.eot?#iefix") format("embedded-opentype"), url("fonts/coverwallet.woff") format("woff"), url("fonts/coverwallet.ttf") format("truetype"), url("fonts/coverwallet.svg#coverwallet") format("svg");
+  src: url("fonts/coverwallet.eot") format("embedded-opentype"), url("fonts/coverwallet.woff") format("woff"), url("fonts/coverwallet.ttf") format("truetype"), url("fonts/coverwallet.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -3813,9 +3816,6 @@ Markup:
 .form .form-group,
 form .form-group {
   padding: 10px 0; }
-  .form .form-group:first-child,
-  form .form-group:first-child {
-    padding: 0 0 10px 0; }
   .form .form-group label,
   form .form-group label {
     color: #438bd7;

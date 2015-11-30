@@ -15,6 +15,21 @@ $cw-images-path: 'images/' !default;
 */
 $cw-fonts-path: 'fonts/' !default;
 $fa-font-path: $cw-fonts-path !default;
+
+$font-coverwallet-eot: url($cw-fonts-path + "coverwallet.eot") !default;
+$font-coverwallet-woff: url($cw-fonts-path + "coverwallet.woff") !default;
+$font-coverwallet-ttf: url($cw-fonts-path + "coverwallet.ttf") !default;
+$font-coverwallet-svg: url($cw-fonts-path + "coverwallet.svg") !default;
+
+/*
+images
+*/
+$cw-images-email: url($cw-images-path + 'email.png') !default;
+$cw-images-password: url($cw-images-path + "password.png") !default;
+$cw-images-close: url($cw-images-path + "close-icon.png") !default;
+
+
+
 $principal-fonts: 'Open Sans', sans-serif;
 
 /*
