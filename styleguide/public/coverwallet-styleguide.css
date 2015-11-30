@@ -3416,7 +3416,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-icon, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before {
+.coverwallet-icon, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before {
   font-family: "coverwallet" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -3462,12 +3462,12 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-email"></span> <span class='icon-name'>email</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-feedback"></span> <span class='icon-name'>feedback</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-info"></span> <span class='icon-name'>info</span></li>
-    </ul>
-    <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-logout"></span> <span class='icon-name'>logout</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-newpolicy"></span> <span class='icon-name'>newpolicy</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-notifications"></span> <span class='icon-name'>notifications</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-receipts"></span> <span class='icon-name'>receipts</span></li>
+    </ul>
+    <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-save-filled"></span> <span class='icon-name'>save-filled</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-schedule"></span> <span class='icon-name'>schedule</span></li>
@@ -3475,8 +3475,15 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-settings-filled"></span> <span class='icon-name'>settings-filled</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-share"></span> <span class='icon-name'>share</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-tellfriends"></span> <span class='icon-name'>tellfriends</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-tyc"></span> <span class='icon-name'>tyc</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-video"></span> <span class='icon-name'>video</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-tyc"></span> <span class='icon-name'>tyc</span></li>        
+        <li class='gallery-icon'><span class="styleguide-icon-policy-type"></span> <span class='icon-name'>policy-type</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-past-claims"></span> <span class='icon-name'>past-claims</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-yearly-revenues"></span> <span class='icon-name'>yearly-revenues</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-business-size"></span> <span class='icon-name'>business-size</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-location"></span> <span class='icon-name'>location</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-employees-number"></span> <span class='icon-name'>employees-number</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industry"></span> <span class='icon-name'>industry</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-your-contracts"></span> <span class='icon-name'>your-contracts</span></li>
      </ul>
 </div>
 
@@ -3580,6 +3587,30 @@ html {
 
 .cwicon-video, .styleguide-icon-video:before {
   content: "E"; }
+
+.cwicon-policy-type, .styleguide-icon-policy-type:before {
+  content: "y"; }
+
+.cwicon-past-claims, .styleguide-icon-past-claims:before {
+  content: "F"; }
+
+.cwicon-yearly-revenues, .styleguide-icon-yearly-revenues:before {
+  content: "G"; }
+
+.cwicon-business-size, .styleguide-icon-business-size:before {
+  content: "H"; }
+
+.cwicon-location, .styleguide-icon-location:before {
+  content: "I"; }
+
+.cwicon-employees-number, .styleguide-icon-employees-number:before {
+  content: "J"; }
+
+.cwicon-industry, .styleguide-icon-industry:before {
+  content: "K"; }
+
+.cwicon-your-contracts, .styleguide-icon-your-contracts:before {
+  content: "L"; }
 
 /*
     Mixin to set border radius to element
@@ -4655,5 +4686,37 @@ Styleguide 8.1
   color: #000; }
 
 .styleguide-icon-video:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-policy-type:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-past-claims:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-yearly-revenues:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-business-size:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-location:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-employees-number:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industry:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-your-contracts:before {
   padding-right: 0;
   color: #000; }
