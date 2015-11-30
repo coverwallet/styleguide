@@ -2,9 +2,6 @@
 form {
     .form-group {
         padding: 10px 0;
-        &:first-child{
-            padding: 0 0 10px 0;
-        }
         label {
             color: $blue;
             display: block;
