@@ -132,4 +132,29 @@
     &video {
         @include cw-covericon-before(video, 0, #000);
     }
+
+    &policy-type {
+      @include cw-covericon-before(policy-type, 0, #000);
+    }
+    &past-claims {
+      @include cw-covericon-before(past-claims, 0, #000);
+    }
+    &yearly-revenues {
+     @include cw-covericon-before(yearly-revenues, 0, #000);
+    }
+    &business-size {
+      @include cw-covericon-before(business-size, 0, #000);
+    }
+    &location {
+      @include cw-covericon-before(location, 0, #000);
+    }
+    &employees-number {
+      @include cw-covericon-before(employees-number, 0, #000);
+    }
+    &industry {
+      @include cw-covericon-before(industry, 0, #000);
+    }
+    &your-contracts {
+      @include cw-covericon-before(your-contracts, 0, #000);
+    }
 }
