@@ -48,9 +48,9 @@ $principal-fonts: 'Open Sans', sans-serif;
 $max-width: em(1170);
 
 // breakpoints
-$tablet: new-breakpoint(max-width 769px 8);
-$mobile: new-breakpoint(max-width 480px 4);
-$desktop: new-breakpoint(min-width 769px);
+$tablet: new-breakpoint(max-width 769px 8) !default;
+$mobile: new-breakpoint(max-width 480px 4) !default;
+$desktop: new-breakpoint(min-width 769px) !default;
 
 $retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
 
