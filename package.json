@@ -4,10 +4,11 @@
   "description": "",
   "main": "sass/coverwallet.scss",
   "author": "Ra <raul@coverwallet.com>",
-  "scripts":{
+  "scripts": {
     "install": "bower install"
   },
   "dependencies": {
+    "bower": "^1.6.8"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

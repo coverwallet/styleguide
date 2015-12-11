@@ -1320,7 +1320,7 @@ images
 Standar colors
 
 
-Styleguide 2
+Styleguide 3
 */
 /*
 Standar principal colors
@@ -1330,7 +1330,7 @@ Markup:
     <div class="color color-light-blue">$light-blue</div>
     <div class="color color-orange">$orange</div>
 
-Styleguide 2.1
+Styleguide 3.1
 */
 /*
 Standard gray colors
@@ -1340,7 +1340,7 @@ Markup:
     <div class="color color-gray">$gray</div>
     <div class="color color-light-gray">$light-gray</div>
 
-Styleguide 2.2
+Styleguide 3.2
 */
 @font-face {
   font-family: 'FontAwesome';
@@ -3430,7 +3430,7 @@ html {
 /*
  Icon fonts
 
- Styleguide 9
+ Styleguide 10
 */
 /*
  CoverWallet Icon list
@@ -3469,7 +3469,7 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-settings-filled"></span> <span class='icon-name'>settings-filled</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-share"></span> <span class='icon-name'>share</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-tellfriends"></span> <span class='icon-name'>tellfriends</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-tyc"></span> <span class='icon-name'>tyc</span></li>        
+        <li class='gallery-icon'><span class="styleguide-icon-tyc"></span> <span class='icon-name'>tyc</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-policy-type"></span> <span class='icon-name'>policy-type</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-past-claims"></span> <span class='icon-name'>past-claims</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-yearly-revenues"></span> <span class='icon-name'>yearly-revenues</span></li>
@@ -3481,7 +3481,7 @@ html {
      </ul>
 </div>
 
- Styleguide 9.1
+ Styleguide 10.1
 */
 /*
  FontAwesome font
@@ -3490,7 +3490,7 @@ html {
  Name icons, visit: https://fortawesome.github.io/Font-Awesome/icons/
 
 
- Styleguide 9.2
+ Styleguide 10.2
 */
 .cwicon-about, .styleguide-icon-about:before {
   content: "a"; }
@@ -3686,7 +3686,7 @@ html {
 
 General Typography
 
-Styleguide 1
+Styleguide 2
 */
 h1,
 h2,
@@ -3812,7 +3812,7 @@ Markup:
     <h5 class="{{modifier_class}}">H5 title</h5>
     <h6 class="{{modifier_class}}">H6 title</h6>
 
-    Styleguide 1.1
+    Styleguide 2.1
 */
 /*
 Base headers with span
@@ -3827,7 +3827,7 @@ Markup:
     <h5 class="{{modifier_class}}">H5 title <span>with span</span></h5>
     <h6 class="{{modifier_class}}">H6 title <span>with span</span></h6>
 
-    Styleguide 1.2
+    Styleguide 2.2
 */
 /*
 Strong tags or class
@@ -3836,7 +3836,7 @@ Markup:
     <strong> Strong text </strong>
     <span class="strong"> Strong span</strong>
 
-    Styleguide 1.4
+    Styleguide 2.4
 */
 .form .form-group,
 form .form-group {
@@ -4092,7 +4092,7 @@ form.form--light .form-group--info .form-info {
 /*
  Standard forms styles
 
- Styleguide 4
+ Styleguide 5
 */
 /*
  Standards forms
@@ -4121,7 +4121,7 @@ form.form--light .form-group--info .form-info {
     </div>
  </form>
 
- Styleguide 4.1
+ Styleguide 5.1
 */
 /*
  Form readonly
@@ -4134,7 +4134,7 @@ form.form--light .form-group--info .form-info {
     </div>
  </form>
 
- Styleguide 4.2
+ Styleguide 5.2
 */
 /*
  Form readonly with info and not readonly with info
@@ -4157,7 +4157,7 @@ form.form--light .form-group--info .form-info {
     </div>
  </form>
 
- Styleguide 4.3
+ Styleguide 5.3
 */
 /*
  Form readonly with icons
@@ -4175,7 +4175,7 @@ form.form--light .form-group--info .form-info {
     </div>
  </form>
 
- Styleguide 4.4
+ Styleguide 5.4
 */
 /*
  Different inputs text, password, email
@@ -4195,7 +4195,7 @@ form.form--light .form-group--info .form-info {
     </div>
  </form>
 
- Styleguide 4.5
+ Styleguide 5.5
 */
 /*
  Error and help messages
@@ -4211,7 +4211,7 @@ form.form--light .form-group--info .form-info {
     </div>
  </form>
 
- Styleguide 4.6
+ Styleguide 5.6
 */
 /*
  Checkbox inputs
@@ -4238,7 +4238,7 @@ form.form--light .form-group--info .form-info {
      </div>
  </form>
 
- Styleguide 4.7
+ Styleguide 5.7
 */
 /*
  Select inputs
@@ -4255,14 +4255,14 @@ form.form--light .form-group--info .form-info {
 
  </form>
 
- Styleguide 4.8
+ Styleguide 5.8
 */
 /*
 Standard buttons
 
 Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.
 
-Styleguide 3
+Styleguide 4
 */
 button,
 .btn {
@@ -4330,7 +4330,7 @@ ul.list {
 /*
  Standard list styles
 
- Styleguide 5
+ Styleguide 6
 */
 /*
  Standards list
@@ -4347,7 +4347,7 @@ ul.list {
     <li>Item 2</li>
  </ul>
 
- Styleguide 5.1
+ Styleguide 6.1
 */
 .popup {
   background-color: #fff;
@@ -4373,7 +4373,7 @@ ul.list {
 /*
  Popup
 
- Styleguide 6
+ Styleguide 7
 */
 /*
  Standards popups
@@ -4396,14 +4396,14 @@ ul.list {
     </div>
  </div>
 
- Styleguide 6.1
+ Styleguide 7.1
 */
 /*
 Fieldset
 
 Fieldset styles
 
-Styleguide 7
+Styleguide 8
 */
 .fieldset {
   padding: 0;
@@ -4442,14 +4442,14 @@ Markup:
     </div>
 </fieldset>
 
-Styleguide 7.1
+Styleguide 8.1
 */
 /*
 Tables
 
 Tables styles
 
-Styleguide 8
+Styleguide 9
 */
 .table {
   width: 100%; }
@@ -4509,7 +4509,7 @@ Markup:
     </tbody>
 </table>
 
-Styleguide 8.1
+Styleguide 9.1
 */
 .color {
   padding: 20px;
@@ -4534,7 +4534,7 @@ Styleguide 8.1
 .form--light {
   background: #438bd7;
   padding: 20px; }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1025px) {
     .form--light {
       float: left;
       display: block;
@@ -4545,13 +4545,23 @@ Styleguide 8.1
       .form--light:last-child {
         margin-right: 0; } }
 
+.gallery-images .image {
+  width: 100%;
+  padding-bottom: 20px; }
+  .gallery-images .image span {
+    display: block;
+    margin-bottom: 10px; }
+  .gallery-images .image img {
+    width: 70%;
+    border: 1px solid #438bd7; }
+
 .gallery-icons {
   display: block; }
   .gallery-icons::after {
     clear: both;
     content: "";
     display: table; }
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 1025px) {
     .gallery-icons ul {
       float: left;
       display: block;

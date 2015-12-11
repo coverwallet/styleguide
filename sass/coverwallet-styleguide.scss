@@ -30,6 +30,21 @@
     padding: 20px;
     @include cw-span-columns-desktop(8, 0);
 }
+.gallery-images{
+    .image{
+        width: 100%;
+        padding-bottom: 20px;
+        span{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        img{
+            width: 70%;
+            border: 1px solid $blue;
+        }
+    }
+}
 
 .gallery-icons{
     @include row();
