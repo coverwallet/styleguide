@@ -4264,6 +4264,13 @@ Button styles can be applied to anything with the .btn class applied. However, t
 
 Styleguide 4
 */
+.btn-group {
+  display: inline-block; }
+  .btn-group button, .btn-group .btn {
+    margin-right: 10px; }
+    .btn-group button:last-child, .btn-group .btn:last-child {
+      margin-right: 0; }
+
 button,
 .btn {
   -webkit-transition: none;
