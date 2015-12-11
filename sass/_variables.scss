@@ -1,4 +1,3 @@
-
 /*
     Colors
 */
@@ -34,6 +33,8 @@ images
 */
 $cw-images-email: url($cw-images-path + 'email.png') !default;
 $cw-images-password: url($cw-images-path + "password.png") !default;
+$cw-images-info: url($cw-images-path + "info.png") !default;
+$cw-images-account: url($cw-images-path + "account.png") !default;
 $cw-images-close: url($cw-images-path + "close-icon.png") !default;
 
 

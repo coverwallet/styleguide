@@ -38,6 +38,16 @@ form {
                 background-repeat: no-repeat;
                 background-position: right center;
             }
+            &.form-input--info {
+                background-image: $cw-images-info;
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+            &.form-input--account {
+                background-image: $cw-images-account;
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
             &::-webkit-input-placeholder {
                /* WebKit, Blink, Edge */
                color: $dark-gray;
