@@ -19,6 +19,11 @@
         background: $cw-images-close;
         background-size: contain;
     }
+    &--confirmation{
+        .popup__content{
+            text-align: center;
+        }
+    }
 }
 
 
@@ -49,4 +54,22 @@
  </div>
 
  Styleguide 7.1
+*/
+
+/*
+ Standards popups
+
+ Markup:
+ <div class="popup popup--confirmation">
+    <span class="btn-close"></span>
+    <div class="popup__content">
+        <h5>Are you sure?</h5>
+        <div class="btn-group">
+            <button class="btn">Cancel</button>
+            <button class="btn">Accept</button>
+        </div>
+    </div>
+ </div>
+
+ Styleguide 7.2
 */

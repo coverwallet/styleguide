@@ -4264,6 +4264,13 @@ Button styles can be applied to anything with the .btn class applied. However, t
 
 Styleguide 4
 */
+.btn-group {
+  display: inline-block; }
+  .btn-group button, .btn-group .btn {
+    margin-right: 10px; }
+    .btn-group button:last-child, .btn-group .btn:last-child {
+      margin-right: 0; }
+
 button,
 .btn {
   -webkit-transition: none;
@@ -4369,6 +4376,8 @@ ul.list {
     cursor: pointer;
     background: url("images/close-icon.png");
     background-size: contain; }
+  .popup--confirmation .popup__content {
+    text-align: center; }
 
 /*
  Popup
@@ -4397,6 +4406,23 @@ ul.list {
  </div>
 
  Styleguide 7.1
+*/
+/*
+ Standards popups
+
+ Markup:
+ <div class="popup popup--confirmation">
+    <span class="btn-close"></span>
+    <div class="popup__content">
+        <h5>Are you sure?</h5>
+        <div class="btn-group">
+            <button class="btn">Cancel</button>
+            <button class="btn">Accept</button>
+        </div>
+    </div>
+ </div>
+
+ Styleguide 7.2
 */
 /*
 Fieldset
