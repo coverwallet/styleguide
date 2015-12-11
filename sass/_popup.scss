@@ -21,6 +21,9 @@
     }
     &--confirmation{
         .popup__content{
+            h5{
+                margin-bottom: 10px;
+            }
             text-align: center;
         }
     }
@@ -57,7 +60,7 @@
 */
 
 /*
- Standards popups
+ Confirmation popups
 
  Markup:
  <div class="popup popup--confirmation">
@@ -65,7 +68,7 @@
     <div class="popup__content">
         <h5>Are you sure?</h5>
         <div class="btn-group">
-            <button class="btn">Cancel</button>
+            <button class="btn btn--blue">Cancel</button>
             <button class="btn">Accept</button>
         </div>
     </div>
