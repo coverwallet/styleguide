@@ -13,6 +13,8 @@ form {
             .form-help-icon{
                 @include cw-icon-before(question-circle, 0, $blue);
                 cursor: pointer;
+                font-size: 18px;
+                padding-left: 5px;
             }
         }
         .form-input {
