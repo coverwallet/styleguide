@@ -3878,6 +3878,16 @@ form .form-group {
       background-image: url("images/password.png");
       background-repeat: no-repeat;
       background-position: right center; }
+    .form .form-group .form-input.form-input--info,
+    form .form-group .form-input.form-input--info {
+      background-image: url("images/info.png");
+      background-repeat: no-repeat;
+      background-position: right center; }
+    .form .form-group .form-input.form-input--account,
+    form .form-group .form-input.form-input--account {
+      background-image: url("images/account.png");
+      background-repeat: no-repeat;
+      background-position: right center; }
     .form .form-group .form-input::-webkit-input-placeholder,
     form .form-group .form-input::-webkit-input-placeholder {
       /* WebKit, Blink, Edge */
@@ -4186,6 +4196,9 @@ form.form--light .form-group--info .form-info {
  .form-input--error  - Show error style
  .form-input--email  - Email icon
  .form-input--password  - Password icon
+ .form-input--info - Info icon
+ .form-input--account - Account icon
+
 
  Markup:
  <form class="form">
@@ -4256,6 +4269,13 @@ form.form--light .form-group--info .form-info {
  </form>
 
  Styleguide 5.8
+*/
+/*
+Standard buttons
+
+Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.
+
+Styleguide 4
 */
 .btn-group {
   display: inline-block; }
