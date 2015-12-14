@@ -5,7 +5,8 @@
   "main": "sass/coverwallet.scss",
   "author": "Ra <raul@coverwallet.com>",
   "scripts": {
-    "install": "bower install"
+    "install": "bower install",
+    "generate": "kss-node ./sass ./styleguide --template ./template --css public/coverwallet-styleguide.css --js ../js/selectFx.js"
   },
   "dependencies": {
     "bower": "^1.6.8"
@@ -19,8 +20,9 @@
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-contrib-sass": "^0.9.2",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-kss": "^2.0.0",
+    "grunt-exec": "0.4.6",
     "grunt-sass": "^1.1.0",
+    "kss": "2.1.1",
     "load-grunt-tasks": "^3.3.0",
     "time-grunt": "^1.2.2"
   }

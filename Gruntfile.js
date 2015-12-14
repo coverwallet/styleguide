@@ -71,18 +71,25 @@ module.exports = function(grunt) {
                 dest: 'styleguide/public/images/',
             },
         },
-        kss: {
-            options: {
-                template: './template',
-                css: 'public/coverwallet-styleguide.css?t=' + new Date().getTime(),
-                js: '../js/selectFx.js'
-            },
-            dist: {
-                files: {
-                    './styleguide': ['./sass']
-                }
+        exec: {
+            generateGuide: {
+              command: 'npm run generate',
+              stdout: true,
+              stderr: true
             }
         },
+        // kss: {
+        //     options: {
+        //         template: './template',
+        //         css: 'public/coverwallet-styleguide.css?t=' + new Date().getTime(),
+        //         js: '../js/selectFx.js'
+        //     },
+        //     dist: {
+        //         files: {
+        //             './styleguide': ['./sass/']
+        //         }
+        //     }
+        // },
         connect: {
             server: {
                 options: {
@@ -99,7 +106,7 @@ module.exports = function(grunt) {
             },
             sass: {
                 files: ['./sass/**/*'],
-                tasks: ['kss:dist', 'sass:guide', 'copy']
+                tasks: ['exec:generateGuide', 'sass:guide', 'copy']
             }
         }
 
@@ -108,11 +115,11 @@ module.exports = function(grunt) {
     grunt.initConfig(grunt.util._.extend(taskConfig, {}));
 
     grunt.registerTask('serve', [
-        'clean', 'kss:dist', 'sass:guide', 'copy', 'connect:server', 'watch'
+        'clean', 'exec:generateGuide', 'sass:guide', 'copy', 'connect:server', 'watch'
     ]);
 
     grunt.registerTask('styleguide', [
-        'clean', 'kss:dist', 'sass:guide', 'copy'
+        'clean', 'exec:generateGuide', 'sass:guide', 'copy'
     ]);
 
     grunt.registerTask('dist', [
@@ -120,7 +127,7 @@ module.exports = function(grunt) {
     ]);
 
     grunt.registerTask('dist-guide', [
-        'clean', 'kss:dist', 'sass:guide', 'copy'
+        'clean', 'exec:generateGuide', 'sass:guide', 'copy'
     ]);
 
 };
