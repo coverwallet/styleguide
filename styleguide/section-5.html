@@ -3,31 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>CoverWallet Styleguide</title>
+    <title>kss-node Styleguide</title>
     <meta name="description" content="" />
     <meta name="generator" content="kss-node" />
     <link rel="stylesheet" href="public/kss.css" />
-    <link rel="stylesheet" href="public/coverwallet.css" />
-    <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="public/coverwallet-styleguide.css?t=1449832126651">
+    <link rel="stylesheet" href="public/coverwallet-styleguide.css">
 
     <!--[if lt IE 9]>
     <script src="public/html5shiv.js"></script>
     <![endif]-->
   </head>
   <body id="kss-node">
-      <div class="header-top">
-        <img src="public/images/logo.png" id="logo"/>
+    <div class="header-top">
+        <img src="public/images/logo.png" id="logo">
     </div>
     <div class="kss-wrapper">
       <div class="kss-sidebar">
         <div class="kss-sidebar-inner">
           <header class="kss-header">
-            <h1 class="kss-doc-title"><a href="./">CoverWallet Styleguide</a></h1>
+            <h1 class="kss-doc-title"><a href="./">kss-node Styleguide</a></h1>
           </header>
           <nav class="kss-nav">
             <ul class="kss-menu" data-kss-ref="5">
-              <li class="kss-menu-item"><a href="./index.html"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
+              <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
               <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Coverwallet Logos and Images</span></a></li>
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">General Typography</span></a></li>
               <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Standar colors</span></a></li>
@@ -40,7 +38,7 @@
               <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Icon fonts</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-5.1"><span class="kss-ref">5.1</span><span class="kss-name">Standards forms</span></a></li>
+              <li class="kss-menu-item"><a href="#section-5.1"><span class="kss-ref">5.1</span><span class="kss-name">Standards forms (include help-icon)</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.2"><span class="kss-ref">5.2</span><span class="kss-name">Form readonly</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.3"><span class="kss-ref">5.3</span><span class="kss-name">Form readonly with info and not readonly with info</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.4"><span class="kss-ref">5.4</span><span class="kss-name">Form readonly with icons</span></a></li>
@@ -58,17 +56,23 @@
             <h1 class="kss-title"><span class="kss-ref">5</span> Standard forms styles</h1>
           </section>
           <section id="section-5.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">5.1</span> Standards forms</h1>
+            <h1 class="kss-title"><span class="kss-ref">5.1</span> Standards forms (include help-icon)</h1>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
                   <form class="form [modifier class]">
    <div class="form-group">
-       <label for="name">Name</label>
+       <label for="name">
+           Name
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="name" class="form-input" placeholder="Name"/>
    </div>
    <div class="form-group form-group--info">
-       <label for="surname">Surname</label>
+       <label for="surname">
+           Surname
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="surname" class="form-input" placeholder="Surname"/>
        <div class="form-info">
            Example form info
@@ -94,11 +98,17 @@
                 <div class="kss-modifier-example">
                   <form class="form form--light">
    <div class="form-group">
-       <label for="name">Name</label>
+       <label for="name">
+           Name
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="name" class="form-input" placeholder="Name"/>
    </div>
    <div class="form-group form-group--info">
-       <label for="surname">Surname</label>
+       <label for="surname">
+           Surname
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="surname" class="form-input" placeholder="Surname"/>
        <div class="form-info">
            Example form info
@@ -115,21 +125,27 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form [modifier class]&quot;&gt;
-   &lt;div class=&quot;form-group&quot;&gt;
-       &lt;label for=&quot;name&quot;&gt;Name&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;name&quot; class=&quot;form-input&quot; placeholder=&quot;Name&quot;/&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form [modifier class]&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group&quot;&gt;
+       &lt;label for&#x3D;&quot;name&quot;&gt;
+           Name
+           &lt;span class&#x3D;&quot;form-help-icon&quot;&gt;&lt;/span&gt;
+       &lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name&quot; class&#x3D;&quot;form-input&quot; placeholder&#x3D;&quot;Name&quot;/&gt;
    &lt;/div&gt;
-   &lt;div class=&quot;form-group form-group--info&quot;&gt;
-       &lt;label for=&quot;surname&quot;&gt;Surname&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;surname&quot; class=&quot;form-input&quot; placeholder=&quot;Surname&quot;/&gt;
-       &lt;div class=&quot;form-info&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group form-group--info&quot;&gt;
+       &lt;label for&#x3D;&quot;surname&quot;&gt;
+           Surname
+           &lt;span class&#x3D;&quot;form-help-icon&quot;&gt;&lt;/span&gt;
+       &lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;surname&quot; class&#x3D;&quot;form-input&quot; placeholder&#x3D;&quot;Surname&quot;/&gt;
+       &lt;div class&#x3D;&quot;form-info&quot;&gt;
            Example form info
        &lt;/div&gt;
    &lt;/div&gt;
-   &lt;div class=&quot;form-group&quot;&gt;
-       &lt;label for=&quot;select-example&quot;&gt;Select&lt;/label&gt;
-       &lt;select  class=&quot;form-select select-example-form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group&quot;&gt;
+       &lt;label for&#x3D;&quot;select-example&quot;&gt;Select&lt;/label&gt;
+       &lt;select  class&#x3D;&quot;form-select select-example-form&quot;&gt;
           &lt;option&gt;Option 1&lt;/option&gt;
           &lt;option&gt;Option 2&lt;/option&gt;
        &lt;/select&gt;
@@ -152,10 +168,10 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
-   &lt;div class=&quot;form-group form-group--readonly&quot;&gt;
-       &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-input &quot; placeholder=&quot;Email&quot; readonly/&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group form-group--readonly&quot;&gt;
+       &lt;label for&#x3D;&quot;email&quot;&gt;Email&lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;email&quot; class&#x3D;&quot;form-input &quot; placeholder&#x3D;&quot;Email&quot; readonly/&gt;
    &lt;/div&gt;
 &lt;/form&gt;</code></pre>
               </div>
@@ -185,18 +201,18 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
-   &lt;div class=&quot;form-group form-group--readonly form-group--info&quot;&gt;
-       &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-input &quot; placeholder=&quot;Email&quot; readonly/&gt;
-       &lt;div class=&quot;form-info&quot;&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group form-group--readonly form-group--info&quot;&gt;
+       &lt;label for&#x3D;&quot;email&quot;&gt;Email&lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;email&quot; class&#x3D;&quot;form-input &quot; placeholder&#x3D;&quot;Email&quot; readonly/&gt;
+       &lt;div class&#x3D;&quot;form-info&quot;&gt;
            Example form info
        &lt;/div&gt;
    &lt;/div&gt;
-   &lt;div class=&quot;form-group form-group--info&quot;&gt;
-       &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-input &quot; placeholder=&quot;Email&quot; /&gt;
-       &lt;div class=&quot;form-info&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group form-group--info&quot;&gt;
+       &lt;label for&#x3D;&quot;email&quot;&gt;Email&lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;email&quot; class&#x3D;&quot;form-input &quot; placeholder&#x3D;&quot;Email&quot; /&gt;
+       &lt;div class&#x3D;&quot;form-info&quot;&gt;
            Example form info
        &lt;/div&gt;
    &lt;/div&gt;
@@ -270,11 +286,11 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
-   &lt;div class=&quot;form-group form-group--readonly form-group--icons&quot;&gt;
-       &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-input &quot; placeholder=&quot;Email&quot; readonly/&gt;
-       &lt;div class=&quot;form-icon [modifier class]&quot;&gt;&lt;/div&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group form-group--readonly form-group--icons&quot;&gt;
+       &lt;label for&#x3D;&quot;email&quot;&gt;Email&lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;email&quot; class&#x3D;&quot;form-input &quot; placeholder&#x3D;&quot;Email&quot; readonly/&gt;
+       &lt;div class&#x3D;&quot;form-icon [modifier class]&quot;&gt;&lt;/div&gt;
    &lt;/div&gt;
 &lt;/form&gt;</code></pre>
               </div>
@@ -361,11 +377,43 @@
 </form>
                 </div>
               </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-input--info</div>
+                  <div class="kss-modifier-description">
+                    Info icon
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group">
+       <label for="email">Email</label>
+       <input type="text" id="email" class="form-input form-input--info" placeholder="Email"/>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-input--account</div>
+                  <div class="kss-modifier-description">
+                    Account icon
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group">
+       <label for="email">Email</label>
+       <input type="text" id="email" class="form-input form-input--account" placeholder="Email"/>
+   </div>
+</form>
+                </div>
+              </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
-   &lt;div class=&quot;form-group&quot;&gt;
-       &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;email&quot; class=&quot;form-input [modifier class]&quot; placeholder=&quot;Email&quot;/&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group&quot;&gt;
+       &lt;label for&#x3D;&quot;email&quot;&gt;Email&lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;email&quot; class&#x3D;&quot;form-input [modifier class]&quot; placeholder&#x3D;&quot;Email&quot;/&gt;
    &lt;/div&gt;
 &lt;/form&gt;</code></pre>
               </div>
@@ -403,11 +451,11 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form  [modifier class]&quot;&gt;
-   &lt;div class=&quot;form-group&quot;&gt;
-       &lt;label for=&quot;name-light&quot;&gt;Name&lt;/label&gt;
-       &lt;input type=&quot;text&quot; id=&quot;name-light&quot; class=&quot;form-input  form-input--error&quot; placeholder=&quot;Name&quot;/&gt;
-       &lt;span class=&quot;help-block&quot; &gt;Please enter a valid name&lt;/span&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form  [modifier class]&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group&quot;&gt;
+       &lt;label for&#x3D;&quot;name-light&quot;&gt;Name&lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name-light&quot; class&#x3D;&quot;form-input  form-input--error&quot; placeholder&#x3D;&quot;Name&quot;/&gt;
+       &lt;span class&#x3D;&quot;help-block&quot; &gt;Please enter a valid name&lt;/span&gt;
    &lt;/div&gt;
 &lt;/form&gt;</code></pre>
               </div>
@@ -515,20 +563,20 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
-    &lt;div class=&quot;form-group form-group--checkbox&quot;&gt;
-        &lt;div class=&quot;form-checkbox [modifier class]&quot;&gt;
-            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox[modifier class]&quot;/&gt;
-            &lt;label for=&quot;checkbox[modifier class]&quot;&gt;&lt;/label&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+    &lt;div class&#x3D;&quot;form-group form-group--checkbox&quot;&gt;
+        &lt;div class&#x3D;&quot;form-checkbox [modifier class]&quot;&gt;
+            &lt;input type&#x3D;&quot;checkbox&quot; id&#x3D;&quot;checkbox[modifier class]&quot;/&gt;
+            &lt;label for&#x3D;&quot;checkbox[modifier class]&quot;&gt;&lt;/label&gt;
         &lt;/div&gt;
-        &lt;label for=&quot;email&quot;&gt;Checkbox&lt;/label&gt;
+        &lt;label for&#x3D;&quot;email&quot;&gt;Checkbox&lt;/label&gt;
     &lt;/div&gt;
-    &lt;div class=&quot;form-group form-group--checkbox&quot;&gt;
-        &lt;div class=&quot;form-checkbox [modifier class]&quot;&gt;
-            &lt;input type=&quot;checkbox&quot; id=&quot;checkbox[modifier class]-checked&quot; checked/&gt;
-            &lt;label for=&quot;checkbox[modifier class]-checked&quot;&gt;&lt;/label&gt;
+    &lt;div class&#x3D;&quot;form-group form-group--checkbox&quot;&gt;
+        &lt;div class&#x3D;&quot;form-checkbox [modifier class]&quot;&gt;
+            &lt;input type&#x3D;&quot;checkbox&quot; id&#x3D;&quot;checkbox[modifier class]-checked&quot; checked/&gt;
+            &lt;label for&#x3D;&quot;checkbox[modifier class]-checked&quot;&gt;&lt;/label&gt;
         &lt;/div&gt;
-        &lt;label for=&quot;email&quot;&gt;Checkbox checked&lt;/label&gt;
+        &lt;label for&#x3D;&quot;email&quot;&gt;Checkbox checked&lt;/label&gt;
     &lt;/div&gt;
 &lt;/form&gt;</code></pre>
               </div>
@@ -554,10 +602,10 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class=&quot;form&quot;&gt;
-    &lt;div class=&quot;form-group&quot;&gt;
-        &lt;label for=&quot;select-example&quot;&gt;Select&lt;/label&gt;
-        &lt;select id=&quot;select-example&quot; class=&quot;form-select&quot;&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+    &lt;div class&#x3D;&quot;form-group&quot;&gt;
+        &lt;label for&#x3D;&quot;select-example&quot;&gt;Select&lt;/label&gt;
+        &lt;select id&#x3D;&quot;select-example&quot; class&#x3D;&quot;form-select&quot;&gt;
            &lt;option&gt;Option 1&lt;/option&gt;
            &lt;option&gt;Option 2&lt;/option&gt;
         &lt;/select&gt;
