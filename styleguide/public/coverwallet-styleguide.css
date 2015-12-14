@@ -1349,7 +1349,8 @@ Styleguide 3.2
   font-weight: normal;
   font-style: normal; }
 
-.fa, .form .form-group .form-select .cs-placeholder:after,
+.fa, .form .form-group label .form-help-icon:before,
+form .form-group label .form-help-icon:before, .form .form-group .form-select .cs-placeholder:after,
 form .form-group .form-select .cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span:after,
 form .form-group .form-select .cs-options li.cs-selected span:after, .form .form-group.form-group--checkbox .form-checkbox input + label:before,
 form .form-group.form-group--checkbox .form-checkbox input + label:before, .form .form-group.form-group--checkbox .form-checkbox input:checked + label:before,
@@ -1415,7 +1416,8 @@ form.form--light .form-select .cs-placeholder:after, ul.list.list--type-1 li:bef
 .fa-pull-right {
   float: right; }
 
-.fa.fa-pull-left, .form .form-group .form-select .fa-pull-left.cs-placeholder:after,
+.fa.fa-pull-left, .form .form-group label .fa-pull-left.form-help-icon:before,
+form .form-group label .fa-pull-left.form-help-icon:before, .form .form-group .form-select .fa-pull-left.cs-placeholder:after,
 form .form-group .form-select .fa-pull-left.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.fa-pull-left:after,
 form .form-group .form-select .cs-options li.cs-selected span.fa-pull-left:after, .form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-left:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-left:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-left:before,
@@ -1426,7 +1428,8 @@ form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:bef
 form.form--light .form-select .fa-pull-left.cs-placeholder:after, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before {
   margin-right: .3em; }
 
-.fa.fa-pull-right, .form .form-group .form-select .fa-pull-right.cs-placeholder:after,
+.fa.fa-pull-right, .form .form-group label .fa-pull-right.form-help-icon:before,
+form .form-group label .fa-pull-right.form-help-icon:before, .form .form-group .form-select .fa-pull-right.cs-placeholder:after,
 form .form-group .form-select .fa-pull-right.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.fa-pull-right:after,
 form .form-group .form-select .cs-options li.cs-selected span.fa-pull-right:after, .form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-right:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.fa-pull-right:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.fa-pull-right:before,
@@ -1444,7 +1447,8 @@ form.form--light .form-select .fa-pull-right.cs-placeholder:after, ul.list.list-
 .pull-left {
   float: left; }
 
-.fa.pull-left, .form .form-group .form-select .pull-left.cs-placeholder:after,
+.fa.pull-left, .form .form-group label .pull-left.form-help-icon:before,
+form .form-group label .pull-left.form-help-icon:before, .form .form-group .form-select .pull-left.cs-placeholder:after,
 form .form-group .form-select .pull-left.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.pull-left:after,
 form .form-group .form-select .cs-options li.cs-selected span.pull-left:after, .form .form-group.form-group--checkbox .form-checkbox input + label.pull-left:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.pull-left:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-left:before,
@@ -1455,7 +1459,8 @@ form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before
 form.form--light .form-select .pull-left.cs-placeholder:after, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before {
   margin-right: .3em; }
 
-.fa.pull-right, .form .form-group .form-select .pull-right.cs-placeholder:after,
+.fa.pull-right, .form .form-group label .pull-right.form-help-icon:before,
+form .form-group label .pull-right.form-help-icon:before, .form .form-group .form-select .pull-right.cs-placeholder:after,
 form .form-group .form-select .pull-right.cs-placeholder:after, .form .form-group .form-select .cs-options li.cs-selected span.pull-right:after,
 form .form-group .form-select .cs-options li.cs-selected span.pull-right:after, .form .form-group.form-group--checkbox .form-checkbox input + label.pull-right:before,
 form .form-group.form-group--checkbox .form-checkbox input + label.pull-right:before, .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label.pull-right:before,
@@ -1818,7 +1823,8 @@ form .form-group.form-group--checkbox .form-checkbox input:checked + label:befor
 form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:checked + label:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before {
   content: ""; }
 
-.fa-question-circle:before {
+.fa-question-circle:before, .form .form-group label .form-help-icon:before,
+form .form-group label .form-help-icon:before {
   content: ""; }
 
 .fa-info-circle:before {
@@ -3850,6 +3856,13 @@ form .form-group {
     text-align: left;
     margin: 0 auto;
     padding: 0.2em 0 0.2em 0; }
+    .form .form-group label .form-help-icon,
+    form .form-group label .form-help-icon {
+      cursor: pointer; }
+      .form .form-group label .form-help-icon:before,
+      form .form-group label .form-help-icon:before {
+        padding-right: 0;
+        color: #438bd7; }
   .form .form-group .form-input,
   form .form-group .form-input {
     background-color: transparent;
@@ -4105,18 +4118,24 @@ form.form--light .form-group--info .form-info {
  Styleguide 5
 */
 /*
- Standards forms
+ Standards forms (include help-icon)
 
  .form--light    - Form over blue background
 
  Markup:
  <form class="form {{modifier_class}}">
     <div class="form-group">
-        <label for="name">Name</label>
+        <label for="name">
+            Name
+            <span class="form-help-icon"></span>
+        </label>
         <input type="text" id="name" class="form-input" placeholder="Name"/>
     </div>
     <div class="form-group form-group--info">
-        <label for="surname">Surname</label>
+        <label for="surname">
+            Surname
+            <span class="form-help-icon"></span>
+        </label>
         <input type="text" id="surname" class="form-input" placeholder="Surname"/>
         <div class="form-info">
             Example form info

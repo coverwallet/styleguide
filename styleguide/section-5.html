@@ -38,7 +38,7 @@
               <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Icon fonts</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-5.1"><span class="kss-ref">5.1</span><span class="kss-name">Standards forms</span></a></li>
+              <li class="kss-menu-item"><a href="#section-5.1"><span class="kss-ref">5.1</span><span class="kss-name">Standards forms (include help-icon)</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.2"><span class="kss-ref">5.2</span><span class="kss-name">Form readonly</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.3"><span class="kss-ref">5.3</span><span class="kss-name">Form readonly with info and not readonly with info</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.4"><span class="kss-ref">5.4</span><span class="kss-name">Form readonly with icons</span></a></li>
@@ -56,17 +56,23 @@
             <h1 class="kss-title"><span class="kss-ref">5</span> Standard forms styles</h1>
           </section>
           <section id="section-5.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">5.1</span> Standards forms</h1>
+            <h1 class="kss-title"><span class="kss-ref">5.1</span> Standards forms (include help-icon)</h1>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
                   <form class="form [modifier class]">
    <div class="form-group">
-       <label for="name">Name</label>
+       <label for="name">
+           Name
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="name" class="form-input" placeholder="Name"/>
    </div>
    <div class="form-group form-group--info">
-       <label for="surname">Surname</label>
+       <label for="surname">
+           Surname
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="surname" class="form-input" placeholder="Surname"/>
        <div class="form-info">
            Example form info
@@ -92,11 +98,17 @@
                 <div class="kss-modifier-example">
                   <form class="form form--light">
    <div class="form-group">
-       <label for="name">Name</label>
+       <label for="name">
+           Name
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="name" class="form-input" placeholder="Name"/>
    </div>
    <div class="form-group form-group--info">
-       <label for="surname">Surname</label>
+       <label for="surname">
+           Surname
+           <span class="form-help-icon"></span>
+       </label>
        <input type="text" id="surname" class="form-input" placeholder="Surname"/>
        <div class="form-info">
            Example form info
@@ -115,11 +127,17 @@
               <div class="kss-markup">
                 <pre><code class="lang-html">&lt;form class&#x3D;&quot;form [modifier class]&quot;&gt;
    &lt;div class&#x3D;&quot;form-group&quot;&gt;
-       &lt;label for&#x3D;&quot;name&quot;&gt;Name&lt;/label&gt;
+       &lt;label for&#x3D;&quot;name&quot;&gt;
+           Name
+           &lt;span class&#x3D;&quot;form-help-icon&quot;&gt;&lt;/span&gt;
+       &lt;/label&gt;
        &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name&quot; class&#x3D;&quot;form-input&quot; placeholder&#x3D;&quot;Name&quot;/&gt;
    &lt;/div&gt;
    &lt;div class&#x3D;&quot;form-group form-group--info&quot;&gt;
-       &lt;label for&#x3D;&quot;surname&quot;&gt;Surname&lt;/label&gt;
+       &lt;label for&#x3D;&quot;surname&quot;&gt;
+           Surname
+           &lt;span class&#x3D;&quot;form-help-icon&quot;&gt;&lt;/span&gt;
+       &lt;/label&gt;
        &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;surname&quot; class&#x3D;&quot;form-input&quot; placeholder&#x3D;&quot;Surname&quot;/&gt;
        &lt;div class&#x3D;&quot;form-info&quot;&gt;
            Example form info
