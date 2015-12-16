@@ -36,6 +36,17 @@ ul.list {
             }
         }
     }
+
+    &.list--type-4 {
+        li {
+            @include cw-covericon-before(save, 10px, $blue);
+            &:before {
+                margin-left: -25px;
+                position: relative;
+                top: 2px;
+            }
+        }
+    }
 }
 
 /*
@@ -50,6 +61,7 @@ ul.list {
  .list--type-1-big    - With check and more big
  .list--type-2        - With check circle - blue
  .list--type-3        - With check circle - dark gray
+ .list--type-4        - With OK circle - blue
 
 
  Markup:
