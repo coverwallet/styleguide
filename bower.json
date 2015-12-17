@@ -2,7 +2,7 @@
   "name": "cw-styleguide",
   "version": "0.0.1",
   "main": [
-      "sass/coverwallet.scss"
+    "sass/coverwallet.scss"
   ],
   "authors": [
     "Ra <raul@coverwallet.com>"
@@ -16,6 +16,7 @@
     "bourbon": "~4.2.6",
     "neat": "~1.7.2",
     "normalize-scss": "~3.0.3",
-    "fontawesome": "~4.4.0"
+    "fontawesome": "~4.4.0",
+    "animate.css": "~3.4.0"
   }
 }
