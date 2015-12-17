@@ -5796,6 +5796,7 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-employees-number"></span> <span class='icon-name'>employees-number</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industry"></span> <span class='icon-name'>industry</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-your-contracts"></span> <span class='icon-name'>your-contracts</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-3rdparty"></span> <span class='icon-name'>your-contracts</span></li>
      </ul>
 </div>
 
@@ -5923,6 +5924,9 @@ html {
 
 .cwicon-your-contracts, .styleguide-icon-your-contracts:before {
   content: "L"; }
+
+.cwicon-3rdparty {
+  content: "M"; }
 
 /*
     Mixin to set border radius to element
