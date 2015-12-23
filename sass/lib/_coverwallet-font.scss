@@ -31,6 +31,10 @@
         <li class='gallery-icon'><span class="styleguide-icon-newpolicy"></span> <span class='icon-name'>newpolicy</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-notifications"></span> <span class='icon-name'>notifications</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-receipts"></span> <span class='icon-name'>receipts</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-popularity-low"></span> <span class='icon-name'>popularity-low</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-popularity-med"></span> <span class='icon-name'>popularity-med</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-property"></span> <span class='icon-name'>property</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-restaurants"></span> <span class='icon-name'>restaurants</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -49,7 +53,13 @@
         <li class='gallery-icon'><span class="styleguide-icon-employees-number"></span> <span class='icon-name'>employees-number</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industry"></span> <span class='icon-name'>industry</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-your-contracts"></span> <span class='icon-name'>your-contracts</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-3rdparty"></span> <span class='icon-name'>your-contracts</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-3rdparty"></span> <span class='icon-name'>3rdparty</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-checklist-shield"></span> <span class='icon-name'>checklist-shield</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-general-liability"></span> <span class='icon-name'>general-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-epli"></span> <span class='icon-name'>epli</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-other-docs"></span> <span class='icon-name'>other-docs</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-us-map"></span> <span class='icon-name'>us-map</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-popularity-high"></span> <span class='icon-name'>popularity-high</span></li>
      </ul>
 </div>
 
@@ -180,6 +190,37 @@
 .cwicon-your-contracts {
   content: "L";
 }
+
 .cwicon-3rdparty {
   content: "M";
+}
+.cwicon-checklist-shield {
+  content: "N";
+}
+.cwicon-general-liability {
+  content: "P";
+}
+.cwicon-epli {
+  content: "O";
+}
+.cwicon-other-docs {
+  content: "Q";
+}
+.cwicon-us-map {
+  content: "R";
+}
+.cwicon-popularity-high {
+  content: "S";
+}
+.cwicon-popularity-low {
+  content: "t";
+}
+.cwicon-popularity-med {
+  content: "U";
+}
+.cwicon-property {
+  content: "V";
+}
+.cwicon-restaurants {
+  content: "W";
 }
