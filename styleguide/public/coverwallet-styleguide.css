@@ -3638,9 +3638,9 @@ Styleguide 3
 Standar principal colors
 
 Markup:
-    <div class="color color-blue">$blue</div>
-    <div class="color color-light-blue">$light-blue</div>
-    <div class="color color-orange">$orange</div>
+    <div class="color color-blue">$blue (#438bd7)</div>
+    <div class="color color-light-blue">$light-blue (#ecf3fb)</div>
+    <div class="color color-orange">$orange (#f3a309)</div>
 
 Styleguide 3.1
 */
@@ -3648,9 +3648,9 @@ Styleguide 3.1
 Standard gray colors
 
 Markup:
-    <div class="color color-dark-gray">$dark-gray</div>
-    <div class="color color-gray">$gray</div>
-    <div class="color color-light-gray">$light-gray</div>
+    <div class="color color-dark-gray">$dark-gray (#454855)</div>
+    <div class="color color-gray">$gray (#696969)</div>
+    <div class="color color-light-gray">$light-gray (#e8e8e8)</div>
 
 Styleguide 3.2
 */
@@ -5728,7 +5728,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-icon, ul.list.list--type-4 li:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before {
+.coverwallet-icon, ul.list.list--type-4 li:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before {
   font-family: "coverwallet" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -5778,6 +5778,10 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-newpolicy"></span> <span class='icon-name'>newpolicy</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-notifications"></span> <span class='icon-name'>notifications</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-receipts"></span> <span class='icon-name'>receipts</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-popularity-low"></span> <span class='icon-name'>popularity-low</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-popularity-med"></span> <span class='icon-name'>popularity-med</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-property"></span> <span class='icon-name'>property</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-restaurants"></span> <span class='icon-name'>restaurants</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -5796,7 +5800,13 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-employees-number"></span> <span class='icon-name'>employees-number</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industry"></span> <span class='icon-name'>industry</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-your-contracts"></span> <span class='icon-name'>your-contracts</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-3rdparty"></span> <span class='icon-name'>your-contracts</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-3rdparty"></span> <span class='icon-name'>3rdparty</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-checklist-shield"></span> <span class='icon-name'>checklist-shield</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-general-liability"></span> <span class='icon-name'>general-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-epli"></span> <span class='icon-name'>epli</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-other-docs"></span> <span class='icon-name'>other-docs</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-us-map"></span> <span class='icon-name'>us-map</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-popularity-high"></span> <span class='icon-name'>popularity-high</span></li>
      </ul>
 </div>
 
@@ -5925,8 +5935,38 @@ html {
 .cwicon-your-contracts, .styleguide-icon-your-contracts:before {
   content: "L"; }
 
-.cwicon-3rdparty {
+.cwicon-3rdparty, .styleguide-icon-3rdparty:before {
   content: "M"; }
+
+.cwicon-checklist-shield, .styleguide-icon-checklist-shield:before {
+  content: "N"; }
+
+.cwicon-general-liability, .styleguide-icon-general-liability:before {
+  content: "P"; }
+
+.cwicon-epli, .styleguide-icon-epli:before {
+  content: "O"; }
+
+.cwicon-other-docs, .styleguide-icon-other-docs:before {
+  content: "Q"; }
+
+.cwicon-us-map, .styleguide-icon-us-map:before {
+  content: "R"; }
+
+.cwicon-popularity-high, .styleguide-icon-popularity-high:before {
+  content: "S"; }
+
+.cwicon-popularity-low, .styleguide-icon-popularity-low:before {
+  content: "t"; }
+
+.cwicon-popularity-med, .styleguide-icon-popularity-med:before {
+  content: "U"; }
+
+.cwicon-property, .styleguide-icon-property:before {
+  content: "V"; }
+
+.cwicon-restaurants, .styleguide-icon-restaurants:before {
+  content: "W"; }
 
 /*
     Mixin to set border radius to element
@@ -7108,5 +7148,49 @@ Styleguide 9.1
   color: #000; }
 
 .styleguide-icon-your-contracts:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-3rdparty:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-checklist-shield:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-general-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-epli:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-other-docs:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-us-map:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-popularity-high:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-popularity-low:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-popularity-med:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-property:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-restaurants:before {
   padding-right: 0;
   color: #000; }

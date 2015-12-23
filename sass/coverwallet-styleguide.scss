@@ -172,4 +172,38 @@
     &your-contracts {
       @include cw-covericon-before(your-contracts, 0, #000);
     }
+
+    &3rdparty {
+      @include cw-covericon-before(3rdparty, 0, #000);
+    }
+    &checklist-shield {
+      @include cw-covericon-before(checklist-shield, 0, #000);
+    }
+    &general-liability {
+      @include cw-covericon-before(general-liability, 0, #000);
+    }
+    &epli {
+      @include cw-covericon-before(epli, 0, #000);
+    }
+    &other-docs {
+      @include cw-covericon-before(other-docs, 0, #000);
+    }
+    &us-map {
+      @include cw-covericon-before(us-map, 0, #000);
+    }
+    &popularity-high {
+      @include cw-covericon-before(popularity-high, 0, #000);
+    }
+    &popularity-low {
+      @include cw-covericon-before(popularity-low, 0, #000);
+    }
+    &popularity-med {
+      @include cw-covericon-before(popularity-med, 0, #000);
+    }
+    &property {
+      @include cw-covericon-before(property, 0, #000);
+    }
+    &restaurants {
+      @include cw-covericon-before(restaurants, 0, #000);
+    }
 }
