@@ -5728,7 +5728,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-icon, ul.list.list--type-4 li:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before {
+.coverwallet-icon, ul.list.list--type-4 li:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before, .styleguide-icon-industries-agriculture:before, .styleguide-icon-industries-construction:before, .styleguide-icon-industries-education:before, .styleguide-icon-industries-finance:before, .styleguide-icon-industries-food:before, .styleguide-icon-industries-health:before, .styleguide-icon-industries-maintance:before, .styleguide-icon-industries-manufacturing:before, .styleguide-icon-industries-nonprofit:before, .styleguide-icon-industries-professional:before, .styleguide-icon-industries-realstate:before, .styleguide-icon-industries-retailservices:before, .styleguide-icon-industries-retailtrade:before, .styleguide-icon-industries-sports:before, .styleguide-icon-industries-startups:before, .styleguide-icon-industries-tech:before, .styleguide-icon-industries-transportation:before, .styleguide-icon-industries-wholesale:before {
   font-family: "coverwallet" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -5782,6 +5782,15 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-popularity-med"></span> <span class='icon-name'>popularity-med</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-property"></span> <span class='icon-name'>property</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-restaurants"></span> <span class='icon-name'>restaurants</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-agriculture"></span> <span class='icon-name'>industries-agriculture</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-construction"></span> <span class='icon-name'>industries-construction</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-education"></span> <span class='icon-name'>industries-education</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-finance"></span> <span class='icon-name'>industries-finance</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-food"></span> <span class='icon-name'>industries-food</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-health"></span> <span class='icon-name'>industries-health</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-maintance"></span> <span class='icon-name'>industries-maintance</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturing"></span> <span class='icon-name'>industries-manufacturing</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-nonprofit"></span> <span class='icon-name'>industries-nonprofit</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -5807,6 +5816,15 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-other-docs"></span> <span class='icon-name'>other-docs</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-us-map"></span> <span class='icon-name'>us-map</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-popularity-high"></span> <span class='icon-name'>popularity-high</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-professional"></span> <span class='icon-name'>industries-professional</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-realstate"></span> <span class='icon-name'>industries-realstate</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-retailservices"></span> <span class='icon-name'>industries-retailservices</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-retailtrade"></span> <span class='icon-name'>industries-retailtrade</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-sports"></span> <span class='icon-name'>industries-sports</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-startups"></span> <span class='icon-name'>industries-startups</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-tech"></span> <span class='icon-name'>industries-tech</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-transportation"></span> <span class='icon-name'>industries-transportation</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-wholesale"></span> <span class='icon-name'>industries-wholesale</span></li>
      </ul>
 </div>
 
@@ -5821,152 +5839,206 @@ html {
 
  Styleguide 10.2
 */
+.cwicon-3rdparty, .styleguide-icon-3rdparty:before {
+  content: "\61"; }
+
 .cwicon-about, .styleguide-icon-about:before {
-  content: "a"; }
+  content: "\62"; }
 
 .cwicon-account, .styleguide-icon-account:before {
-  content: "b"; }
+  content: "\63"; }
 
 .cwicon-add, .styleguide-icon-add:before {
-  content: "c"; }
+  content: "\64"; }
 
 .cwicon-admin, .styleguide-icon-admin:before {
-  content: "d"; }
+  content: "\65"; }
 
 .cwicon-agent, .styleguide-icon-agent:before {
-  content: "e"; }
+  content: "\66"; }
 
 .cwicon-cancel, .styleguide-icon-cancel:before {
-  content: "f"; }
+  content: "\67"; }
 
 .cwicon-cancel-filled, .styleguide-icon-cancel-filled:before {
-  content: "g"; }
+  content: "\68"; }
 
 .cwicon-chat, .styleguide-icon-chat:before {
-  content: "h"; }
+  content: "\69"; }
 
 .cwicon-checklist, .styleguide-icon-checklist:before {
-  content: "i"; }
-
-.cwicon-contact, .styleguide-icon-contact:before {
-  content: "j"; }
-
-.cwicon-current, .styleguide-icon-current:before {
-  content: "k"; }
-
-.cwicon-download, .styleguide-icon-download:before {
-  content: "l"; }
-
-.cwicon-edit, .styleguide-icon-edit:before {
-  content: "m"; }
-
-.cwicon-email, .styleguide-icon-email:before {
-  content: "n"; }
-
-.cwicon-feedback, .styleguide-icon-feedback:before {
-  content: "o"; }
-
-.cwicon-info, .styleguide-icon-info:before {
-  content: "p"; }
-
-.cwicon-logout, .styleguide-icon-logout:before {
-  content: "q"; }
-
-.cwicon-newpolicy, .styleguide-icon-newpolicy:before {
-  content: "r"; }
-
-.cwicon-notifications, .styleguide-icon-notifications:before {
-  content: "s"; }
-
-.cwicon-phone, .styleguide-icon-phone:before {
-  content: "t"; }
-
-.cwicon-receipts, .styleguide-icon-receipts:before {
-  content: "u"; }
-
-.cwicon-save, ul.list.list--type-4 li:before, .styleguide-icon-save:before {
-  content: "v"; }
-
-.cwicon-save-filled, .styleguide-icon-save-filled:before {
-  content: "w"; }
-
-.cwicon-schedule, .styleguide-icon-schedule:before {
-  content: "x"; }
-
-.cwicon-settings, .styleguide-icon-settings:before {
-  content: "z"; }
-
-.cwicon-settings-filled, .styleguide-icon-settings-filled:before {
-  content: "A"; }
-
-.cwicon-share, .styleguide-icon-share:before {
-  content: "B"; }
-
-.cwicon-tellfriends, .styleguide-icon-tellfriends:before {
-  content: "C"; }
-
-.cwicon-tyc, .styleguide-icon-tyc:before {
-  content: "D"; }
-
-.cwicon-video, .styleguide-icon-video:before {
-  content: "E"; }
-
-.cwicon-policy-type, .styleguide-icon-policy-type:before {
-  content: "y"; }
-
-.cwicon-past-claims, .styleguide-icon-past-claims:before {
-  content: "F"; }
-
-.cwicon-yearly-revenues, .styleguide-icon-yearly-revenues:before {
-  content: "G"; }
-
-.cwicon-business-size, .styleguide-icon-business-size:before {
-  content: "H"; }
-
-.cwicon-location, .styleguide-icon-location:before {
-  content: "I"; }
-
-.cwicon-employees-number, .styleguide-icon-employees-number:before {
-  content: "J"; }
-
-.cwicon-industry, .styleguide-icon-industry:before {
-  content: "K"; }
-
-.cwicon-your-contracts, .styleguide-icon-your-contracts:before {
-  content: "L"; }
-
-.cwicon-3rdparty, .styleguide-icon-3rdparty:before {
-  content: "M"; }
+  content: "\6a"; }
 
 .cwicon-checklist-shield, .styleguide-icon-checklist-shield:before {
-  content: "N"; }
+  content: "\6b"; }
 
-.cwicon-general-liability, .styleguide-icon-general-liability:before {
-  content: "P"; }
+.cwicon-contact, .styleguide-icon-contact:before {
+  content: "\6c"; }
+
+.cwicon-current, .styleguide-icon-current:before {
+  content: "\6d"; }
+
+.cwicon-download, .styleguide-icon-download:before {
+  content: "\6e"; }
+
+.cwicon-edit, .styleguide-icon-edit:before {
+  content: "\6f"; }
+
+.cwicon-email, .styleguide-icon-email:before {
+  content: "\70"; }
 
 .cwicon-epli, .styleguide-icon-epli:before {
-  content: "O"; }
+  content: "\71"; }
+
+.cwicon-feedback, .styleguide-icon-feedback:before {
+  content: "\72"; }
+
+.cwicon-general-liability, .styleguide-icon-general-liability:before {
+  content: "\73"; }
+
+.cwicon-policy-type, .styleguide-icon-policy-type:before {
+  content: "\74"; }
+
+.cwicon-past-claims, .styleguide-icon-past-claims:before {
+  content: "\75"; }
+
+.cwicon-yearly-revenues, .styleguide-icon-yearly-revenues:before {
+  content: "\76"; }
+
+.cwicon-business-size, .styleguide-icon-business-size:before {
+  content: "\77"; }
+
+.cwicon-location, .styleguide-icon-location:before {
+  content: "\78"; }
+
+.cwicon-employees-number, .styleguide-icon-employees-number:before {
+  content: "\79"; }
+
+.cwicon-industry, .styleguide-icon-industry:before {
+  content: "\7a"; }
+
+.cwicon-industries-agriculture, .styleguide-icon-industries-agriculture:before {
+  content: "\42"; }
+
+.cwicon-industries-construction, .styleguide-icon-industries-construction:before {
+  content: "\43"; }
+
+.cwicon-industries-education, .styleguide-icon-industries-education:before {
+  content: "\44"; }
+
+.cwicon-industries-finance, .styleguide-icon-industries-finance:before {
+  content: "\45"; }
+
+.cwicon-industries-food, .styleguide-icon-industries-food:before {
+  content: "\46"; }
+
+.cwicon-industries-health, .styleguide-icon-industries-health:before {
+  content: "\47"; }
+
+.cwicon-industries-maintance, .styleguide-icon-industries-maintance:before {
+  content: "\48"; }
+
+.cwicon-industries-manufacturing, .styleguide-icon-industries-manufacturing:before {
+  content: "\49"; }
+
+.cwicon-industries-nonprofit, .styleguide-icon-industries-nonprofit:before {
+  content: "\4a"; }
+
+.cwicon-industries-professional, .styleguide-icon-industries-professional:before {
+  content: "\4b"; }
+
+.cwicon-industries-realstate, .styleguide-icon-industries-realstate:before {
+  content: "\4c"; }
+
+.cwicon-industries-retailservices, .styleguide-icon-industries-retailservices:before {
+  content: "\4d"; }
+
+.cwicon-industries-retailtrade, .styleguide-icon-industries-retailtrade:before {
+  content: "\4e"; }
+
+.cwicon-industries-sports, .styleguide-icon-industries-sports:before {
+  content: "\4f"; }
+
+.cwicon-industries-startups, .styleguide-icon-industries-startups:before {
+  content: "\50"; }
+
+.cwicon-industries-tech, .styleguide-icon-industries-tech:before {
+  content: "\51"; }
+
+.cwicon-industries-transportation, .styleguide-icon-industries-transportation:before {
+  content: "\52"; }
+
+.cwicon-industries-wholesale, .styleguide-icon-industries-wholesale:before {
+  content: "\53"; }
+
+.cwicon-info, .styleguide-icon-info:before {
+  content: "\54"; }
+
+.cwicon-logout, .styleguide-icon-logout:before {
+  content: "\55"; }
+
+.cwicon-newpolicy, .styleguide-icon-newpolicy:before {
+  content: "\56"; }
+
+.cwicon-notifications, .styleguide-icon-notifications:before {
+  content: "\57"; }
 
 .cwicon-other-docs, .styleguide-icon-other-docs:before {
-  content: "Q"; }
+  content: "\58"; }
 
-.cwicon-us-map, .styleguide-icon-us-map:before {
-  content: "R"; }
+.cwicon-phone, .styleguide-icon-phone:before {
+  content: "\59"; }
 
 .cwicon-popularity-high, .styleguide-icon-popularity-high:before {
-  content: "S"; }
+  content: "\5a"; }
 
 .cwicon-popularity-low, .styleguide-icon-popularity-low:before {
-  content: "T"; }
+  content: "\30"; }
 
 .cwicon-popularity-med, .styleguide-icon-popularity-med:before {
-  content: "U"; }
+  content: "\31"; }
 
 .cwicon-property, .styleguide-icon-property:before {
-  content: "V"; }
+  content: "\32"; }
+
+.cwicon-receipts, .styleguide-icon-receipts:before {
+  content: "\33"; }
 
 .cwicon-restaurants, .styleguide-icon-restaurants:before {
-  content: "W"; }
+  content: "\34"; }
+
+.cwicon-save, ul.list.list--type-4 li:before, .styleguide-icon-save:before {
+  content: "\35"; }
+
+.cwicon-save-filled, .styleguide-icon-save-filled:before {
+  content: "\36"; }
+
+.cwicon-schedule, .styleguide-icon-schedule:before {
+  content: "\37"; }
+
+.cwicon-settings, .styleguide-icon-settings:before {
+  content: "\38"; }
+
+.cwicon-settings-filled, .styleguide-icon-settings-filled:before {
+  content: "\39"; }
+
+.cwicon-share, .styleguide-icon-share:before {
+  content: "\21"; }
+
+.cwicon-tellfriends, .styleguide-icon-tellfriends:before {
+  content: "\22"; }
+
+.cwicon-tyc, .styleguide-icon-tyc:before {
+  content: "\23"; }
+
+.cwicon-us-map, .styleguide-icon-us-map:before {
+  content: "\24"; }
+
+.cwicon-video, .styleguide-icon-video:before {
+  content: "\25"; }
+
+.cwicon-your-contracts, .styleguide-icon-your-contracts:before {
+  content: "\41"; }
 
 /*
     Mixin to set border radius to element
@@ -7192,5 +7264,77 @@ Styleguide 9.1
   color: #000; }
 
 .styleguide-icon-restaurants:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-agriculture:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-construction:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-education:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-finance:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-food:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-health:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-maintance:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-manufacturing:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-nonprofit:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-professional:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-realstate:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-retailservices:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-retailtrade:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-sports:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-startups:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-tech:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-transportation:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-industries-wholesale:before {
   padding-right: 0;
   color: #000; }
