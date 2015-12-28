@@ -206,4 +206,60 @@
     &restaurants {
       @include cw-covericon-before(restaurants, 0, #000);
     }
+
+    &industries-agriculture {
+      @include cw-covericon-before(industries-agriculture, 0, #000);
+    }
+    &industries-construction {
+      @include cw-covericon-before(industries-construction, 0, #000);
+    }
+    &industries-education {
+      @include cw-covericon-before(industries-education, 0, #000);
+    }
+    &industries-finance {
+      @include cw-covericon-before(industries-finance, 0, #000);
+    }
+    &industries-food {
+      @include cw-covericon-before(industries-food, 0, #000);
+    }
+    &industries-health {
+      @include cw-covericon-before(industries-health, 0, #000);
+    }
+    &industries-maintance {
+      @include cw-covericon-before(industries-maintance, 0, #000);
+    }
+    &industries-manufacturing {
+      @include cw-covericon-before(industries-manufacturing, 0, #000);
+    }
+    &industries-nonprofit {
+      @include cw-covericon-before(industries-nonprofit, 0, #000);
+    }
+    &industries-professional {
+      @include cw-covericon-before(industries-professional, 0, #000);
+    }
+    &industries-realstate {
+      @include cw-covericon-before(industries-realstate, 0, #000);
+    }
+    &industries-retailservices {
+      @include cw-covericon-before(industries-retailservices, 0, #000);
+    }
+    &industries-retailtrade {
+      @include cw-covericon-before(industries-retailtrade, 0, #000);
+    }
+    &industries-sports {
+      @include cw-covericon-before(industries-sports, 0, #000);
+    }
+    &industries-startups {
+      @include cw-covericon-before(industries-startups, 0, #000);
+    }
+    &industries-tech {
+      @include cw-covericon-before(industries-tech, 0, #000);
+    }
+    &industries-transportation {
+      @include cw-covericon-before(industries-transportation, 0, #000);
+    }
+    &industries-wholesale {
+      @include cw-covericon-before(industries-wholesale, 0, #000);
+    }
+        
 }

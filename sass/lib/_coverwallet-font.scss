@@ -35,6 +35,15 @@
         <li class='gallery-icon'><span class="styleguide-icon-popularity-med"></span> <span class='icon-name'>popularity-med</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-property"></span> <span class='icon-name'>property</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-restaurants"></span> <span class='icon-name'>restaurants</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-agriculture"></span> <span class='icon-name'>industries-agriculture</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-construction"></span> <span class='icon-name'>industries-construction</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-education"></span> <span class='icon-name'>industries-education</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-finance"></span> <span class='icon-name'>industries-finance</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-food"></span> <span class='icon-name'>industries-food</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-health"></span> <span class='icon-name'>industries-health</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-maintance"></span> <span class='icon-name'>industries-maintance</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturing"></span> <span class='icon-name'>industries-manufacturing</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-nonprofit"></span> <span class='icon-name'>industries-nonprofit</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -60,6 +69,15 @@
         <li class='gallery-icon'><span class="styleguide-icon-other-docs"></span> <span class='icon-name'>other-docs</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-us-map"></span> <span class='icon-name'>us-map</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-popularity-high"></span> <span class='icon-name'>popularity-high</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-professional"></span> <span class='icon-name'>industries-professional</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-realstate"></span> <span class='icon-name'>industries-realstate</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-retailservices"></span> <span class='icon-name'>industries-retailservices</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-retailtrade"></span> <span class='icon-name'>industries-retailtrade</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-sports"></span> <span class='icon-name'>industries-sports</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-startups"></span> <span class='icon-name'>industries-startups</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-tech"></span> <span class='icon-name'>industries-tech</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-transportation"></span> <span class='icon-name'>industries-transportation</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-wholesale"></span> <span class='icon-name'>industries-wholesale</span></li>
      </ul>
 </div>
 
@@ -75,152 +93,205 @@
 
  Styleguide 10.2
 */
-.cwicon-about {
-  content: "a";
-}
-.cwicon-account {
-  content: "b";
-}
-.cwicon-add {
-  content: "c";
-}
-.cwicon-admin {
-  content: "d";
-}
-.cwicon-agent {
-  content: "e";
-}
-.cwicon-cancel {
-  content: "f";
-}
-.cwicon-cancel-filled {
-  content: "g";
-}
-.cwicon-chat {
-  content: "h";
-}
-.cwicon-checklist {
-  content: "i";
-}
-.cwicon-contact {
-  content: "j";
-}
-.cwicon-current {
-  content: "k";
-}
-.cwicon-download {
-  content: "l";
-}
-.cwicon-edit {
-  content: "m";
-}
-.cwicon-email {
-  content: "n";
-}
-.cwicon-feedback {
-  content: "o";
-}
-.cwicon-info {
-  content: "p";
-}
-.cwicon-logout {
-  content: "q";
-}
-.cwicon-newpolicy {
-  content: "r";
-}
-.cwicon-notifications {
-  content: "s";
-}
-.cwicon-phone {
-  content: "t";
-}
-.cwicon-receipts {
-  content: "u";
-}
-.cwicon-save {
-  content: "v";
-}
-.cwicon-save-filled {
-  content: "w";
-}
-.cwicon-schedule {
-  content: "x";
-}
-.cwicon-settings {
-  content: "z";
-}
-.cwicon-settings-filled {
-  content: "A";
-}
-.cwicon-share {
-  content: "B";
-}
-.cwicon-tellfriends {
-  content: "C";
-}
-.cwicon-tyc {
-  content: "D";
-}
-.cwicon-video {
-  content: "E";
-}
-
-.cwicon-policy-type {
-  content: "y";
-}
-.cwicon-past-claims {
-  content: "F";
-}
-.cwicon-yearly-revenues {
-  content: "G";
-}
-.cwicon-business-size {
-  content: "H";
-}
-.cwicon-location {
-  content: "I";
-}
-.cwicon-employees-number {
-  content: "J";
-}
-.cwicon-industry {
-  content: "K";
-}
-.cwicon-your-contracts {
-  content: "L";
-}
 
 .cwicon-3rdparty {
-  content: "M";
+  content: "\61";
+}
+.cwicon-about {
+  content: "\62";
+}
+.cwicon-account {
+  content: "\63";
+}
+.cwicon-add {
+  content: "\64";
+}
+.cwicon-admin {
+  content: "\65";
+}
+.cwicon-agent {
+  content: "\66";
+}
+.cwicon-cancel {
+  content: "\67";
+}
+.cwicon-cancel-filled {
+  content: "\68";
+}
+.cwicon-chat {
+  content: "\69";
+}
+.cwicon-checklist {
+  content: "\6a";
 }
 .cwicon-checklist-shield {
-  content: "N";
+  content: "\6b";
 }
-.cwicon-general-liability {
-  content: "P";
+.cwicon-contact {
+  content: "\6c";
+}
+.cwicon-current {
+  content: "\6d";
+}
+.cwicon-download {
+  content: "\6e";
+}
+.cwicon-edit {
+  content: "\6f";
+}
+.cwicon-email {
+  content: "\70";
 }
 .cwicon-epli {
-  content: "O";
+  content: "\71";
+}
+.cwicon-feedback {
+  content: "\72";
+}
+.cwicon-general-liability {
+  content: "\73";
+}
+.cwicon-policy-type {
+  content: "\74";
+}
+.cwicon-past-claims {
+  content: "\75";
+}
+.cwicon-yearly-revenues {
+  content: "\76";
+}
+.cwicon-business-size {
+  content: "\77";
+}
+.cwicon-location {
+  content: "\78";
+}
+.cwicon-employees-number {
+  content: "\79";
+}
+.cwicon-industry {
+  content: "\7a";
+}
+.cwicon-industries-agriculture {
+  content: "\42";
+}
+.cwicon-industries-construction {
+  content: "\43";
+}
+.cwicon-industries-education {
+  content: "\44";
+}
+.cwicon-industries-finance {
+  content: "\45";
+}
+.cwicon-industries-food {
+  content: "\46";
+}
+.cwicon-industries-health {
+  content: "\47";
+}
+.cwicon-industries-maintance {
+  content: "\48";
+}
+.cwicon-industries-manufacturing {
+  content: "\49";
+}
+.cwicon-industries-nonprofit {
+  content: "\4a";
+}
+.cwicon-industries-professional {
+  content: "\4b";
+}
+.cwicon-industries-realstate {
+  content: "\4c";
+}
+.cwicon-industries-retailservices {
+  content: "\4d";
+}
+.cwicon-industries-retailtrade {
+  content: "\4e";
+}
+.cwicon-industries-sports {
+  content: "\4f";
+}
+.cwicon-industries-startups {
+  content: "\50";
+}
+.cwicon-industries-tech {
+  content: "\51";
+}
+.cwicon-industries-transportation {
+  content: "\52";
+}
+.cwicon-industries-wholesale {
+  content: "\53";
+}
+.cwicon-info {
+  content: "\54";
+}
+.cwicon-logout {
+  content: "\55";
+}
+.cwicon-newpolicy {
+  content: "\56";
+}
+.cwicon-notifications {
+  content: "\57";
 }
 .cwicon-other-docs {
-  content: "Q";
+  content: "\58";
 }
-.cwicon-us-map {
-  content: "R";
+.cwicon-phone {
+  content: "\59";
 }
 .cwicon-popularity-high {
-  content: "S";
+  content: "\5a";
 }
 .cwicon-popularity-low {
-  content: "T";
+  content: "\30";
 }
 .cwicon-popularity-med {
-  content: "U";
+  content: "\31";
 }
 .cwicon-property {
-  content: "V";
+  content: "\32";
+}
+.cwicon-receipts {
+  content: "\33";
 }
 .cwicon-restaurants {
-  content: "W";
+  content: "\34";
+}
+.cwicon-save {
+  content: "\35";
+}
+.cwicon-save-filled {
+  content: "\36";
+}
+.cwicon-schedule {
+  content: "\37";
+}
+.cwicon-settings {
+  content: "\38";
+}
+.cwicon-settings-filled {
+  content: "\39";
+}
+.cwicon-share {
+  content: "\21";
+}
+.cwicon-tellfriends {
+  content: "\22";
+}
+.cwicon-tyc {
+  content: "\23";
+}
+.cwicon-us-map {
+  content: "\24";
+}
+.cwicon-video {
+  content: "\25";
+}
+.cwicon-your-contracts {
+  content: "\41";
 }
