@@ -6308,9 +6308,6 @@ form .form-group {
     .form .form-group .form-input.form-input--long,
     form .form-group .form-input.form-input--long {
       height: 38px; }
-    .form .form-group .form-input.form-input--error,
-    form .form-group .form-input.form-input--error {
-      border-color: #f00; }
     .form .form-group .form-input.form-input--email,
     form .form-group .form-input.form-input--email {
       background-image: url("images/email.png");
@@ -6453,6 +6450,12 @@ form .form-group {
     .form .form-group.form-group--readonly input,
     form .form-group.form-group--readonly input {
       padding: 0; }
+  .form .form-group.form-group--error .form-input,
+  form .form-group.form-group--error .form-input {
+    border-color: #f00; }
+  .form .form-group.form-group--error .help-block,
+  form .form-group.form-group--error .help-block {
+    color: #f00; }
   .form .form-group.form-group--icons .form-input,
   form .form-group.form-group--icons .form-input {
     height: 30px;
@@ -6642,7 +6645,6 @@ form.form--light .form-group--info .form-info {
  Add any of the following classes to the `.form-input` base class.
 
  .form-input--long   - Long form
- .form-input--error  - Show error style
  .form-input--email  - Email icon
  .form-input--password  - Password icon
  .form-input--info - Info icon
@@ -6660,7 +6662,7 @@ form.form--light .form-group--info .form-info {
  Styleguide 5.5
 */
 /*
- Error and help messages
+ Help messages
 
  .form--light    - Message over blue background
 
@@ -6668,7 +6670,23 @@ form.form--light .form-group--info .form-info {
  <form class="form  {{modifier_class}}">
     <div class="form-group">
         <label for="name-light">Name</label>
-        <input type="text" id="name-light" class="form-input  form-input--error" placeholder="Name"/>
+        <input type="text" id="name-light" class="form-input" placeholder="Name"/>
+        <span class="help-block" >Please enter a valid name</span>
+    </div>
+ </form>
+
+ Styleguide 5.6
+*/
+/*
+ Error form group
+
+ .form-group--error    - Message over blue background
+
+ Markup:
+ <form class="form">
+    <div class="form-group {{modifier_class}}">
+        <label for="name-light">Name</label>
+        <input type="text" id="name-light" class="form-input" placeholder="Name"/>
         <span class="help-block" >Please enter a valid name</span>
     </div>
  </form>
@@ -6700,7 +6718,7 @@ form.form--light .form-group--info .form-info {
      </div>
  </form>
 
- Styleguide 5.7
+ Styleguide 5.8
 */
 /*
  Select inputs
@@ -6717,7 +6735,7 @@ form.form--light .form-group--info .form-info {
 
  </form>
 
- Styleguide 5.8
+ Styleguide 5.9
 */
 /*
 Standard buttons
