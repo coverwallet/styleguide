@@ -9,7 +9,7 @@
     "generate": "kss-node ./sass ./styleguide --template ./template --css public/coverwallet-styleguide.css --js ../js/selectFx.js"
   },
   "dependencies": {
-    "bower": "1.6.8"
+    "bower": "1.4.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
