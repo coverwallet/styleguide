@@ -151,13 +151,13 @@ form {
                     height: 25px;
                     width: 25px;
                     cursor: pointer;
-                    @include cw-icon-before(circle-thin, 0px, $cwColor-black-medium);
+                    @include cw-icon-before(circle-thin, 0px, $cwColor-black-light);
                 }
                 input:checked + label {
                     font-size: 22px;
                     height: 25px;
                     width: 25px;
-                    @include cw-icon-before(check-circle, 0, $cwColor-black-light);
+                    @include cw-icon-before(check-circle, 0, $cwColor-base-blue);
                 }
 
                 &.form-checkbox--big{
