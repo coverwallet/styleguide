@@ -6559,7 +6559,7 @@ form.form--light .help-block {
 
 .form.form--light .form-group--info .form-info,
 form.form--light .form-group--info .form-info {
-  color: #f0f0f0; }
+  color: #d2d2d2; }
 
 /*
  Standard forms styles
@@ -6952,16 +6952,16 @@ Styleguide 8
     line-height: 40px;
     padding-left: 15px;
     border-bottom: 1px solid #438bd7;
-    border-left: 1px solid #f0f0f0;
-    border-top: 1px solid #f0f0f0;
-    border-right: 1px solid #f0f0f0; }
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; }
   .fieldset__content {
     background: inherit;
     padding: 15px;
     border-top: 0;
-    border-left: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
-    border-right: 1px solid #f0f0f0; }
+    border-left: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; }
 
 /*
 Standard fieldset styles
@@ -6987,9 +6987,9 @@ Styleguide 9
   width: 100%; }
   .table__head {
     border-bottom: 1px solid #438bd7;
-    border-left: 1px solid #f0f0f0;
-    border-top: 1px solid #f0f0f0;
-    border-right: 1px solid #f0f0f0; }
+    border-left: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; }
     .table__head th {
       background: #d6e6f6;
       text-transform: uppercase;
@@ -6997,18 +6997,18 @@ Styleguide 9
       text-align: left;
       padding: 15px 10px;
       font-weight: normal;
-      border-right: 1px solid #f0f0f0; }
+      border-right: 1px solid #d2d2d2; }
       .table__head th:last-child {
         border: 0; }
   .table__body {
     border-top: 0;
-    border-left: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
-    border-right: 1px solid #f0f0f0; }
+    border-left: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2; }
     .table__body td {
       padding: 15px 10px;
-      border-right: 1px solid #f0f0f0;
-      border-bottom: 1px solid #f0f0f0; }
+      border-right: 1px solid #d2d2d2;
+      border-bottom: 1px solid #d2d2d2; }
       .table__body td:last-child {
         border-right: 0; }
 
@@ -7060,7 +7060,7 @@ Styleguide 9.1
     background-color: #f9f9f9;
     color: #272727; }
   .color.color-black-light {
-    background-color: #f0f0f0;
+    background-color: #d2d2d2;
     color: #272727; }
   .color.color-black-medium {
     background-color: #bfbfbf;
