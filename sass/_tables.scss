@@ -9,18 +9,18 @@ Styleguide 9
 .table{
     width: 100%;
     &__head{
-        border-bottom: 1px solid $blue;
-        border-left: 1px solid $light-gray;
-        border-top: 1px solid $light-gray;
-        border-right: 1px solid $light-gray;
+        border-bottom: 1px solid $cwColor-base-blue;
+        border-left: 1px solid $cwColor-black-light;
+        border-top: 1px solid $cwColor-black-light;
+        border-right: 1px solid $cwColor-black-light;
         th{
-            background: $light-blue;
+            background: $cwColor-blue-light;
             text-transform: uppercase;
             color:#000;
             text-align: left;
             padding: 15px 10px;
             font-weight: normal;
-            border-right: 1px solid $light-gray;
+            border-right: 1px solid $cwColor-black-light;
             &:last-child{
                 border:0;
             }
@@ -29,14 +29,14 @@ Styleguide 9
     }
     &__body{
         border-top: 0;
-        border-left: 1px solid $light-gray;
-        border-bottom: 1px solid $light-gray;
-        border-right: 1px solid $light-gray;
+        border-left: 1px solid $cwColor-black-light;
+        border-bottom: 1px solid $cwColor-black-light;
+        border-right: 1px solid $cwColor-black-light;
 
         td{
             padding: 15px 10px;
-            border-right: 1px solid $light-gray;
-            border-bottom: 1px solid $light-gray;
+            border-right: 1px solid $cwColor-black-light;
+            border-bottom: 1px solid $cwColor-black-light;
             &:last-child{
                 border-right:0;
             }

@@ -16,23 +16,23 @@ Styleguide 8
     &__title{
         color: #000;
         text-transform: uppercase;
-        background: $light-blue;
+        background: $cwColor-blue-light;
         height: 40px;
         width: 100%;
         line-height: 40px;
         padding-left: 15px;
-        border-bottom: 1px solid $blue;
-        border-left: 1px solid $light-gray;
-        border-top: 1px solid $light-gray;
-        border-right: 1px solid $light-gray;
+        border-bottom: 1px solid $cwColor-base-blue;
+        border-left: 1px solid $cwColor-black-light;
+        border-top: 1px solid $cwColor-black-light;
+        border-right: 1px solid $cwColor-black-light;
     }
     &__content{
         background: inherit;
         padding: 15px;
         border-top: 0;
-        border-left: 1px solid $light-gray;
-        border-bottom: 1px solid $light-gray;
-        border-right: 1px solid $light-gray;
+        border-left: 1px solid $cwColor-black-light;
+        border-bottom: 1px solid $cwColor-black-light;
+        border-right: 1px solid $cwColor-black-light;
     }
 }
 
