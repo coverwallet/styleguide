@@ -2,6 +2,13 @@
 form {
     .form-group {
         padding: 10px 0;
+        position: relative;
+        &.form-group--long label:after{
+            height: 38px;
+            content: ' ';
+            display: block;
+        }
+
         label {
             color: $blue;
             display: block;
@@ -11,6 +18,11 @@ form {
             margin: 0 auto;
             padding: 0.2em 20px 0.2em 0;
             position: relative;
+            &:after{
+                height: 65px;
+                content: ' ';
+                display: block;
+            }
             .form-help-icon{
                 @include cw-icon-before(question-circle, 0, $blue);
                 cursor: pointer;
@@ -31,6 +43,8 @@ form {
             font-size: 1em;
             color: #333;
             font-weight: 100;
+            position: absolute;
+            bottom: 10px;
             &.form-input--long {
                 height: 38px;
             }
