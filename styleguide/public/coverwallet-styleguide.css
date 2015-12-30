@@ -6278,7 +6278,7 @@ form .form-group {
   position: relative; }
   .form .form-group.form-group--long label:after,
   form .form-group.form-group--long label:after {
-    height: 38px;
+    height: 45px;
     content: ' ';
     display: block; }
   .form .form-group label,
