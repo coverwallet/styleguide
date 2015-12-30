@@ -6428,7 +6428,7 @@ form .form-group {
       .form .form-group.form-group--checkbox .form-checkbox input:checked + label:before,
       form .form-group.form-group--checkbox .form-checkbox input:checked + label:before {
         padding-right: 0;
-        color: #438bd7; }
+        color: #d2d2d2; }
     .form .form-group.form-group--checkbox .form-checkbox.form-checkbox--big input + label,
     form .form-group.form-group--checkbox .form-checkbox.form-checkbox--big input + label {
       font-size: 40px;
