@@ -10,13 +10,13 @@ form {
         }
 
         label {
-            color: $blue;
+            color: $cwColor-base-blue;
             display: block;
             text-transform: uppercase;
             letter-spacing: 1px;
             text-align: left;
             margin: 0 auto;
-            padding: 0.2em 20px 0.2em 0;
+            padding: 0.2em 25px 0.2em 0;
             position: relative;
             &:after{
                 height: 65px;
@@ -24,7 +24,7 @@ form {
                 display: block;
             }
             .form-help-icon{
-                @include cw-icon-before(question-circle, 0, $blue);
+                @include cw-icon-before(question-circle, 0, $cwColor-base-blue);
                 cursor: pointer;
                 font-size: 18px;
                 right: 5px;
@@ -35,7 +35,7 @@ form {
         .form-input {
             background-color: transparent;
             border-radius: 0;
-            border: 1px solid $dark-gray;
+            border: 1px solid $cwColor-black-dark;
             padding-left: 15px;
             width: 100%;
             height: 65px;
@@ -71,26 +71,26 @@ form {
             }
             &::-webkit-input-placeholder {
                /* WebKit, Blink, Edge */
-               color: $dark-gray;
+               color: $cwColor-black-dark;
            }
             &:-moz-placeholder {
                /* Mozilla Firefox 4 to 18 */
-               color: $dark-gray;
+               color: $cwColor-black-dark;
                opacity: 1;
            }
             &::-moz-placeholder {
                /* Mozilla Firefox 19+ */
-               color: $dark-gray;
+               color: $cwColor-black-dark;
                opacity: 1;
            }
             &:-ms-input-placeholder {
                /* Internet Explorer 10-11 */
-               color: $dark-gray;
+               color: $cwColor-black-dark;
            }
         }
         .help-block{
             display:inline-block;
-            color: $dark-gray;
+            color: $cwColor-black-dark;
             width: 100%;
             margin-top: 10px;
         }
@@ -100,7 +100,9 @@ form {
         .form-select{
             @extend .cs-select;
             max-width: initial;
-            color: $dark-gray;
+            color: $cwColor-black-dark;
+            position: absolute;
+            bottom: 0;
             .cs-placeholder{
                 height: 64px;
                 line-height: 32px;
@@ -114,7 +116,7 @@ form {
                 li {
                     span{
                         &:hover{
-                            background: $light-blue;
+                            background: $cwColor-blue-light;
                         }
                     }
                     &.cs-selected{
@@ -127,7 +129,7 @@ form {
             }
 
             &.cs-active{
-                color: $blue;
+                color: $cwColor-base-blue;
             }
         }
         &.form-group--checkbox {
@@ -149,13 +151,13 @@ form {
                     height: 25px;
                     width: 25px;
                     cursor: pointer;
-                    @include cw-icon-before(circle-thin, 0px, $gray);
+                    @include cw-icon-before(circle-thin, 0px, $cwColor-black-medium);
                 }
                 input:checked + label {
                     font-size: 22px;
                     height: 25px;
                     width: 25px;
-                    @include cw-icon-before(check-circle, 0, $orange);
+                    @include cw-icon-before(check-circle, 0, $cwColor-base-blue);
                 }
 
                 &.form-checkbox--big{
@@ -174,7 +176,7 @@ form {
 
                 &.form-checkbox--blue{
                     input:checked + label {
-                        @include cw-icon-before(check-circle, 0, $blue);
+                        @include cw-icon-before(check-circle, 0, $cwColor-base-blue);
                     }
                 }
             }
@@ -190,7 +192,7 @@ form {
         }
 
         &.form-group--readonly{
-            border-bottom: 2px solid $blue;
+            border-bottom: 2px solid $cwColor-base-blue;
             padding-bottom: 5px;
             label{
                 padding-left: 0;
@@ -224,13 +226,13 @@ form {
                 font-size: 22px;
                 cursor: pointer;
                 &.form-icon--edit{
-                    @include cw-icon-before(pencil, 0, $blue);
+                    @include cw-icon-before(pencil, 0, $cwColor-base-blue);
                 }
                 &.form-icon--save{
-                    @include cw-icon-before(check, 0, $blue);
+                    @include cw-icon-before(check, 0, $cwColor-base-blue);
                 }
                 &.form-icon--cancel{
-                    @include cw-icon-before(close, 0, $blue);
+                    @include cw-icon-before(close, 0, $cwColor-base-blue);
                 }
             }
         }
@@ -238,7 +240,7 @@ form {
             margin-bottom: 20px;
 
             .form-info{
-                color: $gray;
+                color: $cwColor-black-medium;
                 font-size: 13px;
                 margin-bottom: -27px;
                 margin-top: 3px;
@@ -248,44 +250,44 @@ form {
     }
     &.form--light {
         label{
-            color: $light-blue;
+            color: $cwColor-blue-light;
         }
         .form-input {
             border-color: #fff;
             color: #fff;
             &::-webkit-input-placeholder {
                /* WebKit, Blink, Edge */
-               color: $light-blue;
+               color: $cwColor-blue-light;
            }
             &:-moz-placeholder {
                /* Mozilla Firefox 4 to 18 */
-               color: $light-blue;
+               color: $cwColor-blue-light;
                opacity: 1;
            }
             &::-moz-placeholder {
                /* Mozilla Firefox 19+ */
-               color: $light-blue;
+               color: $cwColor-blue-light;
                opacity: 1;
            }
             &:-ms-input-placeholder {
                /* Internet Explorer 10-11 */
-               color: $light-blue;
+               color: $cwColor-blue-light;
            }
 
            &.form-input--error{
-               border-color: $dark-gray;
+               border-color: $cwColor-black-dark;
            }
         }
         .form-select{
             background: inherit;
-            color: $light-blue;
+            color: $cwColor-blue-light;
             input{
                 display: none;
             }
             .cs-placeholder{
                 height: 64px;
                 border: 1px solid #fff;
-                color: $light-blue;
+                color: $cwColor-blue-light;
                 &:after{
                     @extend .fa;
                     content: $fa-var-arrow-down;
@@ -293,7 +295,7 @@ form {
             }
 
             &.cs-active{
-                color: $blue;
+                color: $cwColor-base-blue;
             }
         }
 
@@ -302,7 +304,7 @@ form {
         }
         .form-group--info{
             .form-info{
-                color: $light-gray;
+                color: $cwColor-black-light;
             }
         }
     }

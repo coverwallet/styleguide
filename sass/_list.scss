@@ -2,7 +2,7 @@ ul.list {
     list-style: none;
     &.list--type-1 {
         li {
-            @include cw-icon-before(check, 10px, $blue);
+            @include cw-icon-before(check, 10px, $cwColor-base-blue);
             &:before {
                 margin-left: -25px;
             }
@@ -12,8 +12,8 @@ ul.list {
     &.list--type-1-big {
         li {
             font-size: 34px;
-            color: $blue;
-            @include cw-icon-before(check, 10px, $blue);
+            color: $cwColor-base-blue;
+            @include cw-icon-before(check, 10px, $cwColor-base-blue);
             &:before {
                 margin-left: -25px;
             }
@@ -21,7 +21,7 @@ ul.list {
     }
     &.list--type-2 {
         li {
-            @include cw-icon-before(check-circle, 10px, $blue);
+            @include cw-icon-before(check-circle, 10px, $cwColor-base-blue);
             &:before {
                 margin-left: -25px;
             }
@@ -30,7 +30,7 @@ ul.list {
 
     &.list--type-3 {
         li {
-            @include cw-icon-before(check-circle, 10px, $dark-gray);
+            @include cw-icon-before(check-circle, 10px, $cwColor-black-dark);
             &:before {
                 margin-left: -25px;
             }
@@ -39,7 +39,7 @@ ul.list {
 
     &.list--type-4 {
         li {
-            @include cw-covericon-before(save, 10px, $blue);
+            @include cw-covericon-before(save, 10px, $cwColor-base-blue);
             &:before {
                 margin-left: -25px;
                 position: relative;

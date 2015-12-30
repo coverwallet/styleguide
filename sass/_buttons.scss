@@ -45,31 +45,31 @@ button,
     font-size: 16px;
     border-radius: 3px;
     color: #fff;
-    background-color: $orange;
+    background-color: $cwColor-base-orange;
     padding: 15px 20px;
     border: none;
     display: inline-block;
     &:hover {
-        background-color: $dark-gray;
+        background-color: $cwColor-black-dark;
     }
     &.disabled,
     &[disabled] {
         cursor: default;
         @include cw-opacity(0.25);
-        background-color: $orange;
+        background-color: $cwColor-base-blue;
     }
     &.btn--blue{
-        background-color: $blue;
+        background-color: $cwColor-base-blue;
         color: #fff;
         text-transform: uppercase;
         &:hover {
-            background-color: $dark-gray;
+            background-color: $cwColor-black-dark;
             color: #fff;
         }
         &.disabled,
         &[disabled] {
             cursor: default;
-            background-color: $blue;
+            background-color: $cwColor-base-blue;
         }
     }
 }

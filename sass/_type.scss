@@ -25,7 +25,7 @@ h6,
     }
 
     &.light{
-        color: $blue;
+        color: $cwColor-base-blue;
     }
 }
 h1,
@@ -54,26 +54,26 @@ h6,
 }
  ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    color: $light-blue;
+    color: $cwColor-blue-light;
 }
  :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: $light-blue;
+    color: $cwColor-blue-light;
     opacity: 1;
 }
  ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: $light-blue;
+    color: $cwColor-blue-light;
     opacity: 1;
 }
  :-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: $light-blue;
+    color: $cwColor-blue-light;
 }
 
 a, .link{
     @include transition(color 400ms, background-color 400ms);
-    color: $orange;
+    color: $cwColor-base-orange;
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -82,7 +82,7 @@ a, .link{
     text-decoration: none;
 
     &:hover{
-        color: $dark-gray;
+        color: $cwColor-black-dark;
         background-color: transparent;
     }
 
@@ -99,7 +99,7 @@ strong,.strong{
 }
 
 body{
-    color: $gray-text;
+    color: $color-text;
     font-family: $principal-fonts;
 }
 
