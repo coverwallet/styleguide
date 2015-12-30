@@ -6283,12 +6283,15 @@ form .form-group {
     letter-spacing: 1px;
     text-align: left;
     margin: 0 auto;
-    padding: 0.2em 0 0.2em 0; }
+    padding: 0.2em 205x 0.2em 0;
+    position: relative; }
     .form .form-group label .form-help-icon,
     form .form-group label .form-help-icon {
       cursor: pointer;
       font-size: 18px;
-      padding-left: 5px; }
+      right: 5px;
+      top: 0;
+      position: absolute; }
       .form .form-group label .form-help-icon:before,
       form .form-group label .form-help-icon:before {
         padding-right: 0;

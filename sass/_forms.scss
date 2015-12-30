@@ -9,12 +9,15 @@ form {
             letter-spacing: 1px;
             text-align: left;
             margin: 0 auto;
-            padding: 0.2em 0 0.2em 0;
+            padding: 0.2em 205x 0.2em 0;
+            position: relative;
             .form-help-icon{
                 @include cw-icon-before(question-circle, 0, $blue);
                 cursor: pointer;
                 font-size: 18px;
-                padding-left: 5px;
+                right: 5px;
+                top: 0;
+                position: absolute;
             }
         }
         .form-input {
