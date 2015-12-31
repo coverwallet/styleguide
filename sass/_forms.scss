@@ -19,6 +19,14 @@ form {
                 position: absolute;
                 bottom: 10px;
             }
+            &.form-group--error{
+                .form-select{
+                    bottom: 32px;
+                }
+                .form-input{
+                    bottom:42px;
+                }
+            }
             .form-select{
                 position: absolute;
                 bottom: 0;
