@@ -6274,11 +6274,27 @@ Markup:
 form .form-group {
   padding: 10px 0;
   position: relative; }
-  .form .form-group.form-group--long label:after,
-  form .form-group.form-group--long label:after {
-    height: 45px;
-    content: ' ';
-    display: block; }
+  .form .form-group.form-group--alignment-hor,
+  form .form-group.form-group--alignment-hor {
+    position: relative; }
+    .form .form-group.form-group--alignment-hor.form-group--long label:after,
+    form .form-group.form-group--alignment-hor.form-group--long label:after {
+      height: 45px;
+      content: ' ';
+      display: block; }
+    .form .form-group.form-group--alignment-hor label:after,
+    form .form-group.form-group--alignment-hor label:after {
+      height: 65px;
+      content: ' ';
+      display: block; }
+    .form .form-group.form-group--alignment-hor .form-input,
+    form .form-group.form-group--alignment-hor .form-input {
+      position: absolute;
+      bottom: 10px; }
+    .form .form-group.form-group--alignment-hor .form-select,
+    form .form-group.form-group--alignment-hor .form-select {
+      position: absolute;
+      bottom: 0; }
   .form .form-group label,
   form .form-group label {
     color: #438bd7;
@@ -6289,11 +6305,6 @@ form .form-group {
     margin: 0 auto;
     padding: 0.2em 25px 0.2em 0;
     position: relative; }
-    .form .form-group label:after,
-    form .form-group label:after {
-      height: 65px;
-      content: ' ';
-      display: block; }
     .form .form-group label .form-help-icon,
     form .form-group label .form-help-icon {
       cursor: pointer;
@@ -6316,9 +6327,7 @@ form .form-group {
     text-align: left;
     font-size: 1em;
     color: #333;
-    font-weight: 100;
-    position: absolute;
-    bottom: 10px; }
+    font-weight: 100; }
     .form .form-group .form-input.form-input--long,
     form .form-group .form-input.form-input--long {
       height: 38px; }
@@ -6372,9 +6381,7 @@ form .form-group {
   .form .form-group .form-select,
   form .form-group .form-select {
     max-width: initial;
-    color: #505050;
-    position: absolute;
-    bottom: 0; }
+    color: #505050; }
     .form .form-group .form-select .cs-placeholder,
     form .form-group .form-select .cs-placeholder {
       height: 64px;
