@@ -3,12 +3,27 @@ form {
     .form-group {
         padding: 10px 0;
         position: relative;
-        &.form-group--long label:after{
-            height: 45px;
-            content: ' ';
-            display: block;
+        &.form-group--alignment-hor {
+            position: relative;
+            &.form-group--long label:after {
+                height: 45px;
+                content: ' ';
+                display: block;
+            }
+            label:after {
+                height: 65px;
+                content: ' ';
+                display: block;
+            }
+            .form-input{
+                position: absolute;
+                bottom: 10px;
+            }
+            .form-select{
+                position: absolute;
+                bottom: 0;
+            }
         }
-
         label {
             color: $cwColor-base-blue;
             display: block;
@@ -18,12 +33,7 @@ form {
             margin: 0 auto;
             padding: 0.2em 25px 0.2em 0;
             position: relative;
-            &:after{
-                height: 65px;
-                content: ' ';
-                display: block;
-            }
-            .form-help-icon{
+            .form-help-icon {
                 @include cw-icon-before(question-circle, 0, $cwColor-base-blue);
                 cursor: pointer;
                 font-size: 18px;
@@ -43,12 +53,9 @@ form {
             font-size: 1em;
             color: #333;
             font-weight: 100;
-            position: absolute;
-            bottom: 10px;
             &.form-input--long {
                 height: 38px;
             }
-
             &.form-input--email {
                 background-image: $cw-images-email;
                 background-repeat: no-repeat;
@@ -70,65 +77,63 @@ form {
                 background-position: right center;
             }
             &::-webkit-input-placeholder {
-               /* WebKit, Blink, Edge */
-               color: $cwColor-black-dark;
-           }
+                /* WebKit, Blink, Edge */
+                color: $cwColor-black-dark;
+            }
             &:-moz-placeholder {
-               /* Mozilla Firefox 4 to 18 */
-               color: $cwColor-black-dark;
-               opacity: 1;
-           }
+                /* Mozilla Firefox 4 to 18 */
+                color: $cwColor-black-dark;
+                opacity: 1;
+            }
             &::-moz-placeholder {
-               /* Mozilla Firefox 19+ */
-               color: $cwColor-black-dark;
-               opacity: 1;
-           }
+                /* Mozilla Firefox 19+ */
+                color: $cwColor-black-dark;
+                opacity: 1;
+            }
             &:-ms-input-placeholder {
-               /* Internet Explorer 10-11 */
-               color: $cwColor-black-dark;
-           }
+                /* Internet Explorer 10-11 */
+                color: $cwColor-black-dark;
+            }
         }
-        .help-block{
-            display:inline-block;
+        .help-block {
+            display: inline-block;
             color: $cwColor-black-dark;
             width: 100%;
             margin-top: 10px;
         }
-        select.form-select{
+        select.form-select {
             display: none;
         }
-        .form-select{
+        .form-select {
             @extend .cs-select;
             max-width: initial;
             color: $cwColor-black-dark;
-            position: absolute;
-            bottom: 0;
-            .cs-placeholder{
+
+            .cs-placeholder {
                 height: 64px;
                 line-height: 32px;
                 border: 1px solid #000;
-                &:after{
+                &:after {
                     @extend .fa;
                     content: $fa-var-arrow-down;
                 }
             }
-            .cs-options{
+            .cs-options {
                 li {
-                    span{
-                        &:hover{
+                    span {
+                        &:hover {
                             background: $cwColor-blue-light;
                         }
                     }
-                    &.cs-selected{
-                        span:after{
+                    &.cs-selected {
+                        span:after {
                             @extend .fa;
                             content: $fa-var-check;
                         }
                     }
                 }
             }
-
-            &.cs-active{
+            &.cs-active {
                 color: $cwColor-base-blue;
             }
         }
@@ -159,8 +164,7 @@ form {
                     width: 25px;
                     @include cw-icon-before(check-circle, 0, $cwColor-base-blue);
                 }
-
-                &.form-checkbox--big{
+                &.form-checkbox--big {
                     input + label {
                         font-size: 40px;
                         height: 50px;
@@ -171,10 +175,8 @@ form {
                         height: 50px;
                         width: 50px;
                     }
-
                 }
-
-                &.form-checkbox--blue{
+                &.form-checkbox--blue {
                     input:checked + label {
                         @include cw-icon-before(check-circle, 0, $cwColor-base-blue);
                     }
@@ -186,130 +188,121 @@ form {
                 color: black;
                 padding: 0;
             }
-            .help-block{
+            .help-block {
                 color: #fff;
             }
         }
-
-        &.form-group--readonly{
+        &.form-group--readonly {
             border-bottom: 2px solid $cwColor-base-blue;
             padding-bottom: 5px;
-            label{
+            label {
                 padding-left: 0;
             }
-            .form-input{
+            .form-input {
                 border: 0;
                 height: 30px;
-
             }
-            input{
-                padding:0;
+            input {
+                padding: 0;
             }
         }
-        &.form-group--error{
+        &.form-group--error {
             .form-input {
                 border-color: #f00;
             }
-
             .help-block {
                 color: #f00;
             }
         }
-        &.form-group--icons{
-            .form-input{
+        &.form-group--icons {
+            .form-input {
                 height: 30px;
                 max-width: 84%;
             }
-            .form-icon{
-                float:right;
+            .form-icon {
+                float: right;
                 margin-right: 10px;
                 font-size: 22px;
                 cursor: pointer;
-                &.form-icon--edit{
+                &.form-icon--edit {
                     @include cw-icon-before(pencil, 0, $cwColor-base-blue);
                 }
-                &.form-icon--save{
+                &.form-icon--save {
                     @include cw-icon-before(check, 0, $cwColor-base-blue);
                 }
-                &.form-icon--cancel{
+                &.form-icon--cancel {
                     @include cw-icon-before(close, 0, $cwColor-base-blue);
                 }
             }
         }
-        &.form-group--info{
+        &.form-group--info {
             margin-bottom: 20px;
-
-            .form-info{
+            .form-info {
                 color: $cwColor-black-medium;
                 font-size: 13px;
                 margin-bottom: -27px;
                 margin-top: 3px;
             }
         }
-
     }
     &.form--light {
-        label{
+        label {
             color: $cwColor-blue-light;
         }
         .form-input {
             border-color: #fff;
             color: #fff;
             &::-webkit-input-placeholder {
-               /* WebKit, Blink, Edge */
-               color: $cwColor-blue-light;
-           }
+                /* WebKit, Blink, Edge */
+                color: $cwColor-blue-light;
+            }
             &:-moz-placeholder {
-               /* Mozilla Firefox 4 to 18 */
-               color: $cwColor-blue-light;
-               opacity: 1;
-           }
+                /* Mozilla Firefox 4 to 18 */
+                color: $cwColor-blue-light;
+                opacity: 1;
+            }
             &::-moz-placeholder {
-               /* Mozilla Firefox 19+ */
-               color: $cwColor-blue-light;
-               opacity: 1;
-           }
+                /* Mozilla Firefox 19+ */
+                color: $cwColor-blue-light;
+                opacity: 1;
+            }
             &:-ms-input-placeholder {
-               /* Internet Explorer 10-11 */
-               color: $cwColor-blue-light;
-           }
-
-           &.form-input--error{
-               border-color: $cwColor-black-dark;
-           }
+                /* Internet Explorer 10-11 */
+                color: $cwColor-blue-light;
+            }
+            &.form-input--error {
+                border-color: $cwColor-black-dark;
+            }
         }
-        .form-select{
+        .form-select {
             background: inherit;
             color: $cwColor-blue-light;
-            input{
+            input {
                 display: none;
             }
-            .cs-placeholder{
+            .cs-placeholder {
                 height: 64px;
                 border: 1px solid #fff;
                 color: $cwColor-blue-light;
-                &:after{
+                &:after {
                     @extend .fa;
                     content: $fa-var-arrow-down;
                 }
             }
-
-            &.cs-active{
+            &.cs-active {
                 color: $cwColor-base-blue;
             }
         }
-
-        .help-block{
+        .help-block {
             color: #fff;
         }
-        .form-group--info{
-            .form-info{
+        .form-group--info {
+            .form-info {
                 color: $cwColor-black-light;
             }
         }
     }
 }
-
 /*
  Standard forms styles
 
@@ -350,7 +343,6 @@ form {
 
  Styleguide 5.1
 */
-
 /*
  Form readonly
 
@@ -364,7 +356,6 @@ form {
 
  Styleguide 5.2
 */
-
 /*
  Form readonly with info and not readonly with info
 
@@ -388,7 +379,6 @@ form {
 
  Styleguide 5.3
 */
-
 /*
  Form readonly with icons
 
@@ -445,7 +435,6 @@ form {
 
  Styleguide 5.6
 */
-
 /*
  Error form group
 
@@ -462,8 +451,6 @@ form {
 
  Styleguide 5.6
 */
-
-
 /*
  Checkbox inputs
 
