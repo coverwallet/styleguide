@@ -6291,6 +6291,12 @@ form .form-group {
     form .form-group.form-group--alignment-hor .form-input {
       position: absolute;
       bottom: 10px; }
+    .form .form-group.form-group--alignment-hor.form-group--error .form-select,
+    form .form-group.form-group--alignment-hor.form-group--error .form-select {
+      bottom: 32px; }
+    .form .form-group.form-group--alignment-hor.form-group--error .form-input,
+    form .form-group.form-group--alignment-hor.form-group--error .form-input {
+      bottom: 42px; }
     .form .form-group.form-group--alignment-hor .form-select,
     form .form-group.form-group--alignment-hor .form-select {
       position: absolute;
