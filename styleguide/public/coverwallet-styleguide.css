@@ -3645,6 +3645,7 @@ Markup:
     <div class="color color-light-blue">$cwColor-blue-light</div>
     <hr>
     <div class="color color-black-xlight">$cwColor-black-xlight</div>
+    <div class="color color-black-mlight">$cwColor-black-mlight</div>
     <div class="color color-black-light">$cwColor-black-light</div>
     <div class="color color-black-medium">$cwColor-black-medium</div>
     <div class="color color-black-xmedium">$cwColor-black-xmedium</div>
@@ -7044,6 +7045,9 @@ Styleguide 9.1
     background-color: #000; }
   .color.color-black-xlight {
     background-color: #f9f9f9;
+    color: #272727; }
+  .color.color-black-mlight {
+    background-color: #f0f0f0;
     color: #272727; }
   .color.color-black-light {
     background-color: #d2d2d2;
