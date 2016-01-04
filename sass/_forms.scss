@@ -3,35 +3,6 @@ form {
     .form-group {
         padding: 10px 0;
         position: relative;
-        &.form-group--alignment-hor {
-            position: relative;
-            &.form-group--long label:after {
-                height: 45px;
-                content: ' ';
-                display: block;
-            }
-            label:after {
-                height: 65px;
-                content: ' ';
-                display: block;
-            }
-            .form-input{
-                position: absolute;
-                bottom: 10px;
-            }
-            &.form-group--error{
-                .form-select{
-                    bottom: 32px;
-                }
-                .form-input{
-                    bottom: 42px;
-                }
-            }
-            .form-select{
-                position: absolute;
-                bottom: 0;
-            }
-        }
         label {
             color: $cwColor-base-blue;
             display: block;
