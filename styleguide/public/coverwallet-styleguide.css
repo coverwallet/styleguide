@@ -5727,7 +5727,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-icon, ul.list.list--type-4 li:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before, .styleguide-icon-industries-agriculture:before, .styleguide-icon-industries-construction:before, .styleguide-icon-industries-education:before, .styleguide-icon-industries-finance:before, .styleguide-icon-industries-food:before, .styleguide-icon-industries-health:before, .styleguide-icon-industries-maintance:before, .styleguide-icon-industries-manufacturing:before, .styleguide-icon-industries-nonprofit:before, .styleguide-icon-industries-professional:before, .styleguide-icon-industries-realstate:before, .styleguide-icon-industries-retailservices:before, .styleguide-icon-industries-retailtrade:before, .styleguide-icon-industries-sports:before, .styleguide-icon-industries-startups:before, .styleguide-icon-industries-tech:before, .styleguide-icon-industries-transportation:before, .styleguide-icon-industries-wholesale:before {
+.coverwallet-icon, ul.list.list--type-4 li:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before, .styleguide-icon-industries-agriculture:before, .styleguide-icon-industries-construction:before, .styleguide-icon-industries-education:before, .styleguide-icon-industries-finance:before, .styleguide-icon-industries-food:before, .styleguide-icon-industries-health:before, .styleguide-icon-industries-maintance:before, .styleguide-icon-industries-manufacturing:before, .styleguide-icon-industries-nonprofit:before, .styleguide-icon-industries-professional:before, .styleguide-icon-industries-realstate:before, .styleguide-icon-industries-retailservices:before, .styleguide-icon-industries-retailtrade:before, .styleguide-icon-industries-sports:before, .styleguide-icon-industries-startups:before, .styleguide-icon-industries-tech:before, .styleguide-icon-industries-transportation:before, .styleguide-icon-industries-wholesale:before, .styleguide-icon-insurance-type-aircraft-liability:before, .styleguide-icon-insurance-type-aviation-general-liability-coverage:before, .styleguide-icon-insurance-type-bailees-customers:before, .styleguide-icon-insurance-type-business-garage:before, .styleguide-icon-insurance-type-commercial-auto:before, .styleguide-icon-insurance-type-commercial-building-and-or-property:before, .styleguide-icon-insurance-type-epli:before, .styleguide-icon-insurance-type-exhibitions:before, .styleguide-icon-insurance-type-farmowners-multi-peril:before, .styleguide-icon-insurance-type-fiduciary-bond:before, .styleguide-icon-insurance-type-financial-institutions-bond:before, .styleguide-icon-insurance-type-forgery-or-alteration:before, .styleguide-icon-insurance-type-money-orders-and-counterfeit-money:before, .styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage:before, .styleguide-icon-insurance-type-ocean-marine:before, .styleguide-icon-insurance-type-product-recall:before, .styleguide-icon-insurance-type-professional-liability-e-and-o:before, .styleguide-icon-insurance-type-public-officials-liability:before, .styleguide-icon-insurance-type-crime:before, .styleguide-icon-insurance-type-cyber-liability-and-data-breach:before, .styleguide-icon-insurance-type-directors-and-officers-insurance:before, .styleguide-icon-insurance-type-disability-insurance:before, .styleguide-icon-insurance-type-employee-benefits-liability:before, .styleguide-icon-insurance-type-employee-dishonesty:before, .styleguide-icon-insurance-type-environmental-impairment:before, .styleguide-icon-insurance-type-general-liability:before, .styleguide-icon-insurance-type-golf-carts:before, .styleguide-icon-insurance-type-guests-property:before, .styleguide-icon-insurance-type-hangarkeepers-legal-liability:before, .styleguide-icon-insurance-type-inland-marine:before, .styleguide-icon-insurance-type-liquor-liability:before, .styleguide-icon-insurance-type-medical-malpractice:before, .styleguide-icon-insurance-type-surety-bond:before, .styleguide-icon-insurance-type-umbrella-liability:before, .styleguide-icon-insurance-type-warehouse-operators-legal-liability:before, .styleguide-icon-insurance-type-workers-compensation:before {
   font-family: "coverwallet" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -5790,6 +5790,24 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-industries-maintance"></span> <span class='icon-name'>industries-maintance</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturing"></span> <span class='icon-name'>industries-manufacturing</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-nonprofit"></span> <span class='icon-name'>industries-nonprofit</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-aircraft-liability"></span> <span class='icon-name'>insurance-type-aircraft-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-aviation-general-liability-coverage"></span> <span class='icon-name'>insurance-type-aviation-general-liability-coverage</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-bailees-customers"></span> <span class='icon-name'>insurance-type-bailees-customers</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-business-garage"></span> <span class='icon-name'>insurance-type-business-garage</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-commercial-auto"></span> <span class='icon-name'>insurance-type-commercial-auto</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-commercial-building-and-or-property"></span> <span class='icon-name'>insurance-type-commercial-building-and-or-property</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-epli"></span> <span class='icon-name'>insurance-type-epli</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-exhibitions"></span> <span class='icon-name'>insurance-type-exhibitions</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-farmowners-multi-peril"></span> <span class='icon-name'>insurance-type-farmowners-multi-peril</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-fiduciary-bond"></span> <span class='icon-name'>insurance-type-fiduciary-bond</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-financial-institutions-bond"></span> <span class='icon-name'>insurance-type-financial-institutions-bond</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-forgery-or-alteration"></span> <span class='icon-name'>insurance-type-forgery-or-alteration</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-money-orders-and-counterfeit-money"></span> <span class='icon-name'>insurance-type-money-orders-and-counterfeit-money</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage"></span> <span class='icon-name'>insurance-type-motor-carriers-liability-and-physical-damage</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-ocean-marine"></span> <span class='icon-name'>insurance-type-ocean-marine</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-product-recall"></span> <span class='icon-name'>insurance-type-product-recall</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-professional-liability-e-and-o"></span> <span class='icon-name'>insurance-type-professional-liability-e-and-o</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-public-officials-liability"></span> <span class='icon-name'>insurance-type-public-officials-liability</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -5824,6 +5842,24 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-industries-tech"></span> <span class='icon-name'>industries-tech</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-transportation"></span> <span class='icon-name'>industries-transportation</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-wholesale"></span> <span class='icon-name'>industries-wholesale</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-crime"></span> <span class='icon-name'>insurance-type-crime</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-cyber-liability-and-data-breach"></span> <span class='icon-name'>insurance-type-cyber-liability-and-data-breach</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-directors-and-officers-insurance"></span> <span class='icon-name'>insurance-type-directors-and-officers-insurance</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-disability-insurance"></span> <span class='icon-name'>insurance-type-disability-insurance</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-employee-benefits-liability"></span> <span class='icon-name'>insurance-type-employee-benefits-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-employee-dishonesty"></span> <span class='icon-name'>insurance-type-employee-dishonesty</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-environmental-impairment"></span> <span class='icon-name'>insurance-type-environmental-impairment</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-general-liability"></span> <span class='icon-name'>insurance-type-general-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-golf-carts"></span> <span class='icon-name'>insurance-type-golf-carts</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-guests-property"></span> <span class='icon-name'>insurance-type-guests-property</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-hangarkeepers-legal-liability"></span> <span class='icon-name'>insurance-type-hangarkeepers-legal-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-inland-marine"></span> <span class='icon-name'>insurance-type-inland-marine</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-liquor-liability"></span> <span class='icon-name'>insurance-type-liquor-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-medical-malpractice"></span> <span class='icon-name'>insurance-type-medical-malpractice</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-surety-bond"></span> <span class='icon-name'>insurance-type-surety-bond</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-umbrella-liability"></span> <span class='icon-name'>insurance-type-umbrella-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-warehouse-operators-legal-liability"></span> <span class='icon-name'>insurance-type-warehouse-operators-legal-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-workers-compensation"></span> <span class='icon-name'>insurance-type-workers-compensation</span></li>
      </ul>
 </div>
 
@@ -5841,11 +5877,8 @@ html {
 .cwicon-3rdparty, .styleguide-icon-3rdparty:before {
   content: "\61"; }
 
-.cwicon-about, .styleguide-icon-about:before {
-  content: "\62"; }
-
-.cwicon-account, .styleguide-icon-account:before {
-  content: "\63"; }
+.cwicon-3rdparty, .styleguide-icon-3rdparty:before {
+  content: "\61"; }
 
 .cwicon-add, .styleguide-icon-add:before {
   content: "\64"; }
@@ -6038,6 +6071,120 @@ html {
 
 .cwicon-your-contracts, .styleguide-icon-your-contracts:before {
   content: "\41"; }
+
+.cwicon-about, .styleguide-icon-about:before {
+  content: "\62"; }
+
+.cwicon-account, .styleguide-icon-account:before {
+  content: "\63"; }
+
+.cwicon-insurance-type-aircraft-liability, .styleguide-icon-insurance-type-aircraft-liability:before {
+  content: "\26"; }
+
+.cwicon-insurance-type-aviation-general-liability-coverage, .styleguide-icon-insurance-type-aviation-general-liability-coverage:before {
+  content: "\27"; }
+
+.cwicon-insurance-type-bailees-customers, .styleguide-icon-insurance-type-bailees-customers:before {
+  content: "\28"; }
+
+.cwicon-insurance-type-business-garage, .styleguide-icon-insurance-type-business-garage:before {
+  content: "\29"; }
+
+.cwicon-insurance-type-commercial-auto, .styleguide-icon-insurance-type-commercial-auto:before {
+  content: "\2a"; }
+
+.cwicon-insurance-type-commercial-building-and-or-property, .styleguide-icon-insurance-type-commercial-building-and-or-property:before {
+  content: "\2b"; }
+
+.cwicon-insurance-type-epli, .styleguide-icon-insurance-type-epli:before {
+  content: "\2c"; }
+
+.cwicon-insurance-type-exhibitions, .styleguide-icon-insurance-type-exhibitions:before {
+  content: "\2d"; }
+
+.cwicon-insurance-type-farmowners-multi-peril, .styleguide-icon-insurance-type-farmowners-multi-peril:before {
+  content: "\2e"; }
+
+.cwicon-insurance-type-fiduciary-bond, .styleguide-icon-insurance-type-fiduciary-bond:before {
+  content: "\2f"; }
+
+.cwicon-insurance-type-financial-institutions-bond, .styleguide-icon-insurance-type-financial-institutions-bond:before {
+  content: "\3a"; }
+
+.cwicon-insurance-type-forgery-or-alteration, .styleguide-icon-insurance-type-forgery-or-alteration:before {
+  content: "\3b"; }
+
+.cwicon-insurance-type-money-orders-and-counterfeit-money, .styleguide-icon-insurance-type-money-orders-and-counterfeit-money:before {
+  content: "\3c"; }
+
+.cwicon-insurance-type-motor-carriers-liability-and-physical-damage, .styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage:before {
+  content: "\3d"; }
+
+.cwicon-insurance-type-ocean-marine, .styleguide-icon-insurance-type-ocean-marine:before {
+  content: "\3e"; }
+
+.cwicon-insurance-type-product-recall, .styleguide-icon-insurance-type-product-recall:before {
+  content: "\3f"; }
+
+.cwicon-insurance-type-professional-liability-e-and-o, .styleguide-icon-insurance-type-professional-liability-e-and-o:before {
+  content: "\40"; }
+
+.cwicon-insurance-type-public-officials-liability, .styleguide-icon-insurance-type-public-officials-liability:before {
+  content: "\5b"; }
+
+.cwicon-insurance-type-crime, .styleguide-icon-insurance-type-crime:before {
+  content: "\5d"; }
+
+.cwicon-insurance-type-cyber-liability-and-data-breach, .styleguide-icon-insurance-type-cyber-liability-and-data-breach:before {
+  content: "\5e"; }
+
+.cwicon-insurance-type-directors-and-officers-insurance, .styleguide-icon-insurance-type-directors-and-officers-insurance:before {
+  content: "\5f"; }
+
+.cwicon-insurance-type-disability-insurance, .styleguide-icon-insurance-type-disability-insurance:before {
+  content: "\60"; }
+
+.cwicon-insurance-type-employee-benefits-liability, .styleguide-icon-insurance-type-employee-benefits-liability:before {
+  content: "\7b"; }
+
+.cwicon-insurance-type-employee-dishonesty, .styleguide-icon-insurance-type-employee-dishonesty:before {
+  content: "\7c"; }
+
+.cwicon-insurance-type-environmental-impairment, .styleguide-icon-insurance-type-environmental-impairment:before {
+  content: "\7d"; }
+
+.cwicon-insurance-type-general-liability, .styleguide-icon-insurance-type-general-liability:before {
+  content: "\7e"; }
+
+.cwicon-insurance-type-golf-carts, .styleguide-icon-insurance-type-golf-carts:before {
+  content: "\5c"; }
+
+.cwicon-insurance-type-guests-property, .styleguide-icon-insurance-type-guests-property:before {
+  content: "\e000"; }
+
+.cwicon-insurance-type-hangarkeepers-legal-liability, .styleguide-icon-insurance-type-hangarkeepers-legal-liability:before {
+  content: "\e001"; }
+
+.cwicon-insurance-type-inland-marine, .styleguide-icon-insurance-type-inland-marine:before {
+  content: "\e002"; }
+
+.cwicon-insurance-type-liquor-liability, .styleguide-icon-insurance-type-liquor-liability:before {
+  content: "\e003"; }
+
+.cwicon-insurance-type-medical-malpractice, .styleguide-icon-insurance-type-medical-malpractice:before {
+  content: "\e004"; }
+
+.cwicon-insurance-type-surety-bond, .styleguide-icon-insurance-type-surety-bond:before {
+  content: "\e005"; }
+
+.cwicon-insurance-type-umbrella-liability, .styleguide-icon-insurance-type-umbrella-liability:before {
+  content: "\e006"; }
+
+.cwicon-insurance-type-warehouse-operators-legal-liability, .styleguide-icon-insurance-type-warehouse-operators-legal-liability:before {
+  content: "\e007"; }
+
+.cwicon-insurance-type-workers-compensation, .styleguide-icon-insurance-type-workers-compensation:before {
+  content: "\e008"; }
 
 /*
     Mixin to set border radius to element
@@ -7367,5 +7514,149 @@ Styleguide 9.1
   color: #000; }
 
 .styleguide-icon-industries-wholesale:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-aircraft-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-aviation-general-liability-coverage:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-bailees-customers:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-business-garage:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-commercial-auto:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-commercial-building-and-or-property:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-epli:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-exhibitions:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-farmowners-multi-peril:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-fiduciary-bond:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-financial-institutions-bond:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-forgery-or-alteration:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-money-orders-and-counterfeit-money:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-ocean-marine:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-product-recall:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-professional-liability-e-and-o:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-public-officials-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-crime:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-cyber-liability-and-data-breach:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-directors-and-officers-insurance:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-disability-insurance:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-employee-benefits-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-employee-dishonesty:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-environmental-impairment:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-general-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-golf-carts:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-guests-property:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-hangarkeepers-legal-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-inland-marine:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-liquor-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-medical-malpractice:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-surety-bond:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-umbrella-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-warehouse-operators-legal-liability:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-insurance-type-workers-compensation:before {
   padding-right: 0;
   color: #000; }
