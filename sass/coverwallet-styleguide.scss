@@ -4,7 +4,6 @@
     border-radius: 5px;
     color: white;
     margin: 10px 0;
-
     &.color-blue {
         background-color: $cwColor-base-blue;
     }
@@ -19,19 +18,19 @@
     }
     &.color-black-xlight {
         background-color: $cwColor-black-xlight;
-        color:$color-text;
+        color: $color-text;
     }
     &.color-black-mlight {
         background-color: $cwColor-black-mlight;
-        color:$color-text;
+        color: $color-text;
     }
     &.color-black-light {
         background-color: $cwColor-black-light;
-        color:$color-text;
+        color: $color-text;
     }
     &.color-black-medium {
         background-color: $cwColor-black-medium;
-        color:$color-text;
+        color: $color-text;
     }
     &.color-black-xmedium {
         background-color: $cwColor-black-xmedium;
@@ -45,33 +44,30 @@
     padding: 20px;
     @include cw-span-columns-desktop(8, 0);
 }
-.gallery-images{
-    .image{
+.gallery-images {
+    .image {
         width: 100%;
         padding-bottom: 20px;
-        span{
+        span {
             display: block;
             margin-bottom: 10px;
-
         }
-        img{
+        img {
             width: 70%;
             border: 1px solid $cwColor-base-blue;
         }
     }
 }
-
-.gallery-icons{
+.gallery-icons {
     @include row();
-    ul{
+    ul {
         @include cw-span-columns-desktop(6);
-        .gallery-icon{
+        .gallery-icon {
             font-size: 25px;
         }
     }
 }
 .styleguide-icon- {
-
     &about {
         @include cw-covericon-before(about, 0, #000);
     }
@@ -162,119 +158,223 @@
     &video {
         @include cw-covericon-before(video, 0, #000);
     }
-
     &policy-type {
-      @include cw-covericon-before(policy-type, 0, #000);
+        @include cw-covericon-before(policy-type, 0, #000);
     }
     &past-claims {
-      @include cw-covericon-before(past-claims, 0, #000);
+        @include cw-covericon-before(past-claims, 0, #000);
     }
     &yearly-revenues {
-     @include cw-covericon-before(yearly-revenues, 0, #000);
+        @include cw-covericon-before(yearly-revenues, 0, #000);
     }
     &business-size {
-      @include cw-covericon-before(business-size, 0, #000);
+        @include cw-covericon-before(business-size, 0, #000);
     }
     &location {
-      @include cw-covericon-before(location, 0, #000);
+        @include cw-covericon-before(location, 0, #000);
     }
     &employees-number {
-      @include cw-covericon-before(employees-number, 0, #000);
+        @include cw-covericon-before(employees-number, 0, #000);
     }
     &industry {
-      @include cw-covericon-before(industry, 0, #000);
+        @include cw-covericon-before(industry, 0, #000);
     }
     &your-contracts {
-      @include cw-covericon-before(your-contracts, 0, #000);
+        @include cw-covericon-before(your-contracts, 0, #000);
     }
-
     &3rdparty {
-      @include cw-covericon-before(3rdparty, 0, #000);
+        @include cw-covericon-before(3rdparty, 0, #000);
     }
     &checklist-shield {
-      @include cw-covericon-before(checklist-shield, 0, #000);
+        @include cw-covericon-before(checklist-shield, 0, #000);
     }
     &general-liability {
-      @include cw-covericon-before(general-liability, 0, #000);
+        @include cw-covericon-before(general-liability, 0, #000);
     }
     &epli {
-      @include cw-covericon-before(epli, 0, #000);
+        @include cw-covericon-before(epli, 0, #000);
     }
     &other-docs {
-      @include cw-covericon-before(other-docs, 0, #000);
+        @include cw-covericon-before(other-docs, 0, #000);
     }
     &us-map {
-      @include cw-covericon-before(us-map, 0, #000);
+        @include cw-covericon-before(us-map, 0, #000);
     }
     &popularity-high {
-      @include cw-covericon-before(popularity-high, 0, #000);
+        @include cw-covericon-before(popularity-high, 0, #000);
     }
     &popularity-low {
-      @include cw-covericon-before(popularity-low, 0, #000);
+        @include cw-covericon-before(popularity-low, 0, #000);
     }
     &popularity-med {
-      @include cw-covericon-before(popularity-med, 0, #000);
+        @include cw-covericon-before(popularity-med, 0, #000);
     }
     &property {
-      @include cw-covericon-before(property, 0, #000);
+        @include cw-covericon-before(property, 0, #000);
     }
     &restaurants {
-      @include cw-covericon-before(restaurants, 0, #000);
+        @include cw-covericon-before(restaurants, 0, #000);
     }
-
     &industries-agriculture {
-      @include cw-covericon-before(industries-agriculture, 0, #000);
+        @include cw-covericon-before(industries-agriculture, 0, #000);
     }
     &industries-construction {
-      @include cw-covericon-before(industries-construction, 0, #000);
+        @include cw-covericon-before(industries-construction, 0, #000);
     }
     &industries-education {
-      @include cw-covericon-before(industries-education, 0, #000);
+        @include cw-covericon-before(industries-education, 0, #000);
     }
     &industries-finance {
-      @include cw-covericon-before(industries-finance, 0, #000);
+        @include cw-covericon-before(industries-finance, 0, #000);
     }
     &industries-food {
-      @include cw-covericon-before(industries-food, 0, #000);
+        @include cw-covericon-before(industries-food, 0, #000);
     }
     &industries-health {
-      @include cw-covericon-before(industries-health, 0, #000);
+        @include cw-covericon-before(industries-health, 0, #000);
     }
     &industries-maintance {
-      @include cw-covericon-before(industries-maintance, 0, #000);
+        @include cw-covericon-before(industries-maintance, 0, #000);
     }
     &industries-manufacturing {
-      @include cw-covericon-before(industries-manufacturing, 0, #000);
+        @include cw-covericon-before(industries-manufacturing, 0, #000);
     }
     &industries-nonprofit {
-      @include cw-covericon-before(industries-nonprofit, 0, #000);
+        @include cw-covericon-before(industries-nonprofit, 0, #000);
     }
     &industries-professional {
-      @include cw-covericon-before(industries-professional, 0, #000);
+        @include cw-covericon-before(industries-professional, 0, #000);
     }
     &industries-realstate {
-      @include cw-covericon-before(industries-realstate, 0, #000);
+        @include cw-covericon-before(industries-realstate, 0, #000);
     }
     &industries-retailservices {
-      @include cw-covericon-before(industries-retailservices, 0, #000);
+        @include cw-covericon-before(industries-retailservices, 0, #000);
     }
     &industries-retailtrade {
-      @include cw-covericon-before(industries-retailtrade, 0, #000);
+        @include cw-covericon-before(industries-retailtrade, 0, #000);
     }
     &industries-sports {
-      @include cw-covericon-before(industries-sports, 0, #000);
+        @include cw-covericon-before(industries-sports, 0, #000);
     }
     &industries-startups {
-      @include cw-covericon-before(industries-startups, 0, #000);
+        @include cw-covericon-before(industries-startups, 0, #000);
     }
     &industries-tech {
-      @include cw-covericon-before(industries-tech, 0, #000);
+        @include cw-covericon-before(industries-tech, 0, #000);
     }
     &industries-transportation {
-      @include cw-covericon-before(industries-transportation, 0, #000);
+        @include cw-covericon-before(industries-transportation, 0, #000);
     }
     &industries-wholesale {
-      @include cw-covericon-before(industries-wholesale, 0, #000);
+        @include cw-covericon-before(industries-wholesale, 0, #000);
     }
-
+    &insurance-type-aircraft-liability {
+        @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
+    }
+    &insurance-type-aviation-general-liability-coverage {
+        @include cw-covericon-before(insurance-type-aviation-general-liability-coverage, 0, #000);
+    }
+    &insurance-type-bailees-customers {
+        @include cw-covericon-before(insurance-type-bailees-customers, 0, #000);
+    }
+    &insurance-type-business-garage {
+        @include cw-covericon-before(insurance-type-business-garage, 0, #000);
+    }
+    &insurance-type-commercial-auto {
+        @include cw-covericon-before(insurance-type-commercial-auto, 0, #000);
+    }
+    &insurance-type-commercial-building-and-or-property {
+        @include cw-covericon-before(insurance-type-commercial-building-and-or-property, 0, #000);
+    }
+    &insurance-type-epli {
+        @include cw-covericon-before(insurance-type-epli, 0, #000);
+    }
+    &insurance-type-exhibitions {
+        @include cw-covericon-before(insurance-type-exhibitions, 0, #000);
+    }
+    &insurance-type-farmowners-multi-peril {
+        @include cw-covericon-before(insurance-type-farmowners-multi-peril, 0, #000);
+    }
+    &insurance-type-fiduciary-bond {
+        @include cw-covericon-before(insurance-type-fiduciary-bond, 0, #000);
+    }
+    &insurance-type-financial-institutions-bond {
+        @include cw-covericon-before(insurance-type-financial-institutions-bond, 0, #000);
+    }
+    &insurance-type-forgery-or-alteration {
+        @include cw-covericon-before(insurance-type-forgery-or-alteration, 0, #000);
+    }
+    &insurance-type-money-orders-and-counterfeit-money {
+        @include cw-covericon-before(insurance-type-money-orders-and-counterfeit-money, 0, #000);
+    }
+    &insurance-type-motor-carriers-liability-and-physical-damage {
+        @include cw-covericon-before(insurance-type-motor-carriers-liability-and-physical-damage, 0, #000);
+    }
+    &insurance-type-ocean-marine {
+        @include cw-covericon-before(insurance-type-ocean-marine, 0, #000);
+    }
+    &insurance-type-product-recall {
+        @include cw-covericon-before(insurance-type-product-recall, 0, #000);
+    }
+    &insurance-type-professional-liability-e-and-o {
+        @include cw-covericon-before(insurance-type-professional-liability-e-and-o, 0, #000);
+    }
+    &insurance-type-public-officials-liability {
+        @include cw-covericon-before(insurance-type-public-officials-liability, 0, #000);
+    }
+    &insurance-type-crime {
+        @include cw-covericon-before(insurance-type-crime, 0, #000);
+    }
+    &insurance-type-cyber-liability-and-data-breach {
+        @include cw-covericon-before(insurance-type-cyber-liability-and-data-breach, 0, #000);
+    }
+    &insurance-type-directors-and-officers-insurance {
+        @include cw-covericon-before(insurance-type-directors-and-officers-insurance, 0, #000);
+    }
+    &insurance-type-disability-insurance {
+        @include cw-covericon-before(insurance-type-disability-insurance, 0, #000);
+    }
+    &insurance-type-employee-benefits-liability {
+        @include cw-covericon-before(insurance-type-employee-benefits-liability, 0, #000);
+    }
+    &insurance-type-employee-dishonesty {
+        @include cw-covericon-before(insurance-type-employee-dishonesty, 0, #000);
+    }
+    &insurance-type-environmental-impairment {
+        @include cw-covericon-before(insurance-type-environmental-impairment, 0, #000);
+    }
+    &insurance-type-general-liability {
+        @include cw-covericon-before(insurance-type-general-liability, 0, #000);
+    }
+    &insurance-type-golf-carts {
+        @include cw-covericon-before(insurance-type-golf-carts, 0, #000);
+    }
+    &insurance-type-guests-property {
+        @include cw-covericon-before(insurance-type-guests-property, 0, #000);
+    }
+    &insurance-type-hangarkeepers-legal-liability {
+        @include cw-covericon-before(insurance-type-hangarkeepers-legal-liability, 0, #000);
+    }
+    &insurance-type-inland-marine {
+        @include cw-covericon-before(insurance-type-inland-marine, 0, #000);
+    }
+    &insurance-type-liquor-liability {
+        @include cw-covericon-before(insurance-type-liquor-liability, 0, #000);
+    }
+    &insurance-type-medical-malpractice {
+        @include cw-covericon-before(insurance-type-medical-malpractice, 0, #000);
+    }
+    &insurance-type-surety-bond {
+        @include cw-covericon-before(insurance-type-surety-bond, 0, #000);
+    }
+    &insurance-type-umbrella-liability {
+        @include cw-covericon-before(insurance-type-umbrella-liability, 0, #000);
+    }
+    &insurance-type-warehouse-operators-legal-liability {
+        @include cw-covericon-before(insurance-type-warehouse-operators-legal-liability, 0, #000);
+    }
+    &insurance-type-workers-compensation {
+        @include cw-covericon-before(insurance-type-workers-compensation, 0, #000);
+    }
 }
