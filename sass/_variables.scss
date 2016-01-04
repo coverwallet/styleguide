@@ -6,6 +6,7 @@ $cwColor-base-orange: #f3a309;
 $cwColor-base-black: #000;
 
 $cwColor-black-xlight: lighten($cwColor-base-black, 97.5%);
+$cwColor-black-mlight: lighten($cwColor-base-black, 94.1%);
 $cwColor-black-light: lighten($cwColor-base-black, 82.4%);
 $cwColor-black-medium: lighten($cwColor-base-black, 75%);
 $cwColor-black-xmedium: lighten($cwColor-base-black, 54%);
@@ -86,6 +87,7 @@ Markup:
     <div class="color color-light-blue">$cwColor-blue-light</div>
     <hr>
     <div class="color color-black-xlight">$cwColor-black-xlight</div>
+    <div class="color color-black-mlight">$cwColor-black-mlight</div>
     <div class="color color-black-light">$cwColor-black-light</div>
     <div class="color color-black-medium">$cwColor-black-medium</div>
     <div class="color color-black-xmedium">$cwColor-black-xmedium</div>
