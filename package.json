@@ -5,7 +5,7 @@
     "main": "sass/coverwallet.scss",
     "author": "Ra <raul@coverwallet.com>",
     "scripts": {
-        "install": "bower install",
+        "postinstall": "bower install",
         "generate": "kss-node ./sass ./styleguide --template ./template --css public/coverwallet-styleguide.css --js ../js/selectFx.js"
     },
     "dependencies": {
