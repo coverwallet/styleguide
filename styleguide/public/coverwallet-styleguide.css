@@ -6153,7 +6153,7 @@ html {
 .cwicon-insurance-type-environmental-impairment, .environmental_impairment:before, .styleguide-icon-insurance-type-environmental-impairment:before {
   content: "\7d"; }
 
-.cwicon-insurance-type-general-liability, .styleguide-icon-insurance-type-general-liability:before {
+.cwicon-insurance-type-general-liability, .general_liability:before, .styleguide-icon-insurance-type-general-liability:before {
   content: "\7e"; }
 
 .cwicon-insurance-type-golf-carts, .golf_carts:before, .styleguide-icon-insurance-type-golf-carts:before {
