@@ -114,6 +114,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-umbrella-liability"></span> <span class='icon-name'>insurance-type-umbrella-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-warehouse-operators-legal-liability"></span> <span class='icon-name'>insurance-type-warehouse-operators-legal-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-workers-compensation"></span> <span class='icon-name'>insurance-type-workers-compensation</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-delete"></span> <span class='icon-name'>delete</span></li>
      </ul>
 </div>
 
@@ -442,4 +443,7 @@
 }
 .cwicon-insurance-type-workers-compensation{
   content: "\e008";
+}
+.cwicon-delete {
+  content: "\e009";
 }

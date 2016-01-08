@@ -1,5 +1,5 @@
 .general_liability{
-    @include cw-covericon-before(insurance-type-general_liability, 0, $cwColor-base-blue);
+    @include cw-covericon-before(insurance-type-general-liability, 0, $cwColor-base-blue);
 }
 .epli{
     @include cw-covericon-before(insurance-type-epli, 0, $cwColor-base-blue);
