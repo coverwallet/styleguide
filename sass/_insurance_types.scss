@@ -106,3 +106,6 @@
 .aviation_general_liability_coverage{
     @include cw-covericon-before(insurance-type-aviation-general-liability-coverage, 0, $cwColor-base-blue);
 }
+.bop{
+    @include cw-covericon-before(insurance-type-bop, 0, $cwColor-base-blue);
+}
