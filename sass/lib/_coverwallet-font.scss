@@ -114,7 +114,9 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-umbrella-liability"></span> <span class='icon-name'>insurance-type-umbrella-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-warehouse-operators-legal-liability"></span> <span class='icon-name'>insurance-type-warehouse-operators-legal-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-workers-compensation"></span> <span class='icon-name'>insurance-type-workers-compensation</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-bop"></span> <span class='icon-name'>insurance-type-bop</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-delete"></span> <span class='icon-name'>delete</span></li>
+
      </ul>
 </div>
 
@@ -399,9 +401,6 @@
 .cwicon-insurance-type-directors-and-officers-insurance{
   content: "\5f";
 }
-.cwicon-insurance-type-disability-insurance{
-  content: "\60";
-}
 .cwicon-insurance-type-employee-benefits-liability{
   content: "\7b";
 }
@@ -444,6 +443,18 @@
 .cwicon-insurance-type-workers-compensation{
   content: "\e008";
 }
-.cwicon-delete {
+.cwicon-delete{
   content: "\e009";
+}
+.cwicon-insurance-type-disability-insurance{
+  content: "\60";
+}
+.cwicon-insurance-type-professional-liability-e-and-o-1{
+  content: "\e00a";
+}
+.cwicon-insurance-type-employee-dishonesty-1{
+  content: "\e00b";
+}
+.cwicon-insurance-type-bop{
+  content: "\e00c";
 }

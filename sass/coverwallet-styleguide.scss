@@ -377,6 +377,9 @@
     &insurance-type-workers-compensation {
         @include cw-covericon-before(insurance-type-workers-compensation, 0, #000);
     }
+    &insurance-type-bop {
+        @include cw-covericon-before(insurance-type-bop, 0, #000);
+    }
     &delete {
         @include cw-covericon-before(delete, 0, #000);
     }
