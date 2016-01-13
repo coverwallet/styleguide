@@ -48,6 +48,23 @@
 }
 
 /*
+    Mixin to add icon to element
+
+    $icon - Icon of fontawesome
+    $padding-left - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+@mixin cw-icon-after($icon, $padding-left:0, $color: #000) {
+    &:after {
+        @extend .fa;
+        @extend .fa-#{$icon};
+        padding-left: #{$padding-left};
+        color: #{$color};
+    }
+}
+
+/*
     Mixin to add coverwallet icon to element
 
     $icon - Icon of coverwallet
@@ -60,6 +77,24 @@
         @extend .coverwallet-icon;
         @extend .cwicon-#{$icon};
         padding-right: #{$padding-right};
+        color: #{$color};
+    }
+}
+
+
+/*
+    Mixin to add coverwallet icon to element
+
+    $icon - Icon of coverwallet
+    $padding-left - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+@mixin cw-covericon-after($icon, $padding-left:0, $color: #000) {
+    &:after {
+        @extend .coverwallet-icon;
+        @extend .cwicon-#{$icon};
+        padding-left: #{$padding-left};
         color: #{$color};
     }
 }

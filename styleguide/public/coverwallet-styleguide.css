@@ -6220,10 +6220,26 @@ html {
 
 */
 /*
+    Mixin to add icon to element
+
+    $icon - Icon of fontawesome
+    $padding-left - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+/*
     Mixin to add coverwallet icon to element
 
     $icon - Icon of coverwallet
     $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+/*
+    Mixin to add coverwallet icon to element
+
+    $icon - Icon of coverwallet
+    $padding-left - Padding right (default 0)
     $color - Color of icon (default #000)
 
 */
