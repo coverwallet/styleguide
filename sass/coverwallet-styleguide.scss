@@ -383,4 +383,7 @@
     &delete {
         @include cw-covericon-before(delete, 0, #000);
     }
+    &phone-nav {
+        @include cw-covericon-before(phone-nav, 0, #000);
+    }
 }
