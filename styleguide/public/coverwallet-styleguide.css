@@ -6195,7 +6195,7 @@ html {
 .cwicon-insurance-type-employee-dishonesty-1 {
   content: "\e00b"; }
 
-.cwicon-insurance-type-bop {
+.cwicon-insurance-type-bop, .business_owners_policy_bop:before {
   content: "\e00c"; }
 
 .cwicon-phone-nav, .styleguide-icon-phone-nav:before {
