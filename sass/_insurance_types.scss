@@ -109,3 +109,6 @@
 .business_owners_policy_bop{
     @include cw-covericon-before(insurance-type-bop, 0, $cwColor-base-blue);
 }
+.more {
+    @include cw-covericon-before(insurance-type-more, 0, $cwColor-base-blue);
+}

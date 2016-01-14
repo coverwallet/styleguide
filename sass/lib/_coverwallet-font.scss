@@ -62,6 +62,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-product-recall"></span> <span class='icon-name'>insurance-type-product-recall</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-professional-liability-e-and-o"></span> <span class='icon-name'>insurance-type-professional-liability-e-and-o</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-public-officials-liability"></span> <span class='icon-name'>insurance-type-public-officials-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-more"></span> <span class='icon-name'>insurance-type-more</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -394,9 +395,6 @@
 .cwicon-insurance-type-cyber-liability-and-data-breach {
   content: "\5e";
 }
-.cwicon-insurance-type-directors-and-officers-insurance {
-  content: "\5f";
-}
 .cwicon-insurance-type-employee-benefits-liability {
   content: "\7b";
 }
@@ -436,9 +434,6 @@
 .cwicon-insurance-type-warehouse-operators-legal-liability {
   content: "\e007";
 }
-.cwicon-insurance-type-workers-compensation {
-  content: "\e008";
-}
 .cwicon-delete {
   content: "\e009";
 }
@@ -451,9 +446,18 @@
 .cwicon-insurance-type-employee-dishonesty-1 {
   content: "\e00b";
 }
+.cwicon-phone-nav {
+  content: "\e00d";
+}
+.cwicon-insurance-type-workers-compensation {
+  content: "\e008";
+}
 .cwicon-insurance-type-bop {
   content: "\e00c";
 }
-.cwicon-phone-nav {
-  content: "\e00d";
+.cwicon-insurance-type-directors-and-officers-insurance {
+  content: "\5f";
+}
+.cwicon-insurance-type-more {
+  content: "\e00e";
 }

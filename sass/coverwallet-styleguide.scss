@@ -386,4 +386,7 @@
     &phone-nav {
         @include cw-covericon-before(phone-nav, 0, #000);
     }
+    &insurance-type-more {
+        @include cw-covericon-before(insurance-type-more, 0, #000);
+    }
 }
