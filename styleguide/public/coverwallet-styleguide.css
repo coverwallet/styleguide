@@ -3641,6 +3641,7 @@ Markup:
     <div class="color color-blue">$cwColor-base-blue</div>
     <div class="color color-orange">$cwColor-base-orange</div>
     <div class="color color-black">$cwColor-base-black</div>
+    <div class="color color-bluegray">$cwColor-base-bluegray</div>
     <hr>
     <div class="color color-light-blue">$cwColor-blue-light</div>
     <hr>
@@ -7361,6 +7362,8 @@ Styleguide 9.1
     background-color: #f3a309; }
   .color.color-black {
     background-color: #000; }
+  .color.color-bluegray {
+    background-color: #454855; }
   .color.color-black-xlight {
     background-color: #f9f9f9;
     color: #272727; }
