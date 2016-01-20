@@ -6128,9 +6128,6 @@ html {
 .cwicon-insurance-type-product-recall, .product_recall:before, .styleguide-icon-insurance-type-product-recall:before {
   content: "\3f"; }
 
-.cwicon-insurance-type-professional-liability-e-and-o, .professional_liability__eo:before, .styleguide-icon-insurance-type-professional-liability-e-and-o:before {
-  content: "\40"; }
-
 .cwicon-insurance-type-public-officials-liability, .public_officials_liability:before, .styleguide-icon-insurance-type-public-officials-liability:before {
   content: "\5b"; }
 
@@ -6185,7 +6182,7 @@ html {
 .cwicon-insurance-type-disability-insurance, .disability_insurance:before, .styleguide-icon-insurance-type-disability-insurance:before {
   content: "\60"; }
 
-.cwicon-insurance-type-professional-liability-e-and-o-1 {
+.cwicon-insurance-type-professional-liability-e-and-o, .professional_liability__eo:before, .styleguide-icon-insurance-type-professional-liability-e-and-o:before {
   content: "\e00a"; }
 
 .cwicon-insurance-type-employee-dishonesty-1 {
