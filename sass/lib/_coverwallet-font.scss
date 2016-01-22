@@ -63,6 +63,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-professional-liability-e-and-o"></span> <span class='icon-name'>insurance-type-professional-liability-e-and-o</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-public-officials-liability"></span> <span class='icon-name'>insurance-type-public-officials-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-more"></span> <span class='icon-name'>insurance-type-more</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-quotes-close"></span> <span class='icon-name'>quotes-close</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -118,6 +119,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-business-owners-policy-bop"></span> <span class='icon-name'>insurance-type-business-owners-policy-bop</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-delete"></span> <span class='icon-name'>delete</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-phone-nav"></span> <span class='icon-name'>phone-nav</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
      </ul>
 </div>
 
@@ -457,4 +459,10 @@
 }
 .cwicon-insurance-type-more {
   content: "\e00e";
+}
+.cwicon-quotes-close {
+  content: "\40";
+}
+.cwicon-quotes-open {
+  content: "\e00f";
 }
