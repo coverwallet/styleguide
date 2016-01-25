@@ -1,0 +1,51 @@
+.administrative_services_and_building_maintenance {
+  @include cw-covericon-before(industries-maintance, 0, $cwColor-base-blue);
+}
+.agriculture_forestry_fishing_and_hunting {
+  @include cw-covericon-before(industries-agriculture, 0, $cwColor-base-blue);
+}
+.construction_and_contractors {
+  @include cw-covericon-before(industries-construction, 0, $cwColor-base-blue);
+}
+.educational_services {
+  @include cw-covericon-before(industries-education, 0, $cwColor-base-blue);
+}
+.finance_and_insurance {
+  @include cw-covericon-before(industries-finance, 0, $cwColor-base-blue);
+}
+.food_services_and_acommodation {
+  @include cw-covericon-before(industries-food, 0, $cwColor-base-blue);
+}
+.health_care_and_social_assistance {
+  @include cw-covericon-before(industries-health, 0, $cwColor-base-blue);
+}
+.manufacturing {
+  @include cw-covericon-before(industries-manufacturing, 0, $cwColor-base-blue);
+}
+.professional_scientific_and_technical_services {
+  @include cw-covericon-before(industries-professional, 0, $cwColor-base-blue);
+}
+.real_estate_rental_and_leasing {
+  @include cw-covericon-before(industries-realstate, 0, $cwColor-base-blue);
+}
+.retail_services {
+  @include cw-covericon-before(industries-retailservices, 0, $cwColor-base-blue);
+}
+.retail_trade {
+  @include cw-covericon-before(industries-retailtrade, 0, $cwColor-base-blue);
+}
+.sports_arts_entertainment_and_recreation {
+  @include cw-covericon-before(industries-sports, 0, $cwColor-base-blue);
+}
+.start-ups {
+  @include cw-covericon-before(industries-startups, 0, $cwColor-base-blue);
+}
+.technology_media_and_telecommunications {
+  @include cw-covericon-before(industries-tech, 0, $cwColor-base-blue);
+}
+.transportation_and_warehousing {
+  @include cw-covericon-before(industries-transportation, 0, $cwColor-base-blue);
+}
+.wholesale_trade {
+  @include cw-covericon-before(industries-wholesale, 0, $cwColor-base-blue);
+}
