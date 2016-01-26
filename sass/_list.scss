@@ -2,7 +2,7 @@ ul.list {
     list-style: none;
     &.list--type-1 {
         li {
-            @include cw-icon-before(check, 10px, $cwColor-base-blue);
+            @include cw-icon-before(check, 6px, $cwColor-base-blue);
             &:before {
                 margin-left: -25px;
             }
