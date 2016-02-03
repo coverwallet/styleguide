@@ -16,6 +16,10 @@
     &.color-black {
         background-color: $cwColor-base-black;
     }
+    &.color-white {
+        background-color: $cwColor-base-white;
+        color: #000;
+    }
     &.color-bluegray {
         background-color: $cwColor-base-bluegray;
     }
@@ -379,6 +383,9 @@
     }
     &insurance-type-workers-compensation {
         @include cw-covericon-before(insurance-type-workers-compensation, 0, #000);
+    }
+    &insurance-type-health {
+        @include cw-covericon-before(insurance-type-health, 0, #000);
     }
     &insurance-type-business-owners-policy-bop {
         @include cw-covericon-before(insurance-type-business-owners-policy-bop, 0, #000);
