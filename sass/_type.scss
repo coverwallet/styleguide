@@ -24,8 +24,11 @@ h6,
         font-weight: bold;
     }
 
-    &.light{
+    &.light {
         color: $cwColor-base-blue;
+    }
+    &.base-white {
+        color: $cwColor-base-white;
     }
 }
 h1,
@@ -107,6 +110,7 @@ body{
 Base headers
 
 .light       - Hover state.
+.base-white    - White color
 
 Markup:
     <h1 class="{{modifier_class}}">H1 title </h1>
@@ -122,6 +126,7 @@ Markup:
 Base headers with span
 
 .light    - Blue color
+
 
 Markup:
     <h1 class="{{modifier_class}}">H1 title <span>with span</span></h1>

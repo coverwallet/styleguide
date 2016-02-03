@@ -106,7 +106,7 @@ module.exports = function(grunt) {
             },
             sass: {
                 files: ['./sass/**/*'],
-                tasks: ['exec:generateGuide', 'sass:guide', 'copy']
+                tasks: ['sass:guide', 'exec:generateGuide', 'sass:guide', 'copy']
             }
         }
 
