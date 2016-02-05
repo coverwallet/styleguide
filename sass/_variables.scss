@@ -72,6 +72,38 @@ $desktop: new-breakpoint($desktopParams);
 
 $retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
 
+$line-height-default:30px;
+
+//navbar variables
+$navbar-padding: 0 25px;
+
+//header
+$header-min-height: 50px;
+
+//header
+$header-height: 70px;
+//navbar variables
+$navbar-padding: 0 25px;
+
+
+//slider
+$slider-body-height: 960px;
+$slider-nav-height: 50px;
+$slider-height: $slider-body-height + $slider-nav-height;
+
+//banner
+$banner-height: 100px;
+
+//seo pages
+$seo-header-min-height: 100px;
+$seo-sidebar-width: 240px;
+$seo-footer-height: 80px;
+$seo-footer-height-mobile: 120px;
+$seo-menu-width: 240px;
+$seo-menu-border: #e8e8e8;
+$seo-menu-background: #f8f9fa;
+
+
 /*
 Standar colors
 
