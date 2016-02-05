@@ -21,6 +21,35 @@ form {
                 position: absolute;
             }
         }
+
+        .label {
+            @include clearfix();
+
+            &.label--inline {
+                display: inline-block;
+                float: left;
+            }
+
+            &.label--text {
+                color: $color-text;
+                font-size: 1em;
+                position: relative;
+                text-align: right;
+                width: 240px;
+                text-transform: none;
+                height: 100%;
+                top: 13px;
+
+                @include media($mobile) {
+                    position: static;
+                    float: none;
+                    width: 100%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+        }
+
         .form-input {
             background-color: transparent;
             border-radius: 0;
@@ -280,6 +309,16 @@ form {
                 color: $cwColor-black-light;
             }
         }
+    }
+
+    .form-help-icon {
+        @include cw-icon-before(question-circle, 0, $cwColor-base-blue);
+        cursor: pointer;
+        font-size: 18px;
+        padding-left: 5px;
+        right: 15px;
+        top: 10px;
+        position: absolute;
     }
 }
 /*
