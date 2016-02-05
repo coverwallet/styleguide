@@ -1,0 +1,45 @@
+.NumberInput {
+  width: 180px;
+  float: left;
+
+  @include media($mobile) {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .NumberInput__plus {
+    @extend .fa, .fa-2x, .fa-plus-circle;
+    padding: 5px;
+    margin: 5px;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom;
+  }
+
+  .NumberInput__minus {
+    @extend .fa, .fa-2x, .fa-minus-circle;
+    padding: 5px;
+    margin: 5px;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom;
+  }
+
+  .NumberInput__input {
+    margin: 10px 0;
+    background-color: $cwColor-base-white;
+    border-radius: 0;
+    border: 1px solid $cwColor-base-bluegray;
+    padding-left: 10px;
+    width: 100px !important;
+    height: 40px !important;
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+    font-weight: 100;
+    box-sizing: border-box;
+  }
+}

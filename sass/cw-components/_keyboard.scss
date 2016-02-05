@@ -1,0 +1,21 @@
+.keyboard {
+  background: inherit;
+  width: 160px;
+
+  .number, .delete {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: $cwColor-base-white;
+    font-size: 20px;
+    margin: 1px;
+    border: 1px solid $cwColor-base-bluegray;
+    display: inline-block;
+  }
+
+  .number--0, .delete--0 {
+    width: 102px;
+  }
+}
