@@ -3672,7 +3672,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .form-icon.form-icon--edit:before, .form .form-group.form-group--icons .form-icon.form-icon--save:before,
 form .form-group.form-group--icons .form-icon.form-icon--save:before, .form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.form--light .form-select .cs-placeholder:after,
-form.form--light .form-select .cs-placeholder:after, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before {
+form.form--light .form-select .cs-placeholder:after, .form .form-help-icon:before,
+form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before, .NumberInput .NumberInput__plus:before, .NumberInput .NumberInput__minus:before {
   display: inline-block;
   font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
@@ -3738,7 +3739,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-left.cs-placeholder:after,
-form.form--light .form-select .fa-pull-left.cs-placeholder:after, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-left.calendar-menu-icon:before {
+form.form--light .form-select .fa-pull-left.cs-placeholder:after, .form .fa-pull-left.form-help-icon:before,
+form .fa-pull-left.form-help-icon:before, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-left.calendar-menu-icon:before, .NumberInput .fa-pull-left.NumberInput__plus:before, .NumberInput .fa-pull-left.NumberInput__minus:before {
   margin-right: .3em; }
 
 .fa.fa-pull-right, .form .form-group label .fa-pull-right.form-help-icon:before,
@@ -3750,7 +3752,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-right.cs-placeholder:after,
-form.form--light .form-select .fa-pull-right.cs-placeholder:after, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-right.calendar-menu-icon:before {
+form.form--light .form-select .fa-pull-right.cs-placeholder:after, .form .fa-pull-right.form-help-icon:before,
+form .fa-pull-right.form-help-icon:before, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-right.calendar-menu-icon:before, .NumberInput .fa-pull-right.NumberInput__plus:before, .NumberInput .fa-pull-right.NumberInput__minus:before {
   margin-left: .3em; }
 
 /* Deprecated as of 4.4.0 */
@@ -3769,7 +3772,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-left.cs-placeholder:after,
-form.form--light .form-select .pull-left.cs-placeholder:after, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-left.calendar-menu-icon:before {
+form.form--light .form-select .pull-left.cs-placeholder:after, .form .pull-left.form-help-icon:before,
+form .pull-left.form-help-icon:before, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-left.calendar-menu-icon:before, .NumberInput .pull-left.NumberInput__plus:before, .NumberInput .pull-left.NumberInput__minus:before {
   margin-right: .3em; }
 
 .fa.pull-right, .form .form-group label .pull-right.form-help-icon:before,
@@ -3781,7 +3785,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-right.cs-placeholder:after,
-form.form--light .form-select .pull-right.cs-placeholder:after, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-right.calendar-menu-icon:before {
+form.form--light .form-select .pull-right.cs-placeholder:after, .form .pull-right.form-help-icon:before,
+form .pull-right.form-help-icon:before, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-right.calendar-menu-icon:before, .NumberInput .pull-right.NumberInput__plus:before, .NumberInput .pull-right.NumberInput__minus:before {
   margin-left: .3em; }
 
 .fa-spin {
@@ -4122,10 +4127,10 @@ form .form-group.form-group--icons .form-icon.form-icon--edit:before {
 .fa-chevron-right:before {
   content: ""; }
 
-.fa-plus-circle:before {
+.fa-plus-circle:before, .NumberInput .NumberInput__plus:before {
   content: ""; }
 
-.fa-minus-circle:before {
+.fa-minus-circle:before, .NumberInput .NumberInput__minus:before {
   content: ""; }
 
 .fa-times-circle:before {
@@ -4137,7 +4142,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
   content: ""; }
 
 .fa-question-circle:before, .form .form-group label .form-help-icon:before,
-form .form-group label .form-help-icon:before {
+form .form-group label .form-help-icon:before, .form .form-help-icon:before,
+form .form-help-icon:before {
   content: ""; }
 
 .fa-info-circle:before {
@@ -6551,6 +6557,33 @@ form .form-group {
       form .form-group label .form-help-icon:before {
         padding-right: 0;
         color: #438bd7; }
+  .form .form-group .label::after,
+  form .form-group .label::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .form .form-group .label.label--inline,
+  form .form-group .label.label--inline {
+    display: inline-block;
+    float: left; }
+  .form .form-group .label.label--text,
+  form .form-group .label.label--text {
+    color: #272727;
+    font-size: 1em;
+    position: relative;
+    text-align: right;
+    width: 240px;
+    text-transform: none;
+    height: 100%;
+    top: 13px; }
+    @media screen and (max-width: 480px) {
+      .form .form-group .label.label--text,
+      form .form-group .label.label--text {
+        position: static;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center; } }
   .form .form-group .form-input,
   form .form-group .form-input {
     background-color: transparent;
@@ -6802,6 +6835,19 @@ form.form--light .help-block {
 .form.form--light .form-group--info .form-info,
 form.form--light .form-group--info .form-info {
   color: #d2d2d2; }
+
+.form .form-help-icon,
+form .form-help-icon {
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 5px;
+  right: 15px;
+  top: 10px;
+  position: absolute; }
+  .form .form-help-icon:before,
+  form .form-help-icon:before {
+    padding-right: 0;
+    color: #438bd7; }
 
 /*
  Standard forms styles
@@ -7970,6 +8016,135 @@ Styleguide 11.1
 .wholesale_trade:before {
   padding-right: 0;
   color: #438bd7; }
+
+/*
+  CW Components
+
+  Styleguide 13
+*/
+/*
+
+
+  Number Input
+
+  Styleguide 13.1
+
+  Markup:
+    <div class="NumberInput">
+      <input class="NumberInput__input" min="0" step="1" type="number" value="0">
+      <span class="NumberInput__minus"></span>
+      <span class="NumberInput__plus"></span>
+    </div>
+*/
+.NumberInput {
+  position: relative;
+  width: 180px; }
+  @media screen and (max-width: 480px) {
+    .NumberInput {
+      text-align: center;
+      float: none;
+      margin: 0 auto; } }
+  .NumberInput .NumberInput__plus {
+    position: absolute;
+    top: 8px;
+    left: 145px;
+    font-size: 2em;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom; }
+    .NumberInput .NumberInput__plus:before {
+      padding-right: 0;
+      color: #000; }
+  .NumberInput .NumberInput__minus {
+    position: absolute;
+    top: 8px;
+    left: 110px;
+    font-size: 2em;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom; }
+    .NumberInput .NumberInput__minus:before {
+      padding-right: 0;
+      color: #000; }
+  .NumberInput .NumberInput__input {
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #454855;
+    padding-left: 10px;
+    width: 100px !important;
+    height: 40px !important;
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+    font-weight: 100;
+    box-sizing: border-box; }
+
+.keyboard {
+  background: inherit;
+  width: 160px; }
+  .keyboard .number, .keyboard .delete {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    font-size: 20px;
+    margin: 1px;
+    border: 1px solid #454855;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box; }
+  .keyboard .number--0, .keyboard .delete--0 {
+    width: 102px; }
+
+/* 
+  Input Keyboard 
+
+  Styleguide 13.2
+
+  Markup:
+    <div class="InputKeyboard">
+      <input type="number" class="form-input">
+      <div class="keyboard">
+        <div class="number">9</div>
+        <div class="number">8</div>
+        <div class="number">7</div>
+        <div class="number">6</div>
+        <div class="number">5</div>
+        <div class="number">4</div>
+        <div class="number">3</div>
+        <div class="number">2</div>
+        <div class="number">1</div>
+        <div class="number number--0">0</div>
+        <div class="delete">&lt;</div>
+      </div>
+    </div>
+*/
+.InputKeyboard {
+  width: 156px;
+  float: left; }
+  @media screen and (max-width: 480px) {
+    .InputKeyboard {
+      text-align: center;
+      float: none;
+      margin: 0 auto; } }
+  .InputKeyboard .form-input {
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #454855;
+    padding-left: 10px;
+    width: 100%;
+    height: 40px !important;
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+    font-weight: 100;
+    box-sizing: border-box; }
 
 .color {
   padding: 20px;
