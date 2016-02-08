@@ -17,7 +17,7 @@
         <div class="number">2</div>
         <div class="number">1</div>
         <div class="number number--0">0</div>
-        <div class="delete">&lt;</div>
+        <div class="delete onlyclick-backspace"></div>
       </div>
     </div>
 */
@@ -32,17 +32,22 @@
     margin: 0 auto;
   }
 
+  .onlyclick-backspace {
+    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-light);
+    display: inline-block;
+  }
+
   .form-input {
     margin: 10px 0;
     background-color: $cwColor-base-white;
     border-radius: 0;
-    border: 1px solid $cwColor-base-bluegray;
+    border: 2px solid $cwColor-black-light;
     padding-left: 10px;
     width: 100%;
     height: 40px !important;
     text-align: left;
     font-size: 1em;
-    color: #333;
+    color: $cwColor-black-xmedium;
     font-weight: 100;
     box-sizing: border-box;
   }

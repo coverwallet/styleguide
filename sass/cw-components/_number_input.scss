@@ -6,8 +6,8 @@
   Markup:
     <div class="NumberInput">
       <input class="NumberInput__input" min="0" step="1" type="number" value="0">
-      <span class="NumberInput__minus"></span>
-      <span class="NumberInput__plus"></span>
+      <span class="onlyclick-minus"></span>
+      <span class="onlyclick-plus"></span>
     </div>
 */
 
@@ -21,29 +21,24 @@
     float: none;
     margin: 0 auto;
   }
-
-  .NumberInput__plus {
-    @include cw-icon-before(plus-circle, 0, $cwColor-base-black);
+  .onlyclick-minus,
+  .onlyclick-plus {
     position: absolute;
-    top: 8px;
-    left: 145px;
+    top: 11px;
     font-size: 2em;
     width: 28px;
     height: 28px;
     box-sizing: border-box;
     vertical-align: text-bottom;
   }
+  .onlyclick-minus {
+    @include cw-covericon-before(onlyclick-minus, 0, $cwColor-black-light);
+    left: 145px;
+  }
 
-  .NumberInput__minus {
-    @include cw-icon-before(minus-circle, 0, $cwColor-base-black);
-    position: absolute;
-    top: 8px;
+  .onlyclick-plus {
+    @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-light);
     left: 110px;
-    font-size: 2em;
-    width: 28px;
-    height: 28px;
-    box-sizing: border-box;
-    vertical-align: text-bottom;
   }
 
   .NumberInput__input {
@@ -55,9 +50,9 @@
     text-align: left;
     font-size: 1em;
     font-weight: 100;
-    color: #333;
+    color: $cwColor-black-xmedium;
     background-color: $cwColor-base-white;
-    border: 1px solid $cwColor-base-bluegray;
+    border: 2px solid $cwColor-black-light;
     border-radius: 0;
     box-sizing: border-box;
   }

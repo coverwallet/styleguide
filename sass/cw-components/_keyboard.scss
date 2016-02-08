@@ -8,10 +8,11 @@
     height: 50px;
     text-align: center;
     line-height: 50px;
-    background: $cwColor-base-white;
+    color: $cwColor-black-xmedium;
+    background-color: $cwColor-base-white;
+    border: 2px solid $cwColor-black-light;
     font-size: 20px;
     margin: 1px;
-    border: 1px solid $cwColor-base-bluegray;
     display: inline-block;
     float: left;
     box-sizing: border-box;
