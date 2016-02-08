@@ -32,12 +32,12 @@
     vertical-align: text-bottom;
   }
   .onlyclick-minus {
-    @include cw-covericon-before(onlyclick-minus, 0, $cwColor-black-light);
+    @include cw-covericon-before(onlyclick-minus, 0, $cwColor-black-dark);
     left: 145px;
   }
 
   .onlyclick-plus {
-    @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-light);
+    @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-dark);
     left: 110px;
   }
 
@@ -49,7 +49,6 @@
     padding-left: 10px;
     text-align: left;
     font-size: 1em;
-    font-weight: 100;
     color: $cwColor-black-dark;
     background-color: $cwColor-base-white;
     border: 1px solid $cwColor-black-light;

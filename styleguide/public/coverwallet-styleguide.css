@@ -8056,12 +8056,12 @@ Styleguide 11.1
     left: 145px; }
     .NumberInput .onlyclick-minus:before {
       padding-right: 0;
-      color: #d2d2d2; }
+      color: #505050; }
   .NumberInput .onlyclick-plus {
     left: 110px; }
     .NumberInput .onlyclick-plus:before {
       padding-right: 0;
-      color: #d2d2d2; }
+      color: #505050; }
   .NumberInput .NumberInput__input {
     float: left;
     width: 100px !important;
@@ -8070,7 +8070,6 @@ Styleguide 11.1
     padding-left: 10px;
     text-align: left;
     font-size: 1em;
-    font-weight: 100;
     color: #505050;
     background-color: #fff;
     border: 1px solid #d2d2d2;
