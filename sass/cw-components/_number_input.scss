@@ -1,6 +1,4 @@
 /*
-
-
   Number Input
 
   Styleguide 13.1
@@ -16,6 +14,7 @@
 .NumberInput {
   position: relative;
   width: 180px;
+  float: left;
 
   @include media($mobile) {
     text-align: center;
@@ -48,17 +47,18 @@
   }
 
   .NumberInput__input {
-    margin: 10px 0;
-    background-color: $cwColor-base-white;
-    border-radius: 0;
-    border: 1px solid $cwColor-base-bluegray;
-    padding-left: 10px;
+    float: left;
     width: 100px !important;
     height: 40px !important;
+    margin: 10px 0;
+    padding-left: 10px;
     text-align: left;
     font-size: 1em;
-    color: #333;
     font-weight: 100;
+    color: #333;
+    background-color: $cwColor-base-white;
+    border: 1px solid $cwColor-base-bluegray;
+    border-radius: 0;
     box-sizing: border-box;
   }
 }
