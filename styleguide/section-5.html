@@ -37,6 +37,7 @@
               <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Tables</span></a></li>
               <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Icon fonts</span></a></li>
               <li class="kss-menu-item"><a href="section-11.html"><span class="kss-ref">11</span><span class="kss-name">Header</span></a></li>
+              <li class="kss-menu-item"><a href="section-13.html"><span class="kss-ref">13</span><span class="kss-name">CW Components</span></a></li>
             </ul>
             <ul class="kss-menu-child">
               <li class="kss-menu-item"><a href="#section-5.1"><span class="kss-ref">5.1</span><span class="kss-name">Standards forms (include help-icon)</span></a></li>
@@ -44,8 +45,8 @@
               <li class="kss-menu-item"><a href="#section-5.3"><span class="kss-ref">5.3</span><span class="kss-name">Form readonly with info and not readonly with info</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.4"><span class="kss-ref">5.4</span><span class="kss-name">Form readonly with icons</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.5"><span class="kss-ref">5.5</span><span class="kss-name">Different inputs text, password, email</span></a></li>
-              <li class="kss-menu-item"><a href="#section-5.6"><span class="kss-ref">5.6</span><span class="kss-name">Error form group</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.6"><span class="kss-ref">5.6</span><span class="kss-name">Help messages</span></a></li>
+              <li class="kss-menu-item"><a href="#section-5.6"><span class="kss-ref">5.6</span><span class="kss-name">Error form group</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.8"><span class="kss-ref">5.8</span><span class="kss-name">Checkbox inputs</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.9"><span class="kss-ref">5.9</span><span class="kss-name">Select inputs</span></a></li>
             </ul>
@@ -406,54 +407,12 @@
             </div>
           </section>
           <section id="section-5.6" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">5.6</span> Error form group</h1>
-            <div class="kss-modifier-block">
-              <div class="kss-modifier kss-modifier-original">
-                <div class="kss-modifier-example">
-                  <form class="form  [modifier class]">
-   <div class="form-group">
-       <label for="name-light">Name</label>
-       <input type="text" id="name-light" class="form-input" placeholder="Name"/>
-       <span class="help-block" >Please enter a valid name</span>
-   </div>
-</form>
-                </div>
-              </div>
-              <div class="kss-modifier">
-                <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.form-group--error</div>
-                  <div class="kss-modifier-description">
-                    Message over blue background
-                  </div>
-                </div>
-                <div class="kss-modifier-example">
-                  <form class="form  form-group--error">
-   <div class="form-group">
-       <label for="name-light">Name</label>
-       <input type="text" id="name-light" class="form-input" placeholder="Name"/>
-       <span class="help-block" >Please enter a valid name</span>
-   </div>
-</form>
-                </div>
-              </div>
-              <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form  [modifier class]&quot;&gt;
-   &lt;div class&#x3D;&quot;form-group&quot;&gt;
-       &lt;label for&#x3D;&quot;name-light&quot;&gt;Name&lt;/label&gt;
-       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name-light&quot; class&#x3D;&quot;form-input&quot; placeholder&#x3D;&quot;Name&quot;/&gt;
-       &lt;span class&#x3D;&quot;help-block&quot; &gt;Please enter a valid name&lt;/span&gt;
-   &lt;/div&gt;
-&lt;/form&gt;</code></pre>
-              </div>
-            </div>
-          </section>
-          <section id="section-5.6" class="kss-section kss-depth-2">
             <h1 class="kss-title"><span class="kss-ref">5.6</span> Help messages</h1>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                  <form class="form  [modifier class]">
-   <div class="form-group">
+                  <form class="form">
+   <div class="form-group [modifier class]">
        <label for="name-light">Name</label>
        <input type="text" id="name-light" class="form-input" placeholder="Name"/>
        <span class="help-block" >Please enter a valid name</span>
@@ -469,8 +428,8 @@
                   </div>
                 </div>
                 <div class="kss-modifier-example">
-                  <form class="form  form--light">
-   <div class="form-group">
+                  <form class="form">
+   <div class="form-group form--light">
        <label for="name-light">Name</label>
        <input type="text" id="name-light" class="form-input" placeholder="Name"/>
        <span class="help-block" >Please enter a valid name</span>
@@ -479,8 +438,50 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form  [modifier class]&quot;&gt;
-   &lt;div class&#x3D;&quot;form-group&quot;&gt;
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group [modifier class]&quot;&gt;
+       &lt;label for&#x3D;&quot;name-light&quot;&gt;Name&lt;/label&gt;
+       &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name-light&quot; class&#x3D;&quot;form-input&quot; placeholder&#x3D;&quot;Name&quot;/&gt;
+       &lt;span class&#x3D;&quot;help-block&quot; &gt;Please enter a valid name&lt;/span&gt;
+   &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-5.6" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">5.6</span> Error form group</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group [modifier class]">
+       <label for="name-light">Name</label>
+       <input type="text" id="name-light" class="form-input" placeholder="Name"/>
+       <span class="help-block" >Please enter a valid name</span>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.form-group--error</div>
+                  <div class="kss-modifier-description">
+                    Message over blue background
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group form-group--error">
+       <label for="name-light">Name</label>
+       <input type="text" id="name-light" class="form-input" placeholder="Name"/>
+       <span class="help-block" >Please enter a valid name</span>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group [modifier class]&quot;&gt;
        &lt;label for&#x3D;&quot;name-light&quot;&gt;Name&lt;/label&gt;
        &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name-light&quot; class&#x3D;&quot;form-input&quot; placeholder&#x3D;&quot;Name&quot;/&gt;
        &lt;span class&#x3D;&quot;help-block&quot; &gt;Please enter a valid name&lt;/span&gt;
