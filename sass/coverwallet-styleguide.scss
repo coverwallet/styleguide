@@ -405,4 +405,62 @@
     &quotes-close {
         @include cw-covericon-before(quotes-close, 0, #000);
     }
+    &onlyclick-0-10 {
+        @include cw-covericon-before(onlyclick-0-10, 0, #000);
+    }
+    &onlyclick-minus {
+        @include cw-covericon-before(onlyclick-minus, 0, #000);
+    }
+    &onlyclick-location-rent-lease {
+        @include cw-covericon-before(onlyclick-location-rent-lease, 0, #000);
+    }
+    &onlyclick-location-own {
+        @include cw-covericon-before(onlyclick-location-own, 0, #000);
+    }
+    &onlyclick-location-non-combustible {
+        @include cw-covericon-before(onlyclick-location-non-combustible, 0, #000);
+    }
+    &onlyclick-location-joint-masonery {
+        @include cw-covericon-before(onlyclick-location-joint-masonery, 0, #000);
+    }
+    &onlyclick-location-homeoffice {
+        @include cw-covericon-before(onlyclick-location-homeoffice, 0, #000);
+    }
+    &onlyclick-location-frame {
+        @include cw-covericon-before(onlyclick-location-frame, 0, #000);
+    }
+    &onlyclick-location-fire-resistive {
+        @include cw-covericon-before(onlyclick-location-fire-resistive, 0, #000);
+    }
+    &onlyclick-lease {
+        @include cw-covericon-before(onlyclick-lease, 0, #000);
+    }
+    &onlyclick-dollar {
+        @include cw-covericon-before(onlyclick-dollar, 0, #000);
+    }
+    &onlyclick-backspace {
+        @include cw-covericon-before(onlyclick-backspace, 0, #000);
+    }
+    &onlyclick-50plus {
+        @include cw-covericon-before(onlyclick-50plus, 0, #000);
+    }
+    &onlyclick-10-50 {
+        @include cw-covericon-before(onlyclick-10-50, 0, #000);
+    }
+    &onlyclick-no {
+        @include cw-covericon-before(onlyclick-no, 0, #000);
+    }
+    &onlyclick-notsure {
+        @include cw-covericon-before(onlyclick-notsure, 0, #000);
+    }
+    &onlyclick-own {
+        @include cw-covericon-before(onlyclick-own, 0, #000);
+    }
+    &onlyclick-plus {
+        @include cw-covericon-before(onlyclick-plus, 0, #000);
+    }
+    &onlyclick-yes {
+        @include cw-covericon-before(onlyclick-yes, 0, #000);
+    }
+
 }
