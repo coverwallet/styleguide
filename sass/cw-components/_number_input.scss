@@ -1,0 +1,64 @@
+/*
+  Number Input
+
+  Styleguide 13.1
+
+  Markup:
+    <div class="NumberInput">
+      <input class="NumberInput__input" min="0" step="1" type="number" value="0">
+      <span class="NumberInput__minus"></span>
+      <span class="NumberInput__plus"></span>
+    </div>
+*/
+
+.NumberInput {
+  position: relative;
+  width: 180px;
+  float: left;
+
+  @include media($mobile) {
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .NumberInput__plus {
+    @include cw-icon-before(plus-circle, 0, $cwColor-base-black);
+    position: absolute;
+    top: 8px;
+    left: 145px;
+    font-size: 2em;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom;
+  }
+
+  .NumberInput__minus {
+    @include cw-icon-before(minus-circle, 0, $cwColor-base-black);
+    position: absolute;
+    top: 8px;
+    left: 110px;
+    font-size: 2em;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom;
+  }
+
+  .NumberInput__input {
+    float: left;
+    width: 100px !important;
+    height: 40px !important;
+    margin: 10px 0;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 1em;
+    font-weight: 100;
+    color: #333;
+    background-color: $cwColor-base-white;
+    border: 1px solid $cwColor-base-bluegray;
+    border-radius: 0;
+    box-sizing: border-box;
+  }
+}

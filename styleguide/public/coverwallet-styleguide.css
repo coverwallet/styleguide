@@ -3672,7 +3672,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .form-icon.form-icon--edit:before, .form .form-group.form-group--icons .form-icon.form-icon--save:before,
 form .form-group.form-group--icons .form-icon.form-icon--save:before, .form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.form--light .form-select .cs-placeholder:after,
-form.form--light .form-select .cs-placeholder:after, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before {
+form.form--light .form-select .cs-placeholder:after, .form .form-help-icon:before,
+form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before, .NumberInput .NumberInput__plus:before, .NumberInput .NumberInput__minus:before {
   display: inline-block;
   font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
@@ -3738,7 +3739,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-left.cs-placeholder:after,
-form.form--light .form-select .fa-pull-left.cs-placeholder:after, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before {
+form.form--light .form-select .fa-pull-left.cs-placeholder:after, .form .fa-pull-left.form-help-icon:before,
+form .fa-pull-left.form-help-icon:before, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-left.calendar-menu-icon:before, .NumberInput .fa-pull-left.NumberInput__plus:before, .NumberInput .fa-pull-left.NumberInput__minus:before {
   margin-right: .3em; }
 
 .fa.fa-pull-right, .form .form-group label .fa-pull-right.form-help-icon:before,
@@ -3750,7 +3752,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-right.cs-placeholder:after,
-form.form--light .form-select .fa-pull-right.cs-placeholder:after, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before {
+form.form--light .form-select .fa-pull-right.cs-placeholder:after, .form .fa-pull-right.form-help-icon:before,
+form .fa-pull-right.form-help-icon:before, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-right.calendar-menu-icon:before, .NumberInput .fa-pull-right.NumberInput__plus:before, .NumberInput .fa-pull-right.NumberInput__minus:before {
   margin-left: .3em; }
 
 /* Deprecated as of 4.4.0 */
@@ -3769,7 +3772,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-left.cs-placeholder:after,
-form.form--light .form-select .pull-left.cs-placeholder:after, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before {
+form.form--light .form-select .pull-left.cs-placeholder:after, .form .pull-left.form-help-icon:before,
+form .pull-left.form-help-icon:before, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-left.calendar-menu-icon:before, .NumberInput .pull-left.NumberInput__plus:before, .NumberInput .pull-left.NumberInput__minus:before {
   margin-right: .3em; }
 
 .fa.pull-right, .form .form-group label .pull-right.form-help-icon:before,
@@ -3781,7 +3785,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--edit:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-right.cs-placeholder:after,
-form.form--light .form-select .pull-right.cs-placeholder:after, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before {
+form.form--light .form-select .pull-right.cs-placeholder:after, .form .pull-right.form-help-icon:before,
+form .pull-right.form-help-icon:before, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-right.calendar-menu-icon:before, .NumberInput .pull-right.NumberInput__plus:before, .NumberInput .pull-right.NumberInput__minus:before {
   margin-left: .3em; }
 
 .fa-spin {
@@ -4122,10 +4127,10 @@ form .form-group.form-group--icons .form-icon.form-icon--edit:before {
 .fa-chevron-right:before {
   content: ""; }
 
-.fa-plus-circle:before {
+.fa-plus-circle:before, .NumberInput .NumberInput__plus:before {
   content: ""; }
 
-.fa-minus-circle:before {
+.fa-minus-circle:before, .NumberInput .NumberInput__minus:before {
   content: ""; }
 
 .fa-times-circle:before {
@@ -4137,7 +4142,8 @@ form .form-group.form-group--checkbox .form-checkbox.form-checkbox--blue input:c
   content: ""; }
 
 .fa-question-circle:before, .form .form-group label .form-help-icon:before,
-form .form-group label .form-help-icon:before {
+form .form-group label .form-help-icon:before, .form .form-help-icon:before,
+form .form-help-icon:before {
   content: ""; }
 
 .fa-info-circle:before {
@@ -4211,7 +4217,7 @@ form .form-group label .form-help-icon:before {
 .fa-plane:before {
   content: ""; }
 
-.fa-calendar:before {
+.fa-calendar:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before {
   content: ""; }
 
 .fa-random:before {
@@ -4468,7 +4474,7 @@ form .form-group label .form-help-icon:before {
 .fa-money:before {
   content: ""; }
 
-.fa-caret-down:before {
+.fa-caret-down:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before {
   content: ""; }
 
 .fa-caret-up:before {
@@ -5729,7 +5735,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-icon, ul.list.list--type-4 li:before, .general_liability:before, .epli:before, .professional_liability__eo:before, .workers_compensation:before, .disability_insurance:before, .employee_benefits_liability:before, .umbrella_liability:before, .commercial_building_andor_property:before, .employee_dishonesty:before, .environmental_impairment:before, .inland_marine:before, .bailees_customers:before, .commercial_auto:before, .liquor_liability:before, .product_recall:before, .guests_property:before, .fiduciary_bond:before, .directors__officers_insurance:before, .financial_institutions_bond:before, .surety_bond:before, .crime:before, .farmowners_multi-peril:before, .cyber_liability__data_breach:before, .aircraft_liability:before, .motor_carriers_liability_and_physical_damage:before, .warehouse_operators_legal_liability:before, .exhibitions:before, .ocean_marine:before, .hangarkeepers_legal_liability:before, .forgery_or_alteration:before, .money_orders_and_counterfeit_money:before, .medical_malpractice:before, .golf_carts:before, .public_officials_liability:before, .business_garage:before, .aviation_general_liability_coverage:before, .business_owners_policy_bop:before, .more:before, .administrative_services_and_building_maintenance:before, .agriculture_forestry_fishing_and_hunting:before, .construction_and_contractors:before, .educational_services:before, .finance_and_insurance:before, .food_services_and_acommodation:before, .health_care_and_social_assistance:before, .manufacturing:before, .professional_scientific_and_technical_services:before, .real_estate_rental_and_leasing:before, .retail_services:before, .retail_trade:before, .sports_arts_entertainment_and_recreation:before, .start-ups:before, .technology_media_and_telecommunications:before, .transportation_and_warehousing:before, .wholesale_trade:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before, .styleguide-icon-industries-agriculture:before, .styleguide-icon-industries-construction:before, .styleguide-icon-industries-education:before, .styleguide-icon-industries-finance:before, .styleguide-icon-industries-food:before, .styleguide-icon-industries-health:before, .styleguide-icon-industries-maintance:before, .styleguide-icon-industries-manufacturing:before, .styleguide-icon-industries-nonprofit:before, .styleguide-icon-industries-professional:before, .styleguide-icon-industries-realstate:before, .styleguide-icon-industries-retailservices:before, .styleguide-icon-industries-retailtrade:before, .styleguide-icon-industries-sports:before, .styleguide-icon-industries-startups:before, .styleguide-icon-industries-tech:before, .styleguide-icon-industries-transportation:before, .styleguide-icon-industries-wholesale:before, .styleguide-icon-insurance-type-aircraft-liability:before, .styleguide-icon-insurance-type-aviation-general-liability-coverage:before, .styleguide-icon-insurance-type-bailees-customers:before, .styleguide-icon-insurance-type-business-garage:before, .styleguide-icon-insurance-type-commercial-auto:before, .styleguide-icon-insurance-type-commercial-building-and-or-property:before, .styleguide-icon-insurance-type-epli:before, .styleguide-icon-insurance-type-exhibitions:before, .styleguide-icon-insurance-type-farmowners-multi-peril:before, .styleguide-icon-insurance-type-fiduciary-bond:before, .styleguide-icon-insurance-type-financial-institutions-bond:before, .styleguide-icon-insurance-type-forgery-or-alteration:before, .styleguide-icon-insurance-type-money-orders-and-counterfeit-money:before, .styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage:before, .styleguide-icon-insurance-type-ocean-marine:before, .styleguide-icon-insurance-type-product-recall:before, .styleguide-icon-insurance-type-professional-liability-e-and-o:before, .styleguide-icon-insurance-type-public-officials-liability:before, .styleguide-icon-insurance-type-crime:before, .styleguide-icon-insurance-type-cyber-liability-and-data-breach:before, .styleguide-icon-insurance-type-directors-and-officers-insurance:before, .styleguide-icon-insurance-type-disability-insurance:before, .styleguide-icon-insurance-type-employee-benefits-liability:before, .styleguide-icon-insurance-type-employee-dishonesty:before, .styleguide-icon-insurance-type-environmental-impairment:before, .styleguide-icon-insurance-type-general-liability:before, .styleguide-icon-insurance-type-golf-carts:before, .styleguide-icon-insurance-type-guests-property:before, .styleguide-icon-insurance-type-hangarkeepers-legal-liability:before, .styleguide-icon-insurance-type-inland-marine:before, .styleguide-icon-insurance-type-liquor-liability:before, .styleguide-icon-insurance-type-medical-malpractice:before, .styleguide-icon-insurance-type-surety-bond:before, .styleguide-icon-insurance-type-umbrella-liability:before, .styleguide-icon-insurance-type-warehouse-operators-legal-liability:before, .styleguide-icon-insurance-type-workers-compensation:before, .styleguide-icon-insurance-type-health:before, .styleguide-icon-insurance-type-business-owners-policy-bop:before, .styleguide-icon-delete:before, .styleguide-icon-phone-nav:before, .styleguide-icon-insurance-type-more:before, .styleguide-icon-quotes-open:before, .styleguide-icon-quotes-close:before {
+.coverwallet-icon, ul.list.list--type-4 li:before, header .navbar-menu ul.nav > li a.telephone-link span:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.telephone-menu-icon:before, .general_liability:before, .epli:before, .professional_liability__eo:before, .workers_compensation:before, .disability_insurance:before, .employee_benefits_liability:before, .umbrella_liability:before, .commercial_building_andor_property:before, .employee_dishonesty:before, .environmental_impairment:before, .inland_marine:before, .bailees_customers:before, .commercial_auto:before, .liquor_liability:before, .product_recall:before, .guests_property:before, .fiduciary_bond:before, .directors__officers_insurance:before, .financial_institutions_bond:before, .surety_bond:before, .crime:before, .farmowners_multi-peril:before, .cyber_liability__data_breach:before, .aircraft_liability:before, .motor_carriers_liability_and_physical_damage:before, .warehouse_operators_legal_liability:before, .exhibitions:before, .ocean_marine:before, .hangarkeepers_legal_liability:before, .forgery_or_alteration:before, .money_orders_and_counterfeit_money:before, .medical_malpractice:before, .golf_carts:before, .public_officials_liability:before, .business_garage:before, .aviation_general_liability_coverage:before, .business_owners_policy_bop:before, .more:before, .administrative_services_and_building_maintenance:before, .agriculture_forestry_fishing_and_hunting:before, .construction_and_contractors:before, .educational_services:before, .finance_and_insurance:before, .food_services_and_acommodation:before, .health_care_and_social_assistance:before, .manufacturing:before, .professional_scientific_and_technical_services:before, .real_estate_rental_and_leasing:before, .retail_services:before, .retail_trade:before, .sports_arts_entertainment_and_recreation:before, .start-ups:before, .technology_media_and_telecommunications:before, .transportation_and_warehousing:before, .wholesale_trade:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before, .styleguide-icon-industries-agriculture:before, .styleguide-icon-industries-construction:before, .styleguide-icon-industries-education:before, .styleguide-icon-industries-finance:before, .styleguide-icon-industries-food:before, .styleguide-icon-industries-health:before, .styleguide-icon-industries-maintance:before, .styleguide-icon-industries-manufacturing:before, .styleguide-icon-industries-nonprofit:before, .styleguide-icon-industries-professional:before, .styleguide-icon-industries-realstate:before, .styleguide-icon-industries-retailservices:before, .styleguide-icon-industries-retailtrade:before, .styleguide-icon-industries-sports:before, .styleguide-icon-industries-startups:before, .styleguide-icon-industries-tech:before, .styleguide-icon-industries-transportation:before, .styleguide-icon-industries-wholesale:before, .styleguide-icon-insurance-type-aircraft-liability:before, .styleguide-icon-insurance-type-aviation-general-liability-coverage:before, .styleguide-icon-insurance-type-bailees-customers:before, .styleguide-icon-insurance-type-business-garage:before, .styleguide-icon-insurance-type-commercial-auto:before, .styleguide-icon-insurance-type-commercial-building-and-or-property:before, .styleguide-icon-insurance-type-epli:before, .styleguide-icon-insurance-type-exhibitions:before, .styleguide-icon-insurance-type-farmowners-multi-peril:before, .styleguide-icon-insurance-type-fiduciary-bond:before, .styleguide-icon-insurance-type-financial-institutions-bond:before, .styleguide-icon-insurance-type-forgery-or-alteration:before, .styleguide-icon-insurance-type-money-orders-and-counterfeit-money:before, .styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage:before, .styleguide-icon-insurance-type-ocean-marine:before, .styleguide-icon-insurance-type-product-recall:before, .styleguide-icon-insurance-type-professional-liability-e-and-o:before, .styleguide-icon-insurance-type-public-officials-liability:before, .styleguide-icon-insurance-type-crime:before, .styleguide-icon-insurance-type-cyber-liability-and-data-breach:before, .styleguide-icon-insurance-type-directors-and-officers-insurance:before, .styleguide-icon-insurance-type-disability-insurance:before, .styleguide-icon-insurance-type-employee-benefits-liability:before, .styleguide-icon-insurance-type-employee-dishonesty:before, .styleguide-icon-insurance-type-environmental-impairment:before, .styleguide-icon-insurance-type-general-liability:before, .styleguide-icon-insurance-type-golf-carts:before, .styleguide-icon-insurance-type-guests-property:before, .styleguide-icon-insurance-type-hangarkeepers-legal-liability:before, .styleguide-icon-insurance-type-inland-marine:before, .styleguide-icon-insurance-type-liquor-liability:before, .styleguide-icon-insurance-type-medical-malpractice:before, .styleguide-icon-insurance-type-surety-bond:before, .styleguide-icon-insurance-type-umbrella-liability:before, .styleguide-icon-insurance-type-warehouse-operators-legal-liability:before, .styleguide-icon-insurance-type-workers-compensation:before, .styleguide-icon-insurance-type-health:before, .styleguide-icon-insurance-type-business-owners-policy-bop:before, .styleguide-icon-delete:before, .styleguide-icon-phone-nav:before, .styleguide-icon-insurance-type-more:before, .styleguide-icon-quotes-open:before, .styleguide-icon-quotes-close:before, .styleguide-icon-onlyclick-0-10:before, .styleguide-icon-onlyclick-minus:before, .styleguide-icon-onlyclick-location-rent-lease:before, .styleguide-icon-onlyclick-location-own:before, .styleguide-icon-onlyclick-location-non-combustible:before, .styleguide-icon-onlyclick-location-joint-masonery:before, .styleguide-icon-onlyclick-location-homeoffice:before, .styleguide-icon-onlyclick-location-frame:before, .styleguide-icon-onlyclick-location-fire-resistive:before, .styleguide-icon-onlyclick-lease:before, .styleguide-icon-onlyclick-dollar:before, .styleguide-icon-onlyclick-backspace:before, .styleguide-icon-onlyclick-50plus:before, .styleguide-icon-onlyclick-10-50:before, .styleguide-icon-onlyclick-no:before, .styleguide-icon-onlyclick-notsure:before, .styleguide-icon-onlyclick-own:before, .styleguide-icon-onlyclick-plus:before, .styleguide-icon-onlyclick-yes:before {
   font-family: "coverwallet" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -5869,6 +5875,25 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-delete"></span> <span class='icon-name'>delete</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-phone-nav"></span> <span class='icon-name'>phone-nav</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-0-10"></span> <span class='icon-name'>onlyclick-0-10</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-minus"></span> <span class='icon-name'>onlyclick-minus</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-rent-lease"></span> <span class='icon-name'>onlyclick-location-rent-lease</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-own"></span> <span class='icon-name'>onlyclick-location-own</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-non-combustible"></span> <span class='icon-name'>onlyclick-location-non-combustible</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-joint-masonery"></span> <span class='icon-name'>onlyclick-location-joint-masonery</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-homeoffice"></span> <span class='icon-name'>onlyclick-location-homeoffice</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-frame"></span> <span class='icon-name'>onlyclick-location-frame</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-fire-resistive"></span> <span class='icon-name'>onlyclick-location-fire-resistive</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-lease"></span> <span class='icon-name'>onlyclick-lease</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-dollar"></span> <span class='icon-name'>onlyclick-dollar</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-backspace"></span> <span class='icon-name'>onlyclick-backspace</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-50plus"></span> <span class='icon-name'>onlyclick-50plus</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-10-50"></span> <span class='icon-name'>onlyclick-10-50</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-no"></span> <span class='icon-name'>onlyclick-no</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-notsure"></span> <span class='icon-name'>onlyclick-notsure</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-own"></span> <span class='icon-name'>onlyclick-own</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-plus"></span> <span class='icon-name'>onlyclick-plus</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-yes"></span> <span class='icon-name'>onlyclick-yes</span></li>
      </ul>
 </div>
 
@@ -6192,7 +6217,7 @@ html {
 .cwicon-insurance-type-employee-dishonesty-1 {
   content: "\e00b"; }
 
-.cwicon-phone-nav, .styleguide-icon-phone-nav:before {
+.cwicon-phone-nav, header .navbar-menu ul.nav > li a.telephone-link span:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.telephone-menu-icon:before, .styleguide-icon-phone-nav:before {
   content: "\e00d"; }
 
 .cwicon-insurance-type-workers-compensation, .workers_compensation:before, .styleguide-icon-insurance-type-workers-compensation:before {
@@ -6215,6 +6240,63 @@ html {
 
 .cwicon-insurance-type-health, .styleguide-icon-insurance-type-health:before {
   content: "\e010"; }
+
+.cwicon-onlyclick-0-10, .styleguide-icon-onlyclick-0-10:before {
+  content: "\e011"; }
+
+.cwicon-onlyclick-minus, .styleguide-icon-onlyclick-minus:before {
+  content: "\e012"; }
+
+.cwicon-onlyclick-location-rent-lease, .styleguide-icon-onlyclick-location-rent-lease:before {
+  content: "\e013"; }
+
+.cwicon-onlyclick-location-own, .styleguide-icon-onlyclick-location-own:before {
+  content: "\e014"; }
+
+.cwicon-onlyclick-location-non-combustible, .styleguide-icon-onlyclick-location-non-combustible:before {
+  content: "\e015"; }
+
+.cwicon-onlyclick-location-joint-masonery, .styleguide-icon-onlyclick-location-joint-masonery:before {
+  content: "\e016"; }
+
+.cwicon-onlyclick-location-homeoffice, .styleguide-icon-onlyclick-location-homeoffice:before {
+  content: "\e017"; }
+
+.cwicon-onlyclick-location-frame, .styleguide-icon-onlyclick-location-frame:before {
+  content: "\e018"; }
+
+.cwicon-onlyclick-location-fire-resistive, .styleguide-icon-onlyclick-location-fire-resistive:before {
+  content: "\e019"; }
+
+.cwicon-onlyclick-lease, .styleguide-icon-onlyclick-lease:before {
+  content: "\e01a"; }
+
+.cwicon-onlyclick-dollar, .styleguide-icon-onlyclick-dollar:before {
+  content: "\e01b"; }
+
+.cwicon-onlyclick-backspace, .styleguide-icon-onlyclick-backspace:before {
+  content: "\e01c"; }
+
+.cwicon-onlyclick-50plus, .styleguide-icon-onlyclick-50plus:before {
+  content: "\e01d"; }
+
+.cwicon-onlyclick-10-50, .styleguide-icon-onlyclick-10-50:before {
+  content: "\e01e"; }
+
+.cwicon-onlyclick-no, .styleguide-icon-onlyclick-no:before {
+  content: "\e01f"; }
+
+.cwicon-onlyclick-notsure, .styleguide-icon-onlyclick-notsure:before {
+  content: "\e020"; }
+
+.cwicon-onlyclick-own, .styleguide-icon-onlyclick-own:before {
+  content: "\e021"; }
+
+.cwicon-onlyclick-plus, .styleguide-icon-onlyclick-plus:before {
+  content: "\e022"; }
+
+.cwicon-onlyclick-yes, .styleguide-icon-onlyclick-yes:before {
+  content: "\e023"; }
 
 /*
     Mixin to set border radius to element
@@ -6310,23 +6392,10 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-weight: 400;
+  font-weight: 100;
   font-family: "Open Sans", sans-serif;
   color: #272727;
   margin: 10px 0; }
-  h1 span,
-  h2 span,
-  h3 span,
-  h4 span,
-  h5 span,
-  h6 span,
-  .h1 span,
-  .h2 span,
-  .h3 span,
-  .h4 span,
-  .h5 span,
-  .h6 span {
-    font-weight: bold; }
   h1.light,
   h2.light,
   h3.light,
@@ -6488,6 +6557,33 @@ form .form-group {
       form .form-group label .form-help-icon:before {
         padding-right: 0;
         color: #438bd7; }
+  .form .form-group .label::after,
+  form .form-group .label::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .form .form-group .label.label--inline,
+  form .form-group .label.label--inline {
+    display: inline-block;
+    float: left; }
+  .form .form-group .label.label--text,
+  form .form-group .label.label--text {
+    color: #272727;
+    font-size: 1em;
+    position: relative;
+    text-align: right;
+    width: 240px;
+    text-transform: none;
+    height: 100%;
+    top: 13px; }
+    @media screen and (max-width: 480px) {
+      .form .form-group .label.label--text,
+      form .form-group .label.label--text {
+        position: static;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center; } }
   .form .form-group .form-input,
   form .form-group .form-input {
     background-color: transparent;
@@ -6739,6 +6835,19 @@ form.form--light .help-block {
 .form.form--light .form-group--info .form-info,
 form.form--light .form-group--info .form-info {
   color: #d2d2d2; }
+
+.form .form-help-icon,
+form .form-help-icon {
+  cursor: pointer;
+  font-size: 18px;
+  padding-left: 5px;
+  right: 15px;
+  top: 10px;
+  position: absolute; }
+  .form .form-help-icon:before,
+  form .form-help-icon:before {
+    padding-right: 0;
+    color: #438bd7; }
 
 /*
  Standard forms styles
@@ -7222,6 +7331,472 @@ Markup:
 
 Styleguide 9.1
 */
+/*
+Header
+
+Header styles
+
+Styleguide 11
+*/
+header {
+  background-color: transparent;
+  font-size: 15px;
+  height: 70px;
+  width: 100%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto; }
+  header .logo {
+    float: left;
+    display: block;
+    margin-right: 2.3576515979%;
+    width: 14.7019570017%;
+    min-height: 1px; }
+    header .logo:last-child {
+      margin-right: 0; }
+  header #notFixed {
+    display: block; }
+  header #fixed {
+    display: none; }
+  header.open.fixed {
+    background-color: #fff;
+    overflow: scroll; }
+  header.with-color {
+    background-color: #438bd7; }
+  header.open {
+    position: relative;
+    background-color: #438bd7; }
+  header.fixed {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    margin-top: -70px;
+    border-bottom: 1px solid #d2d2d2; }
+    header.fixed #notFixed {
+      display: none; }
+    header.fixed #fixed {
+      display: block; }
+  header .container {
+    max-width: 100%;
+    padding: 0; }
+  header.open {
+    -webkit-box-shadow: 0 5px 5px 0rgba 0, 0, 0, 0.3;
+    -moz-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px; }
+  header .navbar-header {
+    height: 70px;
+    float: left;
+    padding: 0 25px; }
+    @media screen and (max-width: 1024px) {
+      header .navbar-header {
+        width: 100%;
+        float: none;
+        padding: 0 10px; } }
+    header .navbar-header a {
+      padding: 22px 15px 21px 0;
+      margin-left: -15px; }
+      header .navbar-header a img {
+        width: 166px !important;
+        height: 26px !important;
+        vertical-align: middle;
+        display: block; }
+    header .navbar-header button.navbar-toggle {
+      display: none;
+      color: #438bd7;
+      position: relative;
+      float: right;
+      padding: 9px 10px;
+      margin-top: 18px;
+      margin-right: 0;
+      margin-bottom: 8px;
+      background-color: #438bd7;
+      background-image: none;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      cursor: pointer; }
+      header .navbar-header button.navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #fff; }
+        header .navbar-header button.navbar-toggle .icon-bar + .icon-bar {
+          margin-top: 4px; }
+      @media screen and (max-width: 1024px) {
+        header .navbar-header button.navbar-toggle {
+          display: block; } }
+  header.fixed .navbar-header button.navbar-toggle {
+    background-color: #fff;
+    border: 1px solid #454855; }
+    header.fixed .navbar-header button.navbar-toggle .icon-bar {
+      background-color: #454855; }
+  header.fixed .navbar-menu ul.navbar-nav > li {
+    color: #454855; }
+    header.fixed .navbar-menu ul.navbar-nav > li .btn--login {
+      border-color: #73788d;
+      color: #73788d; }
+      header.fixed .navbar-menu ul.navbar-nav > li .btn--login:hover {
+        border-color: #454855;
+        color: #454855; }
+    header.fixed .navbar-menu ul.navbar-nav > li .link {
+      color: #454855; }
+      header.fixed .navbar-menu ul.navbar-nav > li .link:hover {
+        border-bottom: 1px #454855 solid;
+        padding-bottom: 3px; }
+      header.fixed .navbar-menu ul.navbar-nav > li .link.telephone-link span:before {
+        color: #454855; }
+    header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown {
+      margin: 0 1px; }
+      header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover {
+        border-color: #d2d2d2;
+        border-right: 1px solid #d2d2d2;
+        border-left: 1px solid #d2d2d2;
+        margin: 0; }
+        header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body {
+          border: 1px solid #d2d2d2;
+          border-top: 0; }
+          @media screen and (max-width: 1024px) {
+            header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body {
+              border: 0; } }
+          header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.insurances-menu {
+            right: 293px; }
+            @media screen and (max-width: 1024px) {
+              header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.insurances-menu {
+                right: 0; } }
+          header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.industries-menu {
+            right: 188px; }
+            @media screen and (max-width: 1024px) {
+              header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.industries-menu {
+                right: 0; } }
+          header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu {
+            right: 635px; }
+            @media screen and (max-width: 1024px) {
+              header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu {
+                right: 0;
+                padding-left: 40px; } }
+            header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu .lists ul {
+              padding-left: 0; }
+              @media screen and (min-width: 1025px) {
+                header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu .lists ul {
+                  float: left;
+                  display: block;
+                  margin-right: 2.3576515979%;
+                  width: 100%;
+                  min-height: 1px; }
+                  header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu .lists ul:last-child {
+                    margin-right: 0; } }
+              header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu .lists ul li {
+                padding: 8px 20px 8px 20px; }
+      header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown > div span.icon:before {
+        color: #454855; }
+      header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown .text {
+        color: #454855; }
+        header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown .text.telephone-link span {
+          top: 14px; }
+          header.fixed .navbar-menu ul.navbar-nav > li.menu-dropdown .text.telephone-link span:before {
+            color: #454855; }
+  header .navbar-menu {
+    float: right;
+    margin-top: 10px; }
+    @media screen and (min-width: 1025px) {
+      header .navbar-menu {
+        display: block !important; } }
+    @media screen and (max-width: 1024px) {
+      header .navbar-menu {
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 0;
+        float: none;
+        display: none;
+        border-top: 1px solid #fff; } }
+    header .navbar-menu ul.nav {
+      list-style: none;
+      padding-left: 0;
+      float: left;
+      margin-top: -10px; }
+      @media screen and (max-width: 1024px) {
+        header .navbar-menu ul.nav {
+          float: none !important; } }
+      header .navbar-menu ul.nav:before {
+        content: "";
+        display: table; }
+      header .navbar-menu ul.nav li:last-child:after {
+        content: '';
+        margin-left: 0; }
+      header .navbar-menu ul.nav > li {
+        display: block;
+        float: left;
+        height: 50px;
+        padding: 11px 16px;
+        color: #fff;
+        font-size: 13px;
+        height: 70px;
+        line-height: 47px; }
+        @media screen and (max-width: 1024px) {
+          header .navbar-menu ul.nav > li {
+            float: none !important;
+            padding: 11px 50px;
+            height: auto;
+            line-height: normal; } }
+        @media screen and (max-width: 480px) {
+          header .navbar-menu ul.nav > li {
+            padding: 11px 50px; }
+            header .navbar-menu ul.nav > li.menu-dropdown {
+              padding: 11px 45px; } }
+        @media screen and (min-width: 1025px) {
+          header .navbar-menu ul.nav > li:after {
+            margin-left: 5px; } }
+        header .navbar-menu ul.nav > li .btn--login {
+          background: inherit;
+          border: 1px solid #d6e6f6;
+          color: #d6e6f6;
+          font-size: 13px;
+          padding: 12px;
+          line-height: 11px;
+          margin-top: 12px;
+          position: relative;
+          top: -6px; }
+          @media screen and (max-width: 1024px) {
+            header .navbar-menu ul.nav > li .btn--login {
+              background: #fff; } }
+          header .navbar-menu ul.nav > li .btn--login:hover {
+            border-color: #fff;
+            color: #fff; }
+          @media screen and (max-width: 480px) {
+            header .navbar-menu ul.nav > li .btn--login {
+              width: 100%; } }
+        header .navbar-menu ul.nav > li a {
+          text-transform: uppercase;
+          line-height: 20px;
+          display: inline-block;
+          color: #fff; }
+          header .navbar-menu ul.nav > li a:hover {
+            border-bottom: 1px #FFF solid;
+            padding-bottom: 3px; }
+          header .navbar-menu ul.nav > li a.telephone-link {
+            position: relative; }
+            header .navbar-menu ul.nav > li a.telephone-link span {
+              position: absolute;
+              top: 13px;
+              left: 2px;
+              font-size: 20px; }
+              header .navbar-menu ul.nav > li a.telephone-link span:before {
+                padding-right: 10px;
+                color: #fff; }
+              @media screen and (max-width: 480px) {
+                header .navbar-menu ul.nav > li a.telephone-link span {
+                  display: none; } }
+        header .navbar-menu ul.nav > li.menu-dropdown {
+          padding: 0;
+          cursor: pointer;
+          margin: 0 1px; }
+          header .navbar-menu ul.nav > li.menu-dropdown:hover {
+            border-color: #d2d2d2;
+            border-right: 1px solid #d2d2d2;
+            border-left: 1px solid #d2d2d2;
+            margin: 0; }
+          @media screen and (max-width: 1024px) {
+            header .navbar-menu ul.nav > li.menu-dropdown {
+              height: auto;
+              line-height: normal; } }
+          header .navbar-menu ul.nav > li.menu-dropdown > div {
+            text-transform: uppercase;
+            line-height: 47px;
+            display: inline-block;
+            color: #fff; }
+            @media screen and (max-width: 1024px) {
+              header .navbar-menu ul.nav > li.menu-dropdown > div {
+                height: auto;
+                line-height: normal; } }
+            header .navbar-menu ul.nav > li.menu-dropdown > div span {
+              display: inline-block; }
+            header .navbar-menu ul.nav > li.menu-dropdown > div .text {
+              padding: 11px 5px;
+              line-height: 47px; }
+              header .navbar-menu ul.nav > li.menu-dropdown > div .text.telephone-link {
+                padding: 11px 5px 11px 30px; }
+                header .navbar-menu ul.nav > li.menu-dropdown > div .text.telephone-link:hover {
+                  padding: 11px 5px 11px 30px; }
+                  header .navbar-menu ul.nav > li.menu-dropdown > div .text.telephone-link:hover span:before {
+                    color: #454855; }
+              header .navbar-menu ul.nav > li.menu-dropdown > div .text:hover {
+                padding: 11px 5px;
+                border: 0;
+                color: #454855; }
+              @media screen and (max-width: 1024px) {
+                header .navbar-menu ul.nav > li.menu-dropdown > div .text {
+                  line-height: normal; } }
+              header .navbar-menu ul.nav > li.menu-dropdown > div .text a {
+                transition: none; }
+                header .navbar-menu ul.nav > li.menu-dropdown > div .text a:hover {
+                  padding-bottom: 0;
+                  border: 0;
+                  color: #454855; }
+            header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before {
+              padding-right: 10px;
+              color: #fff; }
+            @media screen and (max-width: 1024px) {
+              header .navbar-menu ul.nav > li.menu-dropdown > div span.icon {
+                font-size: 20px;
+                margin-right: 30px;
+                float: right;
+                padding: 6px 5px; } }
+            header .navbar-menu ul.nav > li.menu-dropdown > div a:hover {
+              border-bottom: 1px #FFF solid;
+              padding-bottom: 3px; }
+            header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before {
+              padding-right: 10px;
+              color: #454855; }
+            header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:hover {
+              border-bottom: 0; }
+            header .navbar-menu ul.nav > li.menu-dropdown > div a.telephone-menu-icon:before {
+              padding-right: 2px;
+              color: #454855; }
+            header .navbar-menu ul.nav > li.menu-dropdown > div a.telephone-menu-icon:hover {
+              border-bottom: 0; }
+          header .navbar-menu ul.nav > li.menu-dropdown .menu-dropdown__body {
+            display: none; }
+          @media screen and (min-width: 1025px) {
+            header .navbar-menu ul.nav > li.menu-dropdown {
+              height: 70px; }
+              header .navbar-menu ul.nav > li.menu-dropdown > .link {
+                margin-top: 0; }
+              header .navbar-menu ul.nav > li.menu-dropdown .telephone-mobile {
+                display: none; }
+              header .navbar-menu ul.nav > li.menu-dropdown:hover {
+                background: #fff; }
+                header .navbar-menu ul.nav > li.menu-dropdown:hover a {
+                  color: #454855; }
+                  header .navbar-menu ul.nav > li.menu-dropdown:hover a.telephone-link span:before {
+                    color: #454855; }
+                header .navbar-menu ul.nav > li.menu-dropdown:hover .text {
+                  color: #454855; }
+                header .navbar-menu ul.nav > li.menu-dropdown:hover .icon:before {
+                  color: #454855; }
+                header .navbar-menu ul.nav > li.menu-dropdown:hover > .link:hover {
+                  border-bottom: 0; }
+                header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body {
+                  background: #fff;
+                  border-radius: 0px 0px 2px 2px;
+                  border: 1px solid #d2d2d2;
+                  border-top: 0;
+                  float: none;
+                  display: block;
+                  padding: 20px 0 20px 0;
+                  position: absolute;
+                  width: auto;
+                  right: 280px;
+                  margin-top: 1px;
+                  z-index: 9999999999; }
+                  header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body.insurances-menu {
+                    right: 293px; }
+                  header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body.industries-menu {
+                    right: 188px; }
+                  header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu {
+                    right: 666px; }
+                    header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu .lists ul {
+                      padding-left: 0; } }
+          @media screen and (min-width: 1025px) and (min-width: 1025px) {
+            header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu .lists ul {
+              float: left;
+              display: block;
+              margin-right: 2.3576515979%;
+              width: 100%;
+              min-height: 1px; }
+              header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body.telephone-menu .lists ul:last-child {
+                margin-right: 0; } }
+          @media screen and (min-width: 1025px) {
+                  header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists {
+                    float: right;
+                    width: 100%; }
+                    header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul {
+                      width: 50%;
+                      float: left;
+                      display: inline-block;
+                      border-left: 1px solid #d2d2d2;
+                      padding-left: 0;
+                      margin-right: 0; }
+                      header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul:first-child {
+                        border-left: 0; }
+                      header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul li {
+                        float: none;
+                        line-height: 16px;
+                        min-width: 160px; }
+                        header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul li:hover {
+                          background-color: #f0f0f0; }
+                        header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul li.double {
+                          height: auto;
+                          line-height: 20px;
+                          padding: 10px 10px 5px; }
+                          header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul li.double:hover {
+                            cursor: default; }
+                        header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul li a {
+                          text-transform: none;
+                          color: #454855;
+                          line-height: 16px;
+                          width: 100%;
+                          display: block;
+                          padding: 8px 10px 8px 30px; }
+                          header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body .lists ul li a:hover {
+                            border-bottom: 0;
+                            color: #438bd7; } }
+          @media screen and (max-width: 1024px) {
+            header .navbar-menu ul.nav > li.menu-dropdown {
+              height: auto;
+              padding: 0 0 0 45px; }
+              header .navbar-menu ul.nav > li.menu-dropdown .link {
+                width: 100%; }
+                header .navbar-menu ul.nav > li.menu-dropdown .link:hover {
+                  border-bottom: 0;
+                  padding-bottom: 0; }
+                header .navbar-menu ul.nav > li.menu-dropdown .link .menu-dropdown__body {
+                  margin-left: -45px;
+                  background: #f9f9f9; }
+                  header .navbar-menu ul.nav > li.menu-dropdown .link .menu-dropdown__body li a {
+                    color: #454855; }
+              header .navbar-menu ul.nav > li.menu-dropdown:hover > .link {
+                background: none; }
+                header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body {
+                  display: none;
+                  position: relative;
+                  background: #f9f9f9;
+                  border-radius: 0; }
+                  header .navbar-menu ul.nav > li.menu-dropdown:hover > .link .menu-dropdown__body:before {
+                    content: ''; }
+              header .navbar-menu ul.nav > li.menu-dropdown .telephone-mobile {
+                display: inline-block; }
+              header .navbar-menu ul.nav > li.menu-dropdown .menu-dropdown__body {
+                float: none;
+                display: none;
+                padding: 0;
+                position: relative;
+                background: inherit;
+                border-radius: 0; }
+                header .navbar-menu ul.nav > li.menu-dropdown .menu-dropdown__body li {
+                  height: 34px;
+                  float: none;
+                  line-height: 34px;
+                  padding-left: 20px; }
+                  header .navbar-menu ul.nav > li.menu-dropdown .menu-dropdown__body li.double {
+                    display: none; }
+                  header .navbar-menu ul.nav > li.menu-dropdown .menu-dropdown__body li a {
+                    text-transform: none; }
+                  header .navbar-menu ul.nav > li.menu-dropdown .menu-dropdown__body li:hover {
+                    background-color: inherit; }
+              header .navbar-menu ul.nav > li.menu-dropdown .menu-dropdown__body.open {
+                display: block;
+                position: relative; } }
+
+/*
+Standard header styles
+
+Markup:
+
+
+Styleguide 11.1
+*/
 .general_liability:before {
   padding-right: 0;
   color: #438bd7; }
@@ -7441,6 +8016,135 @@ Styleguide 9.1
 .wholesale_trade:before {
   padding-right: 0;
   color: #438bd7; }
+
+/*
+  CW Components
+
+  Styleguide 13
+*/
+/*
+
+
+  Number Input
+
+  Styleguide 13.1
+
+  Markup:
+    <div class="NumberInput">
+      <input class="NumberInput__input" min="0" step="1" type="number" value="0">
+      <span class="NumberInput__minus"></span>
+      <span class="NumberInput__plus"></span>
+    </div>
+*/
+.NumberInput {
+  position: relative;
+  width: 180px; }
+  @media screen and (max-width: 480px) {
+    .NumberInput {
+      text-align: center;
+      float: none;
+      margin: 0 auto; } }
+  .NumberInput .NumberInput__plus {
+    position: absolute;
+    top: 8px;
+    left: 145px;
+    font-size: 2em;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom; }
+    .NumberInput .NumberInput__plus:before {
+      padding-right: 0;
+      color: #000; }
+  .NumberInput .NumberInput__minus {
+    position: absolute;
+    top: 8px;
+    left: 110px;
+    font-size: 2em;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    vertical-align: text-bottom; }
+    .NumberInput .NumberInput__minus:before {
+      padding-right: 0;
+      color: #000; }
+  .NumberInput .NumberInput__input {
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #454855;
+    padding-left: 10px;
+    width: 100px !important;
+    height: 40px !important;
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+    font-weight: 100;
+    box-sizing: border-box; }
+
+.keyboard {
+  background: inherit;
+  width: 160px; }
+  .keyboard .number, .keyboard .delete {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    font-size: 20px;
+    margin: 1px;
+    border: 1px solid #454855;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box; }
+  .keyboard .number--0, .keyboard .delete--0 {
+    width: 102px; }
+
+/* 
+  Input Keyboard 
+
+  Styleguide 13.2
+
+  Markup:
+    <div class="InputKeyboard">
+      <input type="number" class="form-input">
+      <div class="keyboard">
+        <div class="number">9</div>
+        <div class="number">8</div>
+        <div class="number">7</div>
+        <div class="number">6</div>
+        <div class="number">5</div>
+        <div class="number">4</div>
+        <div class="number">3</div>
+        <div class="number">2</div>
+        <div class="number">1</div>
+        <div class="number number--0">0</div>
+        <div class="delete">&lt;</div>
+      </div>
+    </div>
+*/
+.InputKeyboard {
+  width: 156px;
+  float: left; }
+  @media screen and (max-width: 480px) {
+    .InputKeyboard {
+      text-align: center;
+      float: none;
+      margin: 0 auto; } }
+  .InputKeyboard .form-input {
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 0;
+    border: 1px solid #454855;
+    padding-left: 10px;
+    width: 100%;
+    height: 40px !important;
+    text-align: left;
+    font-size: 1em;
+    color: #333;
+    font-weight: 100;
+    box-sizing: border-box; }
 
 .color {
   padding: 20px;
@@ -7956,5 +8660,81 @@ Styleguide 9.1
   color: #000; }
 
 .styleguide-icon-quotes-close:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-0-10:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-minus:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-location-rent-lease:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-location-own:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-location-non-combustible:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-location-joint-masonery:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-location-homeoffice:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-location-frame:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-location-fire-resistive:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-lease:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-dollar:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-backspace:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-50plus:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-10-50:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-no:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-notsure:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-own:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-plus:before {
+  padding-right: 0;
+  color: #000; }
+
+.styleguide-icon-onlyclick-yes:before {
   padding-right: 0;
   color: #000; }
