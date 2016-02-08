@@ -1,6 +1,21 @@
+/*
+
+
+  Number Input
+
+  Styleguide 13.1
+
+  Markup:
+    <div class="NumberInput">
+      <input class="NumberInput__input" min="0" step="1" type="number" value="0">
+      <span class="NumberInput__minus"></span>
+      <span class="NumberInput__plus"></span>
+    </div>
+*/
+
 .NumberInput {
+  position: relative;
   width: 180px;
-  float: left;
 
   @include media($mobile) {
     text-align: center;
@@ -9,9 +24,11 @@
   }
 
   .NumberInput__plus {
-    @extend .fa, .fa-2x, .fa-plus-circle;
-    padding: 5px;
-    margin: 5px;
+    @include cw-icon-before(plus-circle, 0, $cwColor-base-black);
+    position: absolute;
+    top: 8px;
+    left: 145px;
+    font-size: 2em;
     width: 28px;
     height: 28px;
     box-sizing: border-box;
@@ -19,9 +36,11 @@
   }
 
   .NumberInput__minus {
-    @extend .fa, .fa-2x, .fa-minus-circle;
-    padding: 5px;
-    margin: 5px;
+    @include cw-icon-before(minus-circle, 0, $cwColor-base-black);
+    position: absolute;
+    top: 8px;
+    left: 110px;
+    font-size: 2em;
     width: 28px;
     height: 28px;
     box-sizing: border-box;

@@ -6,7 +6,8 @@
   "author": "Ra <raul@coverwallet.com>",
   "scripts": {
     "postinstall": "bower install",
-    "generate": "kss-node ./sass ./styleguide --template ./template --css public/coverwallet-styleguide.css --js ../js/selectFx.js"
+    "generate": "kss-node ./sass ./styleguide --template ./template --css public/coverwallet-styleguide.css --js ../js/selectFx.js",
+    "grunt": "grunt serve"
   },
   "dependencies": {
     "bower": "^1.6.8"
