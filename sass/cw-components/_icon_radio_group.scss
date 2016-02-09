@@ -1,0 +1,83 @@
+/*
+  Icon Radio Group
+
+  Styleguide 13.3
+
+  Markup:
+    <div class="IconRadioGroup">
+      <label class="IconRadioInput">
+        <div class="IconRadioInput__icon">
+          <span class="styleguide-icon-onlyclick-yes"></span>
+        </div>
+        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Yes">
+        <div class="IconRadioInput__label">Yes</div>
+      </label>
+      <label class="IconRadioInput IconRadioInput--checked">
+        <div class="IconRadioInput__icon">
+          <span class="styleguide-icon-onlyclick-no"></span>
+        </div>
+        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="No">
+        <div class="IconRadioInput__label">No</div>
+      </label>
+      <label class="IconRadioInput">
+        <div class="IconRadioInput__icon">
+          <span class="styleguide-icon-onlyclick-notsure"></span>
+        </div>
+        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Not sure">
+        <div class="IconRadioInput__label">Not sure</div>
+      </label>
+    </div>
+*/
+
+.IconRadioGroup {
+  @include clearfix();
+}
+
+.IconRadioInput {
+  float: left;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  margin: 5px;
+  color: $cwColor-black-dark;
+  border: 1px solid $cwColor-black-dark;
+  border-radius: 2px;
+  cursor: pointer;
+
+  @include media($tablet) {
+    width: 120px;
+  }
+
+  .IconRadioInput__icon {
+    font-size: 25px;
+    padding-top: 5px;
+    line-height: 25px;
+
+    @include media($tablet) {
+      font-size: 20px;
+    }
+
+    > span::before {
+      color: $cwColor-black-dark;
+    }
+  }
+
+  .IconRadioInput__input {
+    display: none;
+  }
+
+  .IconRadioInput__label {
+    text-transform: uppercase;
+  }
+
+  &--checked {
+    color: $cwColor-base-blue;
+    border-color:$cwColor-base-blue;
+
+    .IconRadioInput__icon {
+      > span::before {
+        color: $cwColor-base-blue;
+      }
+    }
+  }
+}

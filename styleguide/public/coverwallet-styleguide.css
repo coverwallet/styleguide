@@ -8146,6 +8146,73 @@ Styleguide 11.1
     font-weight: 100;
     box-sizing: border-box; }
 
+/*
+  Icon Radio Group
+
+  Styleguide 13.3
+
+  Markup:
+    <div class="IconRadioGroup">
+      <label class="IconRadioInput">
+        <div class="IconRadioInput__icon">
+          <span class="styleguide-icon-onlyclick-yes"></span>
+        </div>
+        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Yes">
+        <div class="IconRadioInput__label">Yes</div>
+      </label>
+      <label class="IconRadioInput IconRadioInput--checked">
+        <div class="IconRadioInput__icon">
+          <span class="styleguide-icon-onlyclick-no"></span>
+        </div>
+        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="No">
+        <div class="IconRadioInput__label">No</div>
+      </label>
+      <label class="IconRadioInput">
+        <div class="IconRadioInput__icon">
+          <span class="styleguide-icon-onlyclick-notsure"></span>
+        </div>
+        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Not sure">
+        <div class="IconRadioInput__label">Not sure</div>
+      </label>
+    </div>
+*/
+.IconRadioGroup::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.IconRadioInput {
+  float: left;
+  width: 140px;
+  height: 60px;
+  text-align: center;
+  margin: 5px;
+  color: #505050;
+  border: 1px solid #505050;
+  border-radius: 2px;
+  cursor: pointer; }
+  @media screen and (max-width: 1024px) {
+    .IconRadioInput {
+      width: 120px; } }
+  .IconRadioInput .IconRadioInput__icon {
+    font-size: 25px;
+    padding-top: 5px;
+    line-height: 25px; }
+    @media screen and (max-width: 1024px) {
+      .IconRadioInput .IconRadioInput__icon {
+        font-size: 20px; } }
+    .IconRadioInput .IconRadioInput__icon > span::before {
+      color: #505050; }
+  .IconRadioInput .IconRadioInput__input {
+    display: none; }
+  .IconRadioInput .IconRadioInput__label {
+    text-transform: uppercase; }
+  .IconRadioInput--checked {
+    color: #438bd7;
+    border-color: #438bd7; }
+    .IconRadioInput--checked .IconRadioInput__icon > span::before {
+      color: #438bd7; }
+
 .color {
   padding: 20px;
   border-radius: 5px;
