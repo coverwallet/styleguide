@@ -23,7 +23,7 @@
   }
 
   .keyboard__backspace {
-    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-dark);
+    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-xmedium);
     display: inline-block;
   }
 }
