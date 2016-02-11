@@ -2,7 +2,7 @@
   background: inherit;
   width: 160px;
 
-  .number, .delete {
+  .keyboard__number, .keyboard__delete {
     cursor: pointer;
     width: 54px;
     height: 54px;
@@ -18,7 +18,12 @@
     box-sizing: border-box;
   }
 
-  .number--0, .delete--0 {
+  .keyboard__number--0, .keyboard__delete--0 {
     width: 106px;
+  }
+
+  .keyboard__backspace {
+    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-dark);
+    display: inline-block;
   }
 }
