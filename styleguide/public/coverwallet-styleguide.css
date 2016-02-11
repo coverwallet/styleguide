@@ -8052,13 +8052,16 @@ Styleguide 11.1
     box-sizing: border-box;
     vertical-align: text-bottom;
     cursor: pointer; }
+    .number-input .number-input__minus:hover:before,
+    .number-input .number-input__plus:hover:before {
+      color: #438bd7; }
   .number-input .number-input__minus {
-    left: 145px; }
+    left: 114px; }
     .number-input .number-input__minus:before {
       padding-right: 0;
       color: #8a8a8a; }
   .number-input .number-input__plus {
-    left: 110px; }
+    left: 160px; }
     .number-input .number-input__plus:before {
       padding-right: 0;
       color: #8a8a8a; }
@@ -8093,8 +8096,14 @@ Styleguide 11.1
     display: inline-block;
     float: left;
     box-sizing: border-box; }
+    .keyboard .keyboard__number:hover, .keyboard .keyboard__delete:hover {
+      background-color: #438bd7;
+      color: #fff; }
   .keyboard .keyboard__delete {
-    line-height: 54px; }
+    line-height: 57px; }
+    .keyboard .keyboard__delete:hover:before {
+      background-color: #438bd7;
+      color: #fff; }
   .keyboard .keyboard__number--0, .keyboard .keyboard__delete--0 {
     width: 106px; }
   .keyboard .keyboard__backspace {
@@ -8237,10 +8246,11 @@ Styleguide 11.1
   border-radius: 4px;
   cursor: pointer; }
   .icons-radio-input:hover {
-    border: 1px solid #438bd7; }
+    border: 1px solid #438bd7;
+    background-color: #438bd7; }
     .icons-radio-input:hover .icons-radio-input__icon > span::before,
     .icons-radio-input:hover .icons-radio-input__label {
-      color: #438bd7; }
+      color: #fff; }
   @media screen and (max-width: 1024px) {
     .icons-radio-input {
       width: 120px; } }

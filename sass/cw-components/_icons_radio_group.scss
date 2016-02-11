@@ -45,9 +45,10 @@
   cursor: pointer;
   &:hover {
     border: 1px solid $cwColor-base-blue;
+    background-color: $cwColor-base-blue;
     .icons-radio-input__icon > span::before,
     .icons-radio-input__label {
-      color: $cwColor-base-blue;
+      color: $cwColor-base-white;
     }
   }
 

@@ -31,15 +31,20 @@
     box-sizing: border-box;
     vertical-align: text-bottom;
     cursor: pointer;
+    &:hover {
+      &:before {
+        color: $cwColor-base-blue;
+      }
+    }
   }
   .number-input__minus {
     @include cw-covericon-before(onlyclick-minus, 0, $cwColor-black-xmedium);
-    left: 145px;
+    left: 114px;
   }
 
   .number-input__plus {
     @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-xmedium);
-    left: 110px;
+    left: 160px;
   }
 
   .number-input__input {
