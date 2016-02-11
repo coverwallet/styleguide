@@ -39,10 +39,18 @@
   height: 60px;
   text-align: center;
   margin: 5px;
-  color: $cwColor-black-dark;
-  border: 1px solid $cwColor-black-dark;
-  border-radius: 2px;
+  color: $cwColor-black-xmedium;
+  border: 1px solid $cwColor-black-light;
+  border-radius: 4px;
   cursor: pointer;
+  &:hover {
+    border: 1px solid $cwColor-base-blue;
+    .IconRadioInput__icon > span::before,
+    .IconRadioInput__label {
+      color: $cwColor-base-blue;
+    }
+  }
+
 
   @include media($tablet) {
     width: 120px;
@@ -58,7 +66,9 @@
     }
 
     > span::before {
-      color: $cwColor-black-dark;
+      display: inline-block;
+      margin-top: 2px;
+      color: $cwColor-black-xmedium;
     }
   }
 
@@ -68,6 +78,7 @@
 
   .IconRadioInput__label {
     text-transform: uppercase;
+    color: $cwColor-base-bluegray;
   }
 
   &--checked {

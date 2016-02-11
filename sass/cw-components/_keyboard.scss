@@ -4,21 +4,21 @@
 
   .number, .delete {
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 54px;
+    height: 54px;
     text-align: center;
     line-height: 50px;
-    color: $cwColor-black-dark;
+    color: $cwColor-base-bluegray;
     background-color: $cwColor-base-white;
     border: 1px solid $cwColor-black-light;
     font-size: 20px;
-    margin: 1px;
+    margin: -1px;
     display: inline-block;
     float: left;
     box-sizing: border-box;
   }
 
   .number--0, .delete--0 {
-    width: 102px;
+    width: 106px;
   }
 }
