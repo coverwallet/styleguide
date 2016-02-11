@@ -17,7 +17,9 @@
     float: left;
     box-sizing: border-box;
   }
-
+  .delete { 
+    line-height: 54px;
+  }
   .number--0, .delete--0 {
     width: 106px;
   }

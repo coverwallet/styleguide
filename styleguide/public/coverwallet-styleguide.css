@@ -8092,6 +8092,8 @@ Styleguide 11.1
     display: inline-block;
     float: left;
     box-sizing: border-box; }
+  .keyboard .delete {
+    line-height: 54px; }
   .keyboard .number--0, .keyboard .delete--0 {
     width: 106px; }
 
