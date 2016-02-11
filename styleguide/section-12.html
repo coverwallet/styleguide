@@ -24,7 +24,7 @@
             <h1 class="kss-doc-title"><a href="./">CoverWallet Styleguide</a></h1>
           </header>
           <nav class="kss-nav">
-            <ul class="kss-menu" data-kss-ref="8">
+            <ul class="kss-menu" data-kss-ref="12">
               <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
               <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Coverwallet Logos and Images</span></a></li>
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">General Typography</span></a></li>
@@ -41,40 +41,66 @@
               <li class="kss-menu-item"><a href="section-13.html"><span class="kss-ref">13</span><span class="kss-name">CW Components</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-8.1"><span class="kss-ref">8.1</span><span class="kss-name">Standard fieldset styles</span></a></li>
+              <li class="kss-menu-item"><a href="#section-12.1"><span class="kss-ref">12.1</span><span class="kss-name">Full page loader.</span></a></li>
+              <li class="kss-menu-item"><a href="#section-12.2"><span class="kss-ref">12.2</span><span class="kss-name">In div loader.</span></a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div class="kss-content">
         <article class="kss-article">
-          <section id="section-8" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">8</span> Fieldset</h1>
+          <section id="section-12" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">12</span> Loader</h1>
+          </section>
+          <section id="section-12.1" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">12.1</span> Full page loader.</h1>
             <div class="kss-description">
-              <p>Fieldset styles</p>
+              <p>This is the spinner you see on the front of the page,
+it prevent you from clicking the links while application is loading important data.</p>
+<p>To close this page click browser &#39;back&#39; button.</p>
 
             </div>
-          </section>
-          <section id="section-8.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">8.1</span> Standard fieldset styles</h1>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                  <fieldset class="fieldset">
-    <div class="fieldset__title">Legend</div>
-    <div class="fieldset__content">
-        <h1>Ejemplo</h1>
+                    <div class="loader-container">
+    <div class="loader">
+      <span class="loader__inner"></span>
     </div>
-</fieldset>
+  </div>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">&lt;fieldset class&#x3D;&quot;fieldset&quot;&gt;
-    &lt;div class&#x3D;&quot;fieldset__title&quot;&gt;Legend&lt;/div&gt;
-    &lt;div class&#x3D;&quot;fieldset__content&quot;&gt;
-        &lt;h1&gt;Ejemplo&lt;/h1&gt;
+                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;loader-container&quot;&gt;
+    &lt;div class&#x3D;&quot;loader&quot;&gt;
+      &lt;span class&#x3D;&quot;loader__inner&quot;&gt;&lt;/span&gt;
     &lt;/div&gt;
-&lt;/fieldset&gt;</code></pre>
+  &lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-12.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">12.2</span> In div loader.</h1>
+            <div class="kss-description">
+              <p>This could be used if we load just some page section.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                    <div>
+    <div class="loader" >
+      <span class="loader__inner"></span>
+    </div>
+  </div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">  &lt;div&gt;
+    &lt;div class&#x3D;&quot;loader&quot; &gt;
+      &lt;span class&#x3D;&quot;loader__inner&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
               </div>
             </div>
           </section>
