@@ -1,28 +1,62 @@
 /* 
-  Input Keyboard 
+  Input Keyboard
 
   Styleguide 13.2
 
+*/
+
+/*
+
+  Default
+
+  Styleguide 13.2.1
+
   Markup:
-    <div class="InputKeyboard">
-      <input type="number" class="form-input">
+    <div class="input-keyboard">
+      <input type="number" class="input-keyboard__input">
       <div class="keyboard">
-        <div class="number">9</div>
-        <div class="number">8</div>
-        <div class="number">7</div>
-        <div class="number">6</div>
-        <div class="number">5</div>
-        <div class="number">4</div>
-        <div class="number">3</div>
-        <div class="number">2</div>
-        <div class="number">1</div>
-        <div class="number number--0">0</div>
-        <div class="delete onlyclick-backspace"></div>
+        <div class="keyboard__number">9</div>
+        <div class="keyboard__number">8</div>
+        <div class="keyboard__number">7</div>
+        <div class="keyboard__number">6</div>
+        <div class="keyboard__number">5</div>
+        <div class="keyboard__number">4</div>
+        <div class="keyboard__number">3</div>
+        <div class="keyboard__number">2</div>
+        <div class="keyboard__number">1</div>
+        <div class="keyboard__number keyboard__number--0">0</div>
+        <div class="keyboard__delete keyboard__backspace"></div>
       </div>
     </div>
 */
 
-.InputKeyboard {
+/*
+  Currencies
+
+  Styleguide 13.2.2
+
+  Markup:
+    <div class="input-keyboard">
+      <span class="input-keyboard__currency"></span>
+      <input type="number" class="input-keyboard__input">
+      <div class="keyboard">
+        <div class="keyboard__number">9</div>
+        <div class="keyboard__number">8</div>
+        <div class="keyboard__number">7</div>
+        <div class="keyboard__number">6</div>
+        <div class="keyboard__number">5</div>
+        <div class="keyboard__number">4</div>
+        <div class="keyboard__number">3</div>
+        <div class="keyboard__number">2</div>
+        <div class="keyboard__number">1</div>
+        <div class="keyboard__number keyboard__number--0">0</div>
+        <div class="keyboard__delete keyboard__backspace"></div>
+      </div>
+    </div>
+*/
+
+.input-keyboard {
+  position: relative;
   width: 156px;
   float: left;
 
@@ -32,12 +66,19 @@
     margin: 0 auto;
   }
 
-  .onlyclick-backspace {
-    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-xmedium);
-    display: inline-block;
+  .input-keyboard__currency {
+    @include cw-covericon-before(onlyclick-dollar, 0, $cwColor-black-light);
+    position: absolute;
+    left: 4px;
+    top: 14px;
+    height: 30px;
+    width: 30px;
+    font-size: 28px;
+    background-color: $cwColor-base-white;
   }
 
-  .form-input {
+
+  .input-keyboard__input {
     margin: 10px 0;
     background-color: $cwColor-base-white;
     border-radius: 0;
@@ -45,7 +86,7 @@
     padding-left: 10px;
     width: 100%;
     height: 40px !important;
-    text-align: left;
+    text-align: right;
     font-size: 1em;
     color: $cwColor-base-bluegray;
     font-weight: 100;
