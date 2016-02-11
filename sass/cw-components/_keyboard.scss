@@ -16,10 +16,20 @@
     display: inline-block;
     float: left;
     box-sizing: border-box;
+    &:hover {
+      background-color: $cwColor-base-blue;
+      color: $cwColor-base-white;
+    }
   }
 
   .keyboard__delete {
-    line-height: 54px;
+    line-height: 57px;
+    &:hover {
+      &:before {
+        background-color: $cwColor-base-blue;
+        color: $cwColor-base-white;
+      }
+    }    
   }
 
   .keyboard__number--0, .keyboard__delete--0 {
