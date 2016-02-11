@@ -8093,13 +8093,9 @@ Styleguide 11.1
     display: inline-block;
     float: left;
     box-sizing: border-box; }
-<<<<<<< HEAD
-  .keyboard .delete {
+  .keyboard .keyboard__delete {
     line-height: 54px; }
-  .keyboard .number--0, .keyboard .delete--0 {
-=======
   .keyboard .keyboard__number--0, .keyboard .keyboard__delete--0 {
->>>>>>> 985185fb276bb7ce7f08e20a68e9ff97f0bcab08
     width: 106px; }
   .keyboard .keyboard__backspace {
     display: inline-block; }
