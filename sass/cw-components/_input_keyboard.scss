@@ -33,7 +33,7 @@
   }
 
   .onlyclick-backspace {
-    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-dark);
+    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-xmedium);
     display: inline-block;
   }
 
@@ -41,13 +41,13 @@
     margin: 10px 0;
     background-color: $cwColor-base-white;
     border-radius: 0;
-    border: 1px solid $cwColor-black-light;
+    border: 1px solid $cwColor-base-bluegray;
     padding-left: 10px;
     width: 100%;
     height: 40px !important;
     text-align: left;
     font-size: 1em;
-    color: $cwColor-black-dark;
+    color: $cwColor-base-bluegray;
     font-weight: 100;
     box-sizing: border-box;
   }

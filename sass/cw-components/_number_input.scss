@@ -32,12 +32,12 @@
     vertical-align: text-bottom;
   }
   .onlyclick-minus {
-    @include cw-covericon-before(onlyclick-minus, 0, $cwColor-black-dark);
+    @include cw-covericon-before(onlyclick-minus, 0, $cwColor-black-xmedium);
     left: 145px;
   }
 
   .onlyclick-plus {
-    @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-dark);
+    @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-xmedium);
     left: 110px;
   }
 
@@ -49,9 +49,9 @@
     padding-left: 10px;
     text-align: left;
     font-size: 1em;
-    color: $cwColor-black-dark;
+    color: $cwColor-base-bluegray;
     background-color: $cwColor-base-white;
-    border: 1px solid $cwColor-black-light;
+    border: 1px solid $cwColor-base-bluegray;
     border-radius: 0;
     box-sizing: border-box;
   }
