@@ -42,6 +42,8 @@
             <ul class="kss-menu-child">
               <li class="kss-menu-item"><a href="#section-13.1"><span class="kss-ref">13.1</span><span class="kss-name">Number Input</span></a></li>
               <li class="kss-menu-item"><a href="#section-13.2"><span class="kss-ref">13.2</span><span class="kss-name">Input Keyboard</span></a></li>
+              <li class="kss-menu-item"><a href="#section-13.2.1"><span class="kss-ref">13.2.1</span><span class="kss-name">Default</span></a></li>
+              <li class="kss-menu-item"><a href="#section-13.2.2"><span class="kss-ref">13.2.2</span><span class="kss-name">Currencies</span></a></li>
               <li class="kss-menu-item"><a href="#section-13.3"><span class="kss-ref">13.3</span><span class="kss-name">Icon Radio Group</span></a></li>
             </ul>
           </nav>
@@ -57,60 +59,108 @@
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                    <div class="NumberInput">
-    <input class="NumberInput__input" min="0" step="1" type="number" value="0">
-    <span class="onlyclick-minus"></span>
-    <span class="onlyclick-plus"></span>
+                    <div class="number-input">
+    <input class="number-input__input" min="0" step="1" type="number" value="0">
+    <span class="number-input__minus"></span>
+    <span class="number-input__plus"></span>
   </div>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;NumberInput&quot;&gt;
-    &lt;input class&#x3D;&quot;NumberInput__input&quot; min&#x3D;&quot;0&quot; step&#x3D;&quot;1&quot; type&#x3D;&quot;number&quot; value&#x3D;&quot;0&quot;&gt;
-    &lt;span class&#x3D;&quot;onlyclick-minus&quot;&gt;&lt;/span&gt;
-    &lt;span class&#x3D;&quot;onlyclick-plus&quot;&gt;&lt;/span&gt;
+                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;number-input&quot;&gt;
+    &lt;input class&#x3D;&quot;number-input__input&quot; min&#x3D;&quot;0&quot; step&#x3D;&quot;1&quot; type&#x3D;&quot;number&quot; value&#x3D;&quot;0&quot;&gt;
+    &lt;span class&#x3D;&quot;number-input__minus&quot;&gt;&lt;/span&gt;
+    &lt;span class&#x3D;&quot;number-input__plus&quot;&gt;&lt;/span&gt;
   &lt;/div&gt;</code></pre>
               </div>
             </div>
           </section>
           <section id="section-13.2" class="kss-section kss-depth-2">
             <h1 class="kss-title"><span class="kss-ref">13.2</span> Input Keyboard</h1>
+          </section>
+          <section id="section-13.2.1" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">13.2.1</span> Default</h1>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                    <div class="InputKeyboard">
-    <input type="number" class="form-input">
+                    <div class="input-keyboard">
+    <input type="number" class="input-keyboard__input">
     <div class="keyboard">
-      <div class="number">9</div>
-      <div class="number">8</div>
-      <div class="number">7</div>
-      <div class="number">6</div>
-      <div class="number">5</div>
-      <div class="number">4</div>
-      <div class="number">3</div>
-      <div class="number">2</div>
-      <div class="number">1</div>
-      <div class="number number--0">0</div>
-      <div class="delete onlyclick-backspace"></div>
+      <div class="keyboard__number">9</div>
+      <div class="keyboard__number">8</div>
+      <div class="keyboard__number">7</div>
+      <div class="keyboard__number">6</div>
+      <div class="keyboard__number">5</div>
+      <div class="keyboard__number">4</div>
+      <div class="keyboard__number">3</div>
+      <div class="keyboard__number">2</div>
+      <div class="keyboard__number">1</div>
+      <div class="keyboard__number keyboard__number--0">0</div>
+      <div class="keyboard__delete keyboard__backspace"></div>
     </div>
   </div>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;InputKeyboard&quot;&gt;
-    &lt;input type&#x3D;&quot;number&quot; class&#x3D;&quot;form-input&quot;&gt;
+                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;input-keyboard&quot;&gt;
+    &lt;input type&#x3D;&quot;number&quot; class&#x3D;&quot;input-keyboard__input&quot;&gt;
     &lt;div class&#x3D;&quot;keyboard&quot;&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;9&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;8&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;7&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;6&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;5&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;4&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;3&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;2&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number&quot;&gt;1&lt;/div&gt;
-      &lt;div class&#x3D;&quot;number number--0&quot;&gt;0&lt;/div&gt;
-      &lt;div class&#x3D;&quot;delete onlyclick-backspace&quot;&gt;&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;9&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;8&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;7&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;6&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;5&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;4&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;3&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;2&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;1&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number keyboard__number--0&quot;&gt;0&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__delete keyboard__backspace&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-13.2.2" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">13.2.2</span> Currencies</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                    <div class="input-keyboard">
+    <span class="input-keyboard__currency"></span>
+    <input type="number" class="input-keyboard__input">
+    <div class="keyboard">
+      <div class="keyboard__number">9</div>
+      <div class="keyboard__number">8</div>
+      <div class="keyboard__number">7</div>
+      <div class="keyboard__number">6</div>
+      <div class="keyboard__number">5</div>
+      <div class="keyboard__number">4</div>
+      <div class="keyboard__number">3</div>
+      <div class="keyboard__number">2</div>
+      <div class="keyboard__number">1</div>
+      <div class="keyboard__number keyboard__number--0">0</div>
+      <div class="keyboard__delete keyboard__backspace"></div>
+    </div>
+  </div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;input-keyboard&quot;&gt;
+    &lt;span class&#x3D;&quot;input-keyboard__currency&quot;&gt;&lt;/span&gt;
+    &lt;input type&#x3D;&quot;number&quot; class&#x3D;&quot;input-keyboard__input&quot;&gt;
+    &lt;div class&#x3D;&quot;keyboard&quot;&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;9&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;8&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;7&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;6&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;5&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;4&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;3&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;2&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number&quot;&gt;1&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__number keyboard__number--0&quot;&gt;0&lt;/div&gt;
+      &lt;div class&#x3D;&quot;keyboard__delete keyboard__backspace&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;</code></pre>
               </div>
@@ -121,53 +171,53 @@
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                    <div class="IconRadioGroup">
-    <label class="IconRadioInput">
-      <div class="IconRadioInput__icon">
+                    <div class="icons-radio-group">
+    <label class="icons-radio-input">
+      <div class="icons-radio-input__icon">
         <span class="styleguide-icon-onlyclick-yes"></span>
       </div>
-      <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Yes">
-      <div class="IconRadioInput__label">Yes</div>
+      <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Yes">
+      <div class="icons-radio-input__label">Yes</div>
     </label>
-    <label class="IconRadioInput IconRadioInput--checked">
-      <div class="IconRadioInput__icon">
+    <label class="icons-radio-input icons-radio-input--checked">
+      <div class="icons-radio-input__icon">
         <span class="styleguide-icon-onlyclick-no"></span>
       </div>
-      <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="No">
-      <div class="IconRadioInput__label">No</div>
+      <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="No">
+      <div class="icons-radio-input__label">No</div>
     </label>
-    <label class="IconRadioInput">
-      <div class="IconRadioInput__icon">
+    <label class="icons-radio-input">
+      <div class="icons-radio-input__icon">
         <span class="styleguide-icon-onlyclick-notsure"></span>
       </div>
-      <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Not sure">
-      <div class="IconRadioInput__label">Not sure</div>
+      <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Not sure">
+      <div class="icons-radio-input__label">Not sure</div>
     </label>
   </div>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;IconRadioGroup&quot;&gt;
-    &lt;label class&#x3D;&quot;IconRadioInput&quot;&gt;
-      &lt;div class&#x3D;&quot;IconRadioInput__icon&quot;&gt;
+                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;icons-radio-group&quot;&gt;
+    &lt;label class&#x3D;&quot;icons-radio-input&quot;&gt;
+      &lt;div class&#x3D;&quot;icons-radio-input__icon&quot;&gt;
         &lt;span class&#x3D;&quot;styleguide-icon-onlyclick-yes&quot;&gt;&lt;/span&gt;
       &lt;/div&gt;
-      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;test_radio_input&quot; class&#x3D;&quot;IconRadioInput__input&quot; value&#x3D;&quot;Yes&quot;&gt;
-      &lt;div class&#x3D;&quot;IconRadioInput__label&quot;&gt;Yes&lt;/div&gt;
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;test_radio_input&quot; class&#x3D;&quot;icons-radio-input__input&quot; value&#x3D;&quot;Yes&quot;&gt;
+      &lt;div class&#x3D;&quot;icons-radio-input__label&quot;&gt;Yes&lt;/div&gt;
     &lt;/label&gt;
-    &lt;label class&#x3D;&quot;IconRadioInput IconRadioInput--checked&quot;&gt;
-      &lt;div class&#x3D;&quot;IconRadioInput__icon&quot;&gt;
+    &lt;label class&#x3D;&quot;icons-radio-input icons-radio-input--checked&quot;&gt;
+      &lt;div class&#x3D;&quot;icons-radio-input__icon&quot;&gt;
         &lt;span class&#x3D;&quot;styleguide-icon-onlyclick-no&quot;&gt;&lt;/span&gt;
       &lt;/div&gt;
-      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;test_radio_input&quot; class&#x3D;&quot;IconRadioInput__input&quot; value&#x3D;&quot;No&quot;&gt;
-      &lt;div class&#x3D;&quot;IconRadioInput__label&quot;&gt;No&lt;/div&gt;
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;test_radio_input&quot; class&#x3D;&quot;icons-radio-input__input&quot; value&#x3D;&quot;No&quot;&gt;
+      &lt;div class&#x3D;&quot;icons-radio-input__label&quot;&gt;No&lt;/div&gt;
     &lt;/label&gt;
-    &lt;label class&#x3D;&quot;IconRadioInput&quot;&gt;
-      &lt;div class&#x3D;&quot;IconRadioInput__icon&quot;&gt;
+    &lt;label class&#x3D;&quot;icons-radio-input&quot;&gt;
+      &lt;div class&#x3D;&quot;icons-radio-input__icon&quot;&gt;
         &lt;span class&#x3D;&quot;styleguide-icon-onlyclick-notsure&quot;&gt;&lt;/span&gt;
       &lt;/div&gt;
-      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;test_radio_input&quot; class&#x3D;&quot;IconRadioInput__input&quot; value&#x3D;&quot;Not sure&quot;&gt;
-      &lt;div class&#x3D;&quot;IconRadioInput__label&quot;&gt;Not sure&lt;/div&gt;
+      &lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;test_radio_input&quot; class&#x3D;&quot;icons-radio-input__input&quot; value&#x3D;&quot;Not sure&quot;&gt;
+      &lt;div class&#x3D;&quot;icons-radio-input__label&quot;&gt;Not sure&lt;/div&gt;
     &lt;/label&gt;
   &lt;/div&gt;</code></pre>
               </div>

@@ -4,14 +4,14 @@
   Styleguide 13.1
 
   Markup:
-    <div class="NumberInput">
-      <input class="NumberInput__input" min="0" step="1" type="number" value="0">
-      <span class="onlyclick-minus"></span>
-      <span class="onlyclick-plus"></span>
+    <div class="number-input">
+      <input class="number-input__input" min="0" step="1" type="number" value="0">
+      <span class="number-input__minus"></span>
+      <span class="number-input__plus"></span>
     </div>
 */
 
-.NumberInput {
+.number-input {
   position: relative;
   width: 180px;
   float: left;
@@ -21,8 +21,8 @@
     float: none;
     margin: 0 auto;
   }
-  .onlyclick-minus,
-  .onlyclick-plus {
+  .number-input__minus,
+  .number-input__plus {
     position: absolute;
     top: 11px;
     font-size: 2em;
@@ -30,24 +30,25 @@
     height: 28px;
     box-sizing: border-box;
     vertical-align: text-bottom;
+    cursor: pointer;
   }
-  .onlyclick-minus {
+  .number-input__minus {
     @include cw-covericon-before(onlyclick-minus, 0, $cwColor-black-xmedium);
     left: 145px;
   }
 
-  .onlyclick-plus {
+  .number-input__plus {
     @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-xmedium);
     left: 110px;
   }
 
-  .NumberInput__input {
+  .number-input__input {
     float: left;
     width: 100px !important;
     height: 40px !important;
     margin: 10px 0;
     padding-left: 10px;
-    text-align: left;
+    text-align: right;
     font-size: 1em;
     color: $cwColor-base-bluegray;
     background-color: $cwColor-base-white;

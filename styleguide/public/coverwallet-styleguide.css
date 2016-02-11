@@ -5735,7 +5735,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-icon, ul.list.list--type-4 li:before, header .navbar-menu ul.nav > li a.telephone-link span:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.telephone-menu-icon:before, .general_liability:before, .epli:before, .professional_liability__eo:before, .workers_compensation:before, .disability_insurance:before, .employee_benefits_liability:before, .umbrella_liability:before, .commercial_building_andor_property:before, .employee_dishonesty:before, .environmental_impairment:before, .inland_marine:before, .bailees_customers:before, .commercial_auto:before, .liquor_liability:before, .product_recall:before, .guests_property:before, .fiduciary_bond:before, .directors__officers_insurance:before, .financial_institutions_bond:before, .surety_bond:before, .crime:before, .farmowners_multi-peril:before, .cyber_liability__data_breach:before, .aircraft_liability:before, .motor_carriers_liability_and_physical_damage:before, .warehouse_operators_legal_liability:before, .exhibitions:before, .ocean_marine:before, .hangarkeepers_legal_liability:before, .forgery_or_alteration:before, .money_orders_and_counterfeit_money:before, .medical_malpractice:before, .golf_carts:before, .public_officials_liability:before, .business_garage:before, .aviation_general_liability_coverage:before, .business_owners_policy_bop:before, .more:before, .administrative_services_and_building_maintenance:before, .agriculture_forestry_fishing_and_hunting:before, .construction_and_contractors:before, .educational_services:before, .finance_and_insurance:before, .food_services_and_acommodation:before, .health_care_and_social_assistance:before, .manufacturing:before, .professional_scientific_and_technical_services:before, .real_estate_rental_and_leasing:before, .retail_services:before, .retail_trade:before, .sports_arts_entertainment_and_recreation:before, .start-ups:before, .technology_media_and_telecommunications:before, .transportation_and_warehousing:before, .wholesale_trade:before, .NumberInput .onlyclick-minus:before, .NumberInput .onlyclick-plus:before, .InputKeyboard .onlyclick-backspace:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before, .styleguide-icon-industries-agriculture:before, .styleguide-icon-industries-construction:before, .styleguide-icon-industries-education:before, .styleguide-icon-industries-finance:before, .styleguide-icon-industries-food:before, .styleguide-icon-industries-health:before, .styleguide-icon-industries-maintance:before, .styleguide-icon-industries-manufacturing:before, .styleguide-icon-industries-nonprofit:before, .styleguide-icon-industries-professional:before, .styleguide-icon-industries-realstate:before, .styleguide-icon-industries-retailservices:before, .styleguide-icon-industries-retailtrade:before, .styleguide-icon-industries-sports:before, .styleguide-icon-industries-startups:before, .styleguide-icon-industries-tech:before, .styleguide-icon-industries-transportation:before, .styleguide-icon-industries-wholesale:before, .styleguide-icon-insurance-type-aircraft-liability:before, .styleguide-icon-insurance-type-aviation-general-liability-coverage:before, .styleguide-icon-insurance-type-bailees-customers:before, .styleguide-icon-insurance-type-business-garage:before, .styleguide-icon-insurance-type-commercial-auto:before, .styleguide-icon-insurance-type-commercial-building-and-or-property:before, .styleguide-icon-insurance-type-epli:before, .styleguide-icon-insurance-type-exhibitions:before, .styleguide-icon-insurance-type-farmowners-multi-peril:before, .styleguide-icon-insurance-type-fiduciary-bond:before, .styleguide-icon-insurance-type-financial-institutions-bond:before, .styleguide-icon-insurance-type-forgery-or-alteration:before, .styleguide-icon-insurance-type-money-orders-and-counterfeit-money:before, .styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage:before, .styleguide-icon-insurance-type-ocean-marine:before, .styleguide-icon-insurance-type-product-recall:before, .styleguide-icon-insurance-type-professional-liability-e-and-o:before, .styleguide-icon-insurance-type-public-officials-liability:before, .styleguide-icon-insurance-type-crime:before, .styleguide-icon-insurance-type-cyber-liability-and-data-breach:before, .styleguide-icon-insurance-type-directors-and-officers-insurance:before, .styleguide-icon-insurance-type-disability-insurance:before, .styleguide-icon-insurance-type-employee-benefits-liability:before, .styleguide-icon-insurance-type-employee-dishonesty:before, .styleguide-icon-insurance-type-environmental-impairment:before, .styleguide-icon-insurance-type-general-liability:before, .styleguide-icon-insurance-type-golf-carts:before, .styleguide-icon-insurance-type-guests-property:before, .styleguide-icon-insurance-type-hangarkeepers-legal-liability:before, .styleguide-icon-insurance-type-inland-marine:before, .styleguide-icon-insurance-type-liquor-liability:before, .styleguide-icon-insurance-type-medical-malpractice:before, .styleguide-icon-insurance-type-surety-bond:before, .styleguide-icon-insurance-type-umbrella-liability:before, .styleguide-icon-insurance-type-warehouse-operators-legal-liability:before, .styleguide-icon-insurance-type-workers-compensation:before, .styleguide-icon-insurance-type-health:before, .styleguide-icon-insurance-type-business-owners-policy-bop:before, .styleguide-icon-delete:before, .styleguide-icon-phone-nav:before, .styleguide-icon-insurance-type-more:before, .styleguide-icon-quotes-open:before, .styleguide-icon-quotes-close:before, .styleguide-icon-onlyclick-0-10:before, .styleguide-icon-onlyclick-minus:before, .styleguide-icon-onlyclick-location-rent-lease:before, .styleguide-icon-onlyclick-location-own:before, .styleguide-icon-onlyclick-location-non-combustible:before, .styleguide-icon-onlyclick-location-joint-masonery:before, .styleguide-icon-onlyclick-location-homeoffice:before, .styleguide-icon-onlyclick-location-frame:before, .styleguide-icon-onlyclick-location-fire-resistive:before, .styleguide-icon-onlyclick-lease:before, .styleguide-icon-onlyclick-dollar:before, .styleguide-icon-onlyclick-backspace:before, .styleguide-icon-onlyclick-50plus:before, .styleguide-icon-onlyclick-10-50:before, .styleguide-icon-onlyclick-no:before, .styleguide-icon-onlyclick-notsure:before, .styleguide-icon-onlyclick-own:before, .styleguide-icon-onlyclick-plus:before, .styleguide-icon-onlyclick-yes:before {
+.coverwallet-icon, ul.list.list--type-4 li:before, header .navbar-menu ul.nav > li a.telephone-link span:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.telephone-menu-icon:before, .general_liability:before, .epli:before, .professional_liability__eo:before, .workers_compensation:before, .disability_insurance:before, .employee_benefits_liability:before, .umbrella_liability:before, .commercial_building_andor_property:before, .employee_dishonesty:before, .environmental_impairment:before, .inland_marine:before, .bailees_customers:before, .commercial_auto:before, .liquor_liability:before, .product_recall:before, .guests_property:before, .fiduciary_bond:before, .directors__officers_insurance:before, .financial_institutions_bond:before, .surety_bond:before, .crime:before, .farmowners_multi-peril:before, .cyber_liability__data_breach:before, .aircraft_liability:before, .motor_carriers_liability_and_physical_damage:before, .warehouse_operators_legal_liability:before, .exhibitions:before, .ocean_marine:before, .hangarkeepers_legal_liability:before, .forgery_or_alteration:before, .money_orders_and_counterfeit_money:before, .medical_malpractice:before, .golf_carts:before, .public_officials_liability:before, .business_garage:before, .aviation_general_liability_coverage:before, .business_owners_policy_bop:before, .more:before, .administrative_services_and_building_maintenance:before, .agriculture_forestry_fishing_and_hunting:before, .construction_and_contractors:before, .educational_services:before, .finance_and_insurance:before, .food_services_and_acommodation:before, .health_care_and_social_assistance:before, .manufacturing:before, .professional_scientific_and_technical_services:before, .real_estate_rental_and_leasing:before, .retail_services:before, .retail_trade:before, .sports_arts_entertainment_and_recreation:before, .start-ups:before, .technology_media_and_telecommunications:before, .transportation_and_warehousing:before, .wholesale_trade:before, .number-input .number-input__minus:before, .number-input .number-input__plus:before, .keyboard .keyboard__backspace:before, .input-keyboard .input-keyboard__currency:before, .styleguide-icon-about:before, .styleguide-icon-account:before, .styleguide-icon-add:before, .styleguide-icon-admin:before, .styleguide-icon-agent:before, .styleguide-icon-cancel:before, .styleguide-icon-cancel-filled:before, .styleguide-icon-chat:before, .styleguide-icon-checklist:before, .styleguide-icon-contact:before, .styleguide-icon-current:before, .styleguide-icon-download:before, .styleguide-icon-edit:before, .styleguide-icon-email:before, .styleguide-icon-feedback:before, .styleguide-icon-info:before, .styleguide-icon-logout:before, .styleguide-icon-newpolicy:before, .styleguide-icon-notifications:before, .styleguide-icon-phone:before, .styleguide-icon-receipts:before, .styleguide-icon-save:before, .styleguide-icon-save-filled:before, .styleguide-icon-schedule:before, .styleguide-icon-settings:before, .styleguide-icon-settings-filled:before, .styleguide-icon-share:before, .styleguide-icon-tellfriends:before, .styleguide-icon-tyc:before, .styleguide-icon-video:before, .styleguide-icon-policy-type:before, .styleguide-icon-past-claims:before, .styleguide-icon-yearly-revenues:before, .styleguide-icon-business-size:before, .styleguide-icon-location:before, .styleguide-icon-employees-number:before, .styleguide-icon-industry:before, .styleguide-icon-your-contracts:before, .styleguide-icon-3rdparty:before, .styleguide-icon-checklist-shield:before, .styleguide-icon-general-liability:before, .styleguide-icon-epli:before, .styleguide-icon-other-docs:before, .styleguide-icon-us-map:before, .styleguide-icon-popularity-high:before, .styleguide-icon-popularity-low:before, .styleguide-icon-popularity-med:before, .styleguide-icon-property:before, .styleguide-icon-restaurants:before, .styleguide-icon-industries-agriculture:before, .styleguide-icon-industries-construction:before, .styleguide-icon-industries-education:before, .styleguide-icon-industries-finance:before, .styleguide-icon-industries-food:before, .styleguide-icon-industries-health:before, .styleguide-icon-industries-maintance:before, .styleguide-icon-industries-manufacturing:before, .styleguide-icon-industries-nonprofit:before, .styleguide-icon-industries-professional:before, .styleguide-icon-industries-realstate:before, .styleguide-icon-industries-retailservices:before, .styleguide-icon-industries-retailtrade:before, .styleguide-icon-industries-sports:before, .styleguide-icon-industries-startups:before, .styleguide-icon-industries-tech:before, .styleguide-icon-industries-transportation:before, .styleguide-icon-industries-wholesale:before, .styleguide-icon-insurance-type-aircraft-liability:before, .styleguide-icon-insurance-type-aviation-general-liability-coverage:before, .styleguide-icon-insurance-type-bailees-customers:before, .styleguide-icon-insurance-type-business-garage:before, .styleguide-icon-insurance-type-commercial-auto:before, .styleguide-icon-insurance-type-commercial-building-and-or-property:before, .styleguide-icon-insurance-type-epli:before, .styleguide-icon-insurance-type-exhibitions:before, .styleguide-icon-insurance-type-farmowners-multi-peril:before, .styleguide-icon-insurance-type-fiduciary-bond:before, .styleguide-icon-insurance-type-financial-institutions-bond:before, .styleguide-icon-insurance-type-forgery-or-alteration:before, .styleguide-icon-insurance-type-money-orders-and-counterfeit-money:before, .styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage:before, .styleguide-icon-insurance-type-ocean-marine:before, .styleguide-icon-insurance-type-product-recall:before, .styleguide-icon-insurance-type-professional-liability-e-and-o:before, .styleguide-icon-insurance-type-public-officials-liability:before, .styleguide-icon-insurance-type-crime:before, .styleguide-icon-insurance-type-cyber-liability-and-data-breach:before, .styleguide-icon-insurance-type-directors-and-officers-insurance:before, .styleguide-icon-insurance-type-disability-insurance:before, .styleguide-icon-insurance-type-employee-benefits-liability:before, .styleguide-icon-insurance-type-employee-dishonesty:before, .styleguide-icon-insurance-type-environmental-impairment:before, .styleguide-icon-insurance-type-general-liability:before, .styleguide-icon-insurance-type-golf-carts:before, .styleguide-icon-insurance-type-guests-property:before, .styleguide-icon-insurance-type-hangarkeepers-legal-liability:before, .styleguide-icon-insurance-type-inland-marine:before, .styleguide-icon-insurance-type-liquor-liability:before, .styleguide-icon-insurance-type-medical-malpractice:before, .styleguide-icon-insurance-type-surety-bond:before, .styleguide-icon-insurance-type-umbrella-liability:before, .styleguide-icon-insurance-type-warehouse-operators-legal-liability:before, .styleguide-icon-insurance-type-workers-compensation:before, .styleguide-icon-insurance-type-health:before, .styleguide-icon-insurance-type-business-owners-policy-bop:before, .styleguide-icon-delete:before, .styleguide-icon-phone-nav:before, .styleguide-icon-insurance-type-more:before, .styleguide-icon-quotes-open:before, .styleguide-icon-quotes-close:before, .styleguide-icon-onlyclick-0-10:before, .styleguide-icon-onlyclick-minus:before, .styleguide-icon-onlyclick-location-rent-lease:before, .styleguide-icon-onlyclick-location-own:before, .styleguide-icon-onlyclick-location-non-combustible:before, .styleguide-icon-onlyclick-location-joint-masonery:before, .styleguide-icon-onlyclick-location-homeoffice:before, .styleguide-icon-onlyclick-location-frame:before, .styleguide-icon-onlyclick-location-fire-resistive:before, .styleguide-icon-onlyclick-lease:before, .styleguide-icon-onlyclick-dollar:before, .styleguide-icon-onlyclick-backspace:before, .styleguide-icon-onlyclick-50plus:before, .styleguide-icon-onlyclick-10-50:before, .styleguide-icon-onlyclick-no:before, .styleguide-icon-onlyclick-notsure:before, .styleguide-icon-onlyclick-own:before, .styleguide-icon-onlyclick-plus:before, .styleguide-icon-onlyclick-yes:before {
   font-family: "coverwallet" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -6244,7 +6244,7 @@ html {
 .cwicon-onlyclick-0-10, .styleguide-icon-onlyclick-0-10:before {
   content: "\e011"; }
 
-.cwicon-onlyclick-minus, .NumberInput .onlyclick-minus:before, .styleguide-icon-onlyclick-minus:before {
+.cwicon-onlyclick-minus, .number-input .number-input__minus:before, .styleguide-icon-onlyclick-minus:before {
   content: "\e012"; }
 
 .cwicon-onlyclick-location-rent-lease, .styleguide-icon-onlyclick-location-rent-lease:before {
@@ -6271,10 +6271,10 @@ html {
 .cwicon-onlyclick-lease, .styleguide-icon-onlyclick-lease:before {
   content: "\e01a"; }
 
-.cwicon-onlyclick-dollar, .styleguide-icon-onlyclick-dollar:before {
+.cwicon-onlyclick-dollar, .input-keyboard .input-keyboard__currency:before, .styleguide-icon-onlyclick-dollar:before {
   content: "\e01b"; }
 
-.cwicon-onlyclick-backspace, .InputKeyboard .onlyclick-backspace:before, .styleguide-icon-onlyclick-backspace:before {
+.cwicon-onlyclick-backspace, .keyboard .keyboard__backspace:before, .styleguide-icon-onlyclick-backspace:before {
   content: "\e01c"; }
 
 .cwicon-onlyclick-50plus, .styleguide-icon-onlyclick-50plus:before {
@@ -6292,7 +6292,7 @@ html {
 .cwicon-onlyclick-own, .styleguide-icon-onlyclick-own:before {
   content: "\e021"; }
 
-.cwicon-onlyclick-plus, .NumberInput .onlyclick-plus:before, .styleguide-icon-onlyclick-plus:before {
+.cwicon-onlyclick-plus, .number-input .number-input__plus:before, .styleguide-icon-onlyclick-plus:before {
   content: "\e022"; }
 
 .cwicon-onlyclick-yes, .styleguide-icon-onlyclick-yes:before {
@@ -8027,47 +8027,48 @@ Styleguide 11.1
   Styleguide 13.1
 
   Markup:
-    <div class="NumberInput">
-      <input class="NumberInput__input" min="0" step="1" type="number" value="0">
-      <span class="onlyclick-minus"></span>
-      <span class="onlyclick-plus"></span>
+    <div class="number-input">
+      <input class="number-input__input" min="0" step="1" type="number" value="0">
+      <span class="number-input__minus"></span>
+      <span class="number-input__plus"></span>
     </div>
 */
-.NumberInput {
+.number-input {
   position: relative;
   width: 180px;
   float: left; }
   @media screen and (max-width: 480px) {
-    .NumberInput {
+    .number-input {
       text-align: center;
       float: none;
       margin: 0 auto; } }
-  .NumberInput .onlyclick-minus,
-  .NumberInput .onlyclick-plus {
+  .number-input .number-input__minus,
+  .number-input .number-input__plus {
     position: absolute;
     top: 11px;
     font-size: 2em;
     width: 28px;
     height: 28px;
     box-sizing: border-box;
-    vertical-align: text-bottom; }
-  .NumberInput .onlyclick-minus {
+    vertical-align: text-bottom;
+    cursor: pointer; }
+  .number-input .number-input__minus {
     left: 145px; }
-    .NumberInput .onlyclick-minus:before {
+    .number-input .number-input__minus:before {
       padding-right: 0;
       color: #8a8a8a; }
-  .NumberInput .onlyclick-plus {
+  .number-input .number-input__plus {
     left: 110px; }
-    .NumberInput .onlyclick-plus:before {
+    .number-input .number-input__plus:before {
       padding-right: 0;
       color: #8a8a8a; }
-  .NumberInput .NumberInput__input {
+  .number-input .number-input__input {
     float: left;
     width: 100px !important;
     height: 40px !important;
     margin: 10px 0;
     padding-left: 10px;
-    text-align: left;
+    text-align: right;
     font-size: 1em;
     color: #454855;
     background-color: #fff;
@@ -8078,7 +8079,7 @@ Styleguide 11.1
 .keyboard {
   background: inherit;
   width: 160px; }
-  .keyboard .number, .keyboard .delete {
+  .keyboard .keyboard__number, .keyboard .keyboard__delete {
     cursor: pointer;
     width: 54px;
     height: 54px;
@@ -8092,46 +8093,89 @@ Styleguide 11.1
     display: inline-block;
     float: left;
     box-sizing: border-box; }
-  .keyboard .number--0, .keyboard .delete--0 {
+  .keyboard .keyboard__number--0, .keyboard .keyboard__delete--0 {
     width: 106px; }
+  .keyboard .keyboard__backspace {
+    display: inline-block; }
+    .keyboard .keyboard__backspace:before {
+      padding-right: 0;
+      color: #8a8a8a; }
 
 /* 
-  Input Keyboard 
+  Input Keyboard
 
   Styleguide 13.2
 
+*/
+/*
+
+  Default
+
+  Styleguide 13.2.1
+
   Markup:
-    <div class="InputKeyboard">
-      <input type="number" class="form-input">
+    <div class="input-keyboard">
+      <input type="number" class="input-keyboard__input">
       <div class="keyboard">
-        <div class="number">9</div>
-        <div class="number">8</div>
-        <div class="number">7</div>
-        <div class="number">6</div>
-        <div class="number">5</div>
-        <div class="number">4</div>
-        <div class="number">3</div>
-        <div class="number">2</div>
-        <div class="number">1</div>
-        <div class="number number--0">0</div>
-        <div class="delete onlyclick-backspace"></div>
+        <div class="keyboard__number">9</div>
+        <div class="keyboard__number">8</div>
+        <div class="keyboard__number">7</div>
+        <div class="keyboard__number">6</div>
+        <div class="keyboard__number">5</div>
+        <div class="keyboard__number">4</div>
+        <div class="keyboard__number">3</div>
+        <div class="keyboard__number">2</div>
+        <div class="keyboard__number">1</div>
+        <div class="keyboard__number keyboard__number--0">0</div>
+        <div class="keyboard__delete keyboard__backspace"></div>
       </div>
     </div>
 */
-.InputKeyboard {
+/*
+  Currencies
+
+  Styleguide 13.2.2
+
+  Markup:
+    <div class="input-keyboard">
+      <span class="input-keyboard__currency"></span>
+      <input type="number" class="input-keyboard__input">
+      <div class="keyboard">
+        <div class="keyboard__number">9</div>
+        <div class="keyboard__number">8</div>
+        <div class="keyboard__number">7</div>
+        <div class="keyboard__number">6</div>
+        <div class="keyboard__number">5</div>
+        <div class="keyboard__number">4</div>
+        <div class="keyboard__number">3</div>
+        <div class="keyboard__number">2</div>
+        <div class="keyboard__number">1</div>
+        <div class="keyboard__number keyboard__number--0">0</div>
+        <div class="keyboard__delete keyboard__backspace"></div>
+      </div>
+    </div>
+*/
+.input-keyboard {
+  position: relative;
   width: 156px;
   float: left; }
   @media screen and (max-width: 480px) {
-    .InputKeyboard {
+    .input-keyboard {
       text-align: center;
       float: none;
       margin: 0 auto; } }
-  .InputKeyboard .onlyclick-backspace {
-    display: inline-block; }
-    .InputKeyboard .onlyclick-backspace:before {
+  .input-keyboard .input-keyboard__currency {
+    position: absolute;
+    left: 4px;
+    top: 14px;
+    height: 30px;
+    width: 30px;
+    font-size: 28px;
+    background-color: #fff; }
+    .input-keyboard .input-keyboard__currency:before {
       padding-right: 0;
-      color: #8a8a8a; }
-  .InputKeyboard .form-input {
+      color: #d2d2d2; }
+  .input-keyboard .input-keyboard__input {
     margin: 10px 0;
     background-color: #fff;
     border-radius: 0;
@@ -8139,7 +8183,7 @@ Styleguide 11.1
     padding-left: 10px;
     width: 100%;
     height: 40px !important;
-    text-align: left;
+    text-align: right;
     font-size: 1em;
     color: #454855;
     font-weight: 100;
@@ -8151,36 +8195,36 @@ Styleguide 11.1
   Styleguide 13.3
 
   Markup:
-    <div class="IconRadioGroup">
-      <label class="IconRadioInput">
-        <div class="IconRadioInput__icon">
+    <div class="icons-radio-group">
+      <label class="icons-radio-input">
+        <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-yes"></span>
         </div>
-        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Yes">
-        <div class="IconRadioInput__label">Yes</div>
+        <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Yes">
+        <div class="icons-radio-input__label">Yes</div>
       </label>
-      <label class="IconRadioInput IconRadioInput--checked">
-        <div class="IconRadioInput__icon">
+      <label class="icons-radio-input icons-radio-input--checked">
+        <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-no"></span>
         </div>
-        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="No">
-        <div class="IconRadioInput__label">No</div>
+        <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="No">
+        <div class="icons-radio-input__label">No</div>
       </label>
-      <label class="IconRadioInput">
-        <div class="IconRadioInput__icon">
+      <label class="icons-radio-input">
+        <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-notsure"></span>
         </div>
-        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Not sure">
-        <div class="IconRadioInput__label">Not sure</div>
+        <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Not sure">
+        <div class="icons-radio-input__label">Not sure</div>
       </label>
     </div>
 */
-.IconRadioGroup::after {
+.icons-radio-group::after {
   clear: both;
   content: "";
   display: table; }
 
-.IconRadioInput {
+.icons-radio-input {
   float: left;
   width: 140px;
   height: 60px;
@@ -8190,34 +8234,34 @@ Styleguide 11.1
   border: 1px solid #d2d2d2;
   border-radius: 4px;
   cursor: pointer; }
-  .IconRadioInput:hover {
+  .icons-radio-input:hover {
     border: 1px solid #438bd7; }
-    .IconRadioInput:hover .IconRadioInput__icon > span::before,
-    .IconRadioInput:hover .IconRadioInput__label {
+    .icons-radio-input:hover .icons-radio-input__icon > span::before,
+    .icons-radio-input:hover .icons-radio-input__label {
       color: #438bd7; }
   @media screen and (max-width: 1024px) {
-    .IconRadioInput {
+    .icons-radio-input {
       width: 120px; } }
-  .IconRadioInput .IconRadioInput__icon {
+  .icons-radio-input .icons-radio-input__icon {
     font-size: 25px;
     padding-top: 5px;
     line-height: 25px; }
     @media screen and (max-width: 1024px) {
-      .IconRadioInput .IconRadioInput__icon {
+      .icons-radio-input .icons-radio-input__icon {
         font-size: 20px; } }
-    .IconRadioInput .IconRadioInput__icon > span::before {
+    .icons-radio-input .icons-radio-input__icon > span::before {
       display: inline-block;
       margin-top: 2px;
       color: #8a8a8a; }
-  .IconRadioInput .IconRadioInput__input {
+  .icons-radio-input .icons-radio-input__input {
     display: none; }
-  .IconRadioInput .IconRadioInput__label {
+  .icons-radio-input .icons-radio-input__label {
     text-transform: uppercase;
     color: #454855; }
-  .IconRadioInput--checked {
+  .icons-radio-input--checked {
     color: #438bd7;
     border-color: #438bd7; }
-    .IconRadioInput--checked .IconRadioInput__icon > span::before {
+    .icons-radio-input--checked .icons-radio-input__icon > span::before {
       color: #438bd7; }
 
 .color {
