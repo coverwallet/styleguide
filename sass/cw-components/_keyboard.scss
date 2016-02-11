@@ -2,7 +2,7 @@
   background: inherit;
   width: 160px;
 
-  .number, .delete {
+  .keyboard__number, .keyboard__delete {
     cursor: pointer;
     width: 54px;
     height: 54px;
@@ -17,10 +17,20 @@
     float: left;
     box-sizing: border-box;
   }
+<<<<<<< HEAD
   .delete { 
     line-height: 54px;
   }
   .number--0, .delete--0 {
+=======
+
+  .keyboard__number--0, .keyboard__delete--0 {
+>>>>>>> 985185fb276bb7ce7f08e20a68e9ff97f0bcab08
     width: 106px;
+  }
+
+  .keyboard__backspace {
+    @include cw-covericon-before(onlyclick-backspace, 0, $cwColor-black-xmedium);
+    display: inline-block;
   }
 }

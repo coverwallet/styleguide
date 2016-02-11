@@ -4,36 +4,36 @@
   Styleguide 13.3
 
   Markup:
-    <div class="IconRadioGroup">
-      <label class="IconRadioInput">
-        <div class="IconRadioInput__icon">
+    <div class="icons-radio-group">
+      <label class="icons-radio-input">
+        <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-yes"></span>
         </div>
-        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Yes">
-        <div class="IconRadioInput__label">Yes</div>
+        <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Yes">
+        <div class="icons-radio-input__label">Yes</div>
       </label>
-      <label class="IconRadioInput IconRadioInput--checked">
-        <div class="IconRadioInput__icon">
+      <label class="icons-radio-input icons-radio-input--checked">
+        <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-no"></span>
         </div>
-        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="No">
-        <div class="IconRadioInput__label">No</div>
+        <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="No">
+        <div class="icons-radio-input__label">No</div>
       </label>
-      <label class="IconRadioInput">
-        <div class="IconRadioInput__icon">
+      <label class="icons-radio-input">
+        <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-notsure"></span>
         </div>
-        <input type="radio" name="test_radio_input" class="IconRadioInput__input" value="Not sure">
-        <div class="IconRadioInput__label">Not sure</div>
+        <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Not sure">
+        <div class="icons-radio-input__label">Not sure</div>
       </label>
     </div>
 */
 
-.IconRadioGroup {
+.icons-radio-group {
   @include clearfix();
 }
 
-.IconRadioInput {
+.icons-radio-input {
   float: left;
   width: 140px;
   height: 60px;
@@ -45,8 +45,8 @@
   cursor: pointer;
   &:hover {
     border: 1px solid $cwColor-base-blue;
-    .IconRadioInput__icon > span::before,
-    .IconRadioInput__label {
+    .icons-radio-input__icon > span::before,
+    .icons-radio-input__label {
       color: $cwColor-base-blue;
     }
   }
@@ -56,7 +56,7 @@
     width: 120px;
   }
 
-  .IconRadioInput__icon {
+  .icons-radio-input__icon {
     font-size: 25px;
     padding-top: 5px;
     line-height: 25px;
@@ -72,11 +72,11 @@
     }
   }
 
-  .IconRadioInput__input {
+  .icons-radio-input__input {
     display: none;
   }
 
-  .IconRadioInput__label {
+  .icons-radio-input__label {
     text-transform: uppercase;
     color: $cwColor-base-bluegray;
   }
@@ -85,7 +85,7 @@
     color: $cwColor-base-blue;
     border-color:$cwColor-base-blue;
 
-    .IconRadioInput__icon {
+    .icons-radio-input__icon {
       > span::before {
         color: $cwColor-base-blue;
       }
