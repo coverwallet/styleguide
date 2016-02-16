@@ -25,27 +25,24 @@ form {
             @include clearfix();
 
             &.label--inline {
-                display: inline-block;
-                float: left;
+                display: table-cell;
+                text-align: right;
+                min-width: 240px;
+                max-width: 240px;
+
+                @include media($mobile) {
+                  display: block;
+                  width: 100%;
+                  margin: 0;
+                  text-align: left;
+                }
             }
 
             &.label--text {
                 color: $color-text;
                 font-size: 1em;
-                position: relative;
-                text-align: right;
-                width: 240px;
                 text-transform: none;
                 height: 100%;
-                top: 13px;
-
-                @include media($mobile) {
-                    position: static;
-                    float: none;
-                    width: 100%;
-                    margin: 0 auto;
-                    text-align: center;
-                }
             }
         }
 
@@ -62,6 +59,15 @@ form {
             font-weight: 100;
             &.form-input--long {
                 height: 38px;
+            }
+            &.form-input--short {
+                width: 300px;
+                margin-right: 15px;
+
+                @include media($mobile) {
+                  width: 100%;
+                  margin-right: 0;
+                }
             }
             &.form-input--email {
                 background-image: $cw-images-email;
@@ -251,6 +257,11 @@ form {
                 margin-top: 3px;
             }
         }
+
+        &.form-group--inline {
+            display: table;
+            @include clearfix();
+        }
     }
     &.form--light {
         label {
@@ -315,8 +326,39 @@ form {
         cursor: pointer;
         font-size: 18px;
         padding-left: 5px;
+        right: 15px;
         top: 10px;
         position: absolute;
+    }
+
+    .input-group {
+        @include clearfix();
+
+        @include media($mobile){
+            display: block;
+            width: 100%;
+
+            .input-group__error {
+                margin-left: 5px;
+            }
+
+            .input-group__help-message {
+                display: block;
+            }
+        }
+
+        &.input-group--inline {
+            display: table-cell;
+
+            @include media($mobile){
+              display: block;
+              width: 100%;
+            }
+        }
+
+        .input-group__help-message {
+          display: inline-block;
+        }
     }
 }
 /*
@@ -510,4 +552,23 @@ form {
  </form>
 
  Styleguide 5.9
+*/
+
+/*
+  New Inline input
+
+  Markup:
+  <form class="form">
+     <div class="form-group form-group--inline form-group--error">
+         <label class="label label--inline label--text">This your name</label>
+         <div class="input-group input-group--inline">
+           <input type="text" id="name-light" class="form-input form-input--long form-input--short" placeholder="Name"/>
+           <span class="input-group__help-message">We will use your name when call you</span>
+           <span class="help-block" >Please enter a valid name</span>
+         </div>
+     </div>
+
+  </form>
+
+  Styleguide 5.10
 */
