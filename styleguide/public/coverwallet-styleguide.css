@@ -6280,23 +6280,23 @@ html {
 .cwicon-onlyclick-50plus, .styleguide-icon-onlyclick-50plus:before {
   content: "\e01d"; }
 
-.cwicon-onlyclick-10-50, .styleguide-icon-onlyclick-10-50:before {
-  content: "\e01e"; }
-
 .cwicon-onlyclick-no, .styleguide-icon-onlyclick-no:before {
   content: "\e01f"; }
 
 .cwicon-onlyclick-notsure, .styleguide-icon-onlyclick-notsure:before {
   content: "\e020"; }
 
-.cwicon-onlyclick-own, .styleguide-icon-onlyclick-own:before {
-  content: "\e021"; }
-
 .cwicon-onlyclick-plus, .number-input .number-input__plus:before, .styleguide-icon-onlyclick-plus:before {
   content: "\e022"; }
 
 .cwicon-onlyclick-yes, .styleguide-icon-onlyclick-yes:before {
   content: "\e023"; }
+
+.cwicon-onlyclick-10-50, .styleguide-icon-onlyclick-10-50:before {
+  content: "\e01e"; }
+
+.cwicon-onlyclick-own, .styleguide-icon-onlyclick-own:before {
+  content: "\e021"; }
 
 /*
     Mixin to set border radius to element
@@ -6840,7 +6840,6 @@ form .form-help-icon {
   cursor: pointer;
   font-size: 18px;
   padding-left: 5px;
-  right: 15px;
   top: 10px;
   position: absolute; }
   .form .form-help-icon:before,
