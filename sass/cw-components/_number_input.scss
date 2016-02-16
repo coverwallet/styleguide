@@ -10,26 +10,41 @@
       <span class="number-input__plus"></span>
     </div>
 */
+/*
+  Inside form group
+
+  Styleguide 13.1.1
+
+  Markup:
+     <form class="form">
+         <div class="form-group form-group--inline form-group--error">
+             <label class="label label--inline label--text">Your label text</label>
+             <div class="input-group input-group--inline">
+                 <div class="number-input">
+                    <input class="number-input__input" min="0" step="1" type="number" value="0">
+                    <span class="number-input__minus"></span>
+                    <span class="number-input__plus"></span>
+                 </div>
+                 <span class="help-block" >Error message</span>
+             </div>
+         </div>
+     </form>
+*/
 
 .number-input {
   position: relative;
-  width: 180px;
-  float: left;
+  width: 192px;
 
   @include media($mobile) {
-    text-align: center;
-    float: none;
     margin: 0 auto;
   }
   .number-input__minus,
   .number-input__plus {
     position: absolute;
-    top: 11px;
     font-size: 2em;
-    width: 28px;
-    height: 28px;
+    width: 33px;
+    height: 33px;
     box-sizing: border-box;
-    vertical-align: text-bottom;
     cursor: pointer;
     &:hover {
       &:before {
@@ -48,10 +63,8 @@
   }
 
   .number-input__input {
-    float: left;
     width: 100px !important;
     height: 40px !important;
-    margin: 10px 0;
     padding-left: 10px;
     text-align: right;
     font-size: 1em;

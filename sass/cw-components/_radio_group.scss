@@ -27,7 +27,79 @@
         <div class="icons-radio-input__label">Not sure</div>
       </label>
     </div>
+
 */
+
+/*
+  Inside radio-group
+
+  Styleguide 13.3.1
+
+  Markup:
+    <form class="form">
+      <div class="radio-group">
+        <div class="form-group form-group--long radio-group__label-container">
+        <label class="label label--inline label--text">Do you need to insure the building?</label>
+        </div>
+        <div class="radio-group__icon-group">
+            <div class="icons-radio-group">
+              <label class="icons-radio-input">
+                <div class="icons-radio-input__icon">
+                  <span class="styleguide-icon-onlyclick-yes"></span>
+                </div>
+                <input type="radio" name="insure_building" class="icons-radio-input__input" value="Yes">
+                <div class="icons-radio-input__label">Yes</div>
+              </label>
+              <label class="icons-radio-input icons-radio-input--checked">
+                <div class="icons-radio-input__icon">
+                  <span class="styleguide-icon-onlyclick-no"></span>
+                </div>
+                <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="No">
+                <div class="icons-radio-input__label">No</div>
+              </label>
+              <label class="icons-radio-input">
+                <div class="icons-radio-input__icon">
+                  <span class="styleguide-icon-onlyclick-notsure"></span>
+                </div>
+                <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Not sure">
+                <div class="icons-radio-input__label">Not sure</div>
+              </label>
+            </div>
+            <div class="radio-group__error-message">Required field</div>
+        </div>
+      </div>
+    </form>
+*/
+
+.radio-group {
+  display: table;
+
+  .radio-group__label-container {
+    display: table-cell;
+    vertical-align: top;
+
+    @include media($mobile){
+      display: block;
+    }
+  }
+
+  .radio-group__icon-group {
+    display: table-cell;
+    vertical-align: top;
+
+    @include media($mobile){
+      display: block;
+    }
+  }
+
+  .radio-group__error-message {
+    clear: both;
+    color: #f00;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+}
+
 
 .icons-radio-group {
   @include clearfix();
