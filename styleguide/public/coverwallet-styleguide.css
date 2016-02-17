@@ -3673,7 +3673,7 @@ form .form-group.form-group--icons .form-icon.form-icon--edit:before, .form .for
 form .form-group.form-group--icons .form-icon.form-icon--save:before, .form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.form--light .form-select .cs-placeholder:after,
 form.form--light .form-select .cs-placeholder:after, .form .form-help-icon:before,
-form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before {
+form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before, .only-click-option .only-click-option__next-icon {
   display: inline-block;
   font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
@@ -3740,7 +3740,7 @@ form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--edit:befor
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-left.cs-placeholder:after,
 form.form--light .form-select .fa-pull-left.cs-placeholder:after, .form .fa-pull-left.form-help-icon:before,
-form .fa-pull-left.form-help-icon:before, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-left.calendar-menu-icon:before {
+form .fa-pull-left.form-help-icon:before, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-left.calendar-menu-icon:before, .only-click-option .fa-pull-left.only-click-option__next-icon {
   margin-right: .3em; }
 
 .fa.fa-pull-right, .form .form-group label .fa-pull-right.form-help-icon:before,
@@ -3753,7 +3753,7 @@ form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--edit:befo
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-right.cs-placeholder:after,
 form.form--light .form-select .fa-pull-right.cs-placeholder:after, .form .fa-pull-right.form-help-icon:before,
-form .fa-pull-right.form-help-icon:before, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-right.calendar-menu-icon:before {
+form .fa-pull-right.form-help-icon:before, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-right.calendar-menu-icon:before, .only-click-option .fa-pull-right.only-click-option__next-icon {
   margin-left: .3em; }
 
 /* Deprecated as of 4.4.0 */
@@ -3773,7 +3773,7 @@ form .form-group.form-group--icons .pull-left.form-icon.form-icon--edit:before, 
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-left.cs-placeholder:after,
 form.form--light .form-select .pull-left.cs-placeholder:after, .form .pull-left.form-help-icon:before,
-form .pull-left.form-help-icon:before, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-left.calendar-menu-icon:before {
+form .pull-left.form-help-icon:before, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-left.calendar-menu-icon:before, .only-click-option .pull-left.only-click-option__next-icon {
   margin-right: .3em; }
 
 .fa.pull-right, .form .form-group label .pull-right.form-help-icon:before,
@@ -3786,7 +3786,7 @@ form .form-group.form-group--icons .pull-right.form-icon.form-icon--edit:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-right.cs-placeholder:after,
 form.form--light .form-select .pull-right.cs-placeholder:after, .form .pull-right.form-help-icon:before,
-form .pull-right.form-help-icon:before, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-right.calendar-menu-icon:before {
+form .pull-right.form-help-icon:before, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-right.calendar-menu-icon:before, .only-click-option .pull-right.only-click-option__next-icon {
   margin-left: .3em; }
 
 .fa-spin {
@@ -4611,7 +4611,7 @@ form .form-help-icon:before {
 .fa-angle-left:before {
   content: ""; }
 
-.fa-angle-right:before {
+.fa-angle-right:before, .only-click-option .only-click-option__next-icon:before {
   content: ""; }
 
 .fa-angle-up:before {
@@ -8548,6 +8548,74 @@ Styleguide 11.1
   right: 0;
   text-align: center;
   z-index: 9999999; }
+
+/*
+  Only Click Options List
+
+  Styleguide 13.4
+
+  Markup:
+    <ul class="only-click-options-list">
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Not sure yet</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Individual</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Corporation</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">LLC</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Limited Partnership</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Non-profit</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Partnership</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Trust</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Other</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+    </ul>
+
+*/
+.only-click-options-list {
+  list-style-type: none;
+  padding-left: 0; }
+  .only-click-options-list .only-click-options-list__item {
+    padding: 10px 15px;
+    margin: -1px;
+    border: 1px solid #8a8a8a; }
+    .only-click-options-list .only-click-options-list__item:hover {
+      background: #d6e6f6; }
+
+.only-click-option::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.only-click-option .only-click-option__next-icon {
+  float: right;
+  color: #438bd7; }
+  .only-click-option .only-click-option__next-icon::before {
+    font-size: 30px;
+    line-height: 20px; }
 
 .color {
   padding: 20px;

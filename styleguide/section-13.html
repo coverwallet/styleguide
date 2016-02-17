@@ -49,6 +49,7 @@
               <li class="kss-menu-item"><a href="#section-13.2.3"><span class="kss-ref">13.2.3</span><span class="kss-name">Inside form group</span></a></li>
               <li class="kss-menu-item"><a href="#section-13.3"><span class="kss-ref">13.3</span><span class="kss-name">Icon Radio Group</span></a></li>
               <li class="kss-menu-item"><a href="#section-13.3.1"><span class="kss-ref">13.3.1</span><span class="kss-name">Inside radio-group</span></a></li>
+              <li class="kss-menu-item"><a href="#section-13.4"><span class="kss-ref">13.4</span><span class="kss-name">Only Click Options List</span></a></li>
             </ul>
           </nav>
         </div>
@@ -405,6 +406,93 @@ page.</p>
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-13.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">13.4</span> Only Click Options List</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                    <ul class="only-click-options-list">
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Not sure yet</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Individual</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Corporation</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">LLC</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Limited Partnership</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Non-profit</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Partnership</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Trust</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+    <li class="only-click-options-list__item only-click-option">
+      <span class="only-click-option__message">Other</span>
+      <span class="only-click-option__next-icon"></span>
+    </li>
+  </ul>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">  &lt;ul class&#x3D;&quot;only-click-options-list&quot;&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Not sure yet&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Individual&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Corporation&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;LLC&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Limited Partnership&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Non-profit&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Partnership&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Trust&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+    &lt;li class&#x3D;&quot;only-click-options-list__item only-click-option&quot;&gt;
+      &lt;span class&#x3D;&quot;only-click-option__message&quot;&gt;Other&lt;/span&gt;
+      &lt;span class&#x3D;&quot;only-click-option__next-icon&quot;&gt;&lt;/span&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;</code></pre>
               </div>
             </div>
           </section>

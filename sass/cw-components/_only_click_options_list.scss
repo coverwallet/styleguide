@@ -1,0 +1,76 @@
+/*
+  Only Click Options List
+
+  Styleguide 13.4
+
+  Markup:
+    <ul class="only-click-options-list">
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Not sure yet</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Individual</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Corporation</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">LLC</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Limited Partnership</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Non-profit</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Partnership</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Trust</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+      <li class="only-click-options-list__item only-click-option">
+        <span class="only-click-option__message">Other</span>
+        <span class="only-click-option__next-icon"></span>
+      </li>
+    </ul>
+
+*/
+
+.only-click-options-list {
+  list-style-type: none;
+  padding-left: 0;
+
+  .only-click-options-list__item {
+    padding: 10px 15px;
+    margin: -1px;
+    border: 1px solid $cwColor-black-xmedium;
+
+    &:hover {
+      background: $cwColor-blue-light;
+    }
+  }
+}
+
+.only-click-option {
+  @include clearfix();
+
+  .only-click-option__next-icon {
+    @extend .fa, .fa-angle-right;
+    float: right;
+    color: $cwColor-base-blue;
+
+    &::before {
+      font-size: 30px;
+      line-height: 20px;
+    }
+  }
+}
