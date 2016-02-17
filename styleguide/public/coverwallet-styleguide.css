@@ -3673,7 +3673,7 @@ form .form-group.form-group--icons .form-icon.form-icon--edit:before, .form .for
 form .form-group.form-group--icons .form-icon.form-icon--save:before, .form .form-group.form-group--icons .form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.form--light .form-select .cs-placeholder:after,
 form.form--light .form-select .cs-placeholder:after, .form .form-help-icon:before,
-form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before {
+form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.calendar-menu-icon:before, .oc-option .oc-option__next-icon {
   display: inline-block;
   font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
@@ -3740,7 +3740,7 @@ form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--edit:befor
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-left.cs-placeholder:after,
 form.form--light .form-select .fa-pull-left.cs-placeholder:after, .form .fa-pull-left.form-help-icon:before,
-form .fa-pull-left.form-help-icon:before, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-left.calendar-menu-icon:before {
+form .fa-pull-left.form-help-icon:before, ul.list.list--type-1 li.fa-pull-left:before, ul.list.list--type-1-big li.fa-pull-left:before, ul.list.list--type-2 li.fa-pull-left:before, ul.list.list--type-3 li.fa-pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-left.calendar-menu-icon:before, .oc-option .fa-pull-left.oc-option__next-icon {
   margin-right: .3em; }
 
 .fa.fa-pull-right, .form .form-group label .fa-pull-right.form-help-icon:before,
@@ -3753,7 +3753,7 @@ form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--edit:befo
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .fa-pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .fa-pull-right.cs-placeholder:after,
 form.form--light .form-select .fa-pull-right.cs-placeholder:after, .form .fa-pull-right.form-help-icon:before,
-form .fa-pull-right.form-help-icon:before, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-right.calendar-menu-icon:before {
+form .fa-pull-right.form-help-icon:before, ul.list.list--type-1 li.fa-pull-right:before, ul.list.list--type-1-big li.fa-pull-right:before, ul.list.list--type-2 li.fa-pull-right:before, ul.list.list--type-3 li.fa-pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.fa-pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.fa-pull-right.calendar-menu-icon:before, .oc-option .fa-pull-right.oc-option__next-icon {
   margin-left: .3em; }
 
 /* Deprecated as of 4.4.0 */
@@ -3773,7 +3773,7 @@ form .form-group.form-group--icons .pull-left.form-icon.form-icon--edit:before, 
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-left.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-left.cs-placeholder:after,
 form.form--light .form-select .pull-left.cs-placeholder:after, .form .pull-left.form-help-icon:before,
-form .pull-left.form-help-icon:before, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-left.calendar-menu-icon:before {
+form .pull-left.form-help-icon:before, ul.list.list--type-1 li.pull-left:before, ul.list.list--type-1-big li.pull-left:before, ul.list.list--type-2 li.pull-left:before, ul.list.list--type-3 li.pull-left:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-left.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-left.calendar-menu-icon:before, .oc-option .pull-left.oc-option__next-icon {
   margin-right: .3em; }
 
 .fa.pull-right, .form .form-group label .pull-right.form-help-icon:before,
@@ -3786,7 +3786,7 @@ form .form-group.form-group--icons .pull-right.form-icon.form-icon--edit:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--save:before, .form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before,
 form .form-group.form-group--icons .pull-right.form-icon.form-icon--cancel:before, .form.form--light .form-select .pull-right.cs-placeholder:after,
 form.form--light .form-select .pull-right.cs-placeholder:after, .form .pull-right.form-help-icon:before,
-form .pull-right.form-help-icon:before, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-right.calendar-menu-icon:before {
+form .pull-right.form-help-icon:before, ul.list.list--type-1 li.pull-right:before, ul.list.list--type-1-big li.pull-right:before, ul.list.list--type-2 li.pull-right:before, ul.list.list--type-3 li.pull-right:before, header .navbar-menu ul.nav > li.menu-dropdown > div span.pull-right.icon:before, header .navbar-menu ul.nav > li.menu-dropdown > div a.pull-right.calendar-menu-icon:before, .oc-option .pull-right.oc-option__next-icon {
   margin-left: .3em; }
 
 .fa-spin {
@@ -4611,7 +4611,7 @@ form .form-help-icon:before {
 .fa-angle-left:before {
   content: ""; }
 
-.fa-angle-right:before {
+.fa-angle-right:before, .oc-option .oc-option__next-icon:before {
   content: ""; }
 
 .fa-angle-up:before {
@@ -6298,6 +6298,22 @@ html {
 .cwicon-onlyclick-own, .styleguide-icon-onlyclick-own:before {
   content: "\e021"; }
 
+.row-group {
+  position: relative;
+  margin: 3px 0;
+  padding: 15px 0;
+  box-sizing: border-box; }
+  .row-group > div {
+    padding: 10px; }
+  .row-group::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .row-group--white {
+    background: #fff; }
+  .row-group:last-of-type {
+    margin-bottom: 15px; }
+
 /*
     Mixin to set border radius to element
 
@@ -6563,26 +6579,23 @@ form .form-group {
     display: table; }
   .form .form-group .label.label--inline,
   form .form-group .label.label--inline {
-    display: inline-block;
-    float: left; }
+    display: table-cell;
+    text-align: right;
+    min-width: 240px;
+    max-width: 240px; }
+    @media screen and (max-width: 480px) {
+      .form .form-group .label.label--inline,
+      form .form-group .label.label--inline {
+        display: block;
+        width: 100%;
+        margin: 0;
+        text-align: left; } }
   .form .form-group .label.label--text,
   form .form-group .label.label--text {
     color: #272727;
     font-size: 1em;
-    position: relative;
-    text-align: right;
-    width: 240px;
     text-transform: none;
-    height: 100%;
-    top: 13px; }
-    @media screen and (max-width: 480px) {
-      .form .form-group .label.label--text,
-      form .form-group .label.label--text {
-        position: static;
-        float: none;
-        width: 100%;
-        margin: 0 auto;
-        text-align: center; } }
+    height: 100%; }
   .form .form-group .form-input,
   form .form-group .form-input {
     background-color: transparent;
@@ -6597,6 +6610,15 @@ form .form-group {
     .form .form-group .form-input.form-input--long,
     form .form-group .form-input.form-input--long {
       height: 38px; }
+    .form .form-group .form-input.form-input--short,
+    form .form-group .form-input.form-input--short {
+      width: 300px;
+      margin-right: 15px; }
+      @media screen and (max-width: 480px) {
+        .form .form-group .form-input.form-input--short,
+        form .form-group .form-input.form-input--short {
+          width: 100%;
+          margin-right: 0; } }
     .form .form-group .form-input.form-input--email,
     form .form-group .form-input.form-input--email {
       background-image: url("images/email.png");
@@ -6776,6 +6798,14 @@ form .form-group {
       font-size: 13px;
       margin-bottom: -27px;
       margin-top: 3px; }
+  .form .form-group.form-group--inline,
+  form .form-group.form-group--inline {
+    display: table; }
+    .form .form-group.form-group--inline::after,
+    form .form-group.form-group--inline::after {
+      clear: both;
+      content: "";
+      display: table; }
 
 .form.form--light label,
 form.form--light label {
@@ -6839,12 +6869,44 @@ form .form-help-icon {
   cursor: pointer;
   font-size: 18px;
   padding-left: 5px;
+  right: 15px;
   top: 10px;
   position: absolute; }
   .form .form-help-icon:before,
   form .form-help-icon:before {
     padding-right: 0;
     color: #438bd7; }
+
+.form .input-group::after,
+form .input-group::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+@media screen and (max-width: 480px) {
+  .form .input-group,
+  form .input-group {
+    display: block;
+    width: 100%; }
+    .form .input-group .input-group__error,
+    form .input-group .input-group__error {
+      margin-left: 5px; }
+    .form .input-group .input-group__help-message,
+    form .input-group .input-group__help-message {
+      display: block; } }
+
+.form .input-group.input-group--inline,
+form .input-group.input-group--inline {
+  display: table-cell; }
+  @media screen and (max-width: 480px) {
+    .form .input-group.input-group--inline,
+    form .input-group.input-group--inline {
+      display: block;
+      width: 100%; } }
+
+.form .input-group .input-group__help-message,
+form .input-group .input-group__help-message {
+  display: inline-block; }
 
 /*
  Standard forms styles
@@ -7037,6 +7099,24 @@ form .form-help-icon {
  </form>
 
  Styleguide 5.9
+*/
+/*
+  New Inline input
+
+  Markup:
+  <form class="form">
+     <div class="form-group form-group--inline form-group--error">
+         <label class="label label--inline label--text">This your name</label>
+         <div class="input-group input-group--inline">
+           <input type="text" id="name-light" class="form-input form-input--long form-input--short" placeholder="Name"/>
+           <span class="input-group__help-message">We will use your name when call you</span>
+           <span class="help-block" >Please enter a valid name</span>
+         </div>
+     </div>
+
+  </form>
+
+  Styleguide 5.10
 */
 /*
 Standard buttons
@@ -8035,24 +8115,39 @@ Styleguide 11.1
       <span class="number-input__plus"></span>
     </div>
 */
+/*
+  Inside form group
+
+  Styleguide 13.1.1
+
+  Markup:
+     <form class="form">
+         <div class="form-group form-group--inline form-group--error">
+             <label class="label label--inline label--text">Your label text</label>
+             <div class="input-group input-group--inline">
+                 <div class="number-input">
+                    <input class="number-input__input" min="0" step="1" type="number" value="0">
+                    <span class="number-input__minus"></span>
+                    <span class="number-input__plus"></span>
+                 </div>
+                 <span class="help-block" >Error message</span>
+             </div>
+         </div>
+     </form>
+*/
 .number-input {
   position: relative;
-  width: 180px;
-  float: left; }
+  width: 192px; }
   @media screen and (max-width: 480px) {
     .number-input {
-      text-align: center;
-      float: none;
       margin: 0 auto; } }
   .number-input .number-input__minus,
   .number-input .number-input__plus {
     position: absolute;
-    top: 11px;
     font-size: 2em;
-    width: 28px;
-    height: 28px;
+    width: 33px;
+    height: 33px;
     box-sizing: border-box;
-    vertical-align: text-bottom;
     cursor: pointer; }
     .number-input .number-input__minus:hover:before,
     .number-input .number-input__plus:hover:before {
@@ -8068,10 +8163,8 @@ Styleguide 11.1
       padding-right: 0;
       color: #8a8a8a; }
   .number-input .number-input__input {
-    float: left;
     width: 100px !important;
     height: 40px !important;
-    margin: 10px 0;
     padding-left: 10px;
     text-align: right;
     font-size: 1em;
@@ -8168,19 +8261,49 @@ Styleguide 11.1
       </div>
     </div>
 */
+/*
+  Inside form group
+
+  Styleguide 13.2.3
+
+  Markup:
+    <form class="form">
+         <div class="form-group form-group--inline form-group--error">
+             <label class="label label--inline label--text">Your label text</label>
+             <div class="input-group input-group--inline">
+                 <div class="input-keyboard">
+                    <span class="input-keyboard__currency"></span>
+                    <input type="number" class="input-keyboard__input">
+                    <div class="keyboard">
+                      <div class="keyboard__number">9</div>
+                      <div class="keyboard__number">8</div>
+                      <div class="keyboard__number">7</div>
+                      <div class="keyboard__number">6</div>
+                      <div class="keyboard__number">5</div>
+                      <div class="keyboard__number">4</div>
+                      <div class="keyboard__number">3</div>
+                      <div class="keyboard__number">2</div>
+                      <div class="keyboard__number">1</div>
+                      <div class="keyboard__number keyboard__number--0">0</div>
+                      <div class="keyboard__delete keyboard__backspace"></div>
+                    </div>
+                 </div>
+                 <span class="help-block" >Error message</span>
+             </div>
+         </div>
+     </form>
+*/
 .input-keyboard {
   position: relative;
-  width: 156px;
-  float: left; }
+  width: 156px; }
   @media screen and (max-width: 480px) {
     .input-keyboard {
       text-align: center;
-      float: none;
       margin: 0 auto; } }
   .input-keyboard .input-keyboard__currency {
     position: absolute;
     left: 4px;
-    top: 14px;
+    top: 4px;
     height: 30px;
     width: 30px;
     font-size: 28px;
@@ -8189,7 +8312,7 @@ Styleguide 11.1
       padding-right: 0;
       color: #d2d2d2; }
   .input-keyboard .input-keyboard__input {
-    margin: 10px 0;
+    margin-bottom: 10px;
     background-color: #fff;
     border-radius: 0;
     border: 1px solid #454855;
@@ -8231,7 +8354,68 @@ Styleguide 11.1
         <div class="icons-radio-input__label">Not sure</div>
       </label>
     </div>
+
 */
+/*
+  Inside radio-group
+
+  Styleguide 13.3.1
+
+  Markup:
+    <form class="form">
+      <div class="radio-group">
+        <div class="form-group form-group--long radio-group__label-container">
+        <label class="label label--inline label--text">Do you need to insure the building?</label>
+        </div>
+        <div class="radio-group__icon-group">
+            <div class="icons-radio-group">
+              <label class="icons-radio-input">
+                <div class="icons-radio-input__icon">
+                  <span class="styleguide-icon-onlyclick-yes"></span>
+                </div>
+                <input type="radio" name="insure_building" class="icons-radio-input__input" value="Yes">
+                <div class="icons-radio-input__label">Yes</div>
+              </label>
+              <label class="icons-radio-input icons-radio-input--checked">
+                <div class="icons-radio-input__icon">
+                  <span class="styleguide-icon-onlyclick-no"></span>
+                </div>
+                <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="No">
+                <div class="icons-radio-input__label">No</div>
+              </label>
+              <label class="icons-radio-input">
+                <div class="icons-radio-input__icon">
+                  <span class="styleguide-icon-onlyclick-notsure"></span>
+                </div>
+                <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Not sure">
+                <div class="icons-radio-input__label">Not sure</div>
+              </label>
+            </div>
+            <div class="radio-group__error-message">Required field</div>
+        </div>
+      </div>
+    </form>
+*/
+.radio-group {
+  display: table; }
+  .radio-group .radio-group__label-container {
+    display: table-cell;
+    vertical-align: top; }
+    @media screen and (max-width: 480px) {
+      .radio-group .radio-group__label-container {
+        display: block; } }
+  .radio-group .radio-group__icon-group {
+    display: table-cell;
+    vertical-align: top; }
+    @media screen and (max-width: 480px) {
+      .radio-group .radio-group__icon-group {
+        display: block; } }
+  .radio-group .radio-group__error-message {
+    clear: both;
+    color: #f00;
+    margin-left: 5px;
+    margin-top: 5px; }
+
 .icons-radio-group::after {
   clear: both;
   content: "";
@@ -8363,6 +8547,75 @@ Styleguide 11.1
   right: 0;
   text-align: center;
   z-index: 9999999; }
+
+/*
+  Only Click Options List
+
+  Styleguide 13.4
+
+  Markup:
+    <ul class="oc-options-list">
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Not sure yet</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Individual</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Corporation</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">LLC</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Limited Partnership</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Non-profit</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Partnership</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Trust</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+      <li class="oc-options-list__item oc-option">
+        <span class="oc-option__message">Other</span>
+        <span class="oc-option__next-icon"></span>
+      </li>
+    </ul>
+
+*/
+.oc-options-list {
+  list-style-type: none;
+  padding-left: 0; }
+  .oc-options-list .oc-options-list__item {
+    padding: 10px 15px;
+    margin: -1px;
+    border: 1px solid #8a8a8a;
+    cursor: pointer; }
+    .oc-options-list .oc-options-list__item:hover {
+      background: #d6e6f6; }
+
+.oc-option::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.oc-option .oc-option__next-icon {
+  float: right;
+  color: #438bd7; }
+  .oc-option .oc-option__next-icon::before {
+    font-size: 30px;
+    line-height: 20px; }
 
 .color {
   padding: 20px;

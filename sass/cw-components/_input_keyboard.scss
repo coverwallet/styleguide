@@ -55,14 +55,45 @@
     </div>
 */
 
+/*
+  Inside form group
+
+  Styleguide 13.2.3
+
+  Markup:
+    <form class="form">
+         <div class="form-group form-group--inline form-group--error">
+             <label class="label label--inline label--text">Your label text</label>
+             <div class="input-group input-group--inline">
+                 <div class="input-keyboard">
+                    <span class="input-keyboard__currency"></span>
+                    <input type="number" class="input-keyboard__input">
+                    <div class="keyboard">
+                      <div class="keyboard__number">9</div>
+                      <div class="keyboard__number">8</div>
+                      <div class="keyboard__number">7</div>
+                      <div class="keyboard__number">6</div>
+                      <div class="keyboard__number">5</div>
+                      <div class="keyboard__number">4</div>
+                      <div class="keyboard__number">3</div>
+                      <div class="keyboard__number">2</div>
+                      <div class="keyboard__number">1</div>
+                      <div class="keyboard__number keyboard__number--0">0</div>
+                      <div class="keyboard__delete keyboard__backspace"></div>
+                    </div>
+                 </div>
+                 <span class="help-block" >Error message</span>
+             </div>
+         </div>
+     </form>
+*/
+
 .input-keyboard {
   position: relative;
   width: 156px;
-  float: left;
 
   @include media($mobile) {
     text-align: center;
-    float: none;
     margin: 0 auto;
   }
 
@@ -70,7 +101,7 @@
     @include cw-covericon-before(onlyclick-dollar, 0, $cwColor-black-light);
     position: absolute;
     left: 4px;
-    top: 14px;
+    top: 4px;
     height: 30px;
     width: 30px;
     font-size: 28px;
@@ -79,7 +110,7 @@
 
 
   .input-keyboard__input {
-    margin: 10px 0;
+    margin-bottom: 10px;
     background-color: $cwColor-base-white;
     border-radius: 0;
     border: 1px solid $cwColor-base-bluegray;
