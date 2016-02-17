@@ -8601,7 +8601,8 @@ Styleguide 11.1
   .oc-options-list .oc-options-list__item {
     padding: 10px 15px;
     margin: -1px;
-    border: 1px solid #8a8a8a; }
+    border: 1px solid #8a8a8a;
+    cursor: pointer; }
     .oc-options-list .oc-options-list__item:hover {
       background: #d6e6f6; }
 
