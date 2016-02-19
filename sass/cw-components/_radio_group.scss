@@ -132,8 +132,6 @@
     @extend .animated, .pulse;
   }
 
-
-
   @include media($mobile) {
     width: 45%;
 

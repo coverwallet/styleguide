@@ -59,6 +59,7 @@
 
 .oc-option {
   @include clearfix();
+  background-color: $cwColor-base-white;
 
   &:hover {
     background: $cwColor-blue-light;
@@ -74,6 +75,10 @@
         color: $cwColor-base-white;
       }
     }
+  }
+
+  &:focus, &:active, &--clicked {
+    @extend .animated, .pulse;
   }
 
   .oc-option__next-icon {

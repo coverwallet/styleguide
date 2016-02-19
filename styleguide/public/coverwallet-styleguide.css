@@ -376,21 +376,21 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
-.animated, .keyboard .keyboard__number:focus, .keyboard .keyboard__number:active, .keyboard .keyboard__number--clicked, .keyboard .keyboard__delete:focus, .keyboard .keyboard__delete:active, .keyboard .keyboard__delete--clicked, .icons-radio-input:focus, .icons-radio-input:active, .icons-radio-input--clicked {
+.animated, .keyboard .keyboard__number:focus, .keyboard .keyboard__number:active, .keyboard .keyboard__number--clicked, .keyboard .keyboard__delete:focus, .keyboard .keyboard__delete:active, .keyboard .keyboard__delete--clicked, .icons-radio-input:focus, .icons-radio-input:active, .icons-radio-input--clicked, .oc-option:focus, .oc-option:active, .oc-option--clicked {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-.animated.infinite, .keyboard .infinite.keyboard__number:focus, .keyboard .infinite.keyboard__number:active, .keyboard .infinite.keyboard__number--clicked, .keyboard .infinite.keyboard__delete:focus, .keyboard .infinite.keyboard__delete:active, .keyboard .infinite.keyboard__delete--clicked, .infinite.icons-radio-input:focus, .infinite.icons-radio-input:active, .infinite.icons-radio-input--clicked {
+.animated.infinite, .keyboard .infinite.keyboard__number:focus, .keyboard .infinite.keyboard__number:active, .keyboard .infinite.keyboard__number--clicked, .keyboard .infinite.keyboard__delete:focus, .keyboard .infinite.keyboard__delete:active, .keyboard .infinite.keyboard__delete--clicked, .infinite.icons-radio-input:focus, .infinite.icons-radio-input:active, .infinite.icons-radio-input--clicked, .infinite.oc-option:focus, .infinite.oc-option:active, .infinite.oc-option--clicked {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite; }
 
-.animated.hinge, .keyboard .hinge.keyboard__number:focus, .keyboard .hinge.keyboard__number:active, .keyboard .hinge.keyboard__number--clicked, .keyboard .hinge.keyboard__delete:focus, .keyboard .hinge.keyboard__delete:active, .keyboard .hinge.keyboard__delete--clicked, .hinge.icons-radio-input:focus, .hinge.icons-radio-input:active, .hinge.icons-radio-input--clicked {
+.animated.hinge, .keyboard .hinge.keyboard__number:focus, .keyboard .hinge.keyboard__number:active, .keyboard .hinge.keyboard__number--clicked, .keyboard .hinge.keyboard__delete:focus, .keyboard .hinge.keyboard__delete:active, .keyboard .hinge.keyboard__delete--clicked, .hinge.icons-radio-input:focus, .hinge.icons-radio-input:active, .hinge.icons-radio-input--clicked, .hinge.oc-option:focus, .hinge.oc-option:active, .hinge.oc-option--clicked {
   -webkit-animation-duration: 2s;
   animation-duration: 2s; }
 
-.animated.bounceIn, .keyboard .bounceIn.keyboard__number:focus, .keyboard .bounceIn.keyboard__number:active, .keyboard .bounceIn.keyboard__number--clicked, .keyboard .bounceIn.keyboard__delete:focus, .keyboard .bounceIn.keyboard__delete:active, .keyboard .bounceIn.keyboard__delete--clicked, .bounceIn.icons-radio-input:focus, .bounceIn.icons-radio-input:active, .bounceIn.icons-radio-input--clicked, .animated.bounceOut, .keyboard .bounceOut.keyboard__number:focus, .keyboard .bounceOut.keyboard__number:active, .keyboard .bounceOut.keyboard__number--clicked, .keyboard .bounceOut.keyboard__delete:focus, .keyboard .bounceOut.keyboard__delete:active, .keyboard .bounceOut.keyboard__delete--clicked, .bounceOut.icons-radio-input:focus, .bounceOut.icons-radio-input:active, .bounceOut.icons-radio-input--clicked, .animated.flipOutX, .keyboard .flipOutX.keyboard__number:focus, .keyboard .flipOutX.keyboard__number:active, .keyboard .flipOutX.keyboard__number--clicked, .keyboard .flipOutX.keyboard__delete:focus, .keyboard .flipOutX.keyboard__delete:active, .keyboard .flipOutX.keyboard__delete--clicked, .flipOutX.icons-radio-input:focus, .flipOutX.icons-radio-input:active, .flipOutX.icons-radio-input--clicked, .animated.flipOutY, .keyboard .flipOutY.keyboard__number:focus, .keyboard .flipOutY.keyboard__number:active, .keyboard .flipOutY.keyboard__number--clicked, .keyboard .flipOutY.keyboard__delete:focus, .keyboard .flipOutY.keyboard__delete:active, .keyboard .flipOutY.keyboard__delete--clicked, .flipOutY.icons-radio-input:focus, .flipOutY.icons-radio-input:active, .flipOutY.icons-radio-input--clicked {
+.animated.bounceIn, .keyboard .bounceIn.keyboard__number:focus, .keyboard .bounceIn.keyboard__number:active, .keyboard .bounceIn.keyboard__number--clicked, .keyboard .bounceIn.keyboard__delete:focus, .keyboard .bounceIn.keyboard__delete:active, .keyboard .bounceIn.keyboard__delete--clicked, .bounceIn.icons-radio-input:focus, .bounceIn.icons-radio-input:active, .bounceIn.icons-radio-input--clicked, .bounceIn.oc-option:focus, .bounceIn.oc-option:active, .bounceIn.oc-option--clicked, .animated.bounceOut, .keyboard .bounceOut.keyboard__number:focus, .keyboard .bounceOut.keyboard__number:active, .keyboard .bounceOut.keyboard__number--clicked, .keyboard .bounceOut.keyboard__delete:focus, .keyboard .bounceOut.keyboard__delete:active, .keyboard .bounceOut.keyboard__delete--clicked, .bounceOut.icons-radio-input:focus, .bounceOut.icons-radio-input:active, .bounceOut.icons-radio-input--clicked, .bounceOut.oc-option:focus, .bounceOut.oc-option:active, .bounceOut.oc-option--clicked, .animated.flipOutX, .keyboard .flipOutX.keyboard__number:focus, .keyboard .flipOutX.keyboard__number:active, .keyboard .flipOutX.keyboard__number--clicked, .keyboard .flipOutX.keyboard__delete:focus, .keyboard .flipOutX.keyboard__delete:active, .keyboard .flipOutX.keyboard__delete--clicked, .flipOutX.icons-radio-input:focus, .flipOutX.icons-radio-input:active, .flipOutX.icons-radio-input--clicked, .flipOutX.oc-option:focus, .flipOutX.oc-option:active, .flipOutX.oc-option--clicked, .animated.flipOutY, .keyboard .flipOutY.keyboard__number:focus, .keyboard .flipOutY.keyboard__number:active, .keyboard .flipOutY.keyboard__number--clicked, .keyboard .flipOutY.keyboard__delete:focus, .keyboard .flipOutY.keyboard__delete:active, .keyboard .flipOutY.keyboard__delete--clicked, .flipOutY.icons-radio-input:focus, .flipOutY.icons-radio-input:active, .flipOutY.icons-radio-input--clicked, .flipOutY.oc-option:focus, .flipOutY.oc-option:active, .flipOutY.oc-option--clicked {
   -webkit-animation-duration: .75s;
   animation-duration: .75s; }
 
@@ -478,7 +478,7 @@ Copyright (c) 2015 Daniel Eden
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
 
-.pulse, .keyboard .keyboard__number:focus, .keyboard .keyboard__number:active, .keyboard .keyboard__number--clicked, .keyboard .keyboard__delete:focus, .keyboard .keyboard__delete:active, .keyboard .keyboard__delete--clicked, .icons-radio-input:focus, .icons-radio-input:active, .icons-radio-input--clicked {
+.pulse, .keyboard .keyboard__number:focus, .keyboard .keyboard__number:active, .keyboard .keyboard__number--clicked, .keyboard .keyboard__delete:focus, .keyboard .keyboard__delete:active, .keyboard .keyboard__delete--clicked, .icons-radio-input:focus, .icons-radio-input:active, .icons-radio-input--clicked, .oc-option:focus, .oc-option:active, .oc-option--clicked {
   -webkit-animation-name: pulse;
   animation-name: pulse; }
 
@@ -1568,7 +1568,7 @@ Copyright (c) 2015 Daniel Eden
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in; } }
 
-.animated.flip, .keyboard .flip.keyboard__number:focus, .keyboard .flip.keyboard__number:active, .keyboard .flip.keyboard__number--clicked, .keyboard .flip.keyboard__delete:focus, .keyboard .flip.keyboard__delete:active, .keyboard .flip.keyboard__delete--clicked, .flip.icons-radio-input:focus, .flip.icons-radio-input:active, .flip.icons-radio-input--clicked {
+.animated.flip, .keyboard .flip.keyboard__number:focus, .keyboard .flip.keyboard__number:active, .keyboard .flip.keyboard__number--clicked, .keyboard .flip.keyboard__delete:focus, .keyboard .flip.keyboard__delete:active, .keyboard .flip.keyboard__delete--clicked, .flip.icons-radio-input:focus, .flip.icons-radio-input:active, .flip.icons-radio-input--clicked, .flip.oc-option:focus, .flip.oc-option:active, .flip.oc-option--clicked {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   -webkit-animation-name: flip;
@@ -8622,28 +8622,27 @@ Styleguide 11.1
     border: 1px solid #8a8a8a;
     cursor: pointer; }
 
-.oc-option::after {
-  clear: both;
-  content: "";
-  display: table; }
-
-.oc-option:hover {
-  background: #d6e6f6; }
-
-.oc-option--checked {
-  background-color: #438bd7;
-  color: #fff; }
-  .oc-option--checked .oc-option__next-icon {
+.oc-option {
+  background-color: #fff; }
+  .oc-option::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .oc-option:hover {
+    background: #d6e6f6; }
+  .oc-option--checked {
+    background-color: #438bd7;
     color: #fff; }
-    .oc-option--checked .oc-option__next-icon::before {
+    .oc-option--checked .oc-option__next-icon {
       color: #fff; }
-
-.oc-option .oc-option__next-icon {
-  float: right;
-  color: #438bd7; }
-  .oc-option .oc-option__next-icon::before {
-    font-size: 30px;
-    line-height: 20px; }
+      .oc-option--checked .oc-option__next-icon::before {
+        color: #fff; }
+  .oc-option .oc-option__next-icon {
+    float: right;
+    color: #438bd7; }
+    .oc-option .oc-option__next-icon::before {
+      font-size: 30px;
+      line-height: 20px; }
 
 .color {
   padding: 20px;
