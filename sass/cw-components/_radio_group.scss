@@ -12,7 +12,7 @@
         <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Yes">
         <div class="icons-radio-input__label">Yes</div>
       </label>
-      <label class="icons-radio-input icons-radio-input--checked">
+      <label class="icons-radio-input icons-radio-input--checked icons-radio-input--clicked">
         <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-no"></span>
         </div>
@@ -50,7 +50,7 @@
                 <input type="radio" name="insure_building" class="icons-radio-input__input" value="Yes">
                 <div class="icons-radio-input__label">Yes</div>
               </label>
-              <label class="icons-radio-input icons-radio-input--checked">
+              <label class="icons-radio-input icons-radio-input--checked icons-radio-input--clicked">
                 <div class="icons-radio-input__icon">
                   <span class="styleguide-icon-onlyclick-no"></span>
                 </div>
@@ -73,6 +73,10 @@
 
 .radio-group {
   display: table;
+
+  @include media($mobile) {
+    width: 100%;
+  }
 
   .radio-group__label-container {
     display: table-cell;
@@ -116,17 +120,24 @@
   border-radius: 4px;
   cursor: pointer;
   &:hover {
-    border: 1px solid $cwColor-base-blue;
-    background-color: $cwColor-base-blue;
+    border: 1px solid $cwColor-black-dark;
+    background-color: $cwColor-blue-light;
     .icons-radio-input__icon > span::before,
     .icons-radio-input__label {
-      color: $cwColor-base-white;
+      color: $cwColor-black-dark;
     }
   }
 
+  &:focus, &:active, &--clicked {
+    @extend .animated, .pulse;
+  }
 
-  @include media($tablet) {
-    width: 120px;
+  @include media($mobile) {
+    width: 45%;
+
+    &:last-child:nth-child(odd) {
+      margin-left: 26%
+    }
   }
 
   .icons-radio-input__icon {
@@ -155,13 +166,11 @@
   }
 
   &--checked {
-    color: $cwColor-base-blue;
-    border-color:$cwColor-base-blue;
-
-    .icons-radio-input__icon {
-      > span::before {
-        color: $cwColor-base-blue;
-      }
+    border: 1px solid $cwColor-base-blue;
+    background-color: $cwColor-base-blue;
+    .icons-radio-input__icon > span::before,
+    .icons-radio-input__label {
+      color: $cwColor-base-white;
     }
   }
 }
