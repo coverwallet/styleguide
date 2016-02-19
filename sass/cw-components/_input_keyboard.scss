@@ -1,4 +1,4 @@
-/* 
+/*
   Input Keyboard
 
   Styleguide 13.2
@@ -93,8 +93,7 @@
   width: 156px;
 
   @include media($mobile) {
-    text-align: center;
-    margin: 0 auto;
+    width: 100%;
   }
 
   .input-keyboard__currency {

@@ -37,7 +37,7 @@
         <span class="oc-option__message">Trust</span>
         <span class="oc-option__next-icon"></span>
       </li>
-      <li class="oc-options-list__item oc-option">
+      <li class="oc-options-list__item oc-option--checked oc-option">
         <span class="oc-option__message">Other</span>
         <span class="oc-option__next-icon"></span>
       </li>
@@ -54,15 +54,32 @@
     margin: -1px;
     border: 1px solid $cwColor-black-xmedium;
     cursor: pointer;
-
-    &:hover {
-      background: $cwColor-blue-light;
-    }
   }
 }
 
 .oc-option {
   @include clearfix();
+  background-color: $cwColor-base-white;
+
+  &:hover {
+    background: $cwColor-blue-light;
+  }
+
+  &--checked {
+    background-color: $cwColor-base-blue;
+    color: $cwColor-base-white;
+
+    .oc-option__next-icon {
+      color: $cwColor-base-white;
+      &::before {
+        color: $cwColor-base-white;
+      }
+    }
+  }
+
+  &:focus, &:active, &--clicked {
+    @extend .animated, .pulse;
+  }
 
   .oc-option__next-icon {
     @extend .fa, .fa-angle-right;
