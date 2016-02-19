@@ -12,7 +12,7 @@
         <input type="radio" name="test_radio_input" class="icons-radio-input__input" value="Yes">
         <div class="icons-radio-input__label">Yes</div>
       </label>
-      <label class="icons-radio-input icons-radio-input--checked icons-radio-input--clicked">
+      <label class="icons-radio-input icons-radio-input--checked">
         <div class="icons-radio-input__icon">
           <span class="styleguide-icon-onlyclick-no"></span>
         </div>
@@ -50,7 +50,7 @@
                 <input type="radio" name="insure_building" class="icons-radio-input__input" value="Yes">
                 <div class="icons-radio-input__label">Yes</div>
               </label>
-              <label class="icons-radio-input icons-radio-input--checked icons-radio-input--clicked">
+              <label class="icons-radio-input icons-radio-input--checked">
                 <div class="icons-radio-input__icon">
                   <span class="styleguide-icon-onlyclick-no"></span>
                 </div>
@@ -128,13 +128,8 @@
     }
   }
 
-  &:focus, &:active, &--clicked {
-    @extend .animated, .pulse;
-  }
 
-
-
-  @include media($mobile) {
+  @include media($tablet) {
     width: 45%;
 
     &:last-child:nth-child(odd) {

@@ -1,0 +1,184 @@
+/*
+    Mixin to set border radius to element
+
+*/
+@mixin cw-border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+/*
+    Mixin to set box shado to element
+*/
+@mixin cw-box-shadow($properties){
+    -webkit-box-shadow: $properties;
+    -moz-box-shadow: $properties;
+    -ms-box-shadow: $properties;
+    box-shadow: $properties;
+}
+
+
+/*
+    Mixin to do responsive image
+
+*/
+@mixin cw-image-responsive() {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*
+    Mixin to add icon to element
+
+    $icon - Icon of fontawesome
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+@mixin cw-icon-before($icon, $padding-right:0, $color: #000) {
+    &:before {
+        @extend .fa;
+        @extend .fa-#{$icon};
+        padding-right: #{$padding-right};
+        color: #{$color};
+    }
+}
+
+/*
+    Mixin to add coverwallet icon to element
+
+    $icon - Icon of coverwallet
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+@mixin cw-covericon-before($icon, $padding-right:0, $color: #000) {
+    &:before {
+        @extend .coverwallet-icon;
+        @extend .cwicon-#{$icon};
+        padding-right: #{$padding-right};
+        color: #{$color};
+    }
+}
+
+/*
+    Mixin to hide element in tablets
+
+*/
+@mixin cw-hide-tablet() {
+    @include media($tablet) {
+        display: none;
+    }
+}
+
+/*
+    Mixin to hide element in mobile
+
+*/
+@mixin cw-hide-mobile() {
+    @include media($mobile) {
+        display: none;
+    }
+}
+
+/*
+    Mixin to hide element in desktop
+
+*/
+@mixin cw-hide-desktop() {
+    @include media($desktop) {
+        display: none;
+    }
+}
+
+/*
+    Mixin to set columns for mobile
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+
+*/
+@mixin cw-span-columns-mobile($cols, $colsShift:''){
+    @include media($mobile){
+        @include span-columns($cols);
+        min-height: 1px;
+        @if $colsShift != ""{
+            @include shift($colsShift);
+        }
+    }
+}
+
+/*
+    Mixin to set columns for tablet
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+
+*/
+@mixin cw-span-columns-tablet($cols, $colsShift:''){
+    @include media($tablet){
+        @include span-columns($cols);
+        min-height: 1px;
+        @if $colsShift != ""{
+            @include shift($colsShift);
+        }
+    }
+}
+
+/*
+    Mixin to set columns for desktop
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+*/
+@mixin cw-span-columns-desktop($cols, $colsShift:''){
+    @include media($desktop){
+        @include span-columns($cols);
+        min-height: 1px;
+        @if $colsShift != ""{
+            @include shift($colsShift);
+        }
+    }
+}
+
+
+/*
+    Mixin to set columns for all widths
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+*/
+@mixin cw-span-columns($cols, $colsShift:''){
+    @include span-columns($cols);
+    min-height: 1px;
+    @if $colsShift != ""{
+        @include shift($colsShift);
+    }
+}
+
+
+/*
+    Mixin to set opacity
+
+    $cols - Number of cols
+*/
+@mixin cw-opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+
+/*
+    Mixin to set opacity
+
+    $property - width or height
+    $expresion - Expression to calculate
+*/
+@mixin calc($property, $expression) {
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}

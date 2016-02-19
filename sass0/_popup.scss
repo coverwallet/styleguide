@@ -1,0 +1,78 @@
+.popup {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 55px 55px 35px 55px;
+    position: relative;
+    .btn-close {
+        font-size: 36px;
+        font-weight: normal;
+        line-height: 18px;
+        display: block;
+        padding-bottom: 10px;
+        color: #333;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 48px;
+        width: 48px;
+        cursor: pointer;
+        background: $cw-images-close;
+        background-size: contain;
+    }
+    &--confirmation{
+        .popup__content{
+            h5{
+                margin-bottom: 10px;
+            }
+            text-align: center;
+        }
+    }
+}
+
+
+/*
+ Popup
+
+ Styleguide 7
+*/
+/*
+ Standards popups
+
+ Markup:
+ <div class="popup">
+    <span class="btn-close"></span>
+    <div class="popup__content">
+        <form class="form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="form-input form-input--email" placeholder="Email"/>
+            </div>
+            <div class="form-group">
+                <label for="email">Password</label>
+                <input type="text" id="email" class="form-input form-input--password" placeholder="Password"/>
+            </div>
+            <input type="submit" class="btn" value="Log in"></input>
+        </form>
+    </div>
+ </div>
+
+ Styleguide 7.1
+*/
+
+/*
+ Confirmation popups
+
+ Markup:
+ <div class="popup popup--confirmation">
+    <span class="btn-close"></span>
+    <div class="popup__content">
+        <h5>Are you sure?</h5>
+        <div class="btn-group">
+            <button class="btn btn--blue">Cancel</button>
+            <button class="btn">Accept</button>
+        </div>
+    </div>
+ </div>
+
+ Styleguide 7.2
+*/

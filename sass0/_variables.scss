@@ -1,0 +1,134 @@
+/*
+    Base colors
+*/
+$cwColor-base-blue: #438bd7;
+$cwColor-base-orange: #f3a309;
+$cwColor-base-black: #000;
+$cwColor-base-bluegray: #454855;
+$cwColor-base-white: #fff;
+
+$cwColor-black-xlight: lighten($cwColor-base-black, 97.5%);
+$cwColor-black-mlight: lighten($cwColor-base-black, 94.1%);
+$cwColor-black-light: lighten($cwColor-base-black, 82.4%);
+$cwColor-black-medium: lighten($cwColor-base-black, 75%);
+$cwColor-black-xmedium: lighten($cwColor-base-black, 54%);
+$cwColor-black-dark: lighten($cwColor-base-black, 31.4%);
+
+
+$cwColor-blue-light: lighten($cwColor-base-blue, 35%);
+// #ecf3fb
+
+
+
+$color-text: #272727;
+
+$cw-images-path: 'images/' !default;
+/*
+    fonts
+*/
+$cw-fonts-path: 'fonts/' !default;
+$fa-font-path: $cw-fonts-path !default;
+
+$font-coverwallet-eot: url($cw-fonts-path + "coverwallet.eot") !default;
+$font-coverwallet-woff: url($cw-fonts-path + "coverwallet.woff") !default;
+$font-coverwallet-ttf: url($cw-fonts-path + "coverwallet.ttf") !default;
+$font-coverwallet-svg: url($cw-fonts-path + "coverwallet.svg") !default;
+
+$font-awesome-eot: url($cw-fonts-path + "fontawesome-webfont.eot") !default;
+$font-awesome-eot-iefix: url($cw-fonts-path + "fontawesome-webfont.eot?#iefix") !default;
+$font-awesome-woff2: url($cw-fonts-path + "fontawesome-webfont.woff2") !default;
+$font-awesome-woff: url($cw-fonts-path + "fontawesome-webfont.woff") !default;
+$font-awesome-ttf: url($cw-fonts-path + "fontawesome-webfont.ttf") !default;
+$font-awesome-svg: url($cw-fonts-path + "fontawesome-webfont.svg?#fontawesomeregular") !default;
+
+/*
+images
+*/
+$cw-images-email: url($cw-images-path + 'email.png') !default;
+$cw-images-password: url($cw-images-path + "password.png") !default;
+$cw-images-info: url($cw-images-path + "info.png") !default;
+$cw-images-account: url($cw-images-path + "account.png") !default;
+$cw-images-close: url($cw-images-path + "close-icon.png") !default;
+
+
+
+$principal-fonts: 'Open Sans', sans-serif;
+
+/*
+    config to neat grid
+*/
+@import "../bower_components/neat/app/assets/stylesheets/neat-helpers";
+
+$max-width: em(1170);
+
+$desktopParams: min-width 1025px !default;
+$tabletParams: max-width 1024px 8 !default;
+$mobileParams: max-width 480px 4 !default;
+
+// breakpoints
+$tablet: new-breakpoint($tabletParams);
+$mobile: new-breakpoint($mobileParams);
+$desktop: new-breakpoint($desktopParams);
+
+$retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
+
+$line-height-default:30px;
+
+//navbar variables
+$navbar-padding: 0 25px;
+
+//header
+$header-min-height: 50px;
+
+//header
+$header-height: 70px;
+//navbar variables
+$navbar-padding: 0 25px;
+
+
+//slider
+$slider-body-height: 960px;
+$slider-nav-height: 50px;
+$slider-height: $slider-body-height + $slider-nav-height;
+
+//banner
+$banner-height: 100px;
+
+//seo pages
+$seo-header-min-height: 100px;
+$seo-sidebar-width: 240px;
+$seo-footer-height: 80px;
+$seo-footer-height-mobile: 120px;
+$seo-menu-width: 240px;
+$seo-menu-border: #e8e8e8;
+$seo-menu-background: #f8f9fa;
+
+
+/*
+Standar colors
+
+
+Styleguide 3
+*/
+
+/*
+Base colors
+
+Markup:
+    <div class="color color-blue">$cwColor-base-blue</div>
+    <div class="color color-orange">$cwColor-base-orange</div>
+    <div class="color color-black">$cwColor-base-black</div>
+    <div class="color color-bluegray">$cwColor-base-bluegray</div>
+    <div class="color color-white">$cwColor-base-white</div>
+    <hr>
+    <div class="color color-light-blue">$cwColor-blue-light</div>
+    <hr>
+    <div class="color color-black-xlight">$cwColor-black-xlight</div>
+    <div class="color color-black-mlight">$cwColor-black-mlight</div>
+    <div class="color color-black-light">$cwColor-black-light</div>
+    <div class="color color-black-medium">$cwColor-black-medium</div>
+    <div class="color color-black-xmedium">$cwColor-black-xmedium</div>
+    <div class="color color-black-dark">$cwColor-black-dark</div>
+
+Styleguide 3.1
+*/

@@ -24,10 +24,6 @@
       background-color: $cwColor-base-blue;
       color: $cwColor-base-white;
     }
-
-    &:focus, &:active, &--clicked {
-      @extend .animated, .pulse;
-    }
   }
 
   .keyboard__delete {
