@@ -43,14 +43,18 @@
     position: absolute;
     font-size: 1.6em;
     top: 5px;
-    width: 33px;
-    height: 33px;
+    width: 27px;
+    height: 27px;
     box-sizing: border-box;
     cursor: pointer;
     &:hover {
       &:before {
         color: $cwColor-base-blue;
       }
+    }
+
+    &:focus, &:active, &--clicked {
+      @extend .animated, .pulse;
     }
 
     @include media($mobile) {
@@ -64,7 +68,7 @@
 
   .number-input__plus {
     @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-xmedium);
-    left: 160px;
+    left: 155px;
   }
 
   .number-input__input {
