@@ -363,7 +363,6 @@ header {
                             &:before {}
                             @include media($tablet){
                                 font-size: 20px;
-                                margin-right: 30px;
                                 float: right;
                                 padding: 6px 5px;
                             }
