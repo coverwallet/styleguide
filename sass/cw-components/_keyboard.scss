@@ -2,6 +2,10 @@
   background: inherit;
   width: 160px;
 
+  @include media($mobile) {
+    display: none;
+  }
+
   .keyboard__number, .keyboard__delete {
     cursor: pointer;
     width: 54px;
@@ -20,6 +24,10 @@
       background-color: $cwColor-base-blue;
       color: $cwColor-base-white;
     }
+
+    &:focus, &:active, &--clicked {
+      @extend .animated, .pulse;
+    }
   }
 
   .keyboard__delete {
@@ -29,7 +37,7 @@
         background-color: $cwColor-base-blue;
         color: $cwColor-base-white;
       }
-    }    
+    }
   }
 
   .keyboard__number--0, .keyboard__delete--0 {

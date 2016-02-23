@@ -36,20 +36,29 @@
   width: 192px;
 
   @include media($mobile) {
-    margin: 0 auto;
+    width: 100%;
   }
   .number-input__minus,
   .number-input__plus {
     position: absolute;
-    font-size: 2em;
-    width: 33px;
-    height: 33px;
+    font-size: 1.6em;
+    top: 5px;
+    width: 27px;
+    height: 27px;
     box-sizing: border-box;
     cursor: pointer;
     &:hover {
       &:before {
         color: $cwColor-base-blue;
       }
+    }
+
+    &:focus, &:active, &--clicked {
+      @extend .animated, .pulse;
+    }
+
+    @include media($mobile) {
+      display: none;
     }
   }
   .number-input__minus {
@@ -59,12 +68,12 @@
 
   .number-input__plus {
     @include cw-covericon-before(onlyclick-plus, 0, $cwColor-black-xmedium);
-    left: 160px;
+    left: 155px;
   }
 
   .number-input__input {
-    width: 100px !important;
-    height: 40px !important;
+    width: 100px;
+    height: 40px;
     padding-left: 10px;
     text-align: right;
     font-size: 1em;
@@ -73,5 +82,9 @@
     border: 1px solid $cwColor-base-bluegray;
     border-radius: 0;
     box-sizing: border-box;
+
+    @include media($mobile) {
+      width: 100%;
+    }
   }
 }
