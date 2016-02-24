@@ -36,12 +36,12 @@
               <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Fieldset</span></a></li>
               <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Tables</span></a></li>
               <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Icon fonts</span></a></li>
-              <li class="kss-menu-item"><a href="section-11.html"><span class="kss-ref">11</span><span class="kss-name">Header</span></a></li>
-              <li class="kss-menu-item"><a href="section-12.html"><span class="kss-ref">12</span><span class="kss-name">Loader</span></a></li>
-              <li class="kss-menu-item"><a href="section-13.html"><span class="kss-ref">13</span><span class="kss-name">CW Components</span></a></li>
+              <li class="kss-menu-item"><a href="section-11.html"><span class="kss-ref">11</span><span class="kss-name">Loader</span></a></li>
+              <li class="kss-menu-item"><a href="section-12.html"><span class="kss-ref">12</span><span class="kss-name">CW Components</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-11.1"><span class="kss-ref">11.1</span><span class="kss-name">Standard header styles</span></a></li>
+              <li class="kss-menu-item"><a href="#section-11.1"><span class="kss-ref">11.1</span><span class="kss-name">Full page loader.</span></a></li>
+              <li class="kss-menu-item"><a href="#section-11.2"><span class="kss-ref">11.2</span><span class="kss-name">In div loader.</span></a></li>
             </ul>
           </nav>
         </div>
@@ -49,22 +49,57 @@
       <div class="kss-content">
         <article class="kss-article">
           <section id="section-11" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">11</span> Header</h1>
-            <div class="kss-description">
-              <p>Header styles</p>
-
-            </div>
+            <h1 class="kss-title"><span class="kss-ref">11</span> Loader</h1>
           </section>
           <section id="section-11.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">11.1</span> Standard header styles</h1>
+            <h1 class="kss-title"><span class="kss-ref">11.1</span> Full page loader.</h1>
+            <div class="kss-description">
+              <p>This is the spinner you see on the front of the page,
+it prevent you from clicking the links while application is loading important data.</p>
+<p>To close this page click browser &#39;back&#39; button.</p>
+
+            </div>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                  Markup:
+                    <div class="loader-container">
+    <div class="loader">
+      <span class="loader__inner"></span>
+    </div>
+  </div>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code class="lang-html">Markup:</code></pre>
+                <pre><code class="lang-html">  &lt;div class&#x3D;&quot;loader-container&quot;&gt;
+    &lt;div class&#x3D;&quot;loader&quot;&gt;
+      &lt;span class&#x3D;&quot;loader__inner&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-11.2" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">11.2</span> In div loader.</h1>
+            <div class="kss-description">
+              <p>This could be used if we load just some page section.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                    <div>
+    <div class="loader" >
+      <span class="loader__inner"></span>
+    </div>
+  </div>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">  &lt;div&gt;
+    &lt;div class&#x3D;&quot;loader&quot; &gt;
+      &lt;span class&#x3D;&quot;loader__inner&quot;&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</code></pre>
               </div>
             </div>
           </section>
