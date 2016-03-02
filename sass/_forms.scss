@@ -59,6 +59,8 @@ form {
             font-size: 1em;
             color: #333;
             font-weight: 100;
+            box-shadow: none;
+            
             &.form-input--long {
                 height: 38px;
             }
