@@ -51,7 +51,7 @@ form {
         .form-input {
             background-color: transparent;
             border-radius: 0;
-            border: 1px solid $cwColor-black-dark;
+            border: 1px solid $cwColor-base-bluegray;
             padding-left: 15px;
             width: 100%;
             height: 65px;
@@ -59,6 +59,8 @@ form {
             font-size: 1em;
             color: #333;
             font-weight: 100;
+            box-shadow: none;
+            
             &.form-input--long {
                 height: 38px;
             }
