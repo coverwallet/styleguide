@@ -7176,6 +7176,11 @@ button,
     .btn.btn--blue[disabled] {
       cursor: default;
       background-color: #438bd7; }
+  button.btn--border,
+  .btn.btn--border {
+    background-color: #fff;
+    color: #f3a309;
+    border: 1px solid #f3a309; }
 
 ul.list {
   list-style: none; }
