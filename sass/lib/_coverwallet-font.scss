@@ -57,6 +57,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-financial-institutions-bond"></span> <span class='icon-name'>insurance-type-financial-institutions-bond</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-forgery-or-alteration"></span> <span class='icon-name'>insurance-type-forgery-or-alteration</span></li> 
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-health"></span> <span class='icon-name'>insurance-type-health</span></li> 
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-idontknow"></span> <span class='icon-name'>insurance-type-idontknow</span></li> 
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-money-orders-and-counterfeit-money"></span> <span class='icon-name'>insurance-type-money-orders-and-counterfeit-money</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-motor-carriers-liability-and-physical-damage"></span> <span class='icon-name'>insurance-type-motor-carriers-liability-and-physical-damage</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-ocean-marine"></span> <span class='icon-name'>insurance-type-ocean-marine</span></li>
@@ -156,394 +157,397 @@
  Styleguide 10.2
 */
 
-.cwicon-3rdparty {
+.cwicon-3rdparty:before {
   content: "\61";
 }
-.cwicon-add {
+.cwicon-add:before {
   content: "\64";
 }
-.cwicon-admin {
+.cwicon-admin:before {
   content: "\65";
 }
-.cwicon-agent {
+.cwicon-agent:before {
   content: "\66";
 }
-.cwicon-cancel {
+.cwicon-cancel:before {
   content: "\67";
 }
-.cwicon-cancel-filled {
+.cwicon-cancel-filled:before {
   content: "\68";
 }
-.cwicon-chat {
+.cwicon-chat:before {
   content: "\69";
 }
-.cwicon-checklist {
+.cwicon-checklist:before {
   content: "\6a";
 }
-.cwicon-checklist-shield {
+.cwicon-checklist-shield:before {
   content: "\6b";
 }
-.cwicon-contact {
+.cwicon-contact:before {
   content: "\6c";
 }
-.cwicon-current {
+.cwicon-current:before {
   content: "\6d";
 }
-.cwicon-download {
+.cwicon-download:before {
   content: "\6e";
 }
-.cwicon-edit {
+.cwicon-edit:before {
   content: "\6f";
 }
-.cwicon-email {
+.cwicon-email:before {
   content: "\70";
 }
-.cwicon-epli {
+.cwicon-epli:before {
   content: "\71";
 }
-.cwicon-feedback {
+.cwicon-feedback:before {
   content: "\72";
 }
-.cwicon-general-liability {
+.cwicon-general-liability:before {
   content: "\73";
 }
-.cwicon-policy-type {
+.cwicon-policy-type:before {
   content: "\74";
 }
-.cwicon-past-claims {
+.cwicon-past-claims:before {
   content: "\75";
 }
-.cwicon-yearly-revenues {
+.cwicon-yearly-revenues:before {
   content: "\76";
 }
-.cwicon-business-size {
+.cwicon-business-size:before {
   content: "\77";
 }
-.cwicon-location {
+.cwicon-location:before {
   content: "\78";
 }
-.cwicon-employees-number {
+.cwicon-employees-number:before {
   content: "\79";
 }
-.cwicon-industry {
+.cwicon-industry:before {
   content: "\7a";
 }
-.cwicon-industries-agriculture {
-  content: "\42";
-}
-.cwicon-industries-construction {
-  content: "\43";
-}
-.cwicon-industries-education {
-  content: "\44";
-}
-.cwicon-industries-finance {
-  content: "\45";
-}
-.cwicon-industries-food {
-  content: "\46";
-}
-.cwicon-industries-health {
-  content: "\47";
-}
-.cwicon-industries-maintance {
-  content: "\48";
-}
-.cwicon-industries-manufacturing {
-  content: "\49";
-}
-.cwicon-industries-nonprofit {
-  content: "\4a";
-}
-.cwicon-industries-professional {
-  content: "\4b";
-}
-.cwicon-industries-realstate {
-  content: "\4c";
-}
-.cwicon-industries-retailservices {
-  content: "\4d";
-}
-.cwicon-industries-retailtrade {
-  content: "\4e";
-}
-.cwicon-industries-sports {
-  content: "\4f";
-}
-.cwicon-industries-startups {
-  content: "\50";
-}
-.cwicon-industries-tech {
-  content: "\51";
-}
-.cwicon-industries-transportation {
-  content: "\52";
-}
-.cwicon-industries-wholesale {
-  content: "\53";
-}
-.cwicon-info {
+.cwicon-info:before {
   content: "\54";
 }
-.cwicon-logout {
+.cwicon-logout:before {
   content: "\55";
 }
-.cwicon-newpolicy {
+.cwicon-newpolicy:before {
   content: "\56";
 }
-.cwicon-notifications {
+.cwicon-notifications:before {
   content: "\57";
 }
-.cwicon-other-docs {
+.cwicon-other-docs:before {
   content: "\58";
 }
-.cwicon-phone {
+.cwicon-phone:before {
   content: "\59";
 }
-.cwicon-popularity-high {
+.cwicon-popularity-high:before {
   content: "\5a";
 }
-.cwicon-popularity-low {
+.cwicon-popularity-low:before {
   content: "\30";
 }
-.cwicon-popularity-med {
+.cwicon-popularity-med:before {
   content: "\31";
 }
-.cwicon-property {
+.cwicon-property:before {
   content: "\32";
 }
-.cwicon-receipts {
+.cwicon-receipts:before {
   content: "\33";
 }
-.cwicon-restaurants {
+.cwicon-restaurants:before {
   content: "\34";
 }
-.cwicon-save {
+.cwicon-save:before {
   content: "\35";
 }
-.cwicon-save-filled {
+.cwicon-save-filled:before {
   content: "\36";
 }
-.cwicon-schedule {
+.cwicon-schedule:before {
   content: "\37";
 }
-.cwicon-settings {
+.cwicon-settings:before {
   content: "\38";
 }
-.cwicon-settings-filled {
+.cwicon-settings-filled:before {
   content: "\39";
 }
-.cwicon-share {
+.cwicon-share:before {
   content: "\21";
 }
-.cwicon-tellfriends {
+.cwicon-tellfriends:before {
   content: "\22";
 }
-.cwicon-tyc {
+.cwicon-tyc:before {
   content: "\23";
 }
-.cwicon-us-map {
+.cwicon-us-map:before {
   content: "\24";
 }
-.cwicon-video {
+.cwicon-video:before {
   content: "\25";
 }
-.cwicon-your-contracts {
+.cwicon-your-contracts:before {
   content: "\41";
 }
-.cwicon-about {
+.cwicon-about:before {
   content: "\62";
 }
-.cwicon-account {
+.cwicon-account:before {
   content: "\63";
 }
-.cwicon-insurance-type-aircraft-liability {
+.cwicon-insurance-type-aircraft-liability:before {
   content: "\26";
 }
-.cwicon-insurance-type-aviation-general-liability-coverage {
+.cwicon-insurance-type-aviation-general-liability-coverage:before {
   content: "\27";
 }
-.cwicon-insurance-type-bailees-customers {
+.cwicon-insurance-type-bailees-customers:before {
   content: "\28";
 }
-.cwicon-insurance-type-business-garage {
+.cwicon-insurance-type-business-garage:before {
   content: "\29";
 }
-.cwicon-insurance-type-commercial-auto {
+.cwicon-insurance-type-commercial-auto:before {
   content: "\2a";
 }
-.cwicon-insurance-type-commercial-building-and-or-property {
+.cwicon-insurance-type-commercial-building-and-or-property:before {
   content: "\2b";
 }
-.cwicon-insurance-type-epli {
+.cwicon-insurance-type-epli:before {
   content: "\2c";
 }
-.cwicon-insurance-type-exhibitions {
+.cwicon-insurance-type-exhibitions:before {
   content: "\2d";
 }
-.cwicon-insurance-type-farmowners-multi-peril {
+.cwicon-insurance-type-farmowners-multi-peril:before {
   content: "\2e";
 }
-.cwicon-insurance-type-fiduciary-bond {
+.cwicon-insurance-type-fiduciary-bond:before {
   content: "\2f";
 }
-.cwicon-insurance-type-financial-institutions-bond {
+.cwicon-insurance-type-financial-institutions-bond:before {
   content: "\3a";
 }
-.cwicon-insurance-type-forgery-or-alteration {
+.cwicon-insurance-type-forgery-or-alteration:before {
   content: "\3b";
 }
-.cwicon-insurance-type-money-orders-and-counterfeit-money {
+.cwicon-insurance-type-money-orders-and-counterfeit-money:before {
   content: "\3c";
 }
-.cwicon-insurance-type-motor-carriers-liability-and-physical-damage {
+.cwicon-insurance-type-motor-carriers-liability-and-physical-damage:before {
   content: "\3d";
 }
-.cwicon-insurance-type-ocean-marine {
+.cwicon-insurance-type-ocean-marine:before {
   content: "\3e";
 }
-.cwicon-insurance-type-product-recall {
+.cwicon-insurance-type-product-recall:before {
   content: "\3f";
 }
-.cwicon-insurance-type-public-officials-liability {
+.cwicon-insurance-type-public-officials-liability:before {
   content: "\5b";
 }
-.cwicon-insurance-type-crime {
+.cwicon-insurance-type-crime:before {
   content: "\5d";
 }
-.cwicon-insurance-type-cyber-liability-and-data-breach {
+.cwicon-insurance-type-cyber-liability-and-data-breach:before {
   content: "\5e";
 }
-.cwicon-insurance-type-employee-benefits-liability {
+.cwicon-insurance-type-employee-benefits-liability:before {
   content: "\7b";
 }
-.cwicon-insurance-type-employee-dishonesty {
+.cwicon-insurance-type-employee-dishonesty:before {
   content: "\7c";
 }
-.cwicon-insurance-type-environmental-impairment {
+.cwicon-insurance-type-environmental-impairment:before {
   content: "\7d";
 }
-.cwicon-insurance-type-general-liability {
+.cwicon-insurance-type-general-liability:before {
   content: "\7e";
 }
-.cwicon-insurance-type-golf-carts {
+.cwicon-insurance-type-golf-carts:before {
   content: "\5c";
 }
-.cwicon-insurance-type-guests-property {
+.cwicon-insurance-type-guests-property:before {
   content: "\e000";
 }
-.cwicon-insurance-type-hangarkeepers-legal-liability {
+.cwicon-insurance-type-hangarkeepers-legal-liability:before {
   content: "\e001";
 }
-.cwicon-insurance-type-inland-marine {
+.cwicon-insurance-type-inland-marine:before {
   content: "\e002";
 }
-.cwicon-insurance-type-liquor-liability {
+.cwicon-insurance-type-liquor-liability:before {
   content: "\e003";
 }
-.cwicon-insurance-type-medical-malpractice {
+.cwicon-insurance-type-medical-malpractice:before {
   content: "\e004";
 }
-.cwicon-insurance-type-surety-bond {
+.cwicon-insurance-type-surety-bond:before {
   content: "\e005";
 }
-.cwicon-insurance-type-umbrella-liability {
+.cwicon-insurance-type-umbrella-liability:before {
   content: "\e006";
 }
-.cwicon-insurance-type-warehouse-operators-legal-liability {
+.cwicon-insurance-type-warehouse-operators-legal-liability:before {
   content: "\e007";
 }
-.cwicon-delete {
+.cwicon-delete:before {
   content: "\e009";
 }
-.cwicon-insurance-type-disability-insurance {
+.cwicon-insurance-type-disability-insurance:before {
   content: "\60";
 }
-.cwicon-insurance-type-professional-liability-e-and-o {
+.cwicon-insurance-type-professional-liability-e-and-o:before {
   content: "\e00a";
 }
-.cwicon-insurance-type-employee-dishonesty-1 {
+.cwicon-insurance-type-employee-dishonesty-1:before {
   content: "\e00b";
 }
-.cwicon-phone-nav {
+.cwicon-phone-nav:before {
   content: "\e00d";
 }
-.cwicon-insurance-type-workers-compensation {
+.cwicon-insurance-type-workers-compensation:before {
   content: "\e008";
 }
-.cwicon-insurance-type-bop {
+.cwicon-insurance-type-bop:before {
   content: "\e00c";
 }
-.cwicon-insurance-type-directors-and-officers-insurance {
+.cwicon-insurance-type-directors-and-officers-insurance:before {
   content: "\5f";
 }
-.cwicon-insurance-type-more {
+.cwicon-insurance-type-more:before {
   content: "\e00e";
 }
-.cwicon-quotes-close {
+.cwicon-quotes-close:before {
   content: "\40";
 }
-.cwicon-quotes-open {
+.cwicon-quotes-open:before {
   content: "\e00f";
 }
-.cwicon-insurance-type-health {
+.cwicon-insurance-type-health:before {
   content: "\e010";
 }
-.cwicon-onlyclick-0-10 {
+.cwicon-insurance-type-idontknow:before {
+  content: "\e024";
+}
+.cwicon-onlyclick-0-10:before {
   content: "\e011";
 }
-.cwicon-onlyclick-minus {
+.cwicon-onlyclick-minus:before {
   content: "\e012";
 }
-.cwicon-onlyclick-location-rent-lease {
+.cwicon-onlyclick-location-rent-lease:before {
   content: "\e013";
 }
-.cwicon-onlyclick-location-own {
+.cwicon-onlyclick-location-own:before {
   content: "\e014";
 }
-.cwicon-onlyclick-location-non-combustible {
+.cwicon-onlyclick-location-non-combustible:before {
   content: "\e015";
 }
-.cwicon-onlyclick-location-joint-masonery {
+.cwicon-onlyclick-location-joint-masonery:before {
   content: "\e016";
 }
-.cwicon-onlyclick-location-homeoffice {
+.cwicon-onlyclick-location-homeoffice:before {
   content: "\e017";
 }
-.cwicon-onlyclick-location-frame {
+.cwicon-onlyclick-location-frame:before {
   content: "\e018";
 }
-.cwicon-onlyclick-location-fire-resistive {
+.cwicon-onlyclick-location-fire-resistive:before {
   content: "\e019";
 }
-.cwicon-onlyclick-lease {
+.cwicon-onlyclick-lease:before {
   content: "\e01a";
 }
-.cwicon-onlyclick-dollar {
+.cwicon-onlyclick-dollar:before {
   content: "\e01b";
 }
-.cwicon-onlyclick-backspace {
+.cwicon-onlyclick-backspace:before {
   content: "\e01c";
 }
-.cwicon-onlyclick-50plus {
+.cwicon-onlyclick-50plus:before {
   content: "\e01d";
 }
-.cwicon-onlyclick-no {
+.cwicon-onlyclick-no:before {
   content: "\e01f";
 }
-.cwicon-onlyclick-notsure {
+.cwicon-onlyclick-notsure:before {
   content: "\e020";
 }
-.cwicon-onlyclick-plus {
+.cwicon-onlyclick-plus:before {
   content: "\e022";
 }
-.cwicon-onlyclick-yes {
+.cwicon-onlyclick-yes:before {
   content: "\e023";
 }
-.cwicon-onlyclick-10-50 {
+.cwicon-onlyclick-10-50:before {
   content: "\e01e";
 }
-.cwicon-onlyclick-own {
+.cwicon-onlyclick-own:before {
   content: "\e021";
+}
+.cwicon-industries-agriculture:before {
+  content: "\42";
+}
+.cwicon-industries-construction:before {
+  content: "\43";
+}
+.cwicon-industries-education:before {
+  content: "\44";
+}
+.cwicon-industries-finance:before {
+  content: "\45";
+}
+.cwicon-industries-food:before {
+  content: "\46";
+}
+.cwicon-industries-health:before {
+  content: "\47";
+}
+.cwicon-industries-maintance:before {
+  content: "\48";
+}
+.cwicon-industries-manufacturing:before {
+  content: "\49";
+}
+.cwicon-industries-nonprofit:before {
+  content: "\4a";
+}
+.cwicon-industries-professional:before {
+  content: "\4b";
+}
+.cwicon-industries-realstate:before {
+  content: "\4c";
+}
+.cwicon-industries-retailservices:before {
+  content: "\4d";
+}
+.cwicon-industries-retailtrade:before {
+  content: "\4e";
+}
+.cwicon-industries-sports:before {
+  content: "\4f";
+}
+.cwicon-industries-startups:before {
+  content: "\50";
+}
+.cwicon-industries-tech:before {
+  content: "\51";
+}
+.cwicon-industries-transportation:before {
+  content: "\52";
+}
+.cwicon-industries-wholesale:before {
+  content: "\53";
 }
 
