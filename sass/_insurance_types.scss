@@ -1,7 +1,7 @@
 .general_liability {
   @include cw-covericon-before(insurance-type-general-liability, 0, $cwColor-base-blue);
 }
-.heath_insurance {
+.health_insurance {
   @include cw-covericon-before(insurance-type-health-insurance, 0, $cwColor-base-blue);
 }
 .epli {
