@@ -384,8 +384,8 @@
     &insurance-type-workers-compensation {
         @include cw-covericon-before(insurance-type-workers-compensation, 0, #000);
     }
-    &insurance-type-health {
-        @include cw-covericon-before(insurance-type-health, 0, #000);
+    &insurance-type-health-insurance {
+        @include cw-covericon-before(insurance-type-health-insurance, 0, #000);
     }
     &insurance-type-idontknow {
         @include cw-covericon-before(insurance-type-idontknow, 0, #000);
