@@ -1,114 +1,117 @@
-.general_liability{
-    @include cw-covericon-before(insurance-type-general-liability, 0, $cwColor-base-blue);
+.general_liability {
+  @include cw-covericon-before(insurance-type-general-liability, 0, $cwColor-base-blue);
 }
-.epli{
-    @include cw-covericon-before(insurance-type-epli, 0, $cwColor-base-blue);
+.heath_insurance {
+  @include cw-covericon-before(insurance-type-health-insurance, 0, $cwColor-base-blue);
 }
-.professional_liability__eo{
-    @include cw-covericon-before(insurance-type-professional-liability-e-and-o, 0, $cwColor-base-blue);
+.epli {
+  @include cw-covericon-before(insurance-type-epli, 0, $cwColor-base-blue);
 }
-.workers_compensation{
-    @include cw-covericon-before(insurance-type-workers-compensation, 0, $cwColor-base-blue);
+.professional_liability__eo {
+  @include cw-covericon-before(insurance-type-professional-liability-e-and-o, 0, $cwColor-base-blue);
 }
-.disability_insurance{
-    @include cw-covericon-before(insurance-type-disability-insurance, 0, $cwColor-base-blue);
+.workers_compensation {
+  @include cw-covericon-before(insurance-type-workers-compensation, 0, $cwColor-base-blue);
 }
-.employee_benefits_liability{
-    @include cw-covericon-before(insurance-type-employee-benefits-liability, 0, $cwColor-base-blue);
+.disability_insurance {
+  @include cw-covericon-before(insurance-type-disability-insurance, 0, $cwColor-base-blue);
 }
-.umbrella_liability{
-    @include cw-covericon-before(insurance-type-umbrella-liability, 0, $cwColor-base-blue);
+.employee_benefits_liability {
+  @include cw-covericon-before(insurance-type-employee-benefits-liability, 0, $cwColor-base-blue);
 }
-.commercial_building_andor_property{
-    @include cw-covericon-before(insurance-type-commercial-building-and-or-property, 0, $cwColor-base-blue);
+.umbrella_liability {
+  @include cw-covericon-before(insurance-type-umbrella-liability, 0, $cwColor-base-blue);
 }
-.employee_dishonesty{
-    @include cw-covericon-before(insurance-type-employee-dishonesty, 0, $cwColor-base-blue);
+.commercial_building_andor_property {
+  @include cw-covericon-before(insurance-type-commercial-building-and-or-property, 0, $cwColor-base-blue);
 }
-.environmental_impairment{
-    @include cw-covericon-before(insurance-type-environmental-impairment, 0, $cwColor-base-blue);
+.employee_dishonesty {
+  @include cw-covericon-before(insurance-type-employee-dishonesty, 0, $cwColor-base-blue);
 }
-.inland_marine{
-    @include cw-covericon-before(insurance-type-inland-marine, 0, $cwColor-base-blue);
+.environmental_impairment {
+  @include cw-covericon-before(insurance-type-environmental-impairment, 0, $cwColor-base-blue);
 }
-.bailees_customers{
-    @include cw-covericon-before(insurance-type-bailees-customers, 0, $cwColor-base-blue);
+.inland_marine {
+  @include cw-covericon-before(insurance-type-inland-marine, 0, $cwColor-base-blue);
 }
-.commercial_auto{
-    @include cw-covericon-before(insurance-type-commercial-auto, 0, $cwColor-base-blue);
+.bailees_customers {
+  @include cw-covericon-before(insurance-type-bailees-customers, 0, $cwColor-base-blue);
 }
-.liquor_liability{
-    @include cw-covericon-before(insurance-type-liquor-liability, 0, $cwColor-base-blue);
+.commercial_auto {
+  @include cw-covericon-before(insurance-type-commercial-auto, 0, $cwColor-base-blue);
 }
-.product_recall{
-    @include cw-covericon-before(insurance-type-product-recall, 0, $cwColor-base-blue);
+.liquor_liability {
+  @include cw-covericon-before(insurance-type-liquor-liability, 0, $cwColor-base-blue);
 }
-.guests_property{
-    @include cw-covericon-before(insurance-type-guests-property, 0, $cwColor-base-blue);
+.product_recall {
+  @include cw-covericon-before(insurance-type-product-recall, 0, $cwColor-base-blue);
 }
-.fiduciary_bond{
-    @include cw-covericon-before(insurance-type-fiduciary-bond, 0, $cwColor-base-blue);
+.guests_property {
+  @include cw-covericon-before(insurance-type-guests-property, 0, $cwColor-base-blue);
 }
-.directors__officers_insurance{
-    @include cw-covericon-before(insurance-type-directors-and-officers-insurance, 0, $cwColor-base-blue);
+.fiduciary_bond {
+  @include cw-covericon-before(insurance-type-fiduciary-bond, 0, $cwColor-base-blue);
 }
-.financial_institutions_bond{
-    @include cw-covericon-before(insurance-type-financial-institutions-bond, 0, $cwColor-base-blue);
+.directors__officers_insurance {
+  @include cw-covericon-before(insurance-type-directors-and-officers-insurance, 0, $cwColor-base-blue);
 }
-.surety_bond{
-    @include cw-covericon-before(insurance-type-surety-bond, 0, $cwColor-base-blue);
+.financial_institutions_bond {
+  @include cw-covericon-before(insurance-type-financial-institutions-bond, 0, $cwColor-base-blue);
 }
-.crime{
-    @include cw-covericon-before(insurance-type-crime, 0, $cwColor-base-blue);
+.surety_bond {
+  @include cw-covericon-before(insurance-type-surety-bond, 0, $cwColor-base-blue);
 }
-.farmowners_multi-peril{
-    @include cw-covericon-before(insurance-type-farmowners-multi-peril, 0, $cwColor-base-blue);
+.crime {
+  @include cw-covericon-before(insurance-type-crime, 0, $cwColor-base-blue);
 }
-.cyber_liability__data_breach{
-    @include cw-covericon-before(insurance-type-cyber-liability-and-data-breach, 0, $cwColor-base-blue);
+.farmowners_multi-peril {
+  @include cw-covericon-before(insurance-type-farmowners-multi-peril, 0, $cwColor-base-blue);
 }
-.aircraft_liability{
-    @include cw-covericon-before(insurance-type-aircraft-liability, 0, $cwColor-base-blue);
+.cyber_liability__data_breach {
+  @include cw-covericon-before(insurance-type-cyber-liability-and-data-breach, 0, $cwColor-base-blue);
 }
-.motor_carriers_liability_and_physical_damage{
-    @include cw-covericon-before(insurance-type-motor-carriers-liability-and-physical-damage, 0, $cwColor-base-blue);
+.aircraft_liability {
+  @include cw-covericon-before(insurance-type-aircraft-liability, 0, $cwColor-base-blue);
 }
-.warehouse_operators_legal_liability{
-    @include cw-covericon-before(insurance-type-warehouse-operators-legal-liability, 0, $cwColor-base-blue);
+.motor_carriers_liability_and_physical_damage {
+  @include cw-covericon-before(insurance-type-motor-carriers-liability-and-physical-damage, 0, $cwColor-base-blue);
 }
-.exhibitions{
-    @include cw-covericon-before(insurance-type-exhibitions, 0, $cwColor-base-blue);
+.warehouse_operators_legal_liability {
+  @include cw-covericon-before(insurance-type-warehouse-operators-legal-liability, 0, $cwColor-base-blue);
 }
-.ocean_marine{
-    @include cw-covericon-before(insurance-type-ocean-marine, 0, $cwColor-base-blue);
+.exhibitions {
+  @include cw-covericon-before(insurance-type-exhibitions, 0, $cwColor-base-blue);
 }
-.hangarkeepers_legal_liability{
-    @include cw-covericon-before(insurance-type-hangarkeepers-legal-liability, 0, $cwColor-base-blue);
+.ocean_marine {
+  @include cw-covericon-before(insurance-type-ocean-marine, 0, $cwColor-base-blue);
 }
-.forgery_or_alteration{
-    @include cw-covericon-before(insurance-type-forgery-or-alteration, 0, $cwColor-base-blue);
+.hangarkeepers_legal_liability {
+  @include cw-covericon-before(insurance-type-hangarkeepers-legal-liability, 0, $cwColor-base-blue);
 }
-.money_orders_and_counterfeit_money{
-    @include cw-covericon-before(insurance-type-money-orders-and-counterfeit-money, 0, $cwColor-base-blue);
+.forgery_or_alteration {
+  @include cw-covericon-before(insurance-type-forgery-or-alteration, 0, $cwColor-base-blue);
 }
-.medical_malpractice{
-    @include cw-covericon-before(insurance-type-medical-malpractice, 0, $cwColor-base-blue);
+.money_orders_and_counterfeit_money {
+  @include cw-covericon-before(insurance-type-money-orders-and-counterfeit-money, 0, $cwColor-base-blue);
 }
-.golf_carts{
-    @include cw-covericon-before(insurance-type-golf-carts, 0, $cwColor-base-blue);
+.medical_malpractice {
+  @include cw-covericon-before(insurance-type-medical-malpractice, 0, $cwColor-base-blue);
 }
-.public_officials_liability{
-    @include cw-covericon-before(insurance-type-public-officials-liability, 0, $cwColor-base-blue);
+.golf_carts {
+  @include cw-covericon-before(insurance-type-golf-carts, 0, $cwColor-base-blue);
 }
-.business_garage{
-    @include cw-covericon-before(insurance-type-business-garage, 0, $cwColor-base-blue);
+.public_officials_liability {
+  @include cw-covericon-before(insurance-type-public-officials-liability, 0, $cwColor-base-blue);
 }
-.aviation_general_liability_coverage{
-    @include cw-covericon-before(insurance-type-aviation-general-liability-coverage, 0, $cwColor-base-blue);
+.business_garage {
+  @include cw-covericon-before(insurance-type-business-garage, 0, $cwColor-base-blue);
 }
-.business_owners_policy_bop{
-    @include cw-covericon-before(insurance-type-bop, 0, $cwColor-base-blue);
+.aviation_general_liability_coverage {
+  @include cw-covericon-before(insurance-type-aviation-general-liability-coverage, 0, $cwColor-base-blue);
+}
+.business_owners_policy_bop {
+  @include cw-covericon-before(insurance-type-bop, 0, $cwColor-base-blue);
 }
 .more {
-    @include cw-covericon-before(insurance-type-more, 0, $cwColor-base-blue);
+  @include cw-covericon-before(insurance-type-more, 0, $cwColor-base-blue);
 }
