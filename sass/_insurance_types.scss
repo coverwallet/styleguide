@@ -49,7 +49,7 @@
 .guests_property {
   @include cw-covericon-before(insurance-type-guests-property, 0, $cwColor-base-blue);
 }
-.fiduciary_bond {
+.fiduciary_bond_andor_liability {
   @include cw-covericon-before(insurance-type-fiduciary-bond, 0, $cwColor-base-blue);
 }
 .directors__officers_insurance {
@@ -114,4 +114,10 @@
 }
 .more {
   @include cw-covericon-before(insurance-type-more, 0, $cwColor-base-blue);
+}
+.business_interruptionincome_insurance {
+  @include cw-covericon-before(insurance-type-business-interruption-income-insurance, 0, $cwColor-base-blue);
+}
+.equipment_breakdown {
+  @include cw-covericon-before(insurance-type-equipment-breakdown, 0, $cwColor-base-blue);
 }
