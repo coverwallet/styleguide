@@ -75,6 +75,12 @@
     }
 }
 .styleguide-icon- {
+    &employee {
+        @include cw-covericon-before(employee, 0, #000);
+    }
+    &employees {
+        @include cw-covericon-before(employees, 0, #000);
+    }
     &about {
         @include cw-covericon-before(about, 0, #000);
     }

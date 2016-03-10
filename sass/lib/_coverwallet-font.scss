@@ -11,6 +11,8 @@
  Markup:
  <div class="gallery-icons">
      <ul class="list">
+        <li class='gallery-icon'><span class="styleguide-icon-employee"></span> <span class='icon-name'>employee</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-employees"></span> <span class='icon-name'>employees</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-about"></span> <span class='icon-name'>about</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-account"></span> <span class='icon-name'>account</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-add"></span> <span class='icon-name'>add</span></li>
@@ -159,7 +161,12 @@
  Styleguide 10.2
 */
 
-
+.cwicon-employee:before {
+  content: "\e029";
+}
+.cwicon-employees:before {
+  content: "\e02a";
+}
 .cwicon-3rdparty:before {
   content: "\61";
 }
