@@ -6331,8 +6331,6 @@ html {
     display: table; }
   .row-group--white {
     background: #fff; }
-  .row-group:last-of-type {
-    margin-bottom: 15px; }
 
 /*
     Mixin to set border radius to element
@@ -7208,6 +7206,10 @@ button,
     background-color: #fff;
     color: #505050;
     border: 1px solid #505050; }
+  button.btn--small,
+  .btn.btn--small {
+    font-size: 14px;
+    padding: 8px 12px; }
 
 ul.list {
   list-style: none; }

@@ -11,6 +11,7 @@ Styleguide 4
 // :active      - Active state.
 // .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
 // .btn--blue   - Blue button
+// .btn--small   - Small button
 // .btn--border   - Border Orange button
 // .btn--border:hover   - Border Orange button (Hover state)
 // .btn--border-blue   - Border Blue button
@@ -93,5 +94,9 @@ button,
             color: $cwColor-black-dark;
             border: 1px solid $cwColor-black-dark;
         }
+    }
+    &.btn--small {
+        font-size: 14px;
+        padding: 8px 12px;
     }
 }
