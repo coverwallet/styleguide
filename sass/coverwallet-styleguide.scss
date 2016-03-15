@@ -75,6 +75,12 @@
     }
 }
 .styleguide-icon- {
+    &employee {
+        @include cw-covericon-before(employee, 0, #000);
+    }
+    &employees {
+        @include cw-covericon-before(employees, 0, #000);
+    }
     &about {
         @include cw-covericon-before(about, 0, #000);
     }
@@ -392,6 +398,12 @@
     }
     &insurance-type-business-owners-policy-bop {
         @include cw-covericon-before(insurance-type-business-owners-policy-bop, 0, #000);
+    }
+    &insurance-type-business-interruption-income-insurance {
+        @include cw-covericon-before(insurance-type-business-interruption-income-insurance, 0, #000);
+    }
+    &insurance-type-equipment-breakdown {
+        @include cw-covericon-before(insurance-type-equipment-breakdown, 0, #000);
     }
     &delete {
         @include cw-covericon-before(delete, 0, #000);
