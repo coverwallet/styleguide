@@ -121,3 +121,6 @@
 .equipment_breakdown {
   @include cw-covericon-before(insurance-type-equipment-breakdown, 0, $cwColor-base-blue);
 }
+.idontknow {
+  @include cw-covericon-before(insurance-type-idontknow, 0, $cwColor-base-blue);
+}
