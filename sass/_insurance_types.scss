@@ -124,3 +124,9 @@
 .idontknow {
   @include cw-covericon-before(insurance-type-idontknow, 0, $cwColor-base-blue);
 }
+.employees {
+  @include cw-covericon-before(employees, 0, $cwColor-base-blue);
+}
+.employee {
+  @include cw-covericon-before(employee, 0, $cwColor-base-blue);
+}
