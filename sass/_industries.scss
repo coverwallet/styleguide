@@ -49,3 +49,15 @@
 .wholesale_trade {
   @include cw-covericon-before(industries-wholesale, 0, $cwColor-base-blue);
 }
+.home_based_business {
+  @include cw-covericon-before(industries-home-based-business, 0, $cwColor-base-blue);
+}
+.construction {
+  @include cw-covericon-before(industries-construction, 0, $cwColor-base-blue);
+}
+.consultant {
+  @include cw-covericon-before(industries-consultant, 0, $cwColor-base-blue);
+}
+.contractor {
+  @include cw-covericon-before(industries-contractor, 0, $cwColor-base-blue);
+}

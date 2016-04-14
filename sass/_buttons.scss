@@ -7,8 +7,8 @@ Styleguide 4
 */
 // Base styles & states
 //
-// :hover       - Hover state.
-// :active      - Active state.
+//:hover       - Hover state.
+//:active      - Active state.
 // .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
 // .btn--blue   - Blue button
 // .btn--small   - Small button
@@ -20,32 +20,31 @@ Styleguide 4
 // .btn--blue:active   - Blue button (Active state)
 // .btn--blue.disabled   - Blue button (Disabled state)
 //
-// Markup:
-// <button type="submit" class="btn {{modifier_class}}">Button</button>
+// Markup:// <button type="submit"class="btn {{modifier_class}}">Button</button>
 //
 // Styleguide 4.1
 
 // Button group
 //
-// Markup:
-// <div class="btn-group">
-//     <button type="submit" class="btn">Button1</button>
-//     <button type="submit" class="btn">Button2</button>
+// Markup:// <div class="btn-group">
+//     <button type="submit"class="btn">Button1</button>
+//     <button type="submit"class="btn">Button2</button>
 // </div>
 //
 // Styleguide 4.2
 
-.btn-group{
+.btn-group {
     display: inline-block;
-    button, .btn{
+
+    button, .btn {
         margin-right: 10px;
-        &:last-child{
+
+        &:last-child {
             margin-right: 0;
         }
     }
 }
-button,
-.btn {
+button, .btn {
     @include transition(none);
     font-size: 16px;
     border-radius: 3px;
@@ -54,25 +53,30 @@ button,
     padding: 15px 20px;
     border: none;
     display: inline-block;
+    -webkit-transition: background .2s ease-out;
+    -moz-transition: background .2s ease-out;
+    -ms-transition: background .2s ease-out;
+    -o-transition: background .2s ease-out;
+    transition: background .2s ease-out;
+
     &:hover {
         background-color: $cwColor-black-dark;
     }
-    &.disabled,
-    &[disabled] {
+    &.disabled, &[disabled] {
         cursor: default;
         @include cw-opacity(0.25);
         background-color: $cwColor-base-blue;
     }
-    &.btn--blue{
+    &.btn--blue {
         background-color: $cwColor-base-blue;
         color: #fff;
         text-transform: uppercase;
+
         &:hover {
             background-color: $cwColor-black-dark;
             color: #fff;
         }
-        &.disabled,
-        &[disabled] {
+        &.disabled, &[disabled] {
             cursor: default;
             background-color: $cwColor-base-blue;
         }
@@ -87,8 +91,7 @@ button,
         color: $cwColor-base-blue;
         border: 1px solid $cwColor-base-blue;
     }
-    &.btn--border,
-    &.btn--border-blue {
+    &.btn--border, &.btn--border-blue {
         &:hover {
             background-color: $cwColor-base-white;
             color: $cwColor-black-dark;
