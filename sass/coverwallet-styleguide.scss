@@ -1,9 +1,11 @@
 @import 'coverwallet';
+
 .color {
     padding: 20px;
     border-radius: 5px;
     color: white;
     margin: 10px 0;
+
     &.color-blue {
         background-color: $cwColor-base-blue;
     }
@@ -55,6 +57,7 @@
     .image {
         width: 100%;
         padding-bottom: 20px;
+
         span {
             display: block;
             margin-bottom: 10px;
@@ -67,8 +70,10 @@
 }
 .gallery-icons {
     @include row();
+
     ul {
         @include cw-span-columns-desktop(6);
+
         .gallery-icon {
             font-size: 25px;
         }
@@ -282,6 +287,18 @@
     &industries-wholesale {
         @include cw-covericon-before(industries-wholesale, 0, #000);
     }
+    &industries-home-based-business {
+        @include cw-covericon-before(industries-home-based-business, 0, #000);
+    }
+    &industries-construction {
+        @include cw-covericon-before(industries-construction, 0, #000);
+    }
+    &industries-consultant {
+        @include cw-covericon-before(industries-consultant, 0, #000);
+    }
+    &industries-contractor {
+        @include cw-covericon-before(industries-contractor, 0, #000);
+    }
     &insurance-type-aircraft-liability {
         @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
     }
@@ -477,5 +494,4 @@
     &onlyclick-yes {
         @include cw-covericon-before(onlyclick-yes, 0, #000);
     }
-
 }
