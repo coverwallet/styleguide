@@ -233,6 +233,9 @@
     &restaurants {
         @include cw-covericon-before(restaurants, 0, #000);
     }
+    &get-certificate {
+        @include cw-covericon-before(get-certificate, 0, #000);
+    }
     &industries-agriculture {
         @include cw-covericon-before(industries-agriculture, 0, #000);
     }
