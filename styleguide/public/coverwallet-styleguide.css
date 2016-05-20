@@ -7303,6 +7303,15 @@ ul.list {
     .popup--confirmation .popup__content h5 {
       margin-bottom: 10px; }
 
+@media screen and (max-width: 480px) {
+  .popup--mobile-full {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden; } }
+
 /*
  Popup
 
