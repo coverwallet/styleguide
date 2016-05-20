@@ -425,6 +425,12 @@
     &insurance-type-equipment-breakdown {
         @include cw-covericon-before(insurance-type-equipment-breakdown, 0, #000);
     }
+    &insurance-type-hired-and-non-owned-auto {
+        @include cw-covericon-before(insurance-type-hired-and-non-owned-auto, 0, #000);
+    }
+    &insurance-type-special-events {
+        @include cw-covericon-before(insurance-type-special-events, 0, #000);
+    }
     &delete {
         @include cw-covericon-before(delete, 0, #000);
     }
