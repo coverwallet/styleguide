@@ -10,6 +10,9 @@
 .professional_liability__eo {
   @include cw-covericon-before(insurance-type-professional-liability-e-and-o, 0, $cwColor-base-blue);
 }
+.type__eo {
+  @include cw-covericon-before(insurance-type-liability-e-and-o, 0, $cwColor-base-blue);
+}
 .workers_compensation {
   @include cw-covericon-before(insurance-type-workers-compensation, 0, $cwColor-base-blue);
 }
