@@ -6346,7 +6346,7 @@ html {
 .cwicon-insurance-type-special-events:before, .special-events:before, .styleguide-icon-insurance-type-special-events:before {
   content: "\e031"; }
 
-.cwicon-insurance-type-e-and-o:before, .styleguide-icon-insurance-type-e-and-o:before {
+.cwicon-insurance-type-e-and-o:before, .type__eo:before, .styleguide-icon-insurance-type-e-and-o:before {
   content: "\e032"; }
 
 .row-group {
