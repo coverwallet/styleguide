@@ -152,6 +152,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-equipment-breakdown"></span> <span class='icon-name'>insurance-type-equipment-breakdown</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-hired-and-non-owned-auto"></span> <span class='icon-name'>insurance-type-hired-and-non-owned-auto</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-special-events"></span> <span class='icon-name'>insurance-type-special-events</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-e-and-o"></span> <span class='icon-name'>insurance-type-e-and-o</span></li>
     </ul>
 </div>
 
@@ -593,4 +594,7 @@
 }
 .cwicon-insurance-type-special-events:before {
     content: "\e031";
+}
+.cwicon-insurance-type-e-and-o:before {
+  content: "\e032";
 }

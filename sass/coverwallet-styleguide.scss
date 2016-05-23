@@ -431,6 +431,9 @@
     &insurance-type-special-events {
         @include cw-covericon-before(insurance-type-special-events, 0, #000);
     }
+    &insurance-type-e-and-o {
+        @include cw-covericon-before(insurance-type-e-and-o, 0, #000);
+    }
     &delete {
         @include cw-covericon-before(delete, 0, #000);
     }
