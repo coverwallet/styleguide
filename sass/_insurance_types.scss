@@ -127,10 +127,10 @@
 .idontknow {
   @include cw-covericon-before(insurance-type-idontknow, 0, $cwColor-base-blue);
 }
-.hired-and-non-owned-auto {
+.hired_and_non_owned_auto {
   @include cw-covericon-before(insurance-type-hired-and-non-owned-auto, 0, $cwColor-base-blue);
 }
-.special-events {
+.special_events {
   @include cw-covericon-before(insurance-type-special-events, 0, $cwColor-base-blue);
 }
 .employees {
