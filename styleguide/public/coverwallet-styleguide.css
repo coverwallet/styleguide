@@ -2719,7 +2719,7 @@ form .form-group .form-select span {
 
 .cs-select > span, .form .form-group .form-select > span,
 form .form-group .form-select > span {
-  padding-right: 3em; }
+  padding: 15px 0 0 10px; }
 
 .cs-select > span::after, .form .form-group .form-select > span::after,
 form .form-group .form-select > span::after {
@@ -6605,11 +6605,11 @@ form .form-group {
   form .form-group label {
     color: #454855;
     display: block;
-    text-transform: uppercase;
     text-align: left;
     margin: 0 auto;
     padding: 0.2em 25px 0.2em 0;
-    position: relative; }
+    position: relative;
+    font-size: 14px; }
     .form .form-group label .form-help-icon,
     form .form-group label .form-help-icon {
       cursor: pointer;
@@ -6651,14 +6651,13 @@ form .form-group {
   form .form-group .form-input {
     background-color: transparent;
     border-radius: 0;
-    border: 1px solid #454855;
-    padding-left: 15px;
+    border: 1px solid #d2d2d2;
+    padding-left: 10px;
     width: 100%;
-    height: 65px;
+    height: 45px;
     text-align: left;
     font-size: 1em;
-    color: #333;
-    font-weight: 100;
+    color: #bfbfbf;
     box-shadow: none; }
     .form .form-group .form-input.form-input--long,
     form .form-group .form-input.form-input--long {
@@ -6725,9 +6724,9 @@ form .form-group {
     color: #505050; }
     .form .form-group .form-select .cs-placeholder,
     form .form-group .form-select .cs-placeholder {
-      height: 64px;
-      line-height: 32px;
-      border: 1px solid #000; }
+      height: 45px;
+      line-height: 10px;
+      border: 1px solid #d2d2d2; }
       .form .form-group .form-select .cs-placeholder:after,
       form .form-group .form-select .cs-placeholder:after {
         content: ""; }
@@ -6795,7 +6794,7 @@ form .form-group {
   form .form-group.form-group--checkbox label {
     float: left;
     font-weight: normal;
-    color: black;
+    color: #454855;
     padding: 0; }
   .form .form-group.form-group--checkbox .help-block,
   form .form-group.form-group--checkbox .help-block {
@@ -6847,7 +6846,7 @@ form .form-group {
     margin-bottom: 20px; }
     .form .form-group.form-group--info .form-info,
     form .form-group.form-group--info .form-info {
-      color: #bfbfbf;
+      color: #8a8a8a;
       font-size: 13px;
       margin-bottom: -27px;
       margin-top: 3px; }
@@ -6899,7 +6898,6 @@ form.form--light .form-select {
     display: none; }
   .form.form--light .form-select .cs-placeholder,
   form.form--light .form-select .cs-placeholder {
-    height: 64px;
     border: 1px solid #fff;
     color: #d6e6f6; }
     .form.form--light .form-select .cs-placeholder:after,
@@ -6959,7 +6957,10 @@ form .input-group.input-group--inline {
 
 .form .input-group .input-group__help-message,
 form .input-group .input-group__help-message {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 13px;
+  margin-top: 2px;
+  color: #8a8a8a; }
 
 /*
  Standard forms styles

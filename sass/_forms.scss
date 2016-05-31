@@ -6,11 +6,11 @@ form {
         label {
             color: $cwColor-base-bluegray;
             display: block;
-            text-transform: uppercase;
             text-align: left;
             margin: 0 auto;
             padding: 0.2em 25px 0.2em 0;
             position: relative;
+            font-size: 14px;
             .form-help-icon {
                 @include cw-icon-before(question-circle, 0, $cwColor-base-blue);
                 cursor: pointer;
@@ -51,14 +51,13 @@ form {
         .form-input {
             background-color: transparent;
             border-radius: 0;
-            border: 1px solid $cwColor-base-bluegray;
-            padding-left: 15px;
+            border: 1px solid $cwColor-black-light;
+            padding-left: 10px;
             width: 100%;
-            height: 65px;
+            height: 45px;
             text-align: left;
             font-size: 1em;
-            color: #333;
-            font-weight: 100;
+            color: $cwColor-black-medium;
             box-shadow: none;
             
             &.form-input--long {
@@ -127,9 +126,9 @@ form {
             color: $cwColor-black-dark;
 
             .cs-placeholder {
-                height: 64px;
-                line-height: 32px;
-                border: 1px solid #000;
+                height: 45px;
+                line-height: 10px;
+                border: 1px solid $cwColor-black-light;
                 &:after {
                     @extend .fa;
                     content: $fa-var-arrow-down;
@@ -202,7 +201,7 @@ form {
             label {
                 float: left;
                 font-weight: normal;
-                color: black;
+                color: $cwColor-base-bluegray;
                 padding: 0;
             }
             .help-block {
@@ -255,7 +254,7 @@ form {
         &.form-group--info {
             margin-bottom: 20px;
             .form-info {
-                color: $cwColor-black-medium;
+                color: $cwColor-black-xmedium;
                 font-size: 13px;
                 margin-bottom: -27px;
                 margin-top: 3px;
@@ -303,7 +302,6 @@ form {
                 display: none;
             }
             .cs-placeholder {
-                height: 64px;
                 border: 1px solid #fff;
                 color: $cwColor-blue-light;
                 &:after {
@@ -361,7 +359,10 @@ form {
         }
 
         .input-group__help-message {
-          display: inline-block;
+            display: inline-block; 
+            font-size: 13px;
+            margin-top: 2px;
+            color: $cwColor-black-xmedium;          
         }
     }
 }
