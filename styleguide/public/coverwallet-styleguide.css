@@ -6641,12 +6641,6 @@ form .form-group {
         padding: 0;
         margin: 0;
         text-align: center; } }
-  .form .form-group .label.label--text,
-  form .form-group .label.label--text {
-    color: #272727;
-    font-size: 1em;
-    text-transform: none;
-    height: 100%; }
   .form .form-group .form-input,
   form .form-group .form-input {
     background-color: transparent;
