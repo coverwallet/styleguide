@@ -11,7 +11,7 @@
 
  Markup:
  <div class="gallery-icons">
-     <ul class="list">
+    <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-employee"></span> <span class='icon-name'>employee</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-employees"></span> <span class='icon-name'>employees</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-about"></span> <span class='icon-name'>about</span></li>
@@ -150,7 +150,10 @@
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-frame"></span> <span class='icon-name'>onlyclick-location-frame</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-business-interruption-income-insurance"></span> <span class='icon-name'>insurance-type-business-interruption-income-insurance</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-equipment-breakdown"></span> <span class='icon-name'>insurance-type-equipment-breakdown</span></li>
-     </ul>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-hired-and-non-owned-auto"></span> <span class='icon-name'>insurance-type-hired-and-non-owned-auto</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-special-events"></span> <span class='icon-name'>insurance-type-special-events</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-e-and-o"></span> <span class='icon-name'>insurance-type-e-and-o</span></li>
+    </ul>
 </div>
 
  Styleguide 9.1
@@ -585,4 +588,13 @@
 }
 .cwicon-insurance-type-equipment-breakdown:before {
     content: "\e026";
+}
+.cwicon-insurance-type-hired-and-non-owned-auto:before {
+    content: "\e030";
+}
+.cwicon-insurance-type-special-events:before {
+    content: "\e031";
+}
+.cwicon-insurance-type-e-and-o:before {
+  content: "\e032";
 }

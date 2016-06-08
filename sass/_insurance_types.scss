@@ -10,6 +10,9 @@
 .professional_liability__eo {
   @include cw-covericon-before(insurance-type-professional-liability-e-and-o, 0, $cwColor-base-blue);
 }
+.errors_omissions {
+  @include cw-covericon-before(insurance-type-e-and-o, 0, $cwColor-base-blue);
+}
 .workers_compensation {
   @include cw-covericon-before(insurance-type-workers-compensation, 0, $cwColor-base-blue);
 }
@@ -123,6 +126,12 @@
 }
 .idontknow {
   @include cw-covericon-before(insurance-type-idontknow, 0, $cwColor-base-blue);
+}
+.hired_and_non_owned_auto {
+  @include cw-covericon-before(insurance-type-hired-and-non-owned-auto, 0, $cwColor-base-blue);
+}
+.special_events {
+  @include cw-covericon-before(insurance-type-special-events, 0, $cwColor-base-blue);
 }
 .employees {
   @include cw-covericon-before(employees, 0, $cwColor-base-blue);
