@@ -49,6 +49,17 @@
             <h1 class="kss-title"><span class="kss-ref">4</span> Standard buttons</h1>
             <div class="kss-description">
               <p>Button styles can be applied to anything with the .btn class applied. However, typically you&#39;ll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.</p>
+<p>Application:</p>
+<ul>
+<li><p>Orange Buttons: It represents the Main Action, it&#39;s the CTA for all action than requiere request, like: Get, Send, Save, Continue.</p>
+</li>
+<li><p>Blue Buttons: It represents Secondary Actions, like: View, Add element, Download, Call.</p>
+</li>
+<li><p>Light Blue Buttons: It represents Secondary Actions when blue buttons are closer, like: Edit, Delete.</p>
+</li>
+<li><p>Buttons with border: It represents Auxiliary Actions, like: Chat, Delete, Cancel.</p>
+</li>
+</ul>
 
             </div>
           </section>
@@ -58,17 +69,6 @@
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
                   Markup:// <button type="submit"class="btn [modifier class]">Button</button>
-                </div>
-              </div>
-              <div class="kss-modifier">
-                <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">:hover</div>
-                  <div class="kss-modifier-description">
-                    Hover state.
-                  </div>
-                </div>
-                <div class="kss-modifier-example">
-                  Markup:// <button type="submit"class="btn pseudo-class-hover">Button</button>
                 </div>
               </div>
               <div class="kss-modifier">
@@ -84,17 +84,6 @@
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.disabled</div>
-                  <div class="kss-modifier-description">
-                    Disabled button. If you use <code>&lt;button&gt;</code> element, that is acceptable to add <code>disabled</code> attribute instead.
-                  </div>
-                </div>
-                <div class="kss-modifier-example">
-                  Markup:// <button type="submit"class="btn disabled">Button</button>
-                </div>
-              </div>
-              <div class="kss-modifier">
-                <div class="kss-modifier-head">
                   <div class="kss-modifier-name">.btn--blue</div>
                   <div class="kss-modifier-description">
                     Blue button
@@ -106,13 +95,46 @@
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.btn--small</div>
+                  <div class="kss-modifier-name">.btn--blue:active</div>
                   <div class="kss-modifier-description">
-                    Small button
+                    Blue button (Active state)
                   </div>
                 </div>
                 <div class="kss-modifier-example">
-                  Markup:// <button type="submit"class="btn btn--small">Button</button>
+                  Markup:// <button type="submit"class="btn btn--blue pseudo-class-active">Button</button>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.btn--blue-light</div>
+                  <div class="kss-modifier-description">
+                    Blue button
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  Markup:// <button type="submit"class="btn btn--blue-light">Button</button>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.btn--blue-light:active</div>
+                  <div class="kss-modifier-description">
+                    Blue button (Active state)
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  Markup:// <button type="submit"class="btn btn--blue-light pseudo-class-active">Button</button>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">:hover</div>
+                  <div class="kss-modifier-description">
+                    Hover state (for orange, blue and blue light button)
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  Markup:// <button type="submit"class="btn pseudo-class-hover">Button</button>
                 </div>
               </div>
               <div class="kss-modifier">
@@ -161,28 +183,6 @@
               </div>
               <div class="kss-modifier">
                 <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.btn--blue:hover</div>
-                  <div class="kss-modifier-description">
-                    Blue button (Hover state)
-                  </div>
-                </div>
-                <div class="kss-modifier-example">
-                  Markup:// <button type="submit"class="btn btn--blue pseudo-class-hover">Button</button>
-                </div>
-              </div>
-              <div class="kss-modifier">
-                <div class="kss-modifier-head">
-                  <div class="kss-modifier-name">.btn--blue:active</div>
-                  <div class="kss-modifier-description">
-                    Blue button (Active state)
-                  </div>
-                </div>
-                <div class="kss-modifier-example">
-                  Markup:// <button type="submit"class="btn btn--blue pseudo-class-active">Button</button>
-                </div>
-              </div>
-              <div class="kss-modifier">
-                <div class="kss-modifier-head">
                   <div class="kss-modifier-name">.btn--blue.disabled</div>
                   <div class="kss-modifier-description">
                     Blue button (Disabled state)
@@ -190,6 +190,17 @@
                 </div>
                 <div class="kss-modifier-example">
                   Markup:// <button type="submit"class="btn btn--blue disabled">Button</button>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">.btn--small</div>
+                  <div class="kss-modifier-description">
+                    Small button
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                  Markup:// <button type="submit"class="btn btn--small">Button</button>
                 </div>
               </div>
               <div class="kss-markup">

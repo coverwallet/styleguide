@@ -3639,13 +3639,12 @@ Base colors
 
 Markup:
     <div class="color color-blue">$cwColor-base-blue</div>
+    <div class="color color-light-blue">$cwColor-blue-light</div>
     <div class="color color-orange">$cwColor-base-orange</div>
     <div class="color color-black">$cwColor-base-black</div>
     <div class="color color-bluegray">$cwColor-base-bluegray</div>
+    <hr>
     <div class="color color-white">$cwColor-base-white</div>
-    <hr>
-    <div class="color color-light-blue">$cwColor-blue-light</div>
-    <hr>
     <div class="color color-black-xlight">$cwColor-black-xlight</div>
     <div class="color color-black-mlight">$cwColor-black-mlight</div>
     <div class="color color-black-light">$cwColor-black-light</div>
@@ -6514,21 +6513,21 @@ h6,
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #d6e6f6; }
+  color: #bbdefb; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #d6e6f6;
+  color: #bbdefb;
   opacity: 1; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #d6e6f6;
+  color: #bbdefb;
   opacity: 1; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #d6e6f6; }
+  color: #bbdefb; }
 
 a, .link {
   -webkit-transition: color 400ms, background-color 400ms;
@@ -6726,7 +6725,7 @@ form .form-group {
         content: ""; }
     .form .form-group .form-select .cs-options li span:hover,
     form .form-group .form-select .cs-options li span:hover {
-      background: #d6e6f6; }
+      background: #bbdefb; }
     .form .form-group .form-select .cs-options li.cs-selected span:after,
     form .form-group .form-select .cs-options li.cs-selected span:after {
       content: ""; }
@@ -6855,7 +6854,7 @@ form .form-group {
 
 .form.form--light label,
 form.form--light label {
-  color: #d6e6f6; }
+  color: #bbdefb; }
 
 .form.form--light .form-input,
 form.form--light .form-input {
@@ -6864,21 +6863,21 @@ form.form--light .form-input {
   .form.form--light .form-input::-webkit-input-placeholder,
   form.form--light .form-input::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    color: #d6e6f6; }
+    color: #bbdefb; }
   .form.form--light .form-input:-moz-placeholder,
   form.form--light .form-input:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #d6e6f6;
+    color: #bbdefb;
     opacity: 1; }
   .form.form--light .form-input::-moz-placeholder,
   form.form--light .form-input::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #d6e6f6;
+    color: #bbdefb;
     opacity: 1; }
   .form.form--light .form-input:-ms-input-placeholder,
   form.form--light .form-input:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #d6e6f6; }
+    color: #bbdefb; }
   .form.form--light .form-input.form-input--error,
   form.form--light .form-input.form-input--error {
     border-color: #505050; }
@@ -6886,14 +6885,14 @@ form.form--light .form-input {
 .form.form--light .form-select,
 form.form--light .form-select {
   background: inherit;
-  color: #d6e6f6; }
+  color: #bbdefb; }
   .form.form--light .form-select input,
   form.form--light .form-select input {
     display: none; }
   .form.form--light .form-select .cs-placeholder,
   form.form--light .form-select .cs-placeholder {
     border: 1px solid #fff;
-    color: #d6e6f6; }
+    color: #bbdefb; }
     .form.form--light .form-select .cs-placeholder:after,
     form.form--light .form-select .cs-placeholder:after {
       content: ""; }
@@ -7171,6 +7170,17 @@ Standard buttons
 
 Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.
 
+Application:
+
+- Orange Buttons: It represents the Main Action, it's the CTA for all action than requiere request, like: Get, Send, Save, Continue.
+
+- Blue Buttons: It represents Secondary Actions, like: View, Add element, Download, Call.
+
+- Light Blue Buttons: It represents Secondary Actions when blue buttons are closer, like: Edit, Delete.
+
+- Buttons with border: It represents Auxiliary Actions, like: Chat, Delete, Cancel.
+
+
 Styleguide 4
 */
 .btn-group {
@@ -7200,19 +7210,19 @@ button, .btn {
     background-color: #505050; }
   button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
     cursor: default;
-    opacity: 0.25;
-    filter: alpha(opacity=25);
-    background-color: #438bd7; }
+    background-color: #bbdefb; }
   button.btn--blue, .btn.btn--blue {
     background-color: #438bd7;
-    color: #fff;
-    text-transform: uppercase; }
+    color: #fff; }
     button.btn--blue:hover, .btn.btn--blue:hover {
       background-color: #505050;
       color: #fff; }
-    button.btn--blue.disabled, button.btn--blue[disabled], .btn.btn--blue.disabled, .btn.btn--blue[disabled] {
-      cursor: default;
-      background-color: #438bd7; }
+  button.btn--blue-light, .btn.btn--blue-light {
+    background-color: #bbdefb;
+    color: #fff; }
+    button.btn--blue-light:hover, .btn.btn--blue-light:hover {
+      background-color: #505050;
+      color: #fff; }
   button.btn--border, .btn.btn--border {
     background-color: #fff;
     color: #f3a309;
@@ -7228,6 +7238,9 @@ button, .btn {
   button.btn--small, .btn.btn--small {
     font-size: 14px;
     padding: 8px 12px; }
+  button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
+    cursor: default;
+    background-color: #438bd7; }
 
 ul.list {
   list-style: none; }
@@ -7379,7 +7392,7 @@ Styleguide 8
     border-top: 1px solid #d2d2d2;
     border-right: 1px solid #d2d2d2; }
     .table__head th {
-      background: #d6e6f6;
+      background: #bbdefb;
       text-transform: uppercase;
       color: #000;
       text-align: left;
@@ -7711,7 +7724,7 @@ Styleguide 8.1
   .color.color-blue {
     background-color: #438bd7; }
   .color.color-light-blue {
-    background-color: #d6e6f6; }
+    background-color: #bbdefb; }
   .color.color-orange {
     background-color: #f3a309; }
   .color.color-black {
