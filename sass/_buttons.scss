@@ -61,7 +61,8 @@ button, .btn {
     border-radius: 3px;
     color: #fff;
     background-color: $cwColor-base-orange;
-    padding: 15px 20px;
+    border: 1px solid $cwColor-base-orange;
+    padding: 12px 20px;
     border: none;
     display: inline-block;
     -webkit-transition: background .2s ease-out;
@@ -73,12 +74,9 @@ button, .btn {
     &:hover {
         background-color: $cwColor-black-dark;
     }
-    &.disabled, &[disabled] {
-        cursor: default;
-        background-color: $cwColor-blue-light;
-    }
     &.btn--blue {
         background-color: $cwColor-base-blue;
+        border: 1px solid $cwColor-base-blue;
         color: #fff;
 
         &:hover {
@@ -88,6 +86,7 @@ button, .btn {
     }
     &.btn--blue-light {
         background-color: $cwColor-blue-light;
+        border: 1px solid $cwColor-blue-light;
         color: #fff;
 
         &:hover {
@@ -118,6 +117,7 @@ button, .btn {
     }
     &.disabled, &[disabled] {
         cursor: default;
-        background-color: $cwColor-base-blue;
+        background-color: $cwColor-black-light;
+        border: 1px solid $cwColor-black-light;
     }
 }

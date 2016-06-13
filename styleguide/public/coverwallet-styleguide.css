@@ -7198,7 +7198,8 @@ button, .btn {
   border-radius: 3px;
   color: #fff;
   background-color: #f3a309;
-  padding: 15px 20px;
+  border: 1px solid #f3a309;
+  padding: 12px 20px;
   border: none;
   display: inline-block;
   -webkit-transition: background .2s ease-out;
@@ -7208,17 +7209,16 @@ button, .btn {
   transition: background .2s ease-out; }
   button:hover, .btn:hover {
     background-color: #505050; }
-  button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
-    cursor: default;
-    background-color: #bbdefb; }
   button.btn--blue, .btn.btn--blue {
     background-color: #438bd7;
+    border: 1px solid #438bd7;
     color: #fff; }
     button.btn--blue:hover, .btn.btn--blue:hover {
       background-color: #505050;
       color: #fff; }
   button.btn--blue-light, .btn.btn--blue-light {
     background-color: #bbdefb;
+    border: 1px solid #bbdefb;
     color: #fff; }
     button.btn--blue-light:hover, .btn.btn--blue-light:hover {
       background-color: #505050;
@@ -7240,7 +7240,8 @@ button, .btn {
     padding: 8px 12px; }
   button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
     cursor: default;
-    background-color: #438bd7; }
+    background-color: #d2d2d2;
+    border: 1px solid #d2d2d2; }
 
 ul.list {
   list-style: none; }
