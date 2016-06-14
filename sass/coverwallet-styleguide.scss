@@ -503,6 +503,12 @@
     &onlyclick-plus {
         @include cw-covericon-before(onlyclick-plus, 0, #000);
     }
+    &onlyclick-plus-2 {
+        @include cw-covericon-before(onlyclick-plus-2, 0, #000);
+    }
+    &onlyclick-less {
+        @include cw-covericon-before(onlyclick-less, 0, #000);
+    }
     &onlyclick-yes {
         @include cw-covericon-before(onlyclick-yes, 0, #000);
     }

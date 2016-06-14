@@ -82,6 +82,8 @@
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-notsure"></span> <span class='icon-name'>onlyclick-notsure</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-own"></span> <span class='icon-name'>onlyclick-own</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-plus"></span> <span class='icon-name'>onlyclick-plus</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-plus-2"></span> <span class='icon-name'>onlyclick-plus-2</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-less"></span> <span class='icon-name'>onlyclick-less</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-yes"></span> <span class='icon-name'>onlyclick-yes</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-fire-resistive"></span> <span class='icon-name'>onlyclick-location-fire-resistive</span></li>
     </ul>
@@ -504,6 +506,12 @@
 }
 .cwicon-onlyclick-plus:before {
     content: "\e022";
+}
+.cwicon-onlyclick-plus-2:before {
+    content: "\e034";
+}
+.cwicon-onlyclick-less:before {
+    content: "\e033";
 }
 .cwicon-onlyclick-yes:before {
     content: "\e023";
