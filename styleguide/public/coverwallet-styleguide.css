@@ -6521,21 +6521,21 @@ h6,
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #bbdefb; }
+  color: #8eccf1; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #bbdefb;
+  color: #8eccf1;
   opacity: 1; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #bbdefb;
+  color: #8eccf1;
   opacity: 1; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #bbdefb; }
+  color: #8eccf1; }
 
 a, .link {
   -webkit-transition: color 400ms, background-color 400ms;
@@ -6733,7 +6733,7 @@ form .form-group {
         content: ""; }
     .form .form-group .form-select .cs-options li span:hover,
     form .form-group .form-select .cs-options li span:hover {
-      background: #bbdefb; }
+      background: #8eccf1; }
     .form .form-group .form-select .cs-options li.cs-selected span:after,
     form .form-group .form-select .cs-options li.cs-selected span:after {
       content: ""; }
@@ -6862,7 +6862,7 @@ form .form-group {
 
 .form.form--light label,
 form.form--light label {
-  color: #bbdefb; }
+  color: #8eccf1; }
 
 .form.form--light .form-input,
 form.form--light .form-input {
@@ -6871,21 +6871,21 @@ form.form--light .form-input {
   .form.form--light .form-input::-webkit-input-placeholder,
   form.form--light .form-input::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
-    color: #bbdefb; }
+    color: #8eccf1; }
   .form.form--light .form-input:-moz-placeholder,
   form.form--light .form-input:-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    color: #bbdefb;
+    color: #8eccf1;
     opacity: 1; }
   .form.form--light .form-input::-moz-placeholder,
   form.form--light .form-input::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    color: #bbdefb;
+    color: #8eccf1;
     opacity: 1; }
   .form.form--light .form-input:-ms-input-placeholder,
   form.form--light .form-input:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #bbdefb; }
+    color: #8eccf1; }
   .form.form--light .form-input.form-input--error,
   form.form--light .form-input.form-input--error {
     border-color: #505050; }
@@ -6893,14 +6893,14 @@ form.form--light .form-input {
 .form.form--light .form-select,
 form.form--light .form-select {
   background: inherit;
-  color: #bbdefb; }
+  color: #8eccf1; }
   .form.form--light .form-select input,
   form.form--light .form-select input {
     display: none; }
   .form.form--light .form-select .cs-placeholder,
   form.form--light .form-select .cs-placeholder {
     border: 1px solid #fff;
-    color: #bbdefb; }
+    color: #8eccf1; }
     .form.form--light .form-select .cs-placeholder:after,
     form.form--light .form-select .cs-placeholder:after {
       content: ""; }
@@ -7225,8 +7225,8 @@ button, .btn {
       background-color: #505050;
       color: #fff; }
   button.btn--blue-light, .btn.btn--blue-light {
-    background-color: #bbdefb;
-    border: 1px solid #bbdefb;
+    background-color: #8eccf1;
+    border: 1px solid #8eccf1;
     color: #fff; }
     button.btn--blue-light:hover, .btn.btn--blue-light:hover {
       background-color: #505050;
@@ -7401,7 +7401,7 @@ Styleguide 8
     border-top: 1px solid #d2d2d2;
     border-right: 1px solid #d2d2d2; }
     .table__head th {
-      background: #bbdefb;
+      background: #8eccf1;
       text-transform: uppercase;
       color: #000;
       text-align: left;
@@ -7741,7 +7741,7 @@ Styleguide 8.1
   .color.color-blue {
     background-color: #438bd7; }
   .color.color-light-blue {
-    background-color: #bbdefb; }
+    background-color: #8eccf1; }
   .color.color-orange {
     background-color: #f3a309; }
   .color.color-black {
