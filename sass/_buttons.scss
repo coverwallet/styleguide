@@ -3,25 +3,36 @@ Standard buttons
 
 Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.
 
+Application:
+
+- Orange Buttons: They represent the Main Action, it's the CTA for all actions than requiere a request, like: Get, Send, Save, Continue.
+
+- Blue Buttons: They represent Secondary Actions, like: View, Add element, Download, Call.
+
+- Light Blue Buttons: They represent Secondary Actions when you need to differentiate from the Blue buttons, like: Edit, Delete.
+
+- Buttons with a border: They represent Auxiliary Actions, like: Chat, Delete, Cancel.
+
+
 Styleguide 4
 */
 // Base styles & states
 //
-//:hover       - Hover state.
 //:active      - Active state.
-// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
 // .btn--blue   - Blue button
-// .btn--small   - Small button
+// .btn--blue:active   - Blue button (Active state)
+// .btn--blue-light   - Blue button
+// .btn--blue-light:active   - Blue button (Active state)
+//:hover       - Hover state (for orange, blue and blue light button)
 // .btn--border   - Border Orange button
 // .btn--border:hover   - Border Orange button (Hover state)
 // .btn--border-blue   - Border Blue button
 // .btn--border-blue:hover   - Border Blue button (Hover state)
-// .btn--blue:hover   - Blue button (Hover state)
-// .btn--blue:active   - Blue button (Active state)
 // .btn--blue.disabled   - Blue button (Disabled state)
+// .btn--small   - Small button
 //
 // Markup:// <button type="submit"class="btn {{modifier_class}}">Button</button>
-//
+// 
 // Styleguide 4.1
 
 // Button group
@@ -50,36 +61,24 @@ button, .btn {
     border-radius: 3px;
     color: #fff;
     background-color: $cwColor-base-orange;
-    padding: 15px 20px;
-    border: none;
+    border: 1px solid $cwColor-base-orange;
+    padding: 12px 20px;
     display: inline-block;
-    -webkit-transition: background .2s ease-out;
-    -moz-transition: background .2s ease-out;
-    -ms-transition: background .2s ease-out;
-    -o-transition: background .2s ease-out;
-    transition: background .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
 
-    &:hover {
-        background-color: $cwColor-black-dark;
-    }
-    &.disabled, &[disabled] {
-        cursor: default;
-        @include cw-opacity(0.25);
-        background-color: $cwColor-base-blue;
-    }
     &.btn--blue {
         background-color: $cwColor-base-blue;
+        border: 1px solid $cwColor-base-blue;
         color: #fff;
-        text-transform: uppercase;
-
-        &:hover {
-            background-color: $cwColor-black-dark;
-            color: #fff;
-        }
-        &.disabled, &[disabled] {
-            cursor: default;
-            background-color: $cwColor-base-blue;
-        }
+    }
+    &.btn--blue-light {
+        background-color: $cwColor-blue-light;
+        border: 1px solid $cwColor-blue-light;
+        color: #fff;
     }
     &.btn--border {
         background-color: $cwColor-base-white;
@@ -101,5 +100,15 @@ button, .btn {
     &.btn--small {
         font-size: 14px;
         padding: 8px 12px;
+    }
+    &.disabled, &[disabled] {
+        cursor: default;
+        background-color: $cwColor-black-light;
+        border: 1px solid $cwColor-black-light;
+    }
+    &:hover {
+        border: 1px solid $cwColor-black-dark;
+        background-color: $cwColor-black-dark;
+        color: #fff;
     }
 }
