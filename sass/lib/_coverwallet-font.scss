@@ -51,6 +51,8 @@
         <li class='gallery-icon'><span class="styleguide-icon-industries-maintance"></span> <span class='icon-name'>industries-maintance</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturing"></span> <span class='icon-name'>industries-manufacturing</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-nonprofit"></span> <span class='icon-name'>industries-nonprofit</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-rental-and-leasing"></span> <span class='icon-name'>industries-rental-and-leasing</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-management-of-companies-and-enterprises"></span> <span class='icon-name'>industries-management-of-companies-and-enterprises</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-aircraft-liability"></span> <span class='icon-name'>insurance-type-aircraft-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-aviation-general-liability-coverage"></span> <span class='icon-name'>insurance-type-aviation-general-liability-coverage</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-bailees-customers"></span> <span class='icon-name'>insurance-type-bailees-customers</span></li>
@@ -605,4 +607,10 @@
 }
 .cwicon-insurance-type-e-and-o:before {
   content: "\e032";
+}
+.cwicon-industries-management-of-companies-and-enterprises:before {
+    content: "\e035";
+}
+.cwicon-industries-rental-and-leasing:before {
+    content: "\e036";
 }
