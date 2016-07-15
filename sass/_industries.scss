@@ -61,3 +61,12 @@
 .contractor {
   @include cw-covericon-before(industries-contractor, 0, $cwColor-base-blue);
 }
+.rentals_and_leasing {
+  @include cw-covericon-before(industries-rental-and-leasing, 0, $cwColor-base-blue);
+}
+.management_of_companies_and_enterprises {
+  @include cw-covericon-before(industries-management-of-companies-and-enterprises, 0, $cwColor-base-blue);
+}
+.nonprofit {
+  @include cw-covericon-before(industries-nonprofit, 0, $cwColor-base-blue);
+}
