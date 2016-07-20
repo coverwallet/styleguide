@@ -5909,7 +5909,6 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-hired-and-non-owned-auto"></span> <span class='icon-name'>insurance-type-hired-and-non-owned-auto</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-special-events"></span> <span class='icon-name'>insurance-type-special-events</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-e-and-o"></span> <span class='icon-name'>insurance-type-e-and-o</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-industries-maintance"></span> <span class='icon-name'>industries-maintance</span></li>    
     </ul>
 </div>
 
@@ -6364,9 +6363,6 @@ html {
 
 .cwicon-industries-rental-and-leasing:before, .rentals_and_leasing:before, .styleguide-icon-industries-rental-and-leasing:before {
   content: "\e036"; }
-
-.cwicon-industries-maintance:before, .administrative_services_and_building_maintenance:before, .styleguide-icon-industries-maintance:before {
-  content: "\48"; }
 
 .row-group {
   position: relative;
