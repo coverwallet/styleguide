@@ -3674,7 +3674,7 @@ form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.fo
 form.form--light .form-select .cs-placeholder:after, .form .form-help-icon:before,
 form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -5909,6 +5909,7 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-hired-and-non-owned-auto"></span> <span class='icon-name'>insurance-type-hired-and-non-owned-auto</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-special-events"></span> <span class='icon-name'>insurance-type-special-events</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-e-and-o"></span> <span class='icon-name'>insurance-type-e-and-o</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-maintance"></span> <span class='icon-name'>industries-maintance</span></li>    
     </ul>
 </div>
 
@@ -6363,6 +6364,9 @@ html {
 
 .cwicon-industries-rental-and-leasing:before, .rentals_and_leasing:before, .styleguide-icon-industries-rental-and-leasing:before {
   content: "\e036"; }
+
+.cwicon-industries-maintance:before, .administrative_services_and_building_maintenance:before, .styleguide-icon-industries-maintance:before {
+  content: "\48"; }
 
 .row-group {
   position: relative;
