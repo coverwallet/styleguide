@@ -74,6 +74,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-professional-liability-e-and-o"></span> <span class='icon-name'>insurance-type-professional-liability-e-and-o</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-public-officials-liability"></span> <span class='icon-name'>insurance-type-public-officials-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-more"></span> <span class='icon-name'>insurance-type-more</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-fidelity-bond"></span> <span class='icon-name'>insurance-type-fidelity-bond</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes-close"></span> <span class='icon-name'>quotes-close</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-lease"></span> <span class='icon-name'>onlyclick-lease</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-dollar"></span> <span class='icon-name'>onlyclick-dollar</span></li>
@@ -448,6 +449,9 @@
 }
 .cwicon-insurance-type-directors-and-officers-insurance:before {
     content: "\5f";
+}
+.cwicon-insurance-type-fidelity-bond:before {
+    content: "\e037";
 }
 .cwicon-insurance-type-more:before {
     content: "\e00e";
