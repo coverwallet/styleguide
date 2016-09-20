@@ -6847,9 +6847,6 @@ form .form-group {
     .form .form-group.form-group--readonly input,
     form .form-group.form-group--readonly input {
       padding: 0; }
-  .form .form-group.form-group--error .form-input,
-  form .form-group.form-group--error .form-input {
-    border-color: #f00; }
   .form .form-group.form-group--error .help-block,
   form .form-group.form-group--error .help-block {
     color: #f00; }
