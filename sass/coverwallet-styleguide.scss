@@ -449,6 +449,9 @@
     &delete {
         @include cw-covericon-before(delete, 0, #000);
     }
+    &restore {
+        @include cw-covericon-before(restore, 0, #000);
+    }
     &phone-nav {
         @include cw-covericon-before(phone-nav, 0, #000);
     }
