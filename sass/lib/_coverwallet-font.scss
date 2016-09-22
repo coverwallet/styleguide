@@ -143,6 +143,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-workers-compensation"></span> <span class='icon-name'>insurance-type-workers-compensation</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-business-owners-policy-bop"></span> <span class='icon-name'>insurance-type-business-owners-policy-bop</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-delete"></span> <span class='icon-name'>delete</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-restore"></span> <span class='icon-name'>restore</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-phone-nav"></span> <span class='icon-name'>phone-nav</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-0-10"></span> <span class='icon-name'>onlyclick-0-10</span></li>
@@ -617,4 +618,7 @@
 }
 .cwicon-industries-rental-and-leasing:before {
     content: "\e036";
+}
+.cwicon-restore:before {
+    content: "\e038";
 }
