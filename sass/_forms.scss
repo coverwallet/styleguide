@@ -232,6 +232,10 @@ form {
                 border: 0;
                 height: 30px;
             }
+            .form-input--textarea {
+                outline: 0;
+                min-height: 40px;
+            }
             input {
                 padding: 0;
             }
@@ -426,6 +430,10 @@ form {
         <label for="email">Email</label>
         <input type="text" id="email" class="form-input " placeholder="Email" readonly/>
     </div>
+    <div class="form-group form-group--readonly">
+        <label for="description">Description</label>
+        <textarea id="description" class="form-input form-input--textarea" readonly>Description text</textarea>
+    </div>
  </form>
 
  Styleguide 5.2
@@ -523,7 +531,7 @@ form {
     </div>
  </form>
 
- Styleguide 5.6
+ Styleguide 5.7
 */
 /*
  Checkbox inputs
