@@ -3674,7 +3674,7 @@ form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.fo
 form.form--light .form-select .cs-placeholder:after, .form .form-help-icon:before,
 form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
