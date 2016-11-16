@@ -89,6 +89,8 @@
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-less"></span> <span class='icon-name'>onlyclick-less</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-yes"></span> <span class='icon-name'>onlyclick-yes</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-location-fire-resistive"></span> <span class='icon-name'>onlyclick-location-fire-resistive</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-ach"></span> <span class='icon-name'>onlyclick-ach</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-creditcard"></span> <span class='icon-name'>onlyclick-creditcard</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -621,4 +623,10 @@
 }
 .cwicon-restore:before {
     content: "\e038";
+}
+.cwicon-onlyclick-ach:before {
+    content: "\e03e";
+}
+.cwicon-onlyclick-creditcard:before {
+    content: "\e03f";
 }

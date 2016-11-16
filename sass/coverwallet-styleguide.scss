@@ -527,4 +527,10 @@
     &onlyclick-yes {
         @include cw-covericon-before(onlyclick-yes, 0, #000);
     }
+    &onlyclick-ach {
+        @include cw-covericon-before(onlyclick-ach, 0, #000);
+    }
+    &onlyclick-creditcard {
+        @include cw-covericon-before(onlyclick-creditcard, 0, #000);
+    }
 }
