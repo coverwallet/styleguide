@@ -7821,7 +7821,7 @@ Styleguide 8.1
 .form--light {
   background: #438bd7;
   padding: 20px; }
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1171px) {
     .form--light {
       float: left;
       display: block;
@@ -7848,7 +7848,7 @@ Styleguide 8.1
     clear: both;
     content: "";
     display: table; }
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1171px) {
     .gallery-icons ul {
       float: left;
       display: block;
