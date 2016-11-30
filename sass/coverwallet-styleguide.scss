@@ -67,6 +67,7 @@
             border: 1px solid $cwColor-base-blue;
         }
     }
+
 }
 .gallery-icons {
     @include row();
@@ -526,5 +527,20 @@
     }
     &onlyclick-yes {
         @include cw-covericon-before(onlyclick-yes, 0, #000);
+    }
+    &onlyclick-ach {
+        @include cw-covericon-before(onlyclick-ach, 0, #000);
+    }
+    &onlyclick-creditcard {
+        @include cw-covericon-before(onlyclick-creditcard, 0, #000);
+    }
+    &onlyclick-wc-medical {
+        @include cw-covericon-before(onlyclick-wc-medical, 0, #000);
+    }
+    &onlyclick-wc-indemnity {
+        @include cw-covericon-before(onlyclick-wc-indemnity, 0, #000);
+    }
+    &onlyclick-wc-both {
+        @include cw-covericon-before(onlyclick-wc-both, 0, #000);
     }
 }

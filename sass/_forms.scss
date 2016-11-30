@@ -49,7 +49,7 @@ form {
             width: 100%;
             height: 45px;
             text-align: left;
-            font-size: 1em;
+            font-size: 14px;
             color: $cwColor-base-bluegray;
             box-shadow: none;
             
@@ -118,7 +118,6 @@ form {
             width: 100%;
             margin-top: 10px;
             font-size: 14px;
-            font-weight: lighter;
         }
         select.form-select {
             display: none;
@@ -290,21 +289,29 @@ form {
             color: #fff;
             &::-webkit-input-placeholder {
                 /* WebKit, Blink, Edge */
-                color: $cwColor-blue-light;
+                color: $cwColor-black-medium;
+                font-size: 14px;
+                font-weight: lighter;
             }
             &:-moz-placeholder {
                 /* Mozilla Firefox 4 to 18 */
-                color: $cwColor-blue-light;
+                color: $cwColor-black-medium;
+                font-size: 14px;
+                font-weight: lighter;
                 opacity: 1;
             }
             &::-moz-placeholder {
                 /* Mozilla Firefox 19+ */
-                color: $cwColor-blue-light;
+                color: $cwColor-black-medium;
+                font-size: 14px;
+                font-weight: lighter;
                 opacity: 1;
             }
             &:-ms-input-placeholder {
                 /* Internet Explorer 10-11 */
-                color: $cwColor-blue-light;
+                color: $cwColor-black-medium;
+                font-size: 14px;
+                font-weight: lighter;
             }
             &.form-input--error {
                 border-color: $cwColor-black-dark;
