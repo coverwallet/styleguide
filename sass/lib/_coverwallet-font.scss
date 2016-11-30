@@ -161,6 +161,9 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-hired-and-non-owned-auto"></span> <span class='icon-name'>insurance-type-hired-and-non-owned-auto</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-special-events"></span> <span class='icon-name'>insurance-type-special-events</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-e-and-o"></span> <span class='icon-name'>insurance-type-e-and-o</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-wc-indemnity"></span> <span class='icon-name'>onlyclick-wc-indemnity</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-wc-medical"></span> <span class='icon-name'>onlyclick-wc-medical</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-wc-both"></span> <span class='icon-name'>onlyclick-wc-both</span></li>
     </ul>
 </div>
 
@@ -629,4 +632,13 @@
 }
 .cwicon-onlyclick-creditcard:before {
     content: "\e03f";
+}
+.cwicon-onlyclick-wc-indemnity:before {
+    content: "\e040";
+}
+.cwicon-onlyclick-wc-medical:before {
+    content: "\e042";
+}
+.cwicon-onlyclick-wc-both:before {
+    content: "\e044";
 }
