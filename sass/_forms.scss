@@ -18,14 +18,6 @@ form {
                 right: 5px;
                 top: 0;
                 position: absolute;
-
-                &--pulled-right {
-                    @media screen and (min-width: 1500px) {
-                        right: initial !important;
-                        left: initial;
-                        margin-left: 900px;
-                    }
-                }
             }
         }
 
@@ -386,14 +378,6 @@ form {
         right: 15px;
         top: 10px;
         position: absolute;
-
-        &--pulled-right {
-            @media screen and (min-width: 1500px) {
-                right: initial !important;
-                left: initial;
-                margin-left: 900px;
-            }
-        }
     }
 
     .input-group {

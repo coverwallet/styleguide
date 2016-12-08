@@ -6647,12 +6647,6 @@ form .form-group {
       form .form-group label .form-help-icon:before {
         padding-right: 0;
         color: #438bd7; }
-      @media screen and (min-width: 1500px) {
-        .form .form-group label .form-help-icon--pulled-right,
-        form .form-group label .form-help-icon--pulled-right {
-          right: initial !important;
-          left: initial;
-          margin-left: 900px; } }
   .form .form-group__additional-info,
   form .form-group__additional-info {
     display: table-cell;
@@ -7005,12 +6999,6 @@ form .form-help-icon {
   form .form-help-icon:before {
     padding-right: 0;
     color: #438bd7; }
-  @media screen and (min-width: 1500px) {
-    .form .form-help-icon--pulled-right,
-    form .form-help-icon--pulled-right {
-      right: initial !important;
-      left: initial;
-      margin-left: 900px; } }
 
 .form .input-group::after,
 form .input-group::after {
