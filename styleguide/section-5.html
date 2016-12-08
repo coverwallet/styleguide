@@ -46,7 +46,9 @@
               <li class="kss-menu-item"><a href="#section-5.7"><span class="kss-ref">5.7</span><span class="kss-name">Error form group</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.8"><span class="kss-ref">5.8</span><span class="kss-name">Checkbox inputs</span></a></li>
               <li class="kss-menu-item"><a href="#section-5.9"><span class="kss-ref">5.9</span><span class="kss-name">Select inputs</span></a></li>
-              <li class="kss-menu-item"><a href="#section-5.10"><span class="kss-ref">5.10</span><span class="kss-name">New Inline input</span></a></li>
+              <li class="kss-menu-item"><a href="#section-5.10"><span class="kss-ref">5.10</span><span class="kss-name">Inline input</span></a></li>
+              <li class="kss-menu-item"><a href="#section-5.11"><span class="kss-ref">5.11</span><span class="kss-name">Inline input with Additional Info</span></a></li>
+              <li class="kss-menu-item"><a href="#section-5.12"><span class="kss-ref">5.12</span><span class="kss-name">Inline Textarea</span></a></li>
             </ul>
           </nav>
         </div>
@@ -649,7 +651,7 @@
             </div>
           </section>
           <section id="section-5.10" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">5.10</span> New Inline input</h1>
+            <h1 class="kss-title"><span class="kss-ref">5.10</span> Inline input</h1>
             <div class="kss-description">
               <p></form></p>
 
@@ -678,6 +680,78 @@
          &lt;span class&#x3D;&quot;help-block&quot; &gt;Please enter a valid name&lt;/span&gt;
        &lt;/div&gt;
    &lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-5.11" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">5.11</span> Inline input with Additional Info</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form">
+   <div class="form-group form-group--inline">
+       <label class="label label--inline label--text">This your name</label>
+       <div class="input-group input-group--inline">
+         <input type="text" id="name-light" class="form-input form-input--long form-input--short" placeholder="Name"/>
+       </div>
+       <div class="form-group__aditional-info">Dynamic help info</div>
+   </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+   &lt;div class&#x3D;&quot;form-group form-group--inline&quot;&gt;
+       &lt;label class&#x3D;&quot;label label--inline label--text&quot;&gt;This your name&lt;/label&gt;
+       &lt;div class&#x3D;&quot;input-group input-group--inline&quot;&gt;
+         &lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;name-light&quot; class&#x3D;&quot;form-input form-input--long form-input--short&quot; placeholder&#x3D;&quot;Name&quot;/&gt;
+       &lt;/div&gt;
+       &lt;div class&#x3D;&quot;form-group__aditional-info&quot;&gt;Dynamic help info&lt;/div&gt;
+   &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-5.12" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">5.12</span> Inline Textarea</h1>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                  <form class="form">
+  <div class="form-group form-group--inline form-group--long">
+    <label for="description" class="label label--inline label--text">
+      Description
+    </label>
+    <div class="input-group input-group--inline">
+      <textarea
+        name="description"
+        type="text"
+        cols="40"
+        placeholder="Type your description"
+        class="form-input form-input--long form-input--description"
+      ></textarea>
+    </div>
+  </div>
+</form>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code class="lang-html">&lt;form class&#x3D;&quot;form&quot;&gt;
+  &lt;div class&#x3D;&quot;form-group form-group--inline form-group--long&quot;&gt;
+    &lt;label for&#x3D;&quot;description&quot; class&#x3D;&quot;label label--inline label--text&quot;&gt;
+      Description
+    &lt;/label&gt;
+    &lt;div class&#x3D;&quot;input-group input-group--inline&quot;&gt;
+      &lt;textarea
+        name&#x3D;&quot;description&quot;
+        type&#x3D;&quot;text&quot;
+        cols&#x3D;&quot;40&quot;
+        placeholder&#x3D;&quot;Type your description&quot;
+        class&#x3D;&quot;form-input form-input--long form-input--description&quot;
+      &gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
               </div>
             </div>
           </section>
