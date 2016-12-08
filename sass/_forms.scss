@@ -18,6 +18,26 @@ form {
                 right: 5px;
                 top: 0;
                 position: absolute;
+
+                &--pulled-right {
+                    @media screen and (min-width: 1500px) {
+                        right: initial !important;
+                        left: initial;
+                        margin-left: 900px;
+                    }
+                }
+            }
+        }
+
+        &__additional-info {
+            display: table-cell;
+            padding-left: 10px;
+            font-size: 14px;
+
+            @include media($mobile) {
+                display: block;
+                text-align: center;
+                padding-left: 0;
             }
         }
 
@@ -26,6 +46,7 @@ form {
 
             &.label--inline {
                 display: table-cell;
+                vertical-align: top;
                 text-align: right;
                 min-width: 240px;
                 max-width: 240px;
@@ -37,6 +58,14 @@ form {
                   padding: 0;
                   margin: 0;
                   text-align: center;
+                }
+            }
+
+            .label-addition {
+                display: inline-block;
+
+                @include media($mobile) {
+                    display: inline;
                 }
             }
         }
@@ -84,6 +113,10 @@ form {
                 background-image: $cw-images-account;
                 background-repeat: no-repeat;
                 background-position: right center;
+            }
+            &.form-input--description {
+                min-height: 100px;
+                padding: 3px 10px;
             }
             &::-webkit-input-placeholder {
                 /* WebKit, Blink, Edge */
@@ -241,7 +274,7 @@ form {
         }
         &.form-group--error {
             .help-block {
-                color: #f00;
+                color: $cwColor-base-red;
             }
         }
         &.form-group--icons {
@@ -353,6 +386,14 @@ form {
         right: 15px;
         top: 10px;
         position: absolute;
+
+        &--pulled-right {
+            @media screen and (min-width: 1500px) {
+                right: initial !important;
+                left: initial;
+                margin-left: 900px;
+            }
+        }
     }
 
     .input-group {
@@ -381,9 +422,9 @@ form {
         }
 
         .input-group__help-message {
-            display: inline-block; 
-            font-size: 14px;
-            margin-top: 2px;
+            display: inline-block;
+            font-size: 13px;
+            margin-top: 5px;
             color: $cwColor-black-medium;          
         }
     }
@@ -586,7 +627,7 @@ form {
 */
 
 /*
-  New Inline input
+  Inline input
 
   Markup:
   <form class="form">
@@ -602,4 +643,45 @@ form {
   </form>
 
   Styleguide 5.10
+*/
+
+/*
+  Inline input with Additional Info
+
+  Markup:
+  <form class="form">
+     <div class="form-group form-group--inline">
+         <label class="label label--inline label--text">This your name</label>
+         <div class="input-group input-group--inline">
+           <input type="text" id="name-light" class="form-input form-input--long form-input--short" placeholder="Name"/>
+         </div>
+         <div class="form-group__aditional-info">Dynamic help info</div>
+     </div>
+  </form>
+
+  Styleguide 5.11
+*/
+
+/*
+  Inline Textarea
+
+  Markup:
+  <form class="form">
+    <div class="form-group form-group--inline form-group--long">
+      <label for="description" class="label label--inline label--text">
+        Description
+      </label>
+      <div class="input-group input-group--inline">
+        <textarea
+          name="description"
+          type="text"
+          cols="40"
+          placeholder="Type your description"
+          class="form-input form-input--long form-input--description"
+        ></textarea>
+      </div>
+    </div>
+  </form>
+
+  Styleguide 5.12
 */

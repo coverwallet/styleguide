@@ -3643,6 +3643,7 @@ Markup:
     <div class="color color-orange">$cwColor-base-orange</div>
     <div class="color color-black">$cwColor-base-black</div>
     <div class="color color-bluegray">$cwColor-base-bluegray</div>
+    <div class="color color-red">$cwColor-base-red</div>
     <hr>
     <div class="color color-white">$cwColor-base-white</div>
     <div class="color color-black-xlight">$cwColor-black-xlight</div>
@@ -6646,6 +6647,23 @@ form .form-group {
       form .form-group label .form-help-icon:before {
         padding-right: 0;
         color: #438bd7; }
+      @media screen and (min-width: 1500px) {
+        .form .form-group label .form-help-icon--pulled-right,
+        form .form-group label .form-help-icon--pulled-right {
+          right: initial !important;
+          left: initial;
+          margin-left: 900px; } }
+  .form .form-group__additional-info,
+  form .form-group__additional-info {
+    display: table-cell;
+    padding-left: 10px;
+    font-size: 14px; }
+    @media screen and (max-width: 480px) {
+      .form .form-group__additional-info,
+      form .form-group__additional-info {
+        display: block;
+        text-align: center;
+        padding-left: 0; } }
   .form .form-group .label::after,
   form .form-group .label::after {
     clear: both;
@@ -6654,6 +6672,7 @@ form .form-group {
   .form .form-group .label.label--inline,
   form .form-group .label.label--inline {
     display: table-cell;
+    vertical-align: top;
     text-align: right;
     min-width: 240px;
     max-width: 240px; }
@@ -6666,6 +6685,13 @@ form .form-group {
         padding: 0;
         margin: 0;
         text-align: center; } }
+  .form .form-group .label .label-addition,
+  form .form-group .label .label-addition {
+    display: inline-block; }
+    @media screen and (max-width: 480px) {
+      .form .form-group .label .label-addition,
+      form .form-group .label .label-addition {
+        display: inline; } }
   .form .form-group .form-input,
   form .form-group .form-input {
     background-color: transparent;
@@ -6710,6 +6736,10 @@ form .form-group {
       background-image: url("images/account.png");
       background-repeat: no-repeat;
       background-position: right center; }
+    .form .form-group .form-input.form-input--description,
+    form .form-group .form-input.form-input--description {
+      min-height: 100px;
+      padding: 3px 10px; }
     .form .form-group .form-input::-webkit-input-placeholder,
     form .form-group .form-input::-webkit-input-placeholder {
       /* WebKit, Blink, Edge */
@@ -6975,6 +7005,12 @@ form .form-help-icon {
   form .form-help-icon:before {
     padding-right: 0;
     color: #438bd7; }
+  @media screen and (min-width: 1500px) {
+    .form .form-help-icon--pulled-right,
+    form .form-help-icon--pulled-right {
+      right: initial !important;
+      left: initial;
+      margin-left: 900px; } }
 
 .form .input-group::after,
 form .input-group::after {
@@ -7006,8 +7042,8 @@ form .input-group.input-group--inline {
 .form .input-group .input-group__help-message,
 form .input-group .input-group__help-message {
   display: inline-block;
-  font-size: 14px;
-  margin-top: 2px;
+  font-size: 13px;
+  margin-top: 5px;
   color: #bfbfbf; }
 
 /*
@@ -7207,7 +7243,7 @@ form .input-group .input-group__help-message {
  Styleguide 5.9
 */
 /*
-  New Inline input
+  Inline input
 
   Markup:
   <form class="form">
@@ -7223,6 +7259,45 @@ form .input-group .input-group__help-message {
   </form>
 
   Styleguide 5.10
+*/
+/*
+  Inline input with Additional Info
+
+  Markup:
+  <form class="form">
+     <div class="form-group form-group--inline">
+         <label class="label label--inline label--text">This your name</label>
+         <div class="input-group input-group--inline">
+           <input type="text" id="name-light" class="form-input form-input--long form-input--short" placeholder="Name"/>
+         </div>
+         <div class="form-group__aditional-info">Dynamic help info</div>
+     </div>
+  </form>
+
+  Styleguide 5.11
+*/
+/*
+  Inline Textarea
+
+  Markup:
+  <form class="form">
+    <div class="form-group form-group--inline form-group--long">
+      <label for="description" class="label label--inline label--text">
+        Description
+      </label>
+      <div class="input-group input-group--inline">
+        <textarea
+          name="description"
+          type="text"
+          cols="40"
+          placeholder="Type your description"
+          class="form-input form-input--long form-input--description"
+        ></textarea>
+      </div>
+    </div>
+  </form>
+
+  Styleguide 5.12
 */
 /*
 Standard buttons
@@ -7811,6 +7886,8 @@ Styleguide 8.1
   .color.color-white {
     background-color: #fff;
     color: #000; }
+  .color.color-red {
+    background-color: #f00; }
   .color.color-bluegray {
     background-color: #454855; }
   .color.color-black-xlight {
