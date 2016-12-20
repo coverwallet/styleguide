@@ -8,6 +8,14 @@
   }
   @include clearfix();
 
+  @include media($mobile) {
+    padding: 0;
+
+    > div {
+      padding: 5px 10px;
+    }
+  }
+
   &--white {
     background: $cwColor-base-white;
   }
