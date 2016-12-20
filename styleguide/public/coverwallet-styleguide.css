@@ -6404,6 +6404,11 @@ html {
     clear: both;
     content: "";
     display: table; }
+  @media screen and (max-width: 480px) {
+    .row-group {
+      padding: 0; }
+      .row-group > div {
+        padding: 5px 10px; } }
   .row-group--white {
     background: #fff; }
 
@@ -6677,7 +6682,7 @@ form .form-group {
         width: 100%;
         max-width: 100%;
         padding: 0;
-        margin: 0;
+        margin: 0 0 5px 0;
         text-align: center; } }
   .form .form-group .label .label-addition,
   form .form-group .label .label-addition {
