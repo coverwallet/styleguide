@@ -6,6 +6,7 @@ $cwColor-base-orange: #f3a309;
 $cwColor-base-black: #000;
 $cwColor-base-bluegray: #454855;
 $cwColor-base-white: #fff;
+$cwColor-base-red: #f00;
 $cwColor-blue-light: #8eccf1;
 
 $cwColor-black-xlight: lighten($cwColor-base-black, 97.5%);
@@ -121,6 +122,7 @@ Markup:
     <div class="color color-orange">$cwColor-base-orange</div>
     <div class="color color-black">$cwColor-base-black</div>
     <div class="color color-bluegray">$cwColor-base-bluegray</div>
+    <div class="color color-red">$cwColor-base-red</div>
     <hr>
     <div class="color color-white">$cwColor-base-white</div>
     <div class="color color-black-xlight">$cwColor-black-xlight</div>

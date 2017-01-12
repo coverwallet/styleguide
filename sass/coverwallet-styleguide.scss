@@ -22,6 +22,9 @@
         background-color: $cwColor-base-white;
         color: #000;
     }
+    &.color-red {
+        background-color: $cwColor-base-red;
+    }
     &.color-bluegray {
         background-color: $cwColor-base-bluegray;
     }
@@ -533,5 +536,14 @@
     }
     &onlyclick-creditcard {
         @include cw-covericon-before(onlyclick-creditcard, 0, #000);
+    }
+    &onlyclick-wc-medical {
+        @include cw-covericon-before(onlyclick-wc-medical, 0, #000);
+    }
+    &onlyclick-wc-indemnity {
+        @include cw-covericon-before(onlyclick-wc-indemnity, 0, #000);
+    }
+    &onlyclick-wc-both {
+        @include cw-covericon-before(onlyclick-wc-both, 0, #000);
     }
 }
