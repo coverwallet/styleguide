@@ -6645,7 +6645,7 @@ form .form-group {
     text-align: right;
     min-width: 240px;
     max-width: 240px; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       .form .form-group .label.label--inline,
       form .form-group .label.label--inline {
         display: block;
@@ -6673,7 +6673,7 @@ form .form-group {
     form .form-group .form-input.form-input--short {
       width: 300px;
       margin-right: 15px; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 767px) {
         .form .form-group .form-input.form-input--short,
         form .form-group .form-input.form-input--short {
           width: 100%;
@@ -6970,7 +6970,7 @@ form .input-group::after {
   content: "";
   display: table; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .form .input-group,
   form .input-group {
     display: block;
@@ -6985,7 +6985,7 @@ form .input-group::after {
 .form .input-group.input-group--inline,
 form .input-group.input-group--inline {
   display: table-cell; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     .form .input-group.input-group--inline,
     form .input-group.input-group--inline {
       display: block;
@@ -7366,7 +7366,7 @@ ul.list {
     .popup--confirmation .popup__content h5 {
       margin-bottom: 10px; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .popup--mobile-full {
     position: fixed;
     top: 0;
@@ -7821,7 +7821,7 @@ Styleguide 8.1
 .form--light {
   background: #438bd7;
   padding: 20px; }
-  @media screen and (min-width: 1171px) {
+  @media screen and (min-width: 1200px) {
     .form--light {
       float: left;
       display: block;
@@ -7848,7 +7848,7 @@ Styleguide 8.1
     clear: both;
     content: "";
     display: table; }
-  @media screen and (min-width: 1171px) {
+  @media screen and (min-width: 1200px) {
     .gallery-icons ul {
       float: left;
       display: block;
