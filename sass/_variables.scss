@@ -63,17 +63,17 @@ $principal-fonts: 'Open Sans', sans-serif;
 
 $max-width: em(1170);
 
-$desktopParams: min-width 1171px !default;
-$tabletParams: max-width 1170px 8 !default;
-$mobileParams: max-width 480px 4 !default;
+$desktopParams: min-width 1200px !default;
+$tabletParams: max-width 1200px 8 !default;
+$mobileParams: max-width 767px 4 !default;
 
 // breakpoints
 $tablet: new-breakpoint($tabletParams);
 $mobile: new-breakpoint($mobileParams);
 $desktop: new-breakpoint($desktopParams);
 
-$retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
 
+$retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
 $line-height-default:30px;
 
 //navbar variables
