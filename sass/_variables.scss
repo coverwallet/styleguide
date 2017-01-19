@@ -66,15 +66,19 @@ $max-width: em(1170);
 $desktopParams: min-width 1200px !default;
 $tabletParams: max-width 1200px 8 !default;
 $mobileParams: max-width 767px 4 !default;
+$landscapeParams: max-width 992px !default;
 
 // breakpoints
 $tablet: new-breakpoint($tabletParams);
 $mobile: new-breakpoint($mobileParams);
 $desktop: new-breakpoint($desktopParams);
+$landscape: new-breakpoint($landscapeParams);
+$orientation: new-breakpoint(orientation landscape);
 
 
 $retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
 $line-height-default:30px;
+
 
 //navbar variables
 $navbar-padding: 0 25px;
@@ -84,6 +88,7 @@ $header-min-height: 50px;
 
 //header
 $header-height: 70px;
+
 //navbar variables
 $navbar-padding: 0 25px;
 

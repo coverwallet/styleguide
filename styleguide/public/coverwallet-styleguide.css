@@ -3675,7 +3675,7 @@ form .form-group.form-group--icons .form-icon.form-icon--cancel:before, .form.fo
 form.form--light .form-select .cs-placeholder:after, .form .form-help-icon:before,
 form .form-help-icon:before, ul.list.list--type-1 li:before, ul.list.list--type-1-big li:before, ul.list.list--type-2 li:before, ul.list.list--type-3 li:before {
   display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
+  font: normal normal normal 14px / 1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -6404,7 +6404,7 @@ html {
     clear: both;
     content: "";
     display: table; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 767px) {
     .row-group {
       padding: 0; }
       .row-group > div {
@@ -6638,7 +6638,7 @@ form .form-group {
     display: block;
     text-align: left;
     margin: 0 auto;
-    padding: 0.2em 25px 0.2em 0;
+    padding: 0.2em 12px 0.2em 0;
     position: relative;
     font-size: 14px; }
     .form .form-group label .form-help-icon,
@@ -6657,7 +6657,7 @@ form .form-group {
     display: table-cell;
     padding-left: 10px;
     font-size: 14px; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       .form .form-group__additional-info,
       form .form-group__additional-info {
         display: block;
@@ -6673,8 +6673,8 @@ form .form-group {
     display: table-cell;
     vertical-align: top;
     text-align: right;
-    min-width: 240px;
-    max-width: 240px; }
+    min-width: 230px;
+    max-width: 230px; }
     @media screen and (max-width: 767px) {
       .form .form-group .label.label--inline,
       form .form-group .label.label--inline {
@@ -6687,7 +6687,7 @@ form .form-group {
   .form .form-group .label .label-addition,
   form .form-group .label .label-addition {
     display: inline-block; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
       .form .form-group .label .label-addition,
       form .form-group .label .label-addition {
         display: inline; } }
@@ -7524,6 +7524,10 @@ Styleguide 8
       border-right: 1px solid #d2d2d2; }
       .table__head th:last-child {
         border: 0; }
+
+@media screen and (max-width: 992px) and (orientation: landscape) {
+  .table__head th {
+    color: red; } }
   .table__body {
     border-top: 0;
     border-left: 1px solid #d2d2d2;
