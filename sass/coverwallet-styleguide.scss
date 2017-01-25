@@ -77,9 +77,18 @@
 
     ul {
         @include cw-span-columns-desktop(6);
+        padding: 0;
+        margin-top: 0;
 
         .gallery-icon {
-            font-size: 25px;
+            font-size: 16px;
+            margin: 10px 0;
+
+            span:before {
+                font-size: 30px;
+                margin-right: 8px;
+                vertical-align: bottom;
+            }
         }
     }
 }
@@ -545,5 +554,102 @@
     }
     &onlyclick-wc-both {
         @include cw-covericon-before(onlyclick-wc-both, 0, #000);
+    }
+    &subindustries-amusement-arcades {
+        @include cw-covericon-before(subindustries-amusement-arcades, 0, #000);
+    }
+    &subindustries-art-dealers {
+        @include cw-covericon-before(subindustries-art-dealers, 0, #000);
+    }
+    &subindustries-concession-stands {
+        @include cw-covericon-before(subindustries-concession-stands, 0, #000);
+    }
+    &subindustries-convention-and-trade-show-organizers-event-promoters {
+        @include cw-covericon-before(subindustries-convention-and-trade-show-organizers-event-promoters, 0, #000);
+    }
+    &subindustries-dietitians {
+        @include cw-covericon-before(subindustries-dietitians, 0, #000);
+    }
+    &subindustries-djs-and-musicians {
+        @include cw-covericon-before(subindustries-djs-and-musicians, 0, #000);
+    }
+    &subindustries-exterminating-and-pest-control-services {
+        @include cw-covericon-before(subindustries-exterminating-and-pest-control-services, 0, #000);
+    }
+    &subindustries-historical-sites-museums {
+        @include cw-covericon-before(subindustries-historical-sites-museums, 0, #000);
+    }
+    &subindustries-maid-services-janitorial-services {
+        @include cw-covericon-before(subindustries-maid-services-janitorial-services, 0, #000);
+    }
+    &subindustries-mail-order-houses {
+        @include cw-covericon-before(subindustries-mail-order-houses, 0, #000);
+    }
+    &subindustries-new-car-dealers {
+        @include cw-covericon-before(subindustries-new-car-dealers, 0, #000);
+    }
+    &subindustries-newsstands {
+        @include cw-covericon-before(subindustries-newsstands, 0, #000);
+    }
+    &subindustries-packaging-and-labeling-services {
+        @include cw-covericon-before(subindustries-packaging-and-labeling-services, 0, #000);
+    }
+    &subindustries-parking-lots-and-garages {
+        @include cw-covericon-before(subindustries-parking-lots-and-garages, 0, #000);
+    }
+    &subindustries-payroll-services {
+        @include cw-covericon-before(subindustries-payroll-services, 0, #000);
+    }
+    &subindustries-photographers {
+        @include cw-covericon-before(subindustries-photographers, 0, #000);
+    }
+    &subindustries-post-production-services {
+        @include cw-covericon-before(subindustries-post-production-services, 0, #000);
+    }
+    &subindustries-professional-employer-organizations {
+        @include cw-covericon-before(subindustries-professional-employer-organizations, 0, #000);
+    }
+    &subindustries-radio-stations {
+        @include cw-covericon-before(subindustries-radio-stations, 0, #000);
+    }
+    &subindustries-marinas {
+        @include cw-covericon-before(subindustries-marinas, 0, #000);
+    }
+    &subindustries-mobile-home-dealers {
+        @include cw-covericon-before(subindustries-mobile-home-dealers, 0, #000);
+    }
+    &subindustries-nail-salons {
+        @include cw-covericon-before(subindustries-nail-salons, 0, #000);
+    }
+    &subindustries-nature-parks {
+        @include cw-covericon-before(subindustries-nature-parks, 0, #000);
+    }
+    &subindustries-security-systems-services {
+        @include cw-covericon-before(subindustries-security-systems-services, 0, #000);
+    }
+    &subindustries-talent-agents {
+        @include cw-covericon-before(subindustries-talent-agents, 0, #000);
+    }
+    &subindustries-television-broadcasting-services {
+        @include cw-covericon-before(subindustries-television-broadcasting-services, 0, #000);
+    }
+    &subindustries-testing-laboratories {
+        @include cw-covericon-before(subindustries-testing-laboratories, 0, #000);
+    }
+    &subindustries-travel-agencies {
+        @include cw-covericon-before(subindustries-travel-agencies, 0, #000);
+    }
+    &subindustries-vending-machine-operators {
+        @include cw-covericon-before(subindustries-vending-machine-operators, 0, #000);
+    }
+    &subindustries-video-production-services {
+        @include cw-covericon-before(subindustries-video-production-services, 0, #000);
+    }
+    &subindustries-wedding-planners {
+        @include cw-covericon-before(subindustries-wedding-planners, 0, #000);
+    }
+
+    &subindustries-zoos-and-botanical-gardens {
+        @include cw-covericon-before(subindustries-zoos-and-botanical-gardens, 0, #000);
     }
 }
