@@ -7090,8 +7090,8 @@ form .form-group {
     display: inline-block;
     color: #bfbfbf;
     width: 100%;
-    margin-top: 10px;
-    font-size: 14px; }
+    margin-top: 6px;
+    font-size: 13px; }
   .form .form-group select.form-select,
   form .form-group select.form-select {
     display: none; }
@@ -7355,8 +7355,10 @@ form .input-group.input-group--inline {
 .form .input-group .input-group__help-message,
 form .input-group .input-group__help-message {
   display: inline-block;
+  width: 100%;
   font-size: 13px;
-  margin-top: 5px;
+  margin-top: 6px;
+  width: 100%;
   color: #bfbfbf; }
 
 /*

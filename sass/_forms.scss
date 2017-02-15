@@ -142,8 +142,8 @@ form {
             display: inline-block;
             color: $cwColor-black-medium;
             width: 100%;
-            margin-top: 10px;
-            font-size: 14px;
+            margin-top: 6px;
+            font-size: 13px;
         }
         select.form-select {
             display: none;
@@ -408,8 +408,10 @@ form {
 
         .input-group__help-message {
             display: inline-block;
+            width: 100%;
             font-size: 13px;
-            margin-top: 5px;
+            margin-top: 6px;
+            width: 100%;
             color: $cwColor-black-medium;          
         }
     }
