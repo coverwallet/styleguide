@@ -41,7 +41,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-restaurants"></span> <span class='icon-name'>restaurants</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes-close"></span> <span class='icon-name'>quotes-close</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-edit-default"></span> <span class='icon-name'>edit-default</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-phone-nav-default"></span> <span class='icon-name'>phone-nav-default</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-check"></span> <span class='icon-name'>check</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-delete-default"></span> <span class='icon-name'>delete-default</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-cancel-default"></span> <span class='icon-name'>cancel-default</span></li>
     </ul>
@@ -74,7 +74,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-phone-nav"></span> <span class='icon-name'>phone-nav</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-add-default"></span> <span class='icon-name'>add-default</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-check"></span> <span class='icon-name'>check</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-phone-nav-default"></span> <span class='icon-name'>phone-nav-default</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-phone-nav-outline"></span> <span class='icon-name'>phone-nav-outline</span></li>
     </ul>
 </div>
@@ -977,7 +977,7 @@
 .cwicon-edit-default:before {
     content: "\e088";
 }
-.cwicon-phone-nav-default:before {
+.cwicon-check:before {
     content: "\e089";
 }
 .cwicon-delete-default:before {
@@ -989,7 +989,7 @@
 .cwicon-add-default:before {
     content: "\e08c";
 }
-.cwicon-check:before {
+.cwicon-phone-nav-default:before {
     content: "\e08d";
 }
 .cwicon-phone-nav-outline:before {
