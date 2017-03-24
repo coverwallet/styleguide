@@ -93,6 +93,27 @@
     }
 }
 .styleguide-icon- {
+    &edit-default {
+        @include cw-covericon-before(edit-default, 0, #000);
+    }
+    &phone-nav-default {
+        @include cw-covericon-before(phone-nav-default, 0, #000);
+    }
+    &delete-default {
+        @include cw-covericon-before(delete-default, 0, #000);
+    }
+    &cancel-default {
+        @include cw-covericon-before(cancel-default, 0, #000);
+    }
+    &add-default {
+        @include cw-covericon-before(add-default, 0, #000);
+    }
+    &check {
+        @include cw-covericon-before(check, 0, #000);
+    }
+    &phone-nav-outline {
+        @include cw-covericon-before(phone-nav-outline, 0, #000);
+    }
     &employee {
         @include cw-covericon-before(employee, 0, #000);
     }

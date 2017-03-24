@@ -40,6 +40,10 @@
         <li class='gallery-icon'><span class="styleguide-icon-property"></span> <span class='icon-name'>property</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-restaurants"></span> <span class='icon-name'>restaurants</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes-close"></span> <span class='icon-name'>quotes-close</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-edit-default"></span> <span class='icon-name'>edit-default</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-check"></span> <span class='icon-name'>check</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-delete-default"></span> <span class='icon-name'>delete-default</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-cancel-default"></span> <span class='icon-name'>cancel-default</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
@@ -69,6 +73,9 @@
         <li class='gallery-icon'><span class="styleguide-icon-restore"></span> <span class='icon-name'>restore</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-phone-nav"></span> <span class='icon-name'>phone-nav</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-add-default"></span> <span class='icon-name'>add-default</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-phone-nav-default"></span> <span class='icon-name'>phone-nav-default</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-phone-nav-outline"></span> <span class='icon-name'>phone-nav-outline</span></li>
     </ul>
 </div>
 
@@ -966,4 +973,25 @@
 }
 .cwicon-subindustries-waste-related-activities:before {
     content: "\e084";
+}
+.cwicon-edit-default:before {
+    content: "\e088";
+}
+.cwicon-add-default:before {
+    content: "\e089";
+}
+.cwicon-cancel-default:before {
+    content: "\e08a";
+}
+.cwicon-check:before {
+    content: "\e08b";
+}
+.cwicon-delete-default:before {
+    content: "\e08c";
+}
+.cwicon-phone-nav-default:before {
+    content: "\e08d";
+}
+.cwicon-phone-nav-outline:before {
+    content: "\e08e";
 }
