@@ -6837,6 +6837,15 @@ html {
     $expresion - Expression to calculate
 */
 /*
+    Mixin to set Flexbox
+
+    Usage:
+
+    div {
+        @include flexbox();
+    }
+*/
+/*
 
 General Typography
 
@@ -6938,7 +6947,7 @@ strong, .strong {
   font-weight: bold !important; }
 
 body {
-  color: #272727;
+  color: #505050;
   font-family: "Open Sans", sans-serif; }
 
 /*
@@ -7241,7 +7250,7 @@ form .form-group {
       padding: 0; }
   .form .form-group.form-group--error .help-block,
   form .form-group.form-group--error .help-block {
-    color: #f00; }
+    color: #ff4250; }
   .form .form-group.form-group--icons .form-input,
   form .form-group.form-group--icons .form-input {
     height: 30px;
@@ -7883,7 +7892,7 @@ Styleguide 8
 
 @media screen and (max-width: 992px) and (orientation: landscape) {
   .table__head th {
-    color: red; } }
+    color: #ff4250; } }
   .table__body {
     border-top: 0;
     border-left: 1px solid #d2d2d2;
@@ -8488,21 +8497,21 @@ Styleguide 8.1
     background-color: #fff;
     color: #000; }
   .color.color-red {
-    background-color: #f00; }
+    background-color: #ff4250; }
   .color.color-bluegray {
     background-color: #454855; }
   .color.color-black-xlight {
     background-color: #f9f9f9;
-    color: #272727; }
+    color: #505050; }
   .color.color-black-mlight {
     background-color: #f0f0f0;
-    color: #272727; }
+    color: #505050; }
   .color.color-black-light {
     background-color: #d2d2d2;
-    color: #272727; }
+    color: #505050; }
   .color.color-black-medium {
     background-color: #bfbfbf;
-    color: #272727; }
+    color: #505050; }
   .color.color-black-xmedium {
     background-color: #8a8a8a; }
   .color.color-black-dark {

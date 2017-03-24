@@ -30,7 +30,7 @@ Styleguide 8
 
             @include media($landscape) {
                 @include media($orientation) {
-                    color: red;
+                    color: $cwColor-base-red;
                 }
             }
         }
