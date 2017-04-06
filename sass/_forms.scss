@@ -412,7 +412,12 @@ form {
             font-size: 13px;
             margin-top: 6px;
             width: 100%;
-            color: $cwColor-black-medium;          
+            color: $cwColor-black-xmedium;
+
+            @include media($mobile) {
+                text-align: center;
+                width: 100%;
+            }
         }
     }
 }
