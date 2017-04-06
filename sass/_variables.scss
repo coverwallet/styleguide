@@ -6,7 +6,7 @@ $cwColor-base-orange: #f3a309;
 $cwColor-base-black: #000;
 $cwColor-base-bluegray: #454855;
 $cwColor-base-white: #fff;
-$cwColor-base-red: #f00;
+$cwColor-base-red: #ff4250;
 $cwColor-blue-light: #8eccf1;
 
 $cwColor-black-xlight: lighten($cwColor-base-black, 97.5%);
@@ -17,12 +17,7 @@ $cwColor-black-xmedium: lighten($cwColor-base-black, 54%);
 $cwColor-black-dark: lighten($cwColor-base-black, 31.4%);
 
 
-
-// #ecf3fb
-
-
-
-$color-text: #272727;
+$color-text: #505050;
 
 $cw-images-path: 'images/' !default;
 /*

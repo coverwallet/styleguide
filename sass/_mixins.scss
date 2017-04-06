@@ -182,3 +182,21 @@
   #{$property}: -webkit-calc(#{$expression});
   #{$property}: calc(#{$expression});
 }
+
+
+/*
+    Mixin to set Flexbox
+
+    Usage:
+
+    div {
+        @include flexbox();
+    }
+*/
+@mixin flexbox {
+    display:-webkit-box; // old
+    display:-moz-box; // old
+    display:-ms-flexbox; // ie
+    display:-webkit-flex; // new
+    display:flex; // new
+}
