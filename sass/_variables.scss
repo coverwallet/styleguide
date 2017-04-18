@@ -8,6 +8,8 @@ $cwColor-base-bluegray: #454855;
 $cwColor-base-white: #fff;
 $cwColor-base-red: #ff4250;
 $cwColor-blue-light: #8eccf1;
+$cwColor-blue-xlight: #e0f4ff;
+
 
 $cwColor-black-xlight: lighten($cwColor-base-black, 97.5%);
 $cwColor-black-mlight: lighten($cwColor-base-black, 94.1%);
@@ -119,6 +121,7 @@ Base colors
 Markup:
     <div class="color color-blue">$cwColor-base-blue</div>
     <div class="color color-light-blue">$cwColor-blue-light</div>
+    <div class="color color-blue-xlight">$cwColor-blue-xlight</div>
     <div class="color color-orange">$cwColor-base-orange</div>
     <div class="color color-black">$cwColor-base-black</div>
     <div class="color color-bluegray">$cwColor-base-bluegray</div>

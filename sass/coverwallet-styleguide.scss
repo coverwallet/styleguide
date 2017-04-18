@@ -12,6 +12,10 @@
     &.color-light-blue {
         background-color: $cwColor-blue-light;
     }
+    &.color-blue-xlight {
+        background-color: $cwColor-blue-xlight;
+        color: $cwColor-black-dark;
+    }
     &.color-orange {
         background-color: $cwColor-base-orange;
     }
@@ -20,7 +24,7 @@
     }
     &.color-white {
         background-color: $cwColor-base-white;
-        color: #000;
+        color: $cwColor-black-dark;
     }
     &.color-red {
         background-color: $cwColor-base-red;

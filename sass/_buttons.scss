@@ -57,12 +57,12 @@ Styleguide 4
 }
 button, .btn {
     @include transition(none);
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 3px;
-    color: #fff;
+    color: $cwColor-base-white;
     background-color: $cwColor-base-orange;
     border: 1px solid $cwColor-base-orange;
-    padding: 12px 20px;
+    padding: 10px 20px;
     display: inline-block;
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
@@ -73,12 +73,12 @@ button, .btn {
     &.btn--blue {
         background-color: $cwColor-base-blue;
         border: 1px solid $cwColor-base-blue;
-        color: #fff;
+        color: $cwColor-base-white;
     }
     &.btn--blue-light {
         background-color: $cwColor-blue-light;
         border: 1px solid $cwColor-blue-light;
-        color: #fff;
+        color: $cwColor-base-white;
     }
     &.btn--border {
         background-color: $cwColor-base-white;
@@ -109,6 +109,6 @@ button, .btn {
     &:hover {
         border: 1px solid $cwColor-black-dark;
         background-color: $cwColor-black-dark;
-        color: #fff;
+        color: $cwColor-base-white;
     }
 }

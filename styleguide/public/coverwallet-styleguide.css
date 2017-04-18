@@ -3640,6 +3640,7 @@ Base colors
 Markup:
     <div class="color color-blue">$cwColor-base-blue</div>
     <div class="color color-light-blue">$cwColor-blue-light</div>
+    <div class="color color-blue-xlight">$cwColor-blue-xlight</div>
     <div class="color color-orange">$cwColor-base-orange</div>
     <div class="color color-black">$cwColor-base-black</div>
     <div class="color color-bluegray">$cwColor-base-bluegray</div>
@@ -6928,7 +6929,7 @@ a, .link {
   -webkit-transition: color 400ms, background-color 400ms;
   -moz-transition: color 400ms, background-color 400ms;
   transition: color 400ms, background-color 400ms;
-  color: #f3a309;
+  color: #438bd7;
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -7402,7 +7403,12 @@ form .input-group .input-group__help-message {
   font-size: 13px;
   margin-top: 6px;
   width: 100%;
-  color: #bfbfbf; }
+  color: #8a8a8a; }
+  @media screen and (max-width: 767px) {
+    .form .input-group .input-group__help-message,
+    form .input-group .input-group__help-message {
+      text-align: center;
+      width: 100%; } }
 
 /*
  Standard forms styles
@@ -7686,12 +7692,12 @@ button, .btn {
   -webkit-transition: none;
   -moz-transition: none;
   transition: none;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 3px;
   color: #fff;
   background-color: #f3a309;
   border: 1px solid #f3a309;
-  padding: 12px 20px;
+  padding: 10px 20px;
   display: inline-block;
   -webkit-transition: all .2s ease-out;
   -moz-transition: all .2s ease-out;
@@ -8489,13 +8495,16 @@ Styleguide 8.1
     background-color: #438bd7; }
   .color.color-light-blue {
     background-color: #8eccf1; }
+  .color.color-blue-xlight {
+    background-color: #e0f4ff;
+    color: #505050; }
   .color.color-orange {
     background-color: #f3a309; }
   .color.color-black {
     background-color: #000; }
   .color.color-white {
     background-color: #fff;
-    color: #000; }
+    color: #505050; }
   .color.color-red {
     background-color: #ff4250; }
   .color.color-bluegray {
