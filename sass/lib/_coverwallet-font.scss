@@ -303,6 +303,9 @@
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-wc-indemnity"></span> <span class='icon-name'>onlyclick-wc-indemnity</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-wc-medical"></span> <span class='icon-name'>onlyclick-wc-medical</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-wc-both"></span> <span class='icon-name'>onlyclick-wc-both</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-3installments"></span> <span class='icon-name'>onlyclick-3installments</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-10installments"></span> <span class='icon-name'>onlyclick-10installments</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-fullpayment"></span> <span class='icon-name'>onlyclick-fullpayment</span></li>
     </ul>
 </div>
 
@@ -994,4 +997,13 @@
 }
 .cwicon-phone-nav-outline:before {
     content: "\e08e";
+}
+.cwicon-onlyclick-3installments:before {
+    content: "\e0bb";
+}
+.cwicon-onlyclick-10installments:before {
+    content: "\e0bc";
+}
+.cwicon-onlyclick-fullpayment:before {
+    content: "\e0bd";
 }

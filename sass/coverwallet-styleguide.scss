@@ -580,6 +580,15 @@
     &onlyclick-wc-both {
         @include cw-covericon-before(onlyclick-wc-both, 0, #000);
     }
+    &onlyclick-3installments {
+        @include cw-covericon-before(onlyclick-3installments, 0, #000);
+    }
+    &onlyclick-10installments {
+        @include cw-covericon-before(onlyclick-10installments, 0, #000);
+    }
+    &onlyclick-fullpayment {
+        @include cw-covericon-before(onlyclick-fullpayment, 0, #000);
+    }
     &subindustries-amusement-arcades {
         @include cw-covericon-before(subindustries-amusement-arcades, 0, #000);
     }
