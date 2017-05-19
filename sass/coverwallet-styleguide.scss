@@ -196,6 +196,9 @@
     &schedule {
         @include cw-covericon-before(schedule, 0, #000);
     }
+    &calendar {
+        @include cw-covericon-before(calendar, 0, #000);
+    }
     &settings {
         @include cw-covericon-before(settings, 0, #000);
     }
@@ -487,6 +490,9 @@
     &delete {
         @include cw-covericon-before(delete, 0, #000);
     }
+    &calendar {
+        @include cw-covericon-before(calendar, 0, #000);
+    }
     &restore {
         @include cw-covericon-before(restore, 0, #000);
     }
@@ -777,5 +783,137 @@
     }
     &subindustries-waste-related-activities {
         @include cw-covericon-before(subindustries-waste-related-activities, 0, #000);
+    }
+    &subindustries-air-transportation {
+        @include cw-covericon-before(subindustries-air-transportation, 0, #000);
+    }
+    &subindustries-apparel-wholesalers {
+        @include cw-covericon-before(subindustries-apparel-wholesalers, 0, #000);
+    }
+    &subindustries-certified-public-accountants {
+        @include cw-covericon-before(subindustries-certified-public-accountants, 0, #000);
+    }
+    &subindustries-bus-transportation {
+        @include cw-covericon-before(subindustries-bus-transportation, 0, #000);
+    }
+    &subindustries-commercial-bakeries {
+        @include cw-covericon-before(subindustries-commercial-bakeries, 0, #000);
+    }
+    &subindustries-community-food-services {
+        @include cw-covericon-before(subindustries-community-food-services, 0, #000);
+    }
+    &subindustries-community-housing-services {
+        @include cw-covericon-before(subindustries-community-housing-services, 0, #000);
+    }
+    &subindustries-construction-material-wholesalers {
+        @include cw-covericon-before(subindustries-construction-material-wholesalers, 0, #000);
+    }
+    &subindustries-cosmetologists {
+        @include cw-covericon-before(subindustries-cosmetologists, 0, #000);
+    }
+    &subindustries-counselors {
+        @include cw-covericon-before(subindustries-counselors, 0, #000);
+    }
+    &subindustries-building-materials-stores {
+        @include cw-covericon-before(subindustries-building-materials-stores, 0, #000);
+    }
+    &subindustries-fuel-dealers {
+        @include cw-covericon-before(subindustries-fuel-dealers, 0, #000);
+    }
+    &subindustries-fishermen {
+        @include cw-covericon-before(subindustries-fishermen, 0, #000);
+    }
+    &subindustries-financial-institutions {
+        @include cw-covericon-before(subindustries-financial-institutions, 0, #000);
+    }
+    &subindustries-drycleaning-and-laundry-services {
+        @include cw-covericon-before(subindustries-drycleaning-and-laundry-services, 0, #000);
+    }
+    &subindustries-landscaping-and-lawn-mowing {
+        @include cw-covericon-before(subindustries-landscaping-and-lawn-mowing, 0, #000);
+    }
+    &subindustries-integrated-record-production-and-distribution {
+        @include cw-covericon-before(subindustries-integrated-record-production-and-distribution, 0, #000);
+    }
+    &subindustries-insurance-carriers {
+        @include cw-covericon-before(subindustries-insurance-carriers, 0, #000);
+    }
+    &subindustries-golf-courses-and-country-clubs {
+        @include cw-covericon-before(subindustries-golf-courses-and-country-clubs, 0, #000);
+    }
+    &subindustries-business-associations {
+        @include cw-covericon-before(subindustries-business-associations, 0, #000);
+    }
+    &subindustries-one-hour-photofinishing {
+        @include cw-covericon-before(subindustries-one-hour-photofinishing, 0, #000);
+    }
+    &subindustries-other-business-support-services {
+        @include cw-covericon-before(subindustries-other-business-support-services, 0, #000);
+    }
+    &subindustries-other-computer-related-services {
+        @include cw-covericon-before(subindustries-other-computer-related-services, 0, #000);
+    }
+    &subindustries-other-financial-services {
+        @include cw-covericon-before(subindustries-other-financial-services, 0, #000);
+    }
+    &subindustries-other-gasoline-stations {
+        @include cw-covericon-before(subindustries-other-gasoline-stations, 0, #000);
+    }
+    &subindustries-other-legal-services {
+        @include cw-covericon-before(subindustries-other-legal-services, 0, #000);
+    }
+    &subindustries-other-personal-services {
+        @include cw-covericon-before(subindustries-other-personal-services, 0, #000);
+    }
+    &subindustries-motion-picture-theaters {
+        @include cw-covericon-before(subindustries-motion-picture-theaters, 0, #000);
+    }
+    &subindustries-mental-health-practitioners {
+        @include cw-covericon-before(subindustries-mental-health-practitioners, 0, #000);
+    }
+    &subindustries-pet-care-services {
+        @include cw-covericon-before(subindustries-pet-care-services, 0, #000);
+    }
+    &subindustries-paper-based-publishers {
+        @include cw-covericon-before(subindustries-paper-based-publishers, 0, #000);
+    }
+    &subindustries-other-vehicle-dealers {
+        @include cw-covericon-before(subindustries-other-vehicle-dealers, 0, #000);
+    }
+    &subindustries-other-traveler-accommodations {
+        @include cw-covericon-before(subindustries-other-traveler-accommodations, 0, #000);
+    }
+    &subindustries-other-spectator-sports {
+        @include cw-covericon-before(subindustries-other-spectator-sports, 0, #000);
+    }
+    &subindustries-other-services-related-to-advertising {
+        @include cw-covericon-before(subindustries-other-services-related-to-advertising, 0, #000);
+    }
+    &subindustries-political-organizations {
+        @include cw-covericon-before(subindustries-political-organizations, 0, #000);
+    }
+    &subindustries-professional-organizations {
+        @include cw-covericon-before(subindustries-professional-organizations, 0, #000);
+    }
+    &subindustries-security-guards {
+        @include cw-covericon-before(subindustries-security-guards, 0, #000);
+    }
+    &subindustries-theater-companies-and-dinner-theaters {
+        @include cw-covericon-before(subindustries-theater-companies-and-dinner-theaters, 0, #000);
+    }
+    &subindustries-tire-retreading-companies {
+        @include cw-covericon-before(subindustries-tire-retreading-companies, 0, #000);
+    }
+    &subindustries-snow-plowing-services {
+        @include cw-covericon-before(subindustries-snow-plowing-services, 0, #000);
+    }
+    &subindustries-sound-recording-studios {
+        @include cw-covericon-before(subindustries-sound-recording-studios, 0, #000);
+    }
+    &subindustries-veterinarians {
+        @include cw-covericon-before(subindustries-veterinarians, 0, #000);
+    }
+    &subindustries-vehicle-manufacturers {
+        @include cw-covericon-before(subindustries-vehicle-manufacturers, 0, #000);
     }
 }
