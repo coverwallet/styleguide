@@ -256,11 +256,11 @@
 .other_financial_services {
   @include cw-covericon-before(subindustries-other-financial-services, 0, $cwColor-base-blue);
 }
-.other_other_legal_services {
-  @include cw-covericon-before(subindustries-other-legal-services, 0, $cwColor-base-blue);
-}
 .other_legal_services {
   @include cw-covericon-before(subindustries-other-legal-services, 0, $cwColor-base-blue);
+}
+.other-personal-services {
+  @include cw-covericon-before(subindustries-other-personal-services, 0, $cwColor-base-blue);
 }
 .motion_picture_theaters {
   @include cw-covericon-before(subindustries-motion-picture-theaters, 0, $cwColor-base-blue);
