@@ -187,22 +187,22 @@
 .air_transportation {
   @include cw-covericon-before(subindustries-air-transportation, 0, $cwColor-base-blue);
 }
-.apparel-wholesalers {
+.apparel_wholesalers {
   @include cw-covericon-before(subindustries-apparel-wholesalers, 0, $cwColor-base-blue);
 }
-.certified-public-accountants {
+.certified_public_accountants {
   @include cw-covericon-before(subindustries-certified-public-accountants, 0, $cwColor-base-blue);
 }
-.bus-transportation {
+.bus_transportation {
   @include cw-covericon-before(subindustries-bus-transportation, 0, $cwColor-base-blue);
 }
-.commercial-bakeries {
+.commercial_bakeries {
   @include cw-covericon-before(subindustries-commercial-bakeries, 0, $cwColor-base-blue);
 }
-.community-food-services {
+.community_food_services {
   @include cw-covericon-before(subindustries-community-food-services, 0, $cwColor-base-blue);
 }
-.community-housing-services {
+.community_housing_services {
   @include cw-covericon-before(subindustries-community-housing-services, 0, $cwColor-base-blue);
 }
 .construction-material-wholesalers {
@@ -210,9 +210,6 @@
 }
 .cosmetologists {
   @include cw-covericon-before(subindustries-cosmetologists, 0, $cwColor-base-blue);
-}
-.air_transportation {
-  @include cw-covericon-before(subindustries-air-transportation, 0, $cwColor-base-blue);
 }
 .counselors {
   @include cw-covericon-before(subindustries-counselors, 0, $cwColor-base-blue);
