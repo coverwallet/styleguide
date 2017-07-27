@@ -97,6 +97,30 @@
     }
 }
 .styleguide-icon- {
+    &contract {
+        @include cw-covericon-before(contract, 0, #000);
+    }
+    &group {
+        @include cw-covericon-before(group, 0, #000);
+    }
+    &individual {
+        @include cw-covericon-before(individual, 0, #000);
+    }
+    &licensed {
+        @include cw-covericon-before(licensed, 0, #000);
+    }
+    &schedule {
+        @include cw-covericon-before(schedule, 0, #000);
+    }
+    &separate {
+        @include cw-covericon-before(separate, 0, #000);
+    }
+    &shared {
+        @include cw-covericon-before(shared, 0, #000);
+    }
+    &student {
+        @include cw-covericon-before(student, 0, #000);
+    }
     &edit-default {
         @include cw-covericon-before(edit-default, 0, #000);
     }
