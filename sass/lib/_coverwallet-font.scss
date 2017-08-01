@@ -44,11 +44,14 @@
         <li class='gallery-icon'><span class="styleguide-icon-check"></span> <span class='icon-name'>check</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-delete-default"></span> <span class='icon-name'>delete-default</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-save"></span> <span class='icon-name'>save</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-save-filled"></span> <span class='icon-name'>save-filled</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-settings"></span> <span class='icon-name'>settings</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-cancel-default"></span> <span class='icon-name'>cancel-default</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-save-filled"></span> <span class='icon-name'>save-filled</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-certificates"></span> <span class='icon-name'>certificates</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-policies"></span> <span class='icon-name'>policies</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-quotes"></span> <span class='icon-name'>quotes</span></li>
     </ul>
     <ul class="list">
+        <li class='gallery-icon'><span class="styleguide-icon-cancel-default"></span> <span class='icon-name'>cancel-default</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-settings-filled"></span> <span class='icon-name'>settings-filled</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-share"></span> <span class='icon-name'>share</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-tellfriends"></span> <span class='icon-name'>tellfriends</span></li>
@@ -1253,4 +1256,12 @@
 .cwicon-student:before {
     content: "\e0c6";
 }
-
+.cwicon-certificates:before {
+    content: "\e0c7";
+}
+.cwicon-policies:before {
+    content: "\e0c8";
+}
+.cwicon-quotes:before {
+    content: "\e0c9";
+}

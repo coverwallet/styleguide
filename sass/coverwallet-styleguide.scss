@@ -97,6 +97,15 @@
     }
 }
 .styleguide-icon- {
+    &certificates {
+        @include cw-covericon-before(certificates, 0, #000);
+    }
+    &policies {
+        @include cw-covericon-before(policies, 0, #000);
+    }
+    &quotes {
+        @include cw-covericon-before(quotes, 0, #000);
+    }
     &contract {
         @include cw-covericon-before(contract, 0, #000);
     }
