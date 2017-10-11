@@ -1,3 +1,4 @@
 {
-  "interactive": false
+  "interactive": false,
+  "registry": "https://registry.bower.io"
 }
