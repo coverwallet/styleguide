@@ -64,6 +64,15 @@
     }
 }
 
+@mixin coverwallet-general-before($icon, $padding-right:0, $color: #000) {
+    &:before {
+        @extend .coverwallet-general;
+        @extend .icon-#{$icon};
+        padding-right: #{$padding-right};
+        color: #{$color};
+    }
+}
+
 /*
     Mixin to hide element in tablets
 
