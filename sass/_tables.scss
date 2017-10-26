@@ -27,12 +27,6 @@ Styleguide 8
             &:last-child {
                 border:0;
             }
-
-            @include media($landscape) {
-                @include media($orientation) {
-                    color: $cwColor-base-red;
-                }
-            }
         }
     }
     &__body {
