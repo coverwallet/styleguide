@@ -1,6 +1,4 @@
-/*
-    Base colors
-*/
+// Base colors
 $cwColor-base-blue: #438bd7;
 $cwColor-base-orange: #f3a309;
 $cwColor-base-black: #000;
@@ -9,29 +7,27 @@ $cwColor-base-white: #fff;
 $cwColor-base-red: #ff4250;
 $cwColor-blue-light: #8eccf1;
 $cwColor-blue-xlight: #e0f4ff;
-
-
 $cwColor-black-xlight: lighten($cwColor-base-black, 97.5%);
 $cwColor-black-mlight: lighten($cwColor-base-black, 94.1%);
 $cwColor-black-light: lighten($cwColor-base-black, 82.4%);
 $cwColor-black-medium: lighten($cwColor-base-black, 75%);
 $cwColor-black-xmedium: lighten($cwColor-base-black, 54%);
 $cwColor-black-dark: lighten($cwColor-base-black, 31.4%);
-
-
 $color-text: #505050;
-
 $cw-images-path: 'images/' !default;
-/*
-    fonts
-*/
+
+// Fonts
 $cw-fonts-path: 'fonts/' !default;
 $fa-font-path: $cw-fonts-path !default;
-
 $font-coverwallet-eot: url($cw-fonts-path + "coverwallet.eot") !default;
 $font-coverwallet-woff: url($cw-fonts-path + "coverwallet.woff") !default;
 $font-coverwallet-ttf: url($cw-fonts-path + "coverwallet.ttf") !default;
 $font-coverwallet-svg: url($cw-fonts-path + "coverwallet.svg") !default;
+
+$font-coverwallet-general-eot: url($cw-fonts-path + "coverwallet-general.eot") !default;
+$font-coverwallet-general-woff: url($cw-fonts-path + "coverwallet-general.woff") !default;
+$font-coverwallet-general-ttf: url($cw-fonts-path + "coverwallet-general.ttf") !default;
+$font-coverwallet-general-svg: url($cw-fonts-path + "coverwallet-general.svg") !default;
 
 $font-awesome-eot: url($cw-fonts-path + "fontawesome-webfont.eot") !default;
 $font-awesome-eot-iefix: url($cw-fonts-path + "fontawesome-webfont.eot?#iefix") !default;
@@ -40,65 +36,49 @@ $font-awesome-woff: url($cw-fonts-path + "fontawesome-webfont.woff") !default;
 $font-awesome-ttf: url($cw-fonts-path + "fontawesome-webfont.ttf") !default;
 $font-awesome-svg: url($cw-fonts-path + "fontawesome-webfont.svg?#fontawesomeregular") !default;
 
-/*
-images
-*/
+// Images
 $cw-images-email: url($cw-images-path + 'email.png') !default;
 $cw-images-password: url($cw-images-path + "password.png") !default;
 $cw-images-info: url($cw-images-path + "info.png") !default;
 $cw-images-account: url($cw-images-path + "account.png") !default;
 $cw-images-close: url($cw-images-path + "close-icon.png") !default;
-
-
-
 $principal-fonts: 'Open Sans', sans-serif;
 
-/*
-    config to neat grid
-*/
+// Config to neat grid
 @import "../bower_components/neat/app/assets/stylesheets/neat-helpers";
-
 $max-width: em(1170);
-
 $desktopParams: min-width 1200px !default;
 $tabletParams: max-width 1200px 8 !default;
 $mobileParams: max-width 767px 4 !default;
-$landscapeParams: max-width 992px !default;
 
-// breakpoints
+// Breakpoints
 $tablet: new-breakpoint($tabletParams);
 $mobile: new-breakpoint($mobileParams);
 $desktop: new-breakpoint($desktopParams);
-$landscape: new-breakpoint($landscapeParams);
-$orientation: new-breakpoint(orientation landscape);
-
-
 $retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
 $line-height-default:30px;
 
-
-//navbar variables
+// Navbar variables
 $navbar-padding: 0 25px;
 
-//header
+// Header
 $header-min-height: 50px;
 
-//header
+// Header
 $header-height: 70px;
 
-//navbar variables
+// Navbar variables
 $navbar-padding: 0 25px;
 
-
-//slider
+// Slider
 $slider-body-height: 960px;
 $slider-nav-height: 50px;
 $slider-height: $slider-body-height + $slider-nav-height;
 
-//banner
+// Banner
 $banner-height: 100px;
 
-//seo pages
+// Seo pages
 $seo-header-min-height: 100px;
 $seo-sidebar-width: 240px;
 $seo-footer-height: 80px;
