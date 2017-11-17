@@ -56,6 +56,12 @@
         <li class='gallery-icon'><span class="coverwallet-general-law"></span> <span class='icon-name'>law</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-lease"></span> <span class='icon-name'>lease</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-leave"></span> <span class='icon-name'>leave</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-popularity-med"></span> <span class='icon-name'>popularity-med</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-property"></span> <span class='icon-name'>property</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-quarter-piece"></span> <span class='icon-name'>quarter-piece</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-quotes-close"></span> <span class='icon-name'>quotes-close</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-receipts"></span> <span class='icon-name'>receipts</span></li>
      </ul>
      <ul class="list">
         <li class='gallery-icon'><span class="coverwallet-general-license"></span> <span class='icon-name'>license</span></li>
@@ -79,12 +85,6 @@
         <li class='gallery-icon'><span class="coverwallet-general-plus"></span> <span class='icon-name'>plus</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-popularity-high"></span> <span class='icon-name'>popularity-high</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-popularity-low"></span> <span class='icon-name'>popularity-low</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-popularity-med"></span> <span class='icon-name'>popularity-med</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-property"></span> <span class='icon-name'>property</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-quarter-piece"></span> <span class='icon-name'>quarter-piece</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-quotes-close"></span> <span class='icon-name'>quotes-close</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-receipts"></span> <span class='icon-name'>receipts</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-restaurant"></span> <span class='icon-name'>restaurant</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-restore-circle"></span> <span class='icon-name'>restore-circle</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-schedule"></span> <span class='icon-name'>schedule</span></li>
@@ -102,368 +102,320 @@
         <li class='gallery-icon'><span class="coverwallet-general-video-circle"></span> <span class='icon-name'>video-circle</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-warning"></span> <span class='icon-name'>warning</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-what-circle"></span> <span class='icon-name'>what-circle</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-ww-card"></span> <span class='icon-name'>ww-card</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-water"></span> <span class='icon-name'>water</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-storm"></span> <span class='icon-name'>storm</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-robbery"></span> <span class='icon-name'>robbery</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-list"></span> <span class='icon-name'>list</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-high-voltage"></span> <span class='icon-name'>high-voltage</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-gears"></span> <span class='icon-name'>gears</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-fire"></span> <span class='icon-name'>fire</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-cooperate"></span> <span class='icon-name'>cooperate</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-broken-glass"></span> <span class='icon-name'>broken-glass</span></li>
     </ul>
  </div>
 
  Styleguide 10.1
 */
 
-.icon-backspace:before {
+
+.icon-broken-glass:before {
   content: "\e900";
 }
-
-.icon-bank-check:before {
+.icon-cooperate:before {
   content: "\e901";
 }
-
-.icon-billing:before {
+.icon-fire:before {
   content: "\e902";
 }
-
-.icon-box:before {
+.icon-gears:before {
   content: "\e903";
 }
-
-.icon-calendar:before {
+.icon-high-voltage:before {
   content: "\e904";
 }
-
-.icon-cancel-circle:before {
+.icon-list:before {
   content: "\e905";
 }
-
-.icon-cancel:before {
+.icon-robbery:before {
   content: "\e906";
 }
-
-.icon-certificate:before {
+.icon-storm:before {
   content: "\e907";
 }
-
-.icon-chat-circle:before {
+.icon-water:before {
   content: "\e908";
 }
-
-.icon-check-circle:before {
+.icon-ww-card:before {
   content: "\e909";
 }
-
-.icon-check:before {
-  content: "\e90a";
-}
-
-.icon-checklist-shield:before {
-  content: "\e90b";
-}
-
-.icon-checklist:before {
-  content: "\e90c";
-}
-
-.icon-contact:before {
-  content: "\e90d";
-}
-
-.icon-creditcard:before {
-  content: "\e90e";
-}
-
-.icon-cw-full:before {
+.icon-backspace:before {
   content: "\e90f";
 }
-
-.icon-cw-line:before {
+.icon-bank-check:before {
   content: "\e910";
 }
-
-.icon-delete-circle:before {
+.icon-billing:before {
   content: "\e911";
 }
-
-.icon-delete:before {
+.icon-box:before {
   content: "\e912";
 }
-
-.icon-doc-add:before {
+.icon-calendar:before {
   content: "\e913";
 }
-
-.icon-doc-circle:before {
+.icon-cancel-circle:before {
+  content: "\e914";
+}
+.icon-cancel:before {
   content: "\e915";
 }
-
-.icon-doc-signed:before {
+.icon-certificate:before {
   content: "\e916";
 }
-
-.icon-doc-valid:before {
+.icon-chat-circle:before {
   content: "\e917";
 }
-
-.icon-doc-view:before {
+.icon-check-circle:before {
   content: "\e918";
 }
-
-.icon-doc:before {
+.icon-check:before {
   content: "\e919";
 }
-
-.icon-docs:before {
+.icon-checklist-shield:before {
   content: "\e91a";
 }
-
-.icon-dollar-circle:before {
+.icon-checklist:before {
   content: "\e91b";
 }
-
-.icon-download-circle:before {
+.icon-contact:before {
   content: "\e91c";
 }
-
-.icon-edit-circle:before {
+.icon-creditcard:before {
   content: "\e91d";
 }
-
-.icon-edit:before {
+.icon-cw-full:before {
   content: "\e91e";
 }
-
-.icon-euro-circle:before {
+.icon-cw-line:before {
   content: "\e91f";
 }
-
-.icon-fire-resistive:before {
+.icon-delete-circle:before {
   content: "\e920";
 }
-
-.icon-folder-close:before {
+.icon-delete:before {
   content: "\e921";
 }
-
-.icon-folder-open:before {
+.icon-doc-add:before {
   content: "\e922";
 }
-
-.icon-full-piece:before {
+.icon-doc-circle:before {
   content: "\e923";
 }
-
-.icon-group-full:before {
+.icon-doc-signed:before {
   content: "\e924";
 }
-
-.icon-group:before {
+.icon-doc-valid:before {
   content: "\e925";
 }
-
-.icon-indutry:before {
+.icon-doc-view:before {
   content: "\e926";
 }
-
-.icon-info-circle:before {
+.icon-doc:before {
   content: "\e927";
 }
-
-.icon-inprogress:before {
+.icon-docs:before {
   content: "\e928";
 }
-
-.icon-justice:before {
+.icon-dollar-circle:before {
   content: "\e929";
 }
-
-.icon-law:before {
+.icon-download-circle:before {
   content: "\e92a";
 }
-
-.icon-lease:before {
+.icon-edit-circle:before {
   content: "\e92b";
 }
-
-.icon-leave:before {
+.icon-edit:before {
   content: "\e92c";
 }
-
-.icon-license:before {
+.icon-euro-circle:before {
   content: "\e92d";
 }
-
-.icon-location-own:before {
+.icon-fire-resistive:before {
   content: "\e92e";
 }
-
-.icon-lock:before {
+.icon-folder-close:before {
   content: "\e92f";
 }
-
-.icon-map-point:before {
+.icon-folder-open:before {
   content: "\e930";
 }
-
-.icon-map:before {
+.icon-full-piece:before {
   content: "\e931";
 }
-
-.icon-masonery:before {
+.icon-group-full:before {
   content: "\e932";
 }
-
-.icon-medical:before {
+.icon-group:before {
   content: "\e933";
 }
-
-.icon-message-circle:before {
+.icon-indutry:before {
   content: "\e934";
 }
-
-.icon-message-square:before {
+.icon-info-circle:before {
+  content: "\e935";
+}
+.icon-inprogress:before {
+  content: "\e936";
+}
+.icon-justice:before {
+  content: "\e937";
+}
+.icon-law:before {
+  content: "\e938";
+}
+.icon-lease:before {
+  content: "\e939";
+}
+.icon-leave:before {
+  content: "\e93a";
+}
+.icon-license:before {
   content: "\e93b";
 }
-
-.icon-money:before {
+.icon-location-own:before {
   content: "\e93c";
 }
-
-.icon-non-combustible:before {
+.icon-lock:before {
   content: "\e93d";
 }
-
-.icon-notification:before {
+.icon-map-point:before {
   content: "\e93e";
 }
-
-.icon-offices:before {
+.icon-map:before {
   content: "\e93f";
 }
-
-.icon-other-docs:before {
+.icon-masonery:before {
   content: "\e940";
 }
-
-.icon-own:before {
+.icon-medical:before {
   content: "\e941";
 }
-
-.icon-payment-full:before {
+.icon-message-circle:before {
+  content: "\e942";
+}
+.icon-message-square:before {
+  content: "\e943";
+}
+.icon-money:before {
   content: "\e944";
 }
-
-.icon-phone-circle:before {
+.icon-non-combustible:before {
   content: "\e945";
 }
-
-.icon-phone:before {
+.icon-notification:before {
   content: "\e946";
 }
-
-.icon-plus-circle:before {
+.icon-offices:before {
   content: "\e947";
 }
-
-.icon-plus:before {
+.icon-other-docs:before {
   content: "\e948";
 }
-
-.icon-popularity-high:before {
+.icon-own:before {
   content: "\e949";
 }
-
-.icon-popularity-low:before {
+.icon-payment-full:before {
   content: "\e94a";
 }
-
-.icon-popularity-med:before {
+.icon-phone-circle:before {
   content: "\e94b";
 }
-
-.icon-property:before {
+.icon-phone:before {
   content: "\e94c";
 }
-
-.icon-quarter-piece:before {
+.icon-plus-circle:before {
   content: "\e94d";
 }
-
-.icon-quotes-close:before {
+.icon-plus:before {
   content: "\e94e";
 }
-
-.icon-quotes-open:before {
+.icon-popularity-high:before {
   content: "\e94f";
 }
-
-.icon-receipts:before {
+.icon-popularity-low:before {
   content: "\e950";
 }
-
-.icon-restaurant:before {
+.icon-popularity-med:before {
   content: "\e951";
 }
-
-.icon-restore-circle:before {
+.icon-property:before {
   content: "\e952";
 }
-
-.icon-schedule:before {
+.icon-quarter-piece:before {
   content: "\e953";
 }
-
-.icon-send:before {
+.icon-quotes-close:before {
   content: "\e954";
 }
-
-.icon-separate:before {
+.icon-quotes-open:before {
   content: "\e955";
 }
-
-.icon-settings:before {
+.icon-receipts:before {
   content: "\e956";
 }
-
-.icon-share-circle:before {
+.icon-restaurant:before {
   content: "\e957";
 }
-
-.icon-shared:before {
+.icon-restore-circle:before {
   content: "\e958";
 }
-
-.icon-sign:before {
+.icon-schedule:before {
   content: "\e959";
 }
-
-.icon-small-piece:before {
+.icon-send:before {
   content: "\e95a";
 }
-
-.icon-student:before {
+.icon-separate:before {
   content: "\e95b";
 }
-
-.icon-ten-instalments:before {
+.icon-settings:before {
   content: "\e95c";
 }
-
-.icon-three-installments:before {
+.icon-share-circle:before {
   content: "\e95d";
 }
-
-.icon-time:before {
+.icon-shared:before {
   content: "\e95e";
 }
-
-.icon-user:before {
+.icon-sign:before {
   content: "\e95f";
 }
-
-.icon-video-circle:before {
+.icon-small-piece:before {
   content: "\e960";
 }
-
-.icon-warning:before {
+.icon-student:before {
   content: "\e961";
 }
-
-.icon-what-circle:before {
+.icon-ten-instalments:before {
   content: "\e962";
+}
+.icon-three-installments:before {
+  content: "\e963";
+}
+.icon-time:before {
+  content: "\e964";
+}
+.icon-user:before {
+  content: "\e965";
+}
+.icon-video-circle:before {
+  content: "\e966";
+}
+.icon-warning:before {
+  content: "\e967";
+}
+.icon-what-circle:before {
+  content: "\e968";
 }
