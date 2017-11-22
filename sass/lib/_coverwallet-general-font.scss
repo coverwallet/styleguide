@@ -116,7 +116,6 @@
         <li class='gallery-icon'><span class="coverwallet-general-cooperate"></span> <span class='icon-name'>cooperate</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-broken-glass"></span> <span class='icon-name'>broken-glass</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-medical-services"></span> <span class='icon-name'>medical-services</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-padlock"></span> <span class='icon-name'>padlock</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-report"></span> <span class='icon-name'>report</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-shoes"></span> <span class='icon-name'>shoes</span></li>
     </ul>
@@ -126,32 +125,26 @@
 */
 
 
+.icon-shoes:before {
+  content: "\e904";
+}
+.icon-warning:before {
+  content: "\e906";
+}
 .icon-chair:before {
   content: "\e900";
-  color: #505050;
 }
 .icon-heart-health:before {
   content: "\e901";
-  color: #505050;
 }
 .icon-lead:before {
   content: "\e902";
-  color: #505050;
 }
 .icon-medical-services:before {
   content: "\e903";
-  color: #505050;
-}
-.icon-padlock:before {
-  content: "\e904";
-  color: #505050;
 }
 .icon-report:before {
   content: "\e905";
-  color: #505050;
-}
-.icon-shoes:before {
-  content: "\e906";
   color: #505050;
 }
 .icon-broken-glass:before {
@@ -324,6 +317,7 @@
 }
 .icon-lock:before {
   content: "\e93f";
+  color: #505050;
 }
 .icon-map-point:before {
   content: "\e940";
@@ -447,10 +441,6 @@
 }
 .icon-video-circle:before {
   content: "\e968";
-}
-.icon-warning:before {
-  content: "\e969";
-  color: #505050;
 }
 .icon-what-circle:before {
   content: "\e96a";

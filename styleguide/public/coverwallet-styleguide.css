@@ -5742,7 +5742,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-general, .coverwallet-general-backspace:before, .coverwallet-general-bank-check:before, .coverwallet-general-billing:before, .coverwallet-general-box:before, .coverwallet-general-calendar:before, .coverwallet-general-cancel-circle:before, .coverwallet-general-cancel:before, .coverwallet-general-certificate:before, .coverwallet-general-chat-circle:before, .coverwallet-general-check-circle:before, .coverwallet-general-check:before, .coverwallet-general-checklist-shield:before, .coverwallet-general-checklist:before, .coverwallet-general-contact:before, .coverwallet-general-creditcard:before, .coverwallet-general-cw-full:before, .coverwallet-general-cw-line:before, .coverwallet-general-delete-circle:before, .coverwallet-general-delete:before, .coverwallet-general-doc-add:before, .coverwallet-general-doc-circle:before, .coverwallet-general-doc-signed:before, .coverwallet-general-doc-valid:before, .coverwallet-general-doc-view:before, .coverwallet-general-doc:before, .coverwallet-general-docs:before, .coverwallet-general-dollar-circle:before, .coverwallet-general-download-circle:before, .coverwallet-general-edit-circle:before, .coverwallet-general-edit:before, .coverwallet-general-euro-circle:before, .coverwallet-general-fire-resistive:before, .coverwallet-general-folder-close:before, .coverwallet-general-folder-open:before, .coverwallet-general-full-piece:before, .coverwallet-general-group-full:before, .coverwallet-general-group:before, .coverwallet-general-indutry:before, .coverwallet-general-info-circle:before, .coverwallet-general-inprogress:before, .coverwallet-general-justice:before, .coverwallet-general-law:before, .coverwallet-general-lease:before, .coverwallet-general-leave:before, .coverwallet-general-license:before, .coverwallet-general-location-own:before, .coverwallet-general-lock:before, .coverwallet-general-map-point:before, .coverwallet-general-map:before, .coverwallet-general-masonery:before, .coverwallet-general-medical:before, .coverwallet-general-message-circle:before, .coverwallet-general-message-square:before, .coverwallet-general-offices:before, .coverwallet-general-non-combustible:before, .coverwallet-general-notification:before, .coverwallet-general-other-docs:before, .coverwallet-general-own:before, .coverwallet-general-payment-full:before, .coverwallet-general-phone-circle:before, .coverwallet-general-phone:before, .coverwallet-general-plus-circle:before, .coverwallet-general-plus:before, .coverwallet-general-popularity-high:before, .coverwallet-general-popularity-low:before, .coverwallet-general-popularity-med:before, .coverwallet-general-property:before, .coverwallet-general-quarter-piece:before, .coverwallet-general-quotes-close:before, .coverwallet-general-quotes-open:before, .coverwallet-general-receipts:before, .coverwallet-general-restaurant:before, .coverwallet-general-restore-circle:before, .coverwallet-general-schedule:before, .coverwallet-general-send:before, .coverwallet-general-separate:before, .coverwallet-general-settings:before, .coverwallet-general-share-circle:before, .coverwallet-general-shared:before, .coverwallet-general-sign:before, .coverwallet-general-small-piece:before, .coverwallet-general-student:before, .coverwallet-general-ten-instalments:before, .coverwallet-general-three-installments:before, .coverwallet-general-time:before, .coverwallet-general-user:before, .coverwallet-general-video-circle:before, .coverwallet-general-warning:before, .coverwallet-general-what-circle:before, .coverwallet-general-broken-glass:before, .coverwallet-general-cooperate:before, .coverwallet-general-fire:before, .coverwallet-general-gears:before, .coverwallet-general-high-voltage:before, .coverwallet-general-list:before, .coverwallet-general-robbery:before, .coverwallet-general-storm:before, .coverwallet-general-water:before, .coverwallet-general-ww-card:before, .coverwallet-general-chair:before, .coverwallet-general-heart-health:before, .coverwallet-general-lead:before, .coverwallet-general-medical-services:before, .coverwallet-general-padlock:before, .coverwallet-general-report:before, .coverwallet-general-shoes:before {
+.coverwallet-general, .coverwallet-general-backspace:before, .coverwallet-general-bank-check:before, .coverwallet-general-billing:before, .coverwallet-general-box:before, .coverwallet-general-calendar:before, .coverwallet-general-cancel-circle:before, .coverwallet-general-cancel:before, .coverwallet-general-certificate:before, .coverwallet-general-chat-circle:before, .coverwallet-general-check-circle:before, .coverwallet-general-check:before, .coverwallet-general-checklist-shield:before, .coverwallet-general-checklist:before, .coverwallet-general-contact:before, .coverwallet-general-creditcard:before, .coverwallet-general-cw-full:before, .coverwallet-general-cw-line:before, .coverwallet-general-delete-circle:before, .coverwallet-general-delete:before, .coverwallet-general-doc-add:before, .coverwallet-general-doc-circle:before, .coverwallet-general-doc-signed:before, .coverwallet-general-doc-valid:before, .coverwallet-general-doc-view:before, .coverwallet-general-doc:before, .coverwallet-general-docs:before, .coverwallet-general-dollar-circle:before, .coverwallet-general-download-circle:before, .coverwallet-general-edit-circle:before, .coverwallet-general-edit:before, .coverwallet-general-euro-circle:before, .coverwallet-general-fire-resistive:before, .coverwallet-general-folder-close:before, .coverwallet-general-folder-open:before, .coverwallet-general-full-piece:before, .coverwallet-general-group-full:before, .coverwallet-general-group:before, .coverwallet-general-indutry:before, .coverwallet-general-info-circle:before, .coverwallet-general-inprogress:before, .coverwallet-general-justice:before, .coverwallet-general-law:before, .coverwallet-general-lease:before, .coverwallet-general-leave:before, .coverwallet-general-license:before, .coverwallet-general-location-own:before, .coverwallet-general-lock:before, .coverwallet-general-map-point:before, .coverwallet-general-map:before, .coverwallet-general-masonery:before, .coverwallet-general-medical:before, .coverwallet-general-message-circle:before, .coverwallet-general-message-square:before, .coverwallet-general-offices:before, .coverwallet-general-non-combustible:before, .coverwallet-general-notification:before, .coverwallet-general-other-docs:before, .coverwallet-general-own:before, .coverwallet-general-payment-full:before, .coverwallet-general-phone-circle:before, .coverwallet-general-phone:before, .coverwallet-general-plus-circle:before, .coverwallet-general-plus:before, .coverwallet-general-popularity-high:before, .coverwallet-general-popularity-low:before, .coverwallet-general-popularity-med:before, .coverwallet-general-property:before, .coverwallet-general-quarter-piece:before, .coverwallet-general-quotes-close:before, .coverwallet-general-quotes-open:before, .coverwallet-general-receipts:before, .coverwallet-general-restaurant:before, .coverwallet-general-restore-circle:before, .coverwallet-general-schedule:before, .coverwallet-general-send:before, .coverwallet-general-separate:before, .coverwallet-general-settings:before, .coverwallet-general-share-circle:before, .coverwallet-general-shared:before, .coverwallet-general-sign:before, .coverwallet-general-small-piece:before, .coverwallet-general-student:before, .coverwallet-general-ten-instalments:before, .coverwallet-general-three-installments:before, .coverwallet-general-time:before, .coverwallet-general-user:before, .coverwallet-general-video-circle:before, .coverwallet-general-warning:before, .coverwallet-general-what-circle:before, .coverwallet-general-broken-glass:before, .coverwallet-general-cooperate:before, .coverwallet-general-fire:before, .coverwallet-general-gears:before, .coverwallet-general-high-voltage:before, .coverwallet-general-list:before, .coverwallet-general-robbery:before, .coverwallet-general-storm:before, .coverwallet-general-water:before, .coverwallet-general-ww-card:before, .coverwallet-general-chair:before, .coverwallet-general-heart-health:before, .coverwallet-general-lead:before, .coverwallet-general-medical-services:before, .coverwallet-general-report:before, .coverwallet-general-shoes:before {
   font-family: "coverwallet-general" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -7135,7 +7135,6 @@ html {
         <li class='gallery-icon'><span class="coverwallet-general-cooperate"></span> <span class='icon-name'>cooperate</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-broken-glass"></span> <span class='icon-name'>broken-glass</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-medical-services"></span> <span class='icon-name'>medical-services</span></li>
-        <li class='gallery-icon'><span class="coverwallet-general-padlock"></span> <span class='icon-name'>padlock</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-report"></span> <span class='icon-name'>report</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-shoes"></span> <span class='icon-name'>shoes</span></li>
     </ul>
@@ -7143,32 +7142,26 @@ html {
 
  Styleguide 10.1
 */
+.icon-shoes:before, .coverwallet-general-shoes:before {
+  content: "\e904"; }
+
+.icon-warning:before, .coverwallet-general-warning:before {
+  content: "\e906"; }
+
 .icon-chair:before, .coverwallet-general-chair:before {
-  content: "\e900";
-  color: #505050; }
+  content: "\e900"; }
 
 .icon-heart-health:before, .coverwallet-general-heart-health:before {
-  content: "\e901";
-  color: #505050; }
+  content: "\e901"; }
 
 .icon-lead:before, .coverwallet-general-lead:before {
-  content: "\e902";
-  color: #505050; }
+  content: "\e902"; }
 
 .icon-medical-services:before, .coverwallet-general-medical-services:before {
-  content: "\e903";
-  color: #505050; }
-
-.icon-padlock:before, .coverwallet-general-padlock:before {
-  content: "\e904";
-  color: #505050; }
+  content: "\e903"; }
 
 .icon-report:before, .coverwallet-general-report:before {
   content: "\e905";
-  color: #505050; }
-
-.icon-shoes:before, .coverwallet-general-shoes:before {
-  content: "\e906";
   color: #505050; }
 
 .icon-broken-glass:before, .coverwallet-general-broken-glass:before {
@@ -7340,7 +7333,8 @@ html {
   content: "\e93e"; }
 
 .icon-lock:before, .coverwallet-general-lock:before {
-  content: "\e93f"; }
+  content: "\e93f";
+  color: #505050; }
 
 .icon-map-point:before, .coverwallet-general-map-point:before {
   content: "\e940"; }
@@ -7464,10 +7458,6 @@ html {
 
 .icon-video-circle:before, .coverwallet-general-video-circle:before {
   content: "\e968"; }
-
-.icon-warning:before, .coverwallet-general-warning:before {
-  content: "\e969";
-  color: #505050; }
 
 .icon-what-circle:before, .coverwallet-general-what-circle:before {
   content: "\e96a"; }
@@ -9081,10 +9071,6 @@ Styleguide 8.1
   color: #000; }
 
 .coverwallet-general-medical-services:before {
-  padding-right: 0;
-  color: #000; }
-
-.coverwallet-general-padlock:before {
   padding-right: 0;
   color: #000; }
 

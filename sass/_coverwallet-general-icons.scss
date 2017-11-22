@@ -623,12 +623,6 @@
 }
 
 .coverwallet-general- {
-  &padlock {
-    @include coverwallet-general-before(padlock, 0, #000);
-  }
-}
-
-.coverwallet-general- {
   &report {
     @include coverwallet-general-before(report, 0, #000);
   }
