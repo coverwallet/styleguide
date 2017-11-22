@@ -597,3 +597,45 @@
     @include coverwallet-general-before(ww-card, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &chair {
+    @include coverwallet-general-before(chair, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &heart-health {
+    @include coverwallet-general-before(heart-health, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &lead {
+    @include coverwallet-general-before(lead, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &medical-services {
+    @include coverwallet-general-before(medical-services, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &padlock {
+    @include coverwallet-general-before(padlock, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &report {
+    @include coverwallet-general-before(report, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &shoes {
+    @include coverwallet-general-before(shoes, 0, #000);
+  }
+}

@@ -5742,7 +5742,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   font-weight: normal;
   font-style: normal; }
 
-.coverwallet-general, .coverwallet-general-backspace:before, .coverwallet-general-bank-check:before, .coverwallet-general-billing:before, .coverwallet-general-box:before, .coverwallet-general-calendar:before, .coverwallet-general-cancel-circle:before, .coverwallet-general-cancel:before, .coverwallet-general-certificate:before, .coverwallet-general-chat-circle:before, .coverwallet-general-check-circle:before, .coverwallet-general-check:before, .coverwallet-general-checklist-shield:before, .coverwallet-general-checklist:before, .coverwallet-general-contact:before, .coverwallet-general-creditcard:before, .coverwallet-general-cw-full:before, .coverwallet-general-cw-line:before, .coverwallet-general-delete-circle:before, .coverwallet-general-delete:before, .coverwallet-general-doc-add:before, .coverwallet-general-doc-circle:before, .coverwallet-general-doc-signed:before, .coverwallet-general-doc-valid:before, .coverwallet-general-doc-view:before, .coverwallet-general-doc:before, .coverwallet-general-docs:before, .coverwallet-general-dollar-circle:before, .coverwallet-general-download-circle:before, .coverwallet-general-edit-circle:before, .coverwallet-general-edit:before, .coverwallet-general-euro-circle:before, .coverwallet-general-fire-resistive:before, .coverwallet-general-folder-close:before, .coverwallet-general-folder-open:before, .coverwallet-general-full-piece:before, .coverwallet-general-group-full:before, .coverwallet-general-group:before, .coverwallet-general-indutry:before, .coverwallet-general-info-circle:before, .coverwallet-general-inprogress:before, .coverwallet-general-justice:before, .coverwallet-general-law:before, .coverwallet-general-lease:before, .coverwallet-general-leave:before, .coverwallet-general-license:before, .coverwallet-general-location-own:before, .coverwallet-general-lock:before, .coverwallet-general-map-point:before, .coverwallet-general-map:before, .coverwallet-general-masonery:before, .coverwallet-general-medical:before, .coverwallet-general-message-circle:before, .coverwallet-general-message-square:before, .coverwallet-general-offices:before, .coverwallet-general-non-combustible:before, .coverwallet-general-notification:before, .coverwallet-general-other-docs:before, .coverwallet-general-own:before, .coverwallet-general-payment-full:before, .coverwallet-general-phone-circle:before, .coverwallet-general-phone:before, .coverwallet-general-plus-circle:before, .coverwallet-general-plus:before, .coverwallet-general-popularity-high:before, .coverwallet-general-popularity-low:before, .coverwallet-general-popularity-med:before, .coverwallet-general-property:before, .coverwallet-general-quarter-piece:before, .coverwallet-general-quotes-close:before, .coverwallet-general-quotes-open:before, .coverwallet-general-receipts:before, .coverwallet-general-restaurant:before, .coverwallet-general-restore-circle:before, .coverwallet-general-schedule:before, .coverwallet-general-send:before, .coverwallet-general-separate:before, .coverwallet-general-settings:before, .coverwallet-general-share-circle:before, .coverwallet-general-shared:before, .coverwallet-general-sign:before, .coverwallet-general-small-piece:before, .coverwallet-general-student:before, .coverwallet-general-ten-instalments:before, .coverwallet-general-three-installments:before, .coverwallet-general-time:before, .coverwallet-general-user:before, .coverwallet-general-video-circle:before, .coverwallet-general-warning:before, .coverwallet-general-what-circle:before, .coverwallet-general-broken-glass:before, .coverwallet-general-cooperate:before, .coverwallet-general-fire:before, .coverwallet-general-gears:before, .coverwallet-general-high-voltage:before, .coverwallet-general-list:before, .coverwallet-general-robbery:before, .coverwallet-general-storm:before, .coverwallet-general-water:before, .coverwallet-general-ww-card:before {
+.coverwallet-general, .coverwallet-general-backspace:before, .coverwallet-general-bank-check:before, .coverwallet-general-billing:before, .coverwallet-general-box:before, .coverwallet-general-calendar:before, .coverwallet-general-cancel-circle:before, .coverwallet-general-cancel:before, .coverwallet-general-certificate:before, .coverwallet-general-chat-circle:before, .coverwallet-general-check-circle:before, .coverwallet-general-check:before, .coverwallet-general-checklist-shield:before, .coverwallet-general-checklist:before, .coverwallet-general-contact:before, .coverwallet-general-creditcard:before, .coverwallet-general-cw-full:before, .coverwallet-general-cw-line:before, .coverwallet-general-delete-circle:before, .coverwallet-general-delete:before, .coverwallet-general-doc-add:before, .coverwallet-general-doc-circle:before, .coverwallet-general-doc-signed:before, .coverwallet-general-doc-valid:before, .coverwallet-general-doc-view:before, .coverwallet-general-doc:before, .coverwallet-general-docs:before, .coverwallet-general-dollar-circle:before, .coverwallet-general-download-circle:before, .coverwallet-general-edit-circle:before, .coverwallet-general-edit:before, .coverwallet-general-euro-circle:before, .coverwallet-general-fire-resistive:before, .coverwallet-general-folder-close:before, .coverwallet-general-folder-open:before, .coverwallet-general-full-piece:before, .coverwallet-general-group-full:before, .coverwallet-general-group:before, .coverwallet-general-indutry:before, .coverwallet-general-info-circle:before, .coverwallet-general-inprogress:before, .coverwallet-general-justice:before, .coverwallet-general-law:before, .coverwallet-general-lease:before, .coverwallet-general-leave:before, .coverwallet-general-license:before, .coverwallet-general-location-own:before, .coverwallet-general-lock:before, .coverwallet-general-map-point:before, .coverwallet-general-map:before, .coverwallet-general-masonery:before, .coverwallet-general-medical:before, .coverwallet-general-message-circle:before, .coverwallet-general-message-square:before, .coverwallet-general-offices:before, .coverwallet-general-non-combustible:before, .coverwallet-general-notification:before, .coverwallet-general-other-docs:before, .coverwallet-general-own:before, .coverwallet-general-payment-full:before, .coverwallet-general-phone-circle:before, .coverwallet-general-phone:before, .coverwallet-general-plus-circle:before, .coverwallet-general-plus:before, .coverwallet-general-popularity-high:before, .coverwallet-general-popularity-low:before, .coverwallet-general-popularity-med:before, .coverwallet-general-property:before, .coverwallet-general-quarter-piece:before, .coverwallet-general-quotes-close:before, .coverwallet-general-quotes-open:before, .coverwallet-general-receipts:before, .coverwallet-general-restaurant:before, .coverwallet-general-restore-circle:before, .coverwallet-general-schedule:before, .coverwallet-general-send:before, .coverwallet-general-separate:before, .coverwallet-general-settings:before, .coverwallet-general-share-circle:before, .coverwallet-general-shared:before, .coverwallet-general-sign:before, .coverwallet-general-small-piece:before, .coverwallet-general-student:before, .coverwallet-general-ten-instalments:before, .coverwallet-general-three-installments:before, .coverwallet-general-time:before, .coverwallet-general-user:before, .coverwallet-general-video-circle:before, .coverwallet-general-warning:before, .coverwallet-general-what-circle:before, .coverwallet-general-broken-glass:before, .coverwallet-general-cooperate:before, .coverwallet-general-fire:before, .coverwallet-general-gears:before, .coverwallet-general-high-voltage:before, .coverwallet-general-list:before, .coverwallet-general-robbery:before, .coverwallet-general-storm:before, .coverwallet-general-water:before, .coverwallet-general-ww-card:before, .coverwallet-general-chair:before, .coverwallet-general-heart-health:before, .coverwallet-general-lead:before, .coverwallet-general-medical-services:before, .coverwallet-general-padlock:before, .coverwallet-general-report:before, .coverwallet-general-shoes:before {
   font-family: "coverwallet-general" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -7081,6 +7081,9 @@ html {
         <li class='gallery-icon'><span class="coverwallet-general-quotes-close"></span> <span class='icon-name'>quotes-close</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-quotes-open"></span> <span class='icon-name'>quotes-open</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-receipts"></span> <span class='icon-name'>receipts</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-chair"></span> <span class='icon-name'>chair</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-heart-health"></span> <span class='icon-name'>heart-health</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-lead"></span> <span class='icon-name'>lead</span></li>
      </ul>
      <ul class="list">
         <li class='gallery-icon'><span class="coverwallet-general-license"></span> <span class='icon-name'>license</span></li>
@@ -7131,310 +7134,343 @@ html {
         <li class='gallery-icon'><span class="coverwallet-general-fire"></span> <span class='icon-name'>fire</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-cooperate"></span> <span class='icon-name'>cooperate</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-broken-glass"></span> <span class='icon-name'>broken-glass</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-medical-services"></span> <span class='icon-name'>medical-services</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-padlock"></span> <span class='icon-name'>padlock</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-report"></span> <span class='icon-name'>report</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-shoes"></span> <span class='icon-name'>shoes</span></li>
     </ul>
  </div>
 
  Styleguide 10.1
 */
+.icon-chair:before, .coverwallet-general-chair:before {
+  content: "\e900";
+  color: #505050; }
+
+.icon-heart-health:before, .coverwallet-general-heart-health:before {
+  content: "\e901";
+  color: #505050; }
+
+.icon-lead:before, .coverwallet-general-lead:before {
+  content: "\e902";
+  color: #505050; }
+
+.icon-medical-services:before, .coverwallet-general-medical-services:before {
+  content: "\e903";
+  color: #505050; }
+
+.icon-padlock:before, .coverwallet-general-padlock:before {
+  content: "\e904";
+  color: #505050; }
+
+.icon-report:before, .coverwallet-general-report:before {
+  content: "\e905";
+  color: #505050; }
+
+.icon-shoes:before, .coverwallet-general-shoes:before {
+  content: "\e906";
+  color: #505050; }
+
 .icon-broken-glass:before, .coverwallet-general-broken-glass:before {
-  content: "\e900"; }
-
-.icon-cooperate:before, .coverwallet-general-cooperate:before {
-  content: "\e901"; }
-
-.icon-fire:before, .coverwallet-general-fire:before {
-  content: "\e902"; }
-
-.icon-gears:before, .coverwallet-general-gears:before {
-  content: "\e903"; }
-
-.icon-high-voltage:before, .coverwallet-general-high-voltage:before {
-  content: "\e904"; }
-
-.icon-list:before, .coverwallet-general-list:before {
-  content: "\e905"; }
-
-.icon-robbery:before, .coverwallet-general-robbery:before {
-  content: "\e906"; }
-
-.icon-storm:before, .coverwallet-general-storm:before {
   content: "\e907"; }
 
-.icon-water:before, .coverwallet-general-water:before {
+.icon-cooperate:before, .coverwallet-general-cooperate:before {
   content: "\e908"; }
 
-.icon-ww-card:before, .coverwallet-general-ww-card:before {
+.icon-fire:before, .coverwallet-general-fire:before {
   content: "\e909"; }
 
-.icon-backspace:before, .coverwallet-general-backspace:before {
+.icon-gears:before, .coverwallet-general-gears:before {
+  content: "\e90a"; }
+
+.icon-high-voltage:before, .coverwallet-general-high-voltage:before {
+  content: "\e90b"; }
+
+.icon-list:before, .coverwallet-general-list:before {
+  content: "\e90c"; }
+
+.icon-robbery:before, .coverwallet-general-robbery:before {
+  content: "\e90d"; }
+
+.icon-storm:before, .coverwallet-general-storm:before {
+  content: "\e90e"; }
+
+.icon-water:before, .coverwallet-general-water:before {
   content: "\e90f"; }
 
-.icon-bank-check:before, .coverwallet-general-bank-check:before {
+.icon-ww-card:before, .coverwallet-general-ww-card:before {
   content: "\e910"; }
 
-.icon-billing:before, .coverwallet-general-billing:before {
+.icon-backspace:before, .coverwallet-general-backspace:before {
   content: "\e911"; }
 
-.icon-box:before, .coverwallet-general-box:before {
+.icon-bank-check:before, .coverwallet-general-bank-check:before {
   content: "\e912"; }
 
-.icon-calendar:before, .coverwallet-general-calendar:before {
+.icon-billing:before, .coverwallet-general-billing:before {
   content: "\e913"; }
 
-.icon-cancel-circle:before, .coverwallet-general-cancel-circle:before {
+.icon-box:before, .coverwallet-general-box:before {
   content: "\e914"; }
 
-.icon-cancel:before, .coverwallet-general-cancel:before {
+.icon-calendar:before, .coverwallet-general-calendar:before {
   content: "\e915"; }
 
-.icon-certificate:before, .coverwallet-general-certificate:before {
+.icon-cancel-circle:before, .coverwallet-general-cancel-circle:before {
   content: "\e916"; }
 
-.icon-chat-circle:before, .coverwallet-general-chat-circle:before {
+.icon-cancel:before, .coverwallet-general-cancel:before {
   content: "\e917"; }
 
-.icon-check-circle:before, .coverwallet-general-check-circle:before {
+.icon-certificate:before, .coverwallet-general-certificate:before {
   content: "\e918"; }
 
-.icon-check:before, .coverwallet-general-check:before {
+.icon-chat-circle:before, .coverwallet-general-chat-circle:before {
   content: "\e919"; }
 
-.icon-checklist-shield:before, .coverwallet-general-checklist-shield:before {
+.icon-check-circle:before, .coverwallet-general-check-circle:before {
   content: "\e91a"; }
 
-.icon-checklist:before, .coverwallet-general-checklist:before {
+.icon-check:before, .coverwallet-general-check:before {
   content: "\e91b"; }
 
-.icon-contact:before, .coverwallet-general-contact:before {
+.icon-checklist-shield:before, .coverwallet-general-checklist-shield:before {
   content: "\e91c"; }
 
-.icon-creditcard:before, .coverwallet-general-creditcard:before {
+.icon-checklist:before, .coverwallet-general-checklist:before {
   content: "\e91d"; }
 
-.icon-cw-full:before, .coverwallet-general-cw-full:before {
+.icon-contact:before, .coverwallet-general-contact:before {
   content: "\e91e"; }
 
-.icon-cw-line:before, .coverwallet-general-cw-line:before {
+.icon-creditcard:before, .coverwallet-general-creditcard:before {
   content: "\e91f"; }
 
-.icon-delete-circle:before, .coverwallet-general-delete-circle:before {
+.icon-cw-full:before, .coverwallet-general-cw-full:before {
   content: "\e920"; }
 
-.icon-delete:before, .coverwallet-general-delete:before {
+.icon-cw-line:before, .coverwallet-general-cw-line:before {
   content: "\e921"; }
 
-.icon-doc-add:before, .coverwallet-general-doc-add:before {
+.icon-delete-circle:before, .coverwallet-general-delete-circle:before {
   content: "\e922"; }
 
-.icon-doc-circle:before, .coverwallet-general-doc-circle:before {
+.icon-delete:before, .coverwallet-general-delete:before {
   content: "\e923"; }
 
-.icon-doc-signed:before, .coverwallet-general-doc-signed:before {
+.icon-doc-add:before, .coverwallet-general-doc-add:before {
   content: "\e924"; }
 
-.icon-doc-valid:before, .coverwallet-general-doc-valid:before {
+.icon-doc-circle:before, .coverwallet-general-doc-circle:before {
   content: "\e925"; }
 
-.icon-doc-view:before, .coverwallet-general-doc-view:before {
+.icon-doc-signed:before, .coverwallet-general-doc-signed:before {
   content: "\e926"; }
 
-.icon-doc:before, .coverwallet-general-doc:before {
+.icon-doc-valid:before, .coverwallet-general-doc-valid:before {
   content: "\e927"; }
 
-.icon-docs:before, .coverwallet-general-docs:before {
+.icon-doc-view:before, .coverwallet-general-doc-view:before {
   content: "\e928"; }
 
-.icon-dollar-circle:before, .coverwallet-general-dollar-circle:before {
+.icon-doc:before, .coverwallet-general-doc:before {
   content: "\e929"; }
 
-.icon-download-circle:before, .coverwallet-general-download-circle:before {
+.icon-docs:before, .coverwallet-general-docs:before {
   content: "\e92a"; }
 
-.icon-edit-circle:before, .coverwallet-general-edit-circle:before {
+.icon-dollar-circle:before, .coverwallet-general-dollar-circle:before {
   content: "\e92b"; }
 
-.icon-edit:before, .coverwallet-general-edit:before {
+.icon-download-circle:before, .coverwallet-general-download-circle:before {
   content: "\e92c"; }
 
-.icon-euro-circle:before, .coverwallet-general-euro-circle:before {
+.icon-edit-circle:before, .coverwallet-general-edit-circle:before {
   content: "\e92d"; }
 
-.icon-fire-resistive:before, .coverwallet-general-fire-resistive:before {
+.icon-edit:before, .coverwallet-general-edit:before {
   content: "\e92e"; }
 
-.icon-folder-close:before, .coverwallet-general-folder-close:before {
+.icon-euro-circle:before, .coverwallet-general-euro-circle:before {
   content: "\e92f"; }
 
-.icon-folder-open:before, .coverwallet-general-folder-open:before {
+.icon-fire-resistive:before, .coverwallet-general-fire-resistive:before {
   content: "\e930"; }
 
-.icon-full-piece:before, .coverwallet-general-full-piece:before {
+.icon-folder-close:before, .coverwallet-general-folder-close:before {
   content: "\e931"; }
 
-.icon-group-full:before, .coverwallet-general-group-full:before {
+.icon-folder-open:before, .coverwallet-general-folder-open:before {
   content: "\e932"; }
 
-.icon-group:before, .coverwallet-general-group:before {
+.icon-full-piece:before, .coverwallet-general-full-piece:before {
   content: "\e933"; }
 
-.icon-indutry:before, .coverwallet-general-indutry:before {
+.icon-group-full:before, .coverwallet-general-group-full:before {
   content: "\e934"; }
 
-.icon-info-circle:before, .coverwallet-general-info-circle:before {
+.icon-group:before, .coverwallet-general-group:before {
   content: "\e935"; }
 
-.icon-inprogress:before, .coverwallet-general-inprogress:before {
+.icon-indutry:before, .coverwallet-general-indutry:before {
   content: "\e936"; }
 
-.icon-justice:before, .coverwallet-general-justice:before {
+.icon-info-circle:before, .coverwallet-general-info-circle:before {
   content: "\e937"; }
 
-.icon-law:before, .coverwallet-general-law:before {
+.icon-inprogress:before, .coverwallet-general-inprogress:before {
   content: "\e938"; }
 
-.icon-lease:before, .coverwallet-general-lease:before {
+.icon-justice:before, .coverwallet-general-justice:before {
   content: "\e939"; }
 
-.icon-leave:before, .coverwallet-general-leave:before {
+.icon-law:before, .coverwallet-general-law:before {
   content: "\e93a"; }
 
-.icon-license:before, .coverwallet-general-license:before {
+.icon-lease:before, .coverwallet-general-lease:before {
   content: "\e93b"; }
 
-.icon-location-own:before, .coverwallet-general-location-own:before {
+.icon-leave:before, .coverwallet-general-leave:before {
   content: "\e93c"; }
 
-.icon-lock:before, .coverwallet-general-lock:before {
+.icon-license:before, .coverwallet-general-license:before {
   content: "\e93d"; }
 
-.icon-map-point:before, .coverwallet-general-map-point:before {
+.icon-location-own:before, .coverwallet-general-location-own:before {
   content: "\e93e"; }
 
-.icon-map:before, .coverwallet-general-map:before {
+.icon-lock:before, .coverwallet-general-lock:before {
   content: "\e93f"; }
 
-.icon-masonery:before, .coverwallet-general-masonery:before {
+.icon-map-point:before, .coverwallet-general-map-point:before {
   content: "\e940"; }
 
-.icon-medical:before, .coverwallet-general-medical:before {
+.icon-map:before, .coverwallet-general-map:before {
   content: "\e941"; }
 
-.icon-message-circle:before, .coverwallet-general-message-circle:before {
+.icon-masonery:before, .coverwallet-general-masonery:before {
   content: "\e942"; }
 
-.icon-message-square:before, .coverwallet-general-message-square:before {
+.icon-medical:before, .coverwallet-general-medical:before {
   content: "\e943"; }
 
-.icon-money:before {
+.icon-message-circle:before, .coverwallet-general-message-circle:before {
   content: "\e944"; }
 
-.icon-non-combustible:before, .coverwallet-general-non-combustible:before {
+.icon-message-square:before, .coverwallet-general-message-square:before {
   content: "\e945"; }
 
-.icon-notification:before, .coverwallet-general-notification:before {
+.icon-money:before {
   content: "\e946"; }
 
-.icon-offices:before, .coverwallet-general-offices:before {
+.icon-non-combustible:before, .coverwallet-general-non-combustible:before {
   content: "\e947"; }
 
-.icon-other-docs:before, .coverwallet-general-other-docs:before {
+.icon-notification:before, .coverwallet-general-notification:before {
   content: "\e948"; }
 
-.icon-own:before, .coverwallet-general-own:before {
+.icon-offices:before, .coverwallet-general-offices:before {
   content: "\e949"; }
 
-.icon-payment-full:before, .coverwallet-general-payment-full:before {
+.icon-other-docs:before, .coverwallet-general-other-docs:before {
   content: "\e94a"; }
 
-.icon-phone-circle:before, .coverwallet-general-phone-circle:before {
+.icon-own:before, .coverwallet-general-own:before {
   content: "\e94b"; }
 
-.icon-phone:before, .coverwallet-general-phone:before {
+.icon-payment-full:before, .coverwallet-general-payment-full:before {
   content: "\e94c"; }
 
-.icon-plus-circle:before, .coverwallet-general-plus-circle:before {
+.icon-phone-circle:before, .coverwallet-general-phone-circle:before {
   content: "\e94d"; }
 
-.icon-plus:before, .coverwallet-general-plus:before {
+.icon-phone:before, .coverwallet-general-phone:before {
   content: "\e94e"; }
 
-.icon-popularity-high:before, .coverwallet-general-popularity-high:before {
+.icon-plus-circle:before, .coverwallet-general-plus-circle:before {
   content: "\e94f"; }
 
-.icon-popularity-low:before, .coverwallet-general-popularity-low:before {
+.icon-plus:before, .coverwallet-general-plus:before {
   content: "\e950"; }
 
-.icon-popularity-med:before, .coverwallet-general-popularity-med:before {
+.icon-popularity-high:before, .coverwallet-general-popularity-high:before {
   content: "\e951"; }
 
-.icon-property:before, .coverwallet-general-property:before {
+.icon-popularity-low:before, .coverwallet-general-popularity-low:before {
   content: "\e952"; }
 
-.icon-quarter-piece:before, .coverwallet-general-quarter-piece:before {
+.icon-popularity-med:before, .coverwallet-general-popularity-med:before {
   content: "\e953"; }
 
-.icon-quotes-close:before, .coverwallet-general-quotes-close:before {
+.icon-property:before, .coverwallet-general-property:before {
   content: "\e954"; }
 
-.icon-quotes-open:before, .coverwallet-general-quotes-open:before {
+.icon-quarter-piece:before, .coverwallet-general-quarter-piece:before {
   content: "\e955"; }
 
-.icon-receipts:before, .coverwallet-general-receipts:before {
+.icon-quotes-close:before, .coverwallet-general-quotes-close:before {
   content: "\e956"; }
 
-.icon-restaurant:before, .coverwallet-general-restaurant:before {
+.icon-quotes-open:before, .coverwallet-general-quotes-open:before {
   content: "\e957"; }
 
-.icon-restore-circle:before, .coverwallet-general-restore-circle:before {
+.icon-receipts:before, .coverwallet-general-receipts:before {
   content: "\e958"; }
 
-.icon-schedule:before, .coverwallet-general-schedule:before {
+.icon-restaurant:before, .coverwallet-general-restaurant:before {
   content: "\e959"; }
 
-.icon-send:before, .coverwallet-general-send:before {
+.icon-restore-circle:before, .coverwallet-general-restore-circle:before {
   content: "\e95a"; }
 
-.icon-separate:before, .coverwallet-general-separate:before {
+.icon-schedule:before, .coverwallet-general-schedule:before {
   content: "\e95b"; }
 
-.icon-settings:before, .coverwallet-general-settings:before {
+.icon-send:before, .coverwallet-general-send:before {
   content: "\e95c"; }
 
-.icon-share-circle:before, .coverwallet-general-share-circle:before {
+.icon-separate:before, .coverwallet-general-separate:before {
   content: "\e95d"; }
 
-.icon-shared:before, .coverwallet-general-shared:before {
+.icon-settings:before, .coverwallet-general-settings:before {
   content: "\e95e"; }
 
-.icon-sign:before, .coverwallet-general-sign:before {
+.icon-share-circle:before, .coverwallet-general-share-circle:before {
   content: "\e95f"; }
 
-.icon-small-piece:before, .coverwallet-general-small-piece:before {
+.icon-shared:before, .coverwallet-general-shared:before {
   content: "\e960"; }
 
-.icon-student:before, .coverwallet-general-student:before {
+.icon-sign:before, .coverwallet-general-sign:before {
   content: "\e961"; }
 
-.icon-ten-instalments:before, .coverwallet-general-ten-instalments:before {
+.icon-small-piece:before, .coverwallet-general-small-piece:before {
   content: "\e962"; }
 
-.icon-three-installments:before, .coverwallet-general-three-installments:before {
+.icon-student:before, .coverwallet-general-student:before {
   content: "\e963"; }
 
-.icon-time:before, .coverwallet-general-time:before {
+.icon-ten-instalments:before, .coverwallet-general-ten-instalments:before {
   content: "\e964"; }
 
-.icon-user:before, .coverwallet-general-user:before {
+.icon-three-installments:before, .coverwallet-general-three-installments:before {
   content: "\e965"; }
 
-.icon-video-circle:before, .coverwallet-general-video-circle:before {
+.icon-time:before, .coverwallet-general-time:before {
   content: "\e966"; }
 
-.icon-warning:before, .coverwallet-general-warning:before {
+.icon-user:before, .coverwallet-general-user:before {
   content: "\e967"; }
 
-.icon-what-circle:before, .coverwallet-general-what-circle:before {
+.icon-video-circle:before, .coverwallet-general-video-circle:before {
   content: "\e968"; }
+
+.icon-warning:before, .coverwallet-general-warning:before {
+  content: "\e969";
+  color: #505050; }
+
+.icon-what-circle:before, .coverwallet-general-what-circle:before {
+  content: "\e96a"; }
 
 .row-group {
   position: relative;
@@ -9029,6 +9065,34 @@ Styleguide 8.1
   color: #000; }
 
 .coverwallet-general-ww-card:before {
+  padding-right: 0;
+  color: #000; }
+
+.coverwallet-general-chair:before {
+  padding-right: 0;
+  color: #000; }
+
+.coverwallet-general-heart-health:before {
+  padding-right: 0;
+  color: #000; }
+
+.coverwallet-general-lead:before {
+  padding-right: 0;
+  color: #000; }
+
+.coverwallet-general-medical-services:before {
+  padding-right: 0;
+  color: #000; }
+
+.coverwallet-general-padlock:before {
+  padding-right: 0;
+  color: #000; }
+
+.coverwallet-general-report:before {
+  padding-right: 0;
+  color: #000; }
+
+.coverwallet-general-shoes:before {
   padding-right: 0;
   color: #000; }
 
