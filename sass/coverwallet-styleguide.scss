@@ -805,8 +805,11 @@
     &subindustries-public-relations-agencies {
         @include cw-covericon-before(subindustries-public-relations-agencies, 0, #000);
     }
-    &subindustries-office-administrative-services {
+    &subindustries-office-machine-repair-and-maintenance {
         @include cw-covericon-before(subindustries-office-machine-repair-and-maintenance, 0, #000);
+    }
+    &subindustries-office-administrative-services {
+        @include cw-covericon-before(subindustries-office-administrative-services, 0, #000);
     }
     &subindustries-social-workers {
         @include cw-covericon-before(subindustries-social-workers, 0, #000);
