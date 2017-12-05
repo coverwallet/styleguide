@@ -633,3 +633,9 @@
     @include coverwallet-general-before(shoes, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &keyman {
+    @include coverwallet-general-before(keyman, 0, #000);
+  }
+}
