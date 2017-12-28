@@ -1,11 +1,11 @@
 {
   "name": "cw-styleguide",
-  "version": "2.6.5",
+  "version": "2.7.2",
   "description": "",
   "main": "sass/coverwallet.scss",
   "author": "Coverwallet <tech@coverwallet.com>",
   "scripts": {
-    "postinstall": "bower install",
+    "postinstall": "node ./node_modules/bower/bin/bower install",
     "generate": "kss-node ./sass ./styleguide --template ./template --css public/coverwallet-styleguide.css --js ../js/selectFx.js",
     "grunt": "grunt serve",
     "start": "grunt serve"
