@@ -16,7 +16,7 @@
     "bourbon": "~4.2.6",
     "neat": "~1.7.2",
     "normalize-scss": "~3.0.3",
-    "fontawesome": "~4.6.0",
+    "fontawesome": "~4.7.0",
     "animate.css": "~3.4.0",
     "material-design-lite": "1.1.3"
   }
