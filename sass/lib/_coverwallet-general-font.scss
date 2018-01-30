@@ -65,6 +65,7 @@
         <li class='gallery-icon'><span class="coverwallet-general-chair"></span> <span class='icon-name'>chair</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-heart-health"></span> <span class='icon-name'>heart-health</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-lead"></span> <span class='icon-name'>lead</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-manage"></span> <span class='icon-name'>manage</span></li>
      </ul>
      <ul class="list">
         <li class='gallery-icon'><span class="coverwallet-general-license"></span> <span class='icon-name'>license</span></li>
@@ -119,6 +120,7 @@
         <li class='gallery-icon'><span class="coverwallet-general-report"></span> <span class='icon-name'>report</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-shoes"></span> <span class='icon-name'>shoes</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-keyman"></span> <span class='icon-name'>keyman</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-shield-euro"></span> <span class='icon-name'>shield-euro</span></li>
     </ul>
  </div>
 
@@ -447,4 +449,10 @@
 }
 .icon-what-circle:before {
   content: "\e96a";
+}
+.icon-manage:before {
+  content: "\e96b";
+}
+.icon-shield-euro:before {
+  content: "\e96c";
 }
