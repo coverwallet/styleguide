@@ -639,3 +639,15 @@
     @include coverwallet-general-before(keyman, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &manage {
+    @include coverwallet-general-before(manage, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &shield-euro {
+    @include coverwallet-general-before(shield-euro, 0, #000);
+  }
+}
