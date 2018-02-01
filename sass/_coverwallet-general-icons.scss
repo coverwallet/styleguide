@@ -651,3 +651,15 @@
     @include coverwallet-general-before(shield-euro, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &twenty-four {
+    @include coverwallet-general-before(twenty-four, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &questions {
+    @include coverwallet-general-before(questions, 0, #000);
+  }
+}
