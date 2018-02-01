@@ -7440,12 +7440,10 @@ html {
  Styleguide 10.1
 */
 .icon-twenty-four:before, .coverwallet-general-twenty-four:before {
-  content: "\e900";
-  color: #505050; }
+  content: "\e900"; }
 
 .icon-questions:before, .coverwallet-general-questions:before {
-  content: "\e901";
-  color: #505050; }
+  content: "\e901"; }
 
 .icon-keyman:before, .coverwallet-general-keyman:before {
   content: "\e902"; }
@@ -7466,8 +7464,7 @@ html {
   content: "\e907"; }
 
 .icon-report:before, .coverwallet-general-report:before {
-  content: "\e908";
-  color: #505050; }
+  content: "\e908"; }
 
 .icon-warning:before, .coverwallet-general-warning:before {
   content: "\e909"; }
