@@ -7464,7 +7464,8 @@ html {
   content: "\e907"; }
 
 .icon-report:before, .coverwallet-general-report:before {
-  content: "\e908"; }
+  content: "\e908";
+  color: #505050; }
 
 .icon-warning:before, .coverwallet-general-warning:before {
   content: "\e909"; }
@@ -7485,7 +7486,8 @@ html {
   content: "\e90e"; }
 
 .icon-list:before, .coverwallet-general-list:before {
-  content: "\e90f"; }
+  content: "\e90f";
+  color: #505050; }
 
 .icon-robbery:before, .coverwallet-general-robbery:before {
   content: "\e910"; }
