@@ -663,3 +663,45 @@
     @include coverwallet-general-before(questions, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &bad {
+    @include coverwallet-general-before(bad, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &sad {
+    @include coverwallet-general-before(sad, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &regular {
+    @include coverwallet-general-before(regular, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &good {
+    @include coverwallet-general-before(good, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &happy {
+    @include coverwallet-general-before(happy, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &perk {
+    @include coverwallet-general-before(perk, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &gift {
+    @include coverwallet-general-before(gift, 0, #000);
+  }
+}
