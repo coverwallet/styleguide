@@ -705,3 +705,9 @@
     @include coverwallet-general-before(gift, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &package {
+    @include coverwallet-general-before(package, 0, #000);
+  }
+}
