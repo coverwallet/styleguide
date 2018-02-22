@@ -148,3 +148,6 @@
 .fidelity_bond {
   @include cw-covericon-before(insurance-type-fidelity-bond, 0, $cwColor-base-blue);
 }
+.commercial_package {
+  @include coverwallet-general-before(package, 0, $cwColor-base-blue);
+}
