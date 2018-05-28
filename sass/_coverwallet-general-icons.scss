@@ -711,3 +711,9 @@
     @include coverwallet-general-before(package, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &clock {
+    @include coverwallet-general-before(clock, 0, #000);
+  }
+}
