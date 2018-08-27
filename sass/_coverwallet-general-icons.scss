@@ -717,3 +717,9 @@
     @include coverwallet-general-before(clock, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &notrequired {
+    @include coverwallet-general-before(notrequired, 0, #000);
+  }
+}
