@@ -723,3 +723,21 @@
     @include coverwallet-general-before(notrequired, 0, #000);
   }
 }
+
+.coverwallet-general- {
+  &liquor-liability {
+    @include coverwallet-general-before(liquor-liability, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &not-liquor-liability {
+    @include coverwallet-general-before(not-liquor-liability, 0, #000);
+  }
+}
+
+.coverwallet-general- {
+  &host-liquor-liability {
+    @include coverwallet-general-before(host-liquor-liability, 0, #000);
+  }
+}
