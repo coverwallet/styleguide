@@ -133,372 +133,386 @@
         <li class='gallery-icon'><span class="coverwallet-general-gift"></span> <span class='icon-name'>coverwallet-general-gift</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-clock"></span> <span class='icon-name'>coverwallet-general-clock</span></li>
         <li class='gallery-icon'><span class="coverwallet-general-notrequired"></span> <span class='icon-name'>coverwallet-general-notrequired</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-liquor-liability"></span> <span class='icon-name'>coverwallet-general-liquor-liability</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-host-liquor-liability"></span> <span class='icon-name'>coverwallet-general-host-liquor-liability</span></li>
+        <li class='gallery-icon'><span class="coverwallet-general-not-liquor-liability"></span> <span class='icon-name'>coverwallet-general-not-liquor-liability</span></li>
     </ul>
  </div>
 
  Styleguide 10.1
 */
-
-.icon-notrequired:before {
-  content: "\e900";
-}
-.icon-clock:before {
-  content: "\e901";
-}
-.icon-package:before {
+.icon-liquor-liability:before {
   content: "\e902";
+  color: #505050;
 }
-.icon-bad:before {
-  content: "\e903";
+.icon-not-liquor-liability:before {
+  content: "\e901";
+  color: #505050;
 }
-.icon-gift:before {
-  content: "\e904";
+.icon-host-liquor-liability:before {
+  content: "\e900";
+  color: #505050;
 }
-.icon-good:before {
+.icon-notrequired:before {
   content: "\e905";
 }
-.icon-happy:before {
+.icon-clock:before {
   content: "\e906";
 }
-.icon-perk:before {
+.icon-package:before {
   content: "\e907";
 }
-.icon-regular:before {
+.icon-bad:before {
   content: "\e908";
 }
-.icon-sad:before {
+.icon-gift:before {
   content: "\e909";
 }
-.icon-twenty-four:before {
+.icon-good:before {
   content: "\e90a";
 }
-.icon-questions:before {
+.icon-happy:before {
   content: "\e90b";
 }
-.icon-keyman:before {
+.icon-perk:before {
   content: "\e90c";
 }
-.icon-chair:before {
+.icon-regular:before {
   content: "\e90d";
 }
-.icon-heart-health:before {
+.icon-sad:before {
   content: "\e90e";
 }
-.icon-lead:before {
+.icon-twenty-four:before {
   content: "\e90f";
 }
-.icon-medical-services:before {
+.icon-questions:before {
   content: "\e910";
 }
-.icon-shoes:before {
+.icon-keyman:before {
   content: "\e911";
 }
-.icon-report:before {
+.icon-chair:before {
   content: "\e912";
 }
-.icon-warning:before {
+.icon-heart-health:before {
   content: "\e913";
 }
-.icon-broken-glass:before {
+.icon-lead:before {
   content: "\e914";
 }
-.icon-cooperate:before {
+.icon-medical-services:before {
   content: "\e915";
 }
-.icon-fire:before {
+.icon-shoes:before {
   content: "\e916";
 }
-.icon-gears:before {
+.icon-report:before {
   content: "\e917";
 }
-.icon-high-voltage:before {
+.icon-warning:before {
   content: "\e918";
 }
-.icon-list:before {
+.icon-broken-glass:before {
   content: "\e919";
 }
-.icon-robbery:before {
+.icon-cooperate:before {
   content: "\e91a";
 }
-.icon-storm:before {
+.icon-fire:before {
   content: "\e91b";
 }
-.icon-water:before {
+.icon-gears:before {
   content: "\e91c";
 }
-.icon-ww-card:before {
+.icon-high-voltage:before {
   content: "\e91d";
 }
-.icon-backspace:before {
+.icon-list:before {
   content: "\e91e";
 }
-.icon-bank-check:before {
+.icon-robbery:before {
   content: "\e91f";
 }
-.icon-billing:before {
+.icon-storm:before {
   content: "\e920";
 }
-.icon-box:before {
+.icon-water:before {
   content: "\e921";
 }
-.icon-calendar:before {
+.icon-ww-card:before {
   content: "\e922";
 }
-.icon-cancel-circle:before {
+.icon-backspace:before {
   content: "\e923";
 }
-.icon-cancel:before {
+.icon-bank-check:before {
   content: "\e924";
 }
-.icon-certificate:before {
+.icon-billing:before {
   content: "\e925";
 }
-.icon-chat-circle:before {
+.icon-box:before {
   content: "\e926";
 }
-.icon-check-circle:before {
+.icon-calendar:before {
   content: "\e927";
 }
-.icon-check:before {
+.icon-cancel-circle:before {
   content: "\e928";
 }
-.icon-checklist-shield:before {
+.icon-cancel:before {
   content: "\e929";
 }
-.icon-checklist:before {
+.icon-certificate:before {
   content: "\e92a";
 }
-.icon-contact:before {
+.icon-chat-circle:before {
   content: "\e92b";
 }
-.icon-creditcard:before {
+.icon-check-circle:before {
   content: "\e92c";
 }
-.icon-cw-full:before {
+.icon-check:before {
   content: "\e92d";
 }
-.icon-cw-line:before {
+.icon-checklist-shield:before {
   content: "\e92e";
 }
-.icon-delete-circle:before {
+.icon-checklist:before {
   content: "\e92f";
 }
-.icon-delete:before {
+.icon-contact:before {
   content: "\e930";
 }
-.icon-doc-add:before {
+.icon-creditcard:before {
   content: "\e931";
 }
-.icon-doc-circle:before {
+.icon-cw-full:before {
   content: "\e932";
 }
-.icon-doc-signed:before {
+.icon-cw-line:before {
   content: "\e933";
 }
-.icon-doc-valid:before {
+.icon-delete-circle:before {
   content: "\e934";
 }
-.icon-doc-view:before {
+.icon-delete:before {
   content: "\e935";
 }
-.icon-doc:before {
+.icon-doc-add:before {
   content: "\e936";
 }
-.icon-docs:before {
+.icon-doc-circle:before {
   content: "\e937";
 }
-.icon-dollar-circle:before {
+.icon-doc-signed:before {
   content: "\e938";
 }
-.icon-download-circle:before {
+.icon-doc-valid:before {
   content: "\e939";
 }
-.icon-edit-circle:before {
+.icon-doc-view:before {
   content: "\e93a";
 }
-.icon-edit:before {
+.icon-doc:before {
   content: "\e93b";
 }
-.icon-euro-circle:before {
+.icon-docs:before {
   content: "\e93c";
 }
-.icon-fire-resistive:before {
+.icon-dollar-circle:before {
   content: "\e93d";
 }
-.icon-folder-close:before {
+.icon-download-circle:before {
   content: "\e93e";
 }
-.icon-folder-open:before {
+.icon-edit-circle:before {
   content: "\e93f";
 }
-.icon-full-piece:before {
+.icon-edit:before {
   content: "\e940";
 }
-.icon-group-full:before {
+.icon-euro-circle:before {
   content: "\e941";
 }
-.icon-group:before {
+.icon-fire-resistive:before {
   content: "\e942";
 }
-.icon-indutry:before {
+.icon-folder-close:before {
   content: "\e943";
 }
-.icon-info-circle:before {
+.icon-folder-open:before {
   content: "\e944";
 }
-.icon-inprogress:before {
+.icon-full-piece:before {
   content: "\e945";
 }
-.icon-justice:before {
+.icon-group-full:before {
   content: "\e946";
 }
-.icon-law:before {
+.icon-group:before {
   content: "\e947";
 }
-.icon-lease:before {
+.icon-indutry:before {
   content: "\e948";
 }
-.icon-leave:before {
+.icon-info-circle:before {
   content: "\e949";
 }
-.icon-license:before {
+.icon-inprogress:before {
   content: "\e94a";
 }
-.icon-location-own:before {
+.icon-justice:before {
   content: "\e94b";
 }
-.icon-lock:before {
+.icon-law:before {
   content: "\e94c";
 }
-.icon-map-point:before {
+.icon-lease:before {
   content: "\e94d";
 }
-.icon-map:before {
+.icon-leave:before {
   content: "\e94e";
 }
-.icon-masonery:before {
+.icon-license:before {
   content: "\e94f";
 }
-.icon-medical:before {
+.icon-location-own:before {
   content: "\e950";
 }
-.icon-message-circle:before {
+.icon-lock:before {
   content: "\e951";
 }
-.icon-message-square:before {
+.icon-map-point:before {
   content: "\e952";
 }
-.icon-money:before {
+.icon-map:before {
   content: "\e953";
 }
-.icon-non-combustible:before {
+.icon-masonery:before {
   content: "\e954";
 }
-.icon-notification:before {
+.icon-medical:before {
   content: "\e955";
 }
-.icon-offices:before {
+.icon-message-circle:before {
   content: "\e956";
 }
-.icon-other-docs:before {
+.icon-message-square:before {
   content: "\e957";
 }
-.icon-own:before {
+.icon-money:before {
   content: "\e958";
 }
-.icon-payment-full:before {
+.icon-non-combustible:before {
   content: "\e959";
 }
-.icon-phone-circle:before {
+.icon-notification:before {
   content: "\e95a";
 }
-.icon-phone:before {
+.icon-offices:before {
   content: "\e95b";
 }
-.icon-plus-circle:before {
+.icon-other-docs:before {
   content: "\e95c";
 }
-.icon-plus:before {
+.icon-own:before {
   content: "\e95d";
 }
-.icon-popularity-high:before {
+.icon-payment-full:before {
   content: "\e95e";
 }
-.icon-popularity-low:before {
+.icon-phone-circle:before {
   content: "\e95f";
 }
-.icon-popularity-med:before {
+.icon-phone:before {
   content: "\e960";
 }
-.icon-property:before {
+.icon-plus-circle:before {
   content: "\e961";
 }
-.icon-quarter-piece:before {
+.icon-plus:before {
   content: "\e962";
 }
-.icon-quotes-close:before {
+.icon-popularity-high:before {
   content: "\e963";
 }
-.icon-quotes-open:before {
+.icon-popularity-low:before {
   content: "\e964";
 }
-.icon-receipts:before {
+.icon-popularity-med:before {
   content: "\e965";
 }
-.icon-restaurant:before {
+.icon-property:before {
   content: "\e966";
 }
-.icon-restore-circle:before {
+.icon-quarter-piece:before {
   content: "\e967";
 }
-.icon-schedule:before {
+.icon-quotes-close:before {
   content: "\e968";
 }
-.icon-send:before {
+.icon-quotes-open:before {
   content: "\e969";
 }
-.icon-separate:before {
+.icon-receipts:before {
   content: "\e96a";
 }
-.icon-settings:before {
+.icon-restaurant:before {
   content: "\e96b";
 }
-.icon-share-circle:before {
+.icon-restore-circle:before {
   content: "\e96c";
 }
-.icon-shared:before {
+.icon-schedule:before {
   content: "\e96d";
 }
-.icon-sign:before {
+.icon-send:before {
   content: "\e96e";
 }
-.icon-small-piece:before {
+.icon-separate:before {
   content: "\e96f";
 }
-.icon-student:before {
+.icon-settings:before {
   content: "\e970";
 }
-.icon-ten-instalments:before {
+.icon-share-circle:before {
   content: "\e971";
 }
-.icon-three-installments:before {
+.icon-shared:before {
   content: "\e972";
 }
-.icon-time:before {
+.icon-sign:before {
   content: "\e973";
 }
-.icon-user:before {
+.icon-small-piece:before {
   content: "\e974";
 }
-.icon-video-circle:before {
+.icon-student:before {
   content: "\e975";
 }
-.icon-what-circle:before {
+.icon-ten-instalments:before {
   content: "\e976";
 }
-.icon-manage:before {
+.icon-three-installments:before {
   content: "\e977";
 }
-.icon-shield-euro:before {
+.icon-time:before {
   content: "\e978";
+}
+.icon-user:before {
+  content: "\e979";
+}
+.icon-video-circle:before {
+  content: "\e97a";
+}
+.icon-what-circle:before {
+  content: "\e97b";
+}
+.icon-manage:before {
+  content: "\e97c";
+}
+.icon-shield-euro:before {
+  content: "\e97d";
 }
