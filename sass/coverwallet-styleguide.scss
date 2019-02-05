@@ -463,6 +463,9 @@
     &insurance-type-general-liability {
         @include cw-covericon-before(insurance-type-general-liability, 0, #000);
     }
+    &insurance-type-business-pack {
+        @include cw-covericon-before(insurance-type-business-pack, 0, #000);
+    }
     &insurance-type-golf-carts {
         @include cw-covericon-before(insurance-type-golf-carts, 0, #000);
     }
