@@ -151,3 +151,6 @@
 .commercial_package {
   @include coverwallet-general-before(package, 0, $cwColor-base-blue);
 }
+.business_pack {
+  @include cw-covericon-before(industries-rental-and-leasing, 0, $cwColor-base-blue);
+}
