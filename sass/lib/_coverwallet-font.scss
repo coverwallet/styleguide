@@ -377,53 +377,80 @@
  Styleguide 9.6
 */
 
-.cwicon-3rdparty:before {
-    content: "\e922";
+.cwicon-certificates:before {
+    content: "\e900";
 }
-.cwicon-add:before {
-    content: "\e940";
+.cwicon-group:before {
+    content: "\e901";
 }
-.cwicon-admin:before {
-    content: "\e93f";
+.cwicon-individual:before {
+    content: "\e902";
+}
+.cwicon-licensed:before {
+    content: "\e903";
+}
+.cwicon-quotes:before {
+    content: "\e904";
+}
+.cwicon-schedule:before {
+    content: "\e905";
+}
+.cwicon-separate:before {
+    content: "\e906";
+}
+.cwicon-shared:before {
+    content: "\e907";
+}
+.cwicon-student:before {
+    content: "\e908";
+}
+.cwicon-contract:before {
+    content: "\e909";
+}
+.cwicon-policies:before {
+    content: "\e90a";
+}
+.cwicon-info:before {
+    content: "\e90b";
 }
 .cwicon-agent:before {
     content: "\e90c";
 }
-.cwicon-cancel:before {
-    content: "\e93d";
-}
-.cwicon-cancel-filled:before {
-    content: "\e94c";
-}
-.cwicon-chat:before {
-    content: "\e943";
-}
-.cwicon-checklist:before {
-    content: "\e947";
-}
-.cwicon-checklist-shield:before {
-    content: "\e947";
-}
-.cwicon-contact:before {
-    content: "\e945";
-}
 .cwicon-current:before {
     content: "\e90d";
 }
-.cwicon-download:before {
-    content: "\e946";
+.cwicon-newpolicy:before {
+    content: "\e90e";
 }
-.cwicon-edit:before {
-    content: "\e93a";
+.cwicon-notifications:before {
+    content: "\e90f";
 }
-.cwicon-email:before {
-    content: "\e944";
+.cwicon-receipts:before {
+    content: "\e910";
 }
-.cwicon-epli:before {
-    content: "\e925";
+.cwicon-account:before {
+    content: "\e911";
+}
+.cwicon-settings-filled:before {
+    content: "\e912";
+}
+.cwicon-logout:before {
+    content: "\e913";
+}
+.cwicon-tyc:before {
+    content: "\e914";
+}
+.cwicon-tellfriends:before {
+    content: "\e915";
 }
 .cwicon-feedback:before {
     content: "\e916";
+}
+.cwicon-about:before {
+    content: "\e917";
+}
+.cwicon-share:before {
+    content: "\e918";
 }
 .cwicon-policy-type:before {
     content: "\e919";
@@ -446,41 +473,86 @@
 .cwicon-industry:before {
     content: "\e91f";
 }
-.cwicon-info:before {
-    content: "\e90b";
+.cwicon-your-contracts:before {
+    content: "\e920";
 }
-.cwicon-logout:before {
-    content: "\e913";
+.cwicon-checklist:before {
+    content: "\e921";
 }
-.cwicon-newpolicy:before {
-    content: "\e90e";
+.cwicon-3rdparty:before {
+    content: "\e922";
 }
-.cwicon-notifications:before {
-    content: "\e90f";
-}
-.cwicon-other-docs:before {
-    content: "\e92b";
-}
-.cwicon-phone:before {
-    content: "\e942";
-}
-.cwicon-popularity-high:before {
-    content: "\e928";
-}
-.cwicon-popularity-low:before {
-    content: "\e92a";
-}
-.cwicon-popularity-med:before {
-    content: "\e929";
+.cwicon-general-liability:before {
+    content: "\e923";
 }
 .cwicon-property:before {
     content: "\e924";
 }
-.cwicon-receipts:before {
-    content: "\e910";
+.cwicon-epli:before {
+    content: "\e925";
+}
+.cwicon-us-map:before {
+    content: "\e926";
 }
 .cwicon-restaurants:before {
     content: "\e927";
+}
+.cwicon-popularity-high:before {
+    content: "\e928";
+}
+.cwicon-popularity-med:before {
+    content: "\e929";
+}
+.cwicon-popularity-low:before {
+    content: "\e92a";
+}
+.cwicon-other-docs:before {
+    content: "\e92b";
+}
+.cwicon-checkin-mid-company:before {
+    content: "\e92c";
+}
+.cwicon-employees:before {
+    content: "\e92d";
+}
+.cwicon-employee:before {
+    content: "\e92e";
+}
+.cwicon-checkin-big-company:before {
+    content: "\e92f";
+}
+.cwicon-inprogress:before {
+    content: "\e930";
+}
+.cwicon-restore:before {
+    content: "\e931";
+}
+.cwicon-settings:before {
+    content: "\e932";
+}
+.cwicon-billing:before {
+    content: "\e933";
+}
+.cwicon-phone-nav:before {
+    content: "\e934";
+}
+.cwicon-installments:before {
+    content: "\e935";
+}
+.cwicon-onlyclick-10installments:before {
+    content: "\e936";
+}
+.cwicon-onlyclick-3installments:before {
+    content: "\e937";
+}
+.cwicon-onlyclick-fullpayment:before {
+    content: "\e938";
+}
+.cwicon-calendar:before {
+    content: "\e939";
+}
+.cwicon-edit:before {
+    content: "\e93a";
 }
 .cwicon-save:before {
     content: "\e93b";
@@ -488,35 +560,80 @@
 .cwicon-save-filled:before {
     content: "\e93c";
 }
-.cwicon-schedule:before {
-    content: "\e905";
+.cwicon-cancel:before {
+    content: "\e93d";
 }
-.cwicon-settings-filled:before {
-    content: "\e912";
+.cwicon-cancel_filled:before {
+    content: "\e93e";
 }
-.cwicon-share:before {
-    content: "\e918";
+.cwicon-admin:before {
+    content: "\e93f";
 }
-.cwicon-tellfriends:before {
-    content: "\e915";
-}
-.cwicon-tyc:before {
-    content: "\e914";
-}
-.cwicon-us-map:before {
-    content: "\e926";
+.cwicon-add:before {
+    content: "\e940";
 }
 .cwicon-video:before {
     content: "\e941";
 }
-.cwicon-your-contracts:before {
-    content: "\e920";
+.cwicon-phone:before {
+    content: "\e942";
 }
-.cwicon-about:before {
-    content: "\e917";
+.cwicon-chat:before {
+    content: "\e943";
 }
-.cwicon-insurance-type-aircraft-liability:before {
-    content: "\e95b";
+.cwicon-email:before {
+    content: "\e944";
+}
+.cwicon-contact:before {
+    content: "\e945";
+}
+.cwicon-download:before {
+    content: "\e946";
+}
+.cwicon-checklist-shield:before {
+    content: "\e947";
+}
+.cwicon-delete:before {
+    content: "\e948";
+}
+.cwicon-quotes-open:before {
+    content: "\e949";
+}
+.cwicon-quotes-close:before {
+    content: "\e94a";
+}
+.cwicon-get-certificate:before {
+    content: "\e94b";
+}
+.cwicon-cancel-filled:before {
+    content: "\e94c";
+}
+.cwicon-save-filled2:before {
+    content: "\e94d";
+}
+.cwicon-edit-default:before {
+    content: "\e94e";
+}
+.cwicon-cancel-default:before {
+    content: "\e94f";
+}
+.cwicon-add-default:before {
+    content: "\e950";
+}
+.cwicon-check:before {
+    content: "\e951";
+}
+.cwicon-delete-default:before {
+    content: "\e952";
+}
+.cwicon-phone-nav-outline:before {
+    content: "\e953";
+}
+.cwicon-phone-nav-default:before {
+    content: "\e954";
+}
+.cwicon-insurance-type-guests-property:before {
+    content: "\e955";
 }
 .cwicon-insurance-type-aviation-general-liability-coverage:before {
     content: "\e956";
@@ -524,59 +641,83 @@
 .cwicon-insurance-type-bailees-customers:before {
     content: "\e957";
 }
-.cwicon-insurance-type-business-garage:before {
-    content: "\e963";
+.cwicon-insurance-type-warehouse-operators-legal-liability:before {
+    content: "\e958";
 }
-.cwicon-insurance-type-commercial-auto:before {
-    content: "\e965";
-}
-.cwicon-insurance-type-commercial-building-and-or-property:before {
-    content: "\e967";
-}
-.cwicon-insurance-type-epli:before {
-    content: "\e96b";
+.cwicon-insurance-type-hangarkeepers-legal-liability:before {
+    content: "\e959";
 }
 .cwicon-insurance-type-exhibitions:before {
     content: "\e95a";
 }
-.cwicon-insurance-type-farmowners-multi-peril:before {
-    content: "\e960";
+.cwicon-insurance-type-aircraft-liability:before {
+    content: "\e95b";
 }
-.cwicon-insurance-type-fiduciary-bond:before {
-    content: "\e96d";
-}
-.cwicon-insurance-type-financial-institutions-bond:before {
-    content: "\e961";
-}
-.cwicon-insurance-type-forgery-or-alteration:before {
-    content: "\e95e";
+.cwicon-insurance-type-golf-carts:before {
+    content: "\e95c";
 }
 .cwicon-insurance-type-money-orders-and-counterfeit-money:before {
     content: "\e95d";
 }
-.cwicon-insurance-type-motor-carriers-liability-and-physical-damage:before {
-    content: "\e964";
+.cwicon-insurance-type-forgery-or-alteration:before {
+    content: "\e95e";
 }
-.cwicon-insurance-type-ocean-marine:before {
-    content: "\e968";
+.cwicon-insurance-type-surety-bond:before {
+    content: "\e95f";
 }
-.cwicon-insurance-type-product-recall:before {
-    content: "\e971";
+.cwicon-insurance-type-farmowners-multi-peril:before {
+    content: "\e960";
 }
-.cwicon-insurance-type-public-officials-liability:before {
-    content: "\e96e";
+.cwicon-insurance-type-financial-institutions-bond:before {
+    content: "\e961";
 }
 .cwicon-insurance-type-crime:before {
     content: "\e962";
 }
-.cwicon-insurance-type-cyber-liability-and-data-breach:before {
-    content: "\e96c";
+.cwicon-insurance-type-business-garage:before {
+    content: "\e963";
+}
+.cwicon-insurance-type-motor-carriers-liability-and-physical-damage:before {
+    content: "\e964";
+}
+.cwicon-insurance-type-commercial-auto:before {
+    content: "\e965";
+}
+.cwicon-insurance-type-inland-marine:before {
+    content: "\e966";
+}
+.cwicon-insurance-type-commercial-building-and-or-property:before {
+    content: "\e967";
+}
+.cwicon-insurance-type-ocean-marine:before {
+    content: "\e968";
+}
+.cwicon-insurance-type-umbrella-liability:before {
+    content: "\e969";
 }
 .cwicon-insurance-type-employee-benefits-liability:before {
     content: "\e96a";
 }
-.cwicon-insurance-type-employee-dishonesty:before {
-    content: "\e975";
+.cwicon-insurance-type-epli:before {
+    content: "\e96b";
+}
+.cwicon-insurance-type-cyber-liability-and-data-breach:before {
+    content: "\e96c";
+}
+.cwicon-insurance-type-fiduciary-bond:before {
+    content: "\e96d";
+}
+.cwicon-insurance-type-public-officials-liability:before {
+    content: "\e96e";
+}
+.cwicon-insurance-type-medical-malpractice:before {
+    content: "\e96f";
+}
+.cwicon-insurance-type-liquor-liability:before {
+    content: "\e970";
+}
+.cwicon-insurance-type-product-recall:before {
+    content: "\e971";
 }
 .cwicon-insurance-type-environmental-impairment:before {
     content: "\e972";
@@ -584,50 +725,14 @@
 .cwicon-insurance-type-general-liability:before {
     content: "\e973";
 }
-.cwicon-insurance-type-golf-carts:before {
-    content: "\e95c";
-}
-.cwicon-insurance-type-guests-property:before {
-    content: "\e955";
-}
-.cwicon-insurance-type-hangarkeepers-legal-liability:before {
-    content: "\e959";
-}
-.cwicon-insurance-type-inland-marine:before {
-    content: "\e966";
-}
-.cwicon-insurance-type-liquor-liability:before {
-    content: "\e970";
-}
-.cwicon-insurance-type-medical-malpractice:before {
-    content: "\e96f";
-}
-.cwicon-insurance-type-surety-bond:before {
-    content: "\e95f";
-}
-.cwicon-insurance-type-umbrella-liability:before {
-    content: "\e969";
-}
-.cwicon-insurance-type-warehouse-operators-legal-liability:before {
-    content: "\e958";
-}
-.cwicon-delete:before {
-    content: "\e948";
-}
 .cwicon-insurance-type-disability-insurance:before {
     content: "\e974";
 }
-.cwicon-insurance-type-professional-liability-e-and-o:before {
-    content: "\e976";
-}
-.cwicon-insurance-type-employee-dishonesty-1:before {
+.cwicon-insurance-type-employee-dishonesty:before {
     content: "\e975";
 }
-.cwicon-phone-nav:before {
-    content: "\e934";
-}
-.cwicon-insurance-type-workers-compensation:before {
-    content: "\e982";
+.cwicon-insurance-type-professional-liability-e-and-o:before {
+    content: "\e976";
 }
 .cwicon-insurance-type-business-owners-policy-bop:before {
     content: "\e977";
@@ -638,65 +743,32 @@
 .cwicon-insurance-type-more:before {
     content: "\e979";
 }
-.cwicon-quotes-close:before {
-    content: "\e94a";
-}
-.cwicon-quotes-open:before {
-    content: "\e949";
-}
 .cwicon-insurance-type-health-insurance:before {
     content: "\e97a";
 }
-.cwicon-onlyclick-0-10:before {
-    content: "\e99d";
+.cwicon-insurance-type-idontknow:before {
+    content: "\e97b";
 }
-.cwicon-onlyclick-minus:before {
-    content: "\e9a9";
+.cwicon-insurance-type-equipment-breakdown:before {
+    content: "\e97c";
 }
-.cwicon-onlyclick-location-rent-lease:before {
-    content: "\e9b7";
+.cwicon-insurance-type-business-interruption-income-insurance:before {
+    content: "\e97d";
 }
-.cwicon-onlyclick-location-own:before {
-    content: "\e9b6";
+.cwicon-insurance-type-hired-and-non-owned-auto:before {
+    content: "\e97e";
 }
-.cwicon-onlyclick-location-joint-masonery:before {
-    content: "\e9b9";
+.cwicon-insurance-type-special-events:before {
+    content: "\e97f";
 }
-.cwicon-onlyclick-location-homeoffice:before {
-    content: "\e9a7";
+.cwicon-insurance-type-e-and-o:before {
+    content: "\e980";
 }
-.cwicon-onlyclick-location-frame:before {
-    content: "\e9a6";
+.cwicon-insurance-type-fidelity-bond:before {
+    content: "\e981";
 }
-.cwicon-onlyclick-lease:before {
-    content: "\e9a3";
-}
-.cwicon-onlyclick-dollar:before {
-    content: "\e9b4";
-}
-.cwicon-onlyclick-backspace:before {
-    content: "\e9a1";
-}
-.cwicon-onlyclick-50plus:before {
-    content: "\e99f";
-}
-.cwicon-onlyclick-no:before {
-    content: "\e9aa";
-}
-.cwicon-onlyclick-notsure:before {
-    content: "\e9ab";
-}
-.cwicon-onlyclick-plus:before {
-    content: "\e9af";
-}
-.cwicon-onlyclick-yes:before {
-    content: "\e9b3";
-}
-.cwicon-onlyclick-10-50:before {
-    content: "\e99e";
-}
-.cwicon-onlyclick-own:before {
-    content: "\e9ad";
+.cwicon-insurance-type-workers-compensation:before {
+    content: "\e982";
 }
 .cwicon-industries-agriculture:before {
     content: "\e983";
@@ -710,17 +782,11 @@
 .cwicon-industries-food:before {
     content: "\e986";
 }
-.cwicon-industries-health:before {
-    content: "\e991";
-}
 .cwicon-industries-manufacturing:before {
     content: "\e987";
 }
 .cwicon-industries-nonprofit:before {
     content: "\e988";
-}
-.cwicon-industries-professional:before {
-    content: "\e99a";
 }
 .cwicon-industries-realstate:before {
     content: "\e989";
@@ -746,95 +812,38 @@
 .cwicon-industries-wholesale:before {
     content: "\e990";
 }
-.cwicon-insurance-type-idontknow:before {
-    content: "\e97b";
-}
-.cwicon-insurance-type-business-interruption-income-insurance:before {
-    content: "\e97d";
-}
-.cwicon-insurance-type-equipment-breakdown:before {
-    content: "\e97c";
-}
-.cwicon-checkin-big-company:before {
-    content: "\e92f";
-}
-.cwicon-checkin-mid-company:before {
-    content: "\e92c";
-}
-.cwicon-employee:before {
-    content: "\e92e";
-}
-.cwicon-employees:before {
-    content: "\e92d";
-}
-.cwicon-industries-home-based-business:before {
-    content: "\e994";
-}
-.cwicon-industries-construction:before {
-    content: "\e993";
-}
-.cwicon-industries-consultant:before {
-    content: "\e995";
+.cwicon-industries-health:before {
+    content: "\e991";
 }
 .cwicon-industries-contractor:before {
     content: "\e992";
 }
-.cwicon-get-certificate:before {
-    content: "\e94b";
+.cwicon-industries-construction:before {
+    content: "\e993";
 }
-.cwicon-inprogress:before {
-    content: "\e930";
+.cwicon-industries-home-based-business:before {
+    content: "\e994";
 }
-.cwicon-insurance-type-hired-and-non-owned-auto:before {
-    content: "\e97e";
-}
-.cwicon-insurance-type-special-events:before {
-    content: "\e97f";
-}
-.cwicon-insurance-type-e-and-o:before {
-    content: "\e980";
-}
-.cwicon-onlyclick-less:before {
-    content: "\e9a4";
-}
-.cwicon-onlyclick-plus-2:before {
-    content: "\e9ae";
-}
-.cwicon-onlyclick-location-fire-resistive:before {
-    content: "\e9a5";
-}
-.cwicon-onlyclick-location-non-combustible:before {
-    content: "\e9b8";
-}
-.cwicon-industries-rental-and-leasing:before {
-    content: "\e997";
-}
-.cwicon-account:before {
-    content: "\e911";
+.cwicon-industries-consultant:before {
+    content: "\e995";
 }
 .cwicon-industries-management-of-companies-and-enterprises:before {
     content: "\e996";
 }
-.cwicon-industries-maintance:before {
-    content: "\e998";
-}
-.cwicon-insurance-type-fidelity-bond:before {
-    content: "\e981";
+.cwicon-industries-rental-and-leasing:before {
+    content: "\e997";
 }
 .cwicon-insurance-type-business-pack:before {
     content: "\e997";
 }
-.cwicon-restore:before {
-    content: "\e931";
+.cwicon-industries-maintance:before {
+    content: "\e998";
 }
-.cwicon-pricing-yes:before {
-    content: "\e039";
+.cwicon-industries-public-administration:before {
+    content: "\e999";
 }
-.cwicon-princing-no:before {
-    content: "\e03a";
-}
-.cwicon-settings:before {
-    content: "\e932";
+.cwicon-industries-professional:before {
+    content: "\e99a";
 }
 .cwicon-industries-utilities:before {
     content: "\e99b";
@@ -842,113 +851,206 @@
 .cwicon-industries-mining:before {
     content: "\e99c";
 }
-.cwicon-industries-public-administration:before {
-    content: "\e999";
+.cwicon-onlyclick-0-10:before {
+    content: "\e99d";
+}
+.cwicon-onlyclick-10-50:before {
+    content: "\e99e";
+}
+.cwicon-onlyclick-50plus:before {
+    content: "\e99f";
 }
 .cwicon-onlyclick-ach:before {
     content: "\e9a0";
 }
+.cwicon-onlyclick-backspace:before {
+    content: "\e9a1";
+}
 .cwicon-onlyclick-creditcard:before {
     content: "\e9a2";
 }
-.cwicon-onlyclick-wc-indemnity:before {
-    content: "\e9b1";
+.cwicon-onlyclick-lease:before {
+    content: "\e9a3";
+}
+.cwicon-onlyclick-less:before {
+    content: "\e9a4";
+}
+.cwicon-onlyclick-location-fire-resistive:before {
+    content: "\e9a5";
+}
+.cwicon-onlyclick-location-frame:before {
+    content: "\e9a6";
+}
+.cwicon-onlyclick-location-homeoffice:before {
+    content: "\e9a7";
+}
+.cwicon-onlyclick-location-physical:before {
+    content: "\e9a8";
+}
+.cwicon-onlyclick-minus:before {
+    content: "\e9a9";
+}
+.cwicon-onlyclick-no:before {
+    content: "\e9aa";
+}
+.cwicon-onlyclick-notsure:before {
+    content: "\e9ab";
 }
 .cwicon-onlyclick-open-claim:before {
     content: "\e9ac";
 }
-.cwicon-onlyclick-wc-medical:before {
-    content: "\e9b2";
+.cwicon-onlyclick-own:before {
+    content: "\e9ad";
 }
-.cwicon-onlyclick-closed-claim:before {
-    content: "\e9b5";
+.cwicon-onlyclick-plus-2:before {
+    content: "\e9ae";
+}
+.cwicon-onlyclick-plus:before {
+    content: "\e9af";
 }
 .cwicon-onlyclick-wc-both:before {
     content: "\e9b0";
 }
-.cwicon-subindustries-amusement-arcades:before {
-    content: "\e9c9";
+.cwicon-onlyclick-wc-indemnity:before {
+    content: "\e9b1";
 }
-.cwicon-subindustries-art-dealers:before {
-    content: "\e9d4";
+.cwicon-onlyclick-wc-medical:before {
+    content: "\e9b2";
 }
-.cwicon-subindustries-concession-stands:before {
-    content: "\e9c8";
+.cwicon-onlyclick-yes:before {
+    content: "\e9b3";
 }
-.cwicon-subindustries-convention-and-trade-show-organizers-event-promoters:before {
-    content: "\e9c7";
+.cwicon-onlyclick-dollar:before {
+    content: "\e9b4";
 }
-.cwicon-subindustries-dietitians:before {
-    content: "\e9c6";
+.cwicon-onlyclick-closed-claim:before {
+    content: "\e9b5";
 }
-.cwicon-subindustries-djs-and-musicians:before {
-    content: "\e9dc";
+.cwicon-onlyclick-location-own:before {
+    content: "\e9b6";
 }
-.cwicon-subindustries-exterminating-and-pest-control-services:before {
-    content: "\e9bf";
+.cwicon-onlyclick-location-rent-lease:before {
+    content: "\e9b7";
 }
-.cwicon-subindustries-historical-sites-museums:before {
-    content: "\e9d0";
+.cwicon-onlyclick-location-non-combustible:before {
+    content: "\e9b8";
 }
-.cwicon-subindustries-maid-services-janitorial-services:before {
-    content: "\e9be";
+.cwicon-onlyclick-location-joint-masonery:before {
+    content: "\e9b9";
 }
-.cwicon-subindustries-mail-order-houses:before {
-    content: "\e9cc";
+.cwicon-onlyclick-location-mailing:before {
+    content: "\e9ba";
 }
-.cwicon-subindustries-new-car-dealers:before {
-    content: "\e9c2";
-}
-.cwicon-subindustries-newsstands:before {
-    content: "\e9d2";
-}
-.cwicon-subindustries-packaging-and-labeling-services:before {
-    content: "\e9d5";
-}
-.cwicon-subindustries-parking-lots-and-garages:before {
-    content: "\e9c5";
-}
-.cwicon-subindustries-payroll-services:before {
-    content: "\e9d6";
-}
-.cwicon-subindustries-photographers:before {
-    content: "\e9c1";
-}
-.cwicon-subindustries-post-production-services:before {
-    content: "\e9d1";
-}
-.cwicon-subindustries-professional-employer-organizations:before {
-    content: "\e9cd";
-}
-.cwicon-subindustries-radio-stations:before {
-    content: "\e9db";
-}
-.cwicon-subindustries-marinas:before {
-    content: "\e9bd";
-}
-.cwicon-subindustries-mobile-home-dealers:before {
-    content: "\e9cf";
-}
-.cwicon-subindustries-nail-salons:before {
-    content: "\e9ca";
-}
-.cwicon-subindustries-nature-parks:before {
-    content: "\e9de";
+.cwicon-subindustries-wedding-planners:before {
+    content: "\e9bb";
 }
 .cwicon-subindustries-security-systems-services:before {
     content: "\e9bc";
 }
+.cwicon-subindustries-marinas:before {
+    content: "\e9bd";
+}
+.cwicon-subindustries-maid-services-janitorial-services:before {
+    content: "\e9be";
+}
+.cwicon-subindustries-exterminating-and-pest-control-services:before {
+    content: "\e9bf";
+}
+.cwicon-subindustries-one-hour-photofinishing:before {
+    content: "\e9c0";
+}
+.cwicon-subindustries-photographers:before {
+    content: "\e9c1";
+}
+.cwicon-subindustries-new-car-dealers:before {
+    content: "\e9c2";
+}
+.cwicon-subindustries-other-vehicle-dealers:before {
+    content: "\e9c3";
+}
+.cwicon-subindustries-vehicle-manufacturers:before {
+    content: "\e9c4";
+}
+.cwicon-subindustries-parking-lots-and-garages:before {
+    content: "\e9c5";
+}
+.cwicon-subindustries-dietitians:before {
+    content: "\e9c6";
+}
+.cwicon-subindustries-convention-and-trade-show-organizers-event-promoters:before {
+    content: "\e9c7";
+}
+.cwicon-subindustries-concession-stands:before {
+    content: "\e9c8";
+}
+.cwicon-subindustries-amusement-arcades:before {
+    content: "\e9c9";
+}
+.cwicon-subindustries-nail-salons:before {
+    content: "\e9ca";
+}
+.cwicon-subindustries-community-housing-services:before {
+    content: "\e9cb";
+}
+.cwicon-subindustries-mail-order-houses:before {
+    content: "\e9cc";
+}
+.cwicon-subindustries-professional-employer-organizations:before {
+    content: "\e9cd";
+}
+.cwicon-subindustries-zoos-and-botanical-gardens:before {
+    content: "\e9ce";
+}
+.cwicon-subindustries-mobile-home-dealers:before {
+    content: "\e9cf";
+}
+.cwicon-subindustries-historical-sites-museums:before {
+    content: "\e9d0";
+}
+.cwicon-subindustries-post-production-services:before {
+    content: "\e9d1";
+}
+.cwicon-subindustries-newsstands:before {
+    content: "\e9d2";
+}
+.cwicon-subindustries-paper-based-publishers:before {
+    content: "\e9d3";
+}
+.cwicon-subindustries-art-dealers:before {
+    content: "\e9d4";
+}
+.cwicon-subindustries-packaging-and-labeling-services:before {
+    content: "\e9d5";
+}
+.cwicon-subindustries-payroll-services:before {
+    content: "\e9d6";
+}
 .cwicon-subindustries-talent-agents:before {
     content: "\e9d7";
 }
-.cwicon-subindustries-television-broadcasting-services:before {
-    content: "\e9df";
+.cwicon-subindustries-air-transportation:before {
+    content: "\e9d8";
+}
+.cwicon-subindustries-other-traveler-accommodations:before {
+    content: "\e9d9";
+}
+.cwicon-subindustries-travel-agencies:before {
+    content: "\e9da";
+}
+.cwicon-subindustries-radio-stations:before {
+    content: "\e9db";
+}
+.cwicon-subindustries-djs-and-musicians:before {
+    content: "\e9dc";
 }
 .cwicon-subindustries-testing-laboratories:before {
     content: "\e9dd";
 }
-.cwicon-subindustries-travel-agencies:before {
-    content: "\e9da";
+.cwicon-subindustries-nature-parks:before {
+    content: "\e9de";
+}
+.cwicon-subindustries-television-broadcasting-services:before {
+    content: "\e9df";
 }
 .cwicon-subindustries-vending-machine-operators:before {
     content: "\e9e0";
@@ -956,242 +1058,194 @@
 .cwicon-subindustries-video-production-services:before {
     content: "\e9e1";
 }
-.cwicon-subindustries-wedding-planners:before {
-    content: "\e9bb";
-}
-.cwicon-subindustries-zoos-and-botanical-gardens:before {
-    content: "\e9ce";
-}
-.cwicon-subindustries-accountants-and-bookkeepers:before {
-    content: "\e9fe";
-}
-.cwicon-subindustries-advertising-agencies:before {
-    content: "\e9f4";
-}
-.cwicon-subindustries-artists-and-writers:before {
-    content: "\e9f2";
-}
-.cwicon-subindustries-bakeries:before {
-    content: "\e9eb";
-}
-.cwicon-subindustries-barber-shops:before {
-    content: "\ea08";
-}
-.cwicon-subindustries-beauty-salons-estheticians:before {
-    content: "\e9ea";
-}
-.cwicon-subindustries-book-stores-libraries-and-archives:before {
-    content: "\e9e6";
-}
 .cwicon-subindustries-breweries-and-wineries:before {
     content: "\e9e2";
-}
-.cwicon-subindustries-executive-search-services:before {
-    content: "\e9f0";
-}
-.cwicon-subindustries-employment-placement-agencies:before {
-    content: "\e9e4";
-}
-.cwicon-subindustries-document-preparation-services:before {
-    content: "\e9ff";
-}
-.cwicon-subindustries-dental-laboratories:before {
-    content: "\e9f8";
-}
-.cwicon-subindustries-dance-companies-and-studios:before {
-    content: "\e9e5";
-}
-.cwicon-subindustries-custom-computer-programming-services:before {
-    content: "\e9f7";
-}
-.cwicon-subindustries-computer-facilities-management-services-computer-systems-design-services:before {
-    content: "\ea06";
-}
-.cwicon-subindustries-car-washing-services:before {
-    content: "\e9e8";
-}
-.cwicon-subindustries-investigation-services:before {
-    content: "\e9ef";
-}
-.cwicon-subindustries-pharmacies:before {
-    content: "\ea00";
-}
-.cwicon-subindustries-pet-stores:before {
-    content: "\e9ee";
-}
-.cwicon-subindustries-personal-trainers:before {
-    content: "\ea03";
-}
-.cwicon-subindustries-telemarketing-services-telephone-answering-services:before {
-    content: "\e9f3";
 }
 .cwicon-subindustries-teachers:before {
     content: "\e9e3";
 }
-.cwicon-subindustries-taxi-services:before {
-    content: "\e9e9";
+.cwicon-subindustries-employment-placement-agencies:before {
+    content: "\e9e4";
 }
-.cwicon-subindustries-yoga-teachers:before {
-    content: "\e9f6";
+.cwicon-subindustries-dance-companies-and-studios:before {
+    content: "\e9e5";
 }
-.cwicon-subindustries-translators:before {
-    content: "\ea04";
-}
-.cwicon-subindustries-marketing-research-services-media-buying-agencies-media-representatives:before {
-    content: "\e9fa";
-}
-.cwicon-subindustries-public-relations-agencies:before {
-    content: "\e9fc";
-}
-.cwicon-subindustries-office-administrative-services:before {
-    content: "\e9f1";
-}
-.cwicon-subindustries-office-machine-repair-and-maintenance:before {
-    content: "\ea01";
-}
-.cwicon-subindustries-social-workers:before {
-    content: "\e9fd";
+.cwicon-subindustries-book-stores-libraries-and-archives:before {
+    content: "\e9e6";
 }
 .cwicon-subindustries-used-car-dealers:before {
     content: "\e9e7";
 }
-.cwicon-subindustries-waste-related-activities:before {
-    content: "\ea05";
+.cwicon-subindustries-car-washing-services:before {
+    content: "\e9e8";
 }
-.cwicon-billing:before {
-    content: "\e933";
+.cwicon-subindustries-taxi-services:before {
+    content: "\e9e9";
 }
-.cwicon-onlyclick-location-mailing:before {
-    content: "\e9ba";
+.cwicon-subindustries-beauty-salons-estheticians:before {
+    content: "\e9ea";
 }
-.cwicon-onlyclick-location-physical:before {
-    content: "\e9a8";
-}
-.cwicon-edit-default:before {
-    content: "\e94e";
-}
-.cwicon-add-default:before {
-    content: "\e950";
-}
-.cwicon-cancel-default:before {
-    content: "\e94f";
-}
-.cwicon-check:before {
-    content: "\e951";
-}
-.cwicon-delete-default:before {
-    content: "\e952";
-}
-.cwicon-phone-nav-default:before {
-    content: "\e954";
-}
-.cwicon-phone-nav-outline:before {
-    content: "\e953";
-}
-.cwicon-subindustries-air-transportation:before {
-    content: "\e9d8";
-}
-.cwicon-subindustries-apparel-wholesalers:before {
-    content: "\ea09";
-}
-.cwicon-subindustries-certified-public-accountants:before {
-    content: "\ea0d";
-}
-.cwicon-subindustries-bus-transportation:before {
-    content: "\ea0b";
+.cwicon-subindustries-bakeries:before {
+    content: "\e9eb";
 }
 .cwicon-subindustries-commercial-bakeries:before {
     content: "\e9ec";
 }
-.cwicon-subindustries-community-food-services:before {
-    content: "\ea10";
+.cwicon-subindustries-pet-care-services:before {
+    content: "\e9ed";
 }
-.cwicon-subindustries-community-housing-services:before {
-    content: "\e9cb";
+.cwicon-subindustries-pet-stores:before {
+    content: "\e9ee";
 }
-.cwicon-subindustries-construction-material-wholesalers:before {
-    content: "\ea12";
+.cwicon-subindustries-investigation-services:before {
+    content: "\e9ef";
 }
-.cwicon-subindustries-cosmetologists:before {
-    content: "\ea11";
+.cwicon-subindustries-executive-search-services:before {
+    content: "\e9f0";
 }
-.cwicon-subindustries-counselors:before {
-    content: "\ea14";
+.cwicon-subindustries-office-administrative-services:before {
+    content: "\e9f1";
 }
-.cwicon-subindustries-building-materials-stores:before {
-    content: "\ea0a";
+.cwicon-subindustries-artists-and-writers:before {
+    content: "\e9f2";
 }
-.cwicon-subindustries-fuel-dealers:before {
-    content: "\ea16";
+.cwicon-subindustries-telemarketing-services-telephone-answering-services:before {
+    content: "\e9f3";
 }
-.cwicon-subindustries-fishermen:before {
-    content: "\ea15";
+.cwicon-subindustries-advertising-agencies:before {
+    content: "\e9f4";
+}
+.cwicon-subindustries-other-services-related-to-advertising:before {
+    content: "\e9f5";
+}
+.cwicon-subindustries-yoga-teachers:before {
+    content: "\e9f6";
+}
+.cwicon-subindustries-custom-computer-programming-services:before {
+    content: "\e9f7";
+}
+.cwicon-subindustries-dental-laboratories:before {
+    content: "\e9f8";
 }
 .cwicon-subindustries-financial-institutions:before {
     content: "\e9f9";
 }
-.cwicon-subindustries-drycleaning-and-laundry-services:before {
-    content: "\ea13";
-}
-.cwicon-subindustries-landscaping-and-lawn-mowing:before {
-    content: "\ea1b";
-}
-.cwicon-subindustries-integrated-record-production-and-distribution:before {
-    content: "\ea18";
-}
-.cwicon-subindustries-insurance-carriers:before {
-    content: "\ea0e";
-}
-.cwicon-subindustries-golf-courses-and-country-clubs:before {
-    content: "\ea1a";
-}
-.cwicon-subindustries-business-associations:before {
-    content: "\ea0c";
-}
-.cwicon-subindustries-one-hour-photofinishing:before {
-    content: "\e9c0";
+.cwicon-subindustries-marketing-research-services-media-buying-agencies-media-representatives:before {
+    content: "\e9fa";
 }
 .cwicon-subindustries-other-business-support-services:before {
     content: "\e9fb";
 }
-.cwicon-subindustries-other-computer-related-services:before {
-    content: "\ea07";
+.cwicon-subindustries-public-relations-agencies:before {
+    content: "\e9fc";
 }
-.cwicon-subindustries-other-financial-services:before {
-    content: "\ea1f";
+.cwicon-subindustries-social-workers:before {
+    content: "\e9fd";
 }
-.cwicon-subindustries-other-gasoline-stations:before {
-    content: "\ea17";
+.cwicon-subindustries-accountants-and-bookkeepers:before {
+    content: "\e9fe";
 }
-.cwicon-subindustries-other-legal-services:before {
-    content: "\ea0f";
+.cwicon-subindustries-document-preparation-services:before {
+    content: "\e9ff";
+}
+.cwicon-subindustries-pharmacies:before {
+    content: "\ea00";
+}
+.cwicon-subindustries-office-machine-repair-and-maintenance:before {
+    content: "\ea01";
 }
 .cwicon-subindustries-other-personal-services:before {
     content: "\ea02";
 }
-.cwicon-subindustries-motion-picture-theaters:before {
-    content: "\ea1e";
+.cwicon-subindustries-personal-trainers:before {
+    content: "\ea03";
+}
+.cwicon-subindustries-translators:before {
+    content: "\ea04";
+}
+.cwicon-subindustries-waste-related-activities:before {
+    content: "\ea05";
+}
+.cwicon-subindustries-computer-facilities-management-services-computer-systems-design-services:before {
+    content: "\ea06";
+}
+.cwicon-subindustries-other-computer-related-services:before {
+    content: "\ea07";
+}
+.cwicon-subindustries-barber-shops:before {
+    content: "\ea08";
+}
+.cwicon-subindustries-apparel-wholesalers:before {
+    content: "\ea09";
+}
+.cwicon-subindustries-building-materials-stores:before {
+    content: "\ea0a";
+}
+.cwicon-subindustries-bus-transportation:before {
+    content: "\ea0b";
+}
+.cwicon-subindustries-business-associations:before {
+    content: "\ea0c";
+}
+.cwicon-subindustries-certified-public-accountants:before {
+    content: "\ea0d";
+}
+.cwicon-subindustries-insurance-carriers:before {
+    content: "\ea0e";
+}
+.cwicon-subindustries-other-legal-services:before {
+    content: "\ea0f";
+}
+.cwicon-subindustries-community-food-services:before {
+    content: "\ea10";
+}
+.cwicon-subindustries-cosmetologists:before {
+    content: "\ea11";
+}
+.cwicon-subindustries-construction-material-wholesalers:before {
+    content: "\ea12";
+}
+.cwicon-subindustries-drycleaning-and-laundry-services:before {
+    content: "\ea13";
+}
+.cwicon-subindustries-counselors:before {
+    content: "\ea14";
+}
+.cwicon-subindustries-fishermen:before {
+    content: "\ea15";
+}
+.cwicon-subindustries-fuel-dealers:before {
+    content: "\ea16";
+}
+.cwicon-subindustries-other-gasoline-stations:before {
+    content: "\ea17";
+}
+.cwicon-subindustries-integrated-record-production-and-distribution:before {
+    content: "\ea18";
+}
+.cwicon-subindustries-sound-recording-studios:before {
+    content: "\ea19";
+}
+.cwicon-subindustries-golf-courses-and-country-clubs:before {
+    content: "\ea1a";
+}
+.cwicon-subindustries-landscaping-and-lawn-mowing:before {
+    content: "\ea1b";
+}
+.cwicon-subindustries-snow-plowing-services:before {
+    content: "\ea1c";
 }
 .cwicon-subindustries-mental-health-practitioners:before {
     content: "\ea1d";
 }
-.cwicon-subindustries-pet-care-services:before {
-    content: "\e9ed";
+.cwicon-subindustries-motion-picture-theaters:before {
+    content: "\ea1e";
 }
-.cwicon-subindustries-paper-based-publishers:before {
-    content: "\e9d3";
-}
-.cwicon-subindustries-other-vehicle-dealers:before {
-    content: "\e9c3";
-}
-.cwicon-subindustries-other-traveler-accommodations:before {
-    content: "\e9d9";
+.cwicon-subindustries-other-financial-services:before {
+    content: "\ea1f";
 }
 .cwicon-subindustries-other-spectator-sports:before {
     content: "\ea20";
-}
-.cwicon-subindustries-other-services-related-to-advertising:before {
-    content: "\e9f5";
 }
 .cwicon-subindustries-political-organizations:before {
     content: "\ea21";
@@ -1208,63 +1262,6 @@
 .cwicon-subindustries-tire-retreading-companies:before {
     content: "\ea25";
 }
-.cwicon-subindustries-snow-plowing-services:before {
-    content: "\ea1c";
-}
-.cwicon-subindustries-sound-recording-studios:before {
-    content: "\ea19";
-}
 .cwicon-subindustries-veterinarians:before {
     content: "\ea26";
-}
-.cwicon-subindustries-vehicle-manufacturers:before {
-    content: "\e9c4";
-}
-.cwicon-general-liability:before {
-    content: "\e923";
-}
-.cwicon-calendar:before {
-    content: "\e939";
-}
-.cwicon-onlyclick-3installments:before {
-    content: "\e937";
-}
-.cwicon-onlyclick-10installments:before {
-    content: "\e936";
-}
-.cwicon-onlyclick-fullpayment:before {
-    content: "\e938";
-}
-.cwicon-contract:before {
-    content: "\e909";
-}
-.cwicon-group:before {
-    content: "\e901";
-}
-.cwicon-individual:before {
-    content: "\e902";
-}
-.cwicon-licensed:before {
-    content: "\e903";
-}
-.cwicon-schedule:before {
-    content: "\e905";
-}
-.cwicon-separate:before {
-    content: "\e906";
-}
-.cwicon-shared:before {
-    content: "\e907";
-}
-.cwicon-student:before {
-    content: "\e908";
-}
-.cwicon-certificates:before {
-    content: "\e900";
-}
-.cwicon-policies:before {
-    content: "\e90a";
-}
-.cwicon-quotes:before {
-    content: "\e904";
 }
