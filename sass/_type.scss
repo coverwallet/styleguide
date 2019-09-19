@@ -70,7 +70,7 @@ a, .link{
     text-decoration: none;
 
     &:hover{
-        @include media ($desktop) {
+        @include media($desktop) {
             color: $cwColor-black-dark;
             background-color: transparent;
         }
@@ -79,7 +79,7 @@ a, .link{
     &.link--light{
         color: #fff;
         &:hover{
-          @include media ($desktop) {
+          @include media($desktop) {
             color: #fff;
           }
         }
