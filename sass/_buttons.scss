@@ -96,7 +96,7 @@ button, .btn {
     }
     &.btn--border, &.btn--border-blue {
         &:hover {
-            @media screen and (min-width: 1200px) {
+            @include media ($desktop) {
                 background-color: $cwColor-base-white;
                 color: $cwColor-black-dark;
                 border: 1px solid $cwColor-black-dark;
@@ -113,7 +113,7 @@ button, .btn {
         border: 1px solid $cwColor-black-light;
     }
     &:hover {
-      @media screen and (min-width: 1200px) {
+     @include media ($desktop) {
         border: 1px solid $cwColor-black-dark;
         background-color: $cwColor-black-dark;
         color: $cwColor-base-white;
