@@ -70,14 +70,18 @@ a, .link{
     text-decoration: none;
 
     &:hover{
-        color: $cwColor-black-dark;
-        background-color: transparent;
+        @media screen and (min-width: 1200px) {
+            color: $cwColor-black-dark;
+            background-color: transparent;
+        }
     }
 
     &.link--light{
         color: #fff;
         &:hover{
+          @media screen and (min-width: 1200px) {
             color: #fff;
+          }
         }
     }
 }

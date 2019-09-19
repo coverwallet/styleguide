@@ -168,7 +168,9 @@ form {
                 li {
                     span {
                         &:hover {
+                          @media screen and (min-width: 1200px) {
                             background: $cwColor-blue-light;
+                          }
                         }
                     }
                     &.cs-selected {
