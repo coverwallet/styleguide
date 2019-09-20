@@ -168,7 +168,9 @@ form {
                 li {
                     span {
                         &:hover {
+                          @include media($desktop) {
                             background: $cwColor-blue-light;
+                          }
                         }
                     }
                     &.cs-selected {

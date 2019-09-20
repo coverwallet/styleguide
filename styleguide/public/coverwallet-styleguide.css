@@ -8021,13 +8021,15 @@ a, .link {
   vertical-align: baseline;
   background: transparent;
   text-decoration: none; }
-  a:hover, .link:hover {
-    color: #505050;
-    background-color: transparent; }
+  @media screen and (min-width: 1200px) {
+    a:hover, .link:hover {
+      color: #505050;
+      background-color: transparent; } }
   a.link--light, .link.link--light {
     color: #fff; }
-    a.link--light:hover, .link.link--light:hover {
-      color: #fff; }
+    @media screen and (min-width: 1200px) {
+      a.link--light:hover, .link.link--light:hover {
+        color: #fff; } }
 
 strong, .strong {
   font-weight: bold !important; }
@@ -8238,9 +8240,10 @@ form .form-group {
       .form .form-group .form-select .cs-placeholder:after,
       form .form-group .form-select .cs-placeholder:after {
         content: ""; }
-    .form .form-group .form-select .cs-options li span:hover,
-    form .form-group .form-select .cs-options li span:hover {
-      background: #8eccf1; }
+    @media screen and (min-width: 1200px) {
+      .form .form-group .form-select .cs-options li span:hover,
+      form .form-group .form-select .cs-options li span:hover {
+        background: #8eccf1; } }
     .form .form-group .form-select .cs-options li.cs-selected span:after,
     form .form-group .form-select .cs-options li.cs-selected span:after {
       content: ""; }
@@ -8805,10 +8808,11 @@ button, .btn {
     background-color: #fff;
     color: #438bd7;
     border: 1px solid #438bd7; }
-  button.btn--border:hover, button.btn--border-blue:hover, .btn.btn--border:hover, .btn.btn--border-blue:hover {
-    background-color: #fff;
-    color: #505050;
-    border: 1px solid #505050; }
+  @media screen and (min-width: 1200px) {
+    button.btn--border:hover, button.btn--border-blue:hover, .btn.btn--border:hover, .btn.btn--border-blue:hover {
+      background-color: #fff;
+      color: #505050;
+      border: 1px solid #505050; } }
   button.btn--small, .btn.btn--small {
     font-size: 14px;
     padding: 8px 12px; }
@@ -8816,10 +8820,11 @@ button, .btn {
     cursor: default;
     background-color: #d2d2d2;
     border: 1px solid #d2d2d2; }
-  button:hover, .btn:hover {
-    border: 1px solid #505050;
-    background-color: #505050;
-    color: #fff; }
+  @media screen and (min-width: 1200px) {
+    button:hover, .btn:hover {
+      border: 1px solid #505050;
+      background-color: #505050;
+      color: #fff; } }
 
 ul.list {
   list-style: none; }

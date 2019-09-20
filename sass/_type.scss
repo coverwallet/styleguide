@@ -70,14 +70,18 @@ a, .link{
     text-decoration: none;
 
     &:hover{
-        color: $cwColor-black-dark;
-        background-color: transparent;
+        @include media($desktop) {
+            color: $cwColor-black-dark;
+            background-color: transparent;
+        }
     }
 
     &.link--light{
         color: #fff;
         &:hover{
+          @include media($desktop) {
             color: #fff;
+          }
         }
     }
 }

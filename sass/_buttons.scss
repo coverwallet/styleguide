@@ -43,6 +43,10 @@ Styleguide 4
 // </div>
 //
 // Styleguide 4.2
+//
+// Styleguide 4.3
+//
+// Add media query to use hover only for screensize > 1200 px
 
 .btn-group {
     display: inline-block;
@@ -92,9 +96,11 @@ button, .btn {
     }
     &.btn--border, &.btn--border-blue {
         &:hover {
-            background-color: $cwColor-base-white;
-            color: $cwColor-black-dark;
-            border: 1px solid $cwColor-black-dark;
+            @include media($desktop) {
+                background-color: $cwColor-base-white;
+                color: $cwColor-black-dark;
+                border: 1px solid $cwColor-black-dark;
+            }
         }
     }
     &.btn--small {
@@ -107,8 +113,10 @@ button, .btn {
         border: 1px solid $cwColor-black-light;
     }
     &:hover {
+     @include media($desktop) {
         border: 1px solid $cwColor-black-dark;
         background-color: $cwColor-black-dark;
         color: $cwColor-base-white;
+      }
     }
 }
