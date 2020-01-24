@@ -70,3 +70,9 @@
 .nonprofit {
   @include cw-covericon-before(industries-nonprofit, 0, $cwColor-base-blue);
 }
+.mining {
+  @include cw-covericon-before(industries-mining, 0, $cwColor-base-blue);
+}
+.utilities {
+  @include cw-covericon-before(industries-utilities, 0, $cwColor-base-blue);
+}

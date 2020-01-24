@@ -313,3 +313,6 @@
 .vehicle_manufacturers {
   @include cw-covericon-before(subindustries-vehicle-manufacturers, 0, $cwColor-base-blue);
 }
+.post-production-services {
+  @include cw-covericon-before(subindustries-post-production-services, 0, $cwColor-base-blue);
+}
