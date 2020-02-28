@@ -365,6 +365,13 @@
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-fullpayment"></span> <span class='icon-name'>onlyclick-fullpayment</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-monitored"></span> <span class='icon-name'>onlyclick-monitored</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-onlyclick-unmonitored"></span> <span class='icon-name'>onlyclick-unmonitored</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-material-asbestos"></span> <span class='icon-name'>onlyclick-material-asbestos</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-material-brick"></span> <span class='icon-name'>onlyclick-material-brick</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-material-concrete"></span> <span class='icon-name'>onlyclick-material-concrete</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-material-metal"></span> <span class='icon-name'>onlyclick-material-metal</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-material-other"></span> <span class='icon-name'>onlyclick-material-other</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-material-tile"></span> <span class='icon-name'>onlyclick-material-tile</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-onlyclick-material-wood"></span> <span class='icon-name'>onlyclick-material-wood</span></li>
     </ul>
 </div>
 
@@ -1276,4 +1283,32 @@
 
 .cwicon-onlyclick-unmonitored:before {
     content: "\ea28";
+}
+
+.cwicon-onlyclick-material-asbestos:before {
+    content: "\ea2b";
+}
+
+.cwicon-onlyclick-material-brick:before {
+    content: "\ea2c";
+}
+
+.cwicon-onlyclick-material-concrete:before {
+    content: "\ea2f";
+}
+
+.cwicon-onlyclick-material-metal:before {
+    content: "\ea2e";
+}
+
+.cwicon-onlyclick-material-other:before {
+    content: "\ea2d";
+}
+
+.cwicon-onlyclick-material-tile:before {
+    content: "\ea2a";
+}
+
+.cwicon-onlyclick-material-wood:before {
+    content: "\ea29";
 }
