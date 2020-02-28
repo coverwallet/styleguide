@@ -970,4 +970,25 @@
     &onlyclick-unmonitored {
         @include cw-covericon-before(onlyclick-unmonitored, 0, #000);
     }
+    &onlyclick-material-asbestos {
+        @include cw-covericon-before(onlyclick-material-asbestos, 0, #000);
+    }
+    &onlyclick-material-brick {
+        @include cw-covericon-before(onlyclick-material-brick, 0, #000);
+    }
+    &onlyclick-material-concrete {
+        @include cw-covericon-before(onlyclick-material-concrete, 0, #000);
+    }
+    &onlyclick-material-metal {
+        @include cw-covericon-before(onlyclick-material-metal, 0, #000);
+    }
+    &onlyclick-material-other {
+        @include cw-covericon-before(onlyclick-material-other, 0, #000);
+    }
+    &onlyclick-material-tile {
+        @include cw-covericon-before(onlyclick-material-tile, 0, #000);
+    }
+    &onlyclick-material-wood {
+        @include cw-covericon-before(onlyclick-material-wood, 0, #000);
+    }
 }
