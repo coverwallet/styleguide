@@ -5,7 +5,7 @@ How to add new icons into styleguide
 4. When "The glyths in your SVG font were loaded. Use this font's metrics and metadata when exporting fonts?" appear -> click "Yes"
 5. Icons will appear on the dashboard. Make sure that there are no icons that you want to add
 
-If you found icons that you was looking in the list, you need to proceed to 10 step
+If you found icons that you were looking in the list, you need to proceed to 10 step
 
 6. Drag and drop new icons in svg format that you want to add into coverwallet section area
 7. Move them in the end of the icons list using "Move" tool at the top of the page
