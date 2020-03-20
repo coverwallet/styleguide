@@ -1,6 +1,6 @@
 {
   "name": "cw-styleguide",
-  "version": "2.9.3",
+  "version": "2.9.4",
   "description": "",
   "main": "sass/coverwallet.scss",
   "author": "Coverwallet <tech@coverwallet.com>",
