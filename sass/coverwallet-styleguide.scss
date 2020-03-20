@@ -268,6 +268,9 @@
     &employees-number {
         @include cw-covericon-before(employees-number, 0, #000);
     }
+    &exclamation-solid {
+        @include cw-covericon-before(exclamation-solid, 0, #000);
+    }
     &industry {
         @include cw-covericon-before(industry, 0, #000);
     }

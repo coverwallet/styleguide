@@ -49,6 +49,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-certificates"></span> <span class='icon-name'>certificates</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-policies"></span> <span class='icon-name'>policies</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-quotes"></span> <span class='icon-name'>quotes</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-exclamation-solid"></span> <span class='icon-name'>exclamation-solid</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-cancel-default"></span> <span class='icon-name'>cancel-default</span></li>
@@ -402,6 +403,9 @@
 }
 .cwicon-quotes:before {
     content: "\e904";
+}
+.cwicon-exclamation-solid:before {
+    content: "\ea30";
 }
 .cwicon-schedule:before {
     content: "\e905";
