@@ -1,4 +1,4 @@
-Note: This project should be built using a version of Node 8. Node 10 does NOT work with this project.
+Note: This project should be built using a version of Node ~8. Node 10 does NOT work with this project.
 
 How to add new icons into styleguide
 1. Go to https://icomoon.io/app/#/projects
