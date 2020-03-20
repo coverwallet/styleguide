@@ -1,6 +1,6 @@
 {
   "name": "cw-styleguide",
-  "version": "2.9.3",
+  "version": "2.9.4",
   "description": "",
   "main": "sass/coverwallet.scss",
   "author": "Coverwallet <tech@coverwallet.com>",
@@ -14,7 +14,7 @@
     "bower": "^1.8.2"
   },
   "engines": {
-    "node": "8.0.0"
+    "node": ">8.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
