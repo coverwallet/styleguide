@@ -271,6 +271,15 @@
     &exclamation-solid {
         @include cw-covericon-before(exclamation-solid, 0, #000);
     }
+    &revert-status{
+        @include cw-covericon-before(revert_status, 0, #000);
+    }
+    &pdf{
+        @include cw-covericon-before(pdf, 0, #000);
+    }
+    &flag{
+        @include cw-covericon-before(flag, 0, #000);
+    }
     &industry {
         @include cw-covericon-before(industry, 0, #000);
     }
