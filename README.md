@@ -24,5 +24,14 @@ After adding the icons you need to update the project version in package.json. T
 npm publish
 ```
 on master. Then go to https://github.com/coverwallet/styleguide/releases and create release with new version
+---
 
+## Show icons
 
+On your branch, to see icons working:
+
+  1- update "cw-styleguide": "git://github.com/coverwallet/styleguide.git#2.9.6" with new version released
+  2- remove yarn.lock
+  3- launch commands: 
+    --> yarn cache clean
+    --> yarn install 
