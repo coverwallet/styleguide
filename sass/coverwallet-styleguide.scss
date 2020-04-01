@@ -280,6 +280,9 @@
     &flag{
         @include cw-covericon-before(flag, 0, #000);
     }
+    &paperclip{
+        @include cw-covericon-before(paperclip, 0, #000);
+    }
     &industry {
         @include cw-covericon-before(industry, 0, #000);
     }
