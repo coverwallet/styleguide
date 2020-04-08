@@ -511,6 +511,9 @@
     &insurance-type-umbrella-liability {
         @include cw-covericon-before(insurance-type-umbrella-liability, 0, #000);
     }
+    &insurance-type-fiduciary-liability {
+        @include cw-covericon-before(insurance-type-fiduciary-liability, 0, #000);
+    }
     &insurance-type-warehouse-operators-legal-liability {
         @include cw-covericon-before(insurance-type-warehouse-operators-legal-liability, 0, #000);
     }
