@@ -154,3 +154,6 @@
 .business_pack {
   @include cw-covericon-before(industries-rental-and-leasing, 0, $cwColor-base-blue);
 }
+.fiduciary_liability {
+  @include cw-covericon-before(insurance-type-fiduciary-liability, 0, $cwColor-base-blue);
+}
