@@ -1,1012 +1,1322 @@
-@import 'coverwallet';
+@import "coverwallet";
 
 .color {
-    padding: 20px;
-    border-radius: 5px;
-    color: white;
-    margin: 10px 0;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  margin: 10px 0;
 
-    &.color-blue {
-        background-color: $cwColor-base-blue;
-    }
-    &.color-light-blue {
-        background-color: $cwColor-blue-light;
-    }
-    &.color-blue-xlight {
-        background-color: $cwColor-blue-xlight;
-        color: $cwColor-black-dark;
-    }
-    &.color-orange {
-        background-color: $cwColor-base-orange;
-    }
-    &.color-black {
-        background-color: $cwColor-base-black;
-    }
-    &.color-white {
-        background-color: $cwColor-base-white;
-        color: $cwColor-black-dark;
-    }
-    &.color-red {
-        background-color: $cwColor-base-red;
-    }
-    &.color-bluegray {
-        background-color: $cwColor-base-bluegray;
-    }
-    &.color-black-xlight {
-        background-color: $cwColor-black-xlight;
-        color: $color-text;
-    }
-    &.color-black-mlight {
-        background-color: $cwColor-black-mlight;
-        color: $color-text;
-    }
-    &.color-black-light {
-        background-color: $cwColor-black-light;
-        color: $color-text;
-    }
-    &.color-black-medium {
-        background-color: $cwColor-black-medium;
-        color: $color-text;
-    }
-    &.color-black-xmedium {
-        background-color: $cwColor-black-xmedium;
-    }
-    &.color-black-dark {
-        background-color: $cwColor-black-dark;
-    }
+  &.color-blue {
+    background-color: $cwColor-base-blue;
+  }
+  &.color-light-blue {
+    background-color: $cwColor-blue-light;
+  }
+  &.color-blue-xlight {
+    background-color: $cwColor-blue-xlight;
+    color: $cwColor-black-dark;
+  }
+  &.color-orange {
+    background-color: $cwColor-base-orange;
+  }
+  &.color-black {
+    background-color: $cwColor-base-black;
+  }
+  &.color-white {
+    background-color: $cwColor-base-white;
+    color: $cwColor-black-dark;
+  }
+  &.color-red {
+    background-color: $cwColor-base-red;
+  }
+  &.color-bluegray {
+    background-color: $cwColor-base-bluegray;
+  }
+  &.color-black-xlight {
+    background-color: $cwColor-black-xlight;
+    color: $color-text;
+  }
+  &.color-black-mlight {
+    background-color: $cwColor-black-mlight;
+    color: $color-text;
+  }
+  &.color-black-light {
+    background-color: $cwColor-black-light;
+    color: $color-text;
+  }
+  &.color-black-medium {
+    background-color: $cwColor-black-medium;
+    color: $color-text;
+  }
+  &.color-black-xmedium {
+    background-color: $cwColor-black-xmedium;
+  }
+  &.color-black-dark {
+    background-color: $cwColor-black-dark;
+  }
 }
 .form--light {
-    background: $cwColor-base-blue;
-    padding: 20px;
-    @include cw-span-columns-desktop(8, 0);
+  background: $cwColor-base-blue;
+  padding: 20px;
+  @include cw-span-columns-desktop(8, 0);
 }
 .gallery-images {
-    .image {
-        width: 100%;
-        padding-bottom: 20px;
+  .image {
+    width: 100%;
+    padding-bottom: 20px;
 
-        span {
-            display: block;
-            margin-bottom: 10px;
-        }
-        img {
-            width: 70%;
-            border: 1px solid $cwColor-base-blue;
-        }
+    span {
+      display: block;
+      margin-bottom: 10px;
     }
-
+    img {
+      width: 70%;
+      border: 1px solid $cwColor-base-blue;
+    }
+  }
 }
 .gallery-icons {
-    @include row();
+  @include row();
 
-    ul {
-        @include cw-span-columns-desktop(6);
-        padding: 0;
-        margin-top: 0;
+  ul {
+    @include cw-span-columns-desktop(6);
+    padding: 0;
+    margin-top: 0;
 
-        .gallery-icon {
-            font-size: 16px;
-            margin: 10px 0;
+    .gallery-icon {
+      font-size: 16px;
+      margin: 10px 0;
 
-            span:before {
-                font-size: 30px;
-                margin-right: 8px;
-                vertical-align: bottom;
-            }
-        }
+      span:before {
+        font-size: 30px;
+        margin-right: 8px;
+        vertical-align: bottom;
+      }
     }
+  }
 }
 .styleguide-icon- {
-    &certificates {
-        @include cw-covericon-before(certificates, 0, #000);
-    }
-    &policies {
-        @include cw-covericon-before(policies, 0, #000);
-    }
-    &quotes {
-        @include cw-covericon-before(quotes, 0, #000);
-    }
-    &contract {
-        @include cw-covericon-before(contract, 0, #000);
-    }
-    &group {
-        @include cw-covericon-before(group, 0, #000);
-    }
-    &individual {
-        @include cw-covericon-before(individual, 0, #000);
-    }
-    &licensed {
-        @include cw-covericon-before(licensed, 0, #000);
-    }
-    &schedule {
-        @include cw-covericon-before(schedule, 0, #000);
-    }
-    &separate {
-        @include cw-covericon-before(separate, 0, #000);
-    }
-    &shared {
-        @include cw-covericon-before(shared, 0, #000);
-    }
-    &student {
-        @include cw-covericon-before(student, 0, #000);
-    }
-    &edit-default {
-        @include cw-covericon-before(edit-default, 0, #000);
-    }
-    &phone-nav-default {
-        @include cw-covericon-before(phone-nav-default, 0, #000);
-    }
-    &delete-default {
-        @include cw-covericon-before(delete-default, 0, #000);
-    }
-    &cancel-default {
-        @include cw-covericon-before(cancel-default, 0, #000);
-    }
-    &add-default {
-        @include cw-covericon-before(add-default, 0, #000);
-    }
-    &check {
-        @include cw-covericon-before(check, 0, #000);
-    }
-    &phone-nav-outline {
-        @include cw-covericon-before(phone-nav-outline, 0, #000);
-    }
-    &employee {
-        @include cw-covericon-before(employee, 0, #000);
-    }
-    &employees {
-        @include cw-covericon-before(employees, 0, #000);
-    }
-    &about {
-        @include cw-covericon-before(about, 0, #000);
-    }
-    &account {
-        @include cw-covericon-before(account, 0, #000);
-    }
-    &add {
-        @include cw-covericon-before(add, 0, #000);
-    }
-    &admin {
-        @include cw-covericon-before(admin, 0, #000);
-    }
-    &agent {
-        @include cw-covericon-before(agent, 0, #000);
-    }
-    &cancel {
-        @include cw-covericon-before(cancel, 0, #000);
-    }
-    &cancel-filled {
-        @include cw-covericon-before(cancel-filled, 0, #000);
-    }
-    &chat {
-        @include cw-covericon-before(chat, 0, #000);
-    }
-    &checklist {
-        @include cw-covericon-before(checklist, 0, #000);
-    }
-    &contact {
-        @include cw-covericon-before(contact, 0, #000);
-    }
-    &current {
-        @include cw-covericon-before(current, 0, #000);
-    }
-    &download {
-        @include cw-covericon-before(download, 0, #000);
-    }
-    &edit {
-        @include cw-covericon-before(edit, 0, #000);
-    }
-    &email {
-        @include cw-covericon-before(email, 0, #000);
-    }
-    &feedback {
-        @include cw-covericon-before(feedback, 0, #000);
-    }
-    &info {
-        @include cw-covericon-before(info, 0, #000);
-    }
-    &logout {
-        @include cw-covericon-before(logout, 0, #000);
-    }
-    &newpolicy {
-        @include cw-covericon-before(newpolicy, 0, #000);
-    }
-    &notifications {
-        @include cw-covericon-before(notifications, 0, #000);
-    }
-    &phone {
-        @include cw-covericon-before(phone, 0, #000);
-    }
-    &receipts {
-        @include cw-covericon-before(receipts, 0, #000);
-    }
-    &save {
-        @include cw-covericon-before(save, 0, #000);
-    }
-    &save-filled {
-        @include cw-covericon-before(save-filled, 0, #000);
-    }
-    &schedule {
-        @include cw-covericon-before(schedule, 0, #000);
-    }
-    &calendar {
-        @include cw-covericon-before(calendar, 0, #000);
-    }
-    &settings {
-        @include cw-covericon-before(settings, 0, #000);
-    }
-    &settings-filled {
-        @include cw-covericon-before(settings-filled, 0, #000);
-    }
-    &share {
-        @include cw-covericon-before(share, 0, #000);
-    }
-    &tellfriends {
-        @include cw-covericon-before(tellfriends, 0, #000);
-    }
-    &tyc {
-        @include cw-covericon-before(tyc, 0, #000);
-    }
-    &video {
-        @include cw-covericon-before(video, 0, #000);
-    }
-    &policy-type {
-        @include cw-covericon-before(policy-type, 0, #000);
-    }
-    &past-claims {
-        @include cw-covericon-before(past-claims, 0, #000);
-    }
-    &yearly-revenues {
-        @include cw-covericon-before(yearly-revenues, 0, #000);
-    }
-    &business-size {
-        @include cw-covericon-before(business-size, 0, #000);
-    }
-    &location {
-        @include cw-covericon-before(location, 0, #000);
-    }
-    &employees-number {
-        @include cw-covericon-before(employees-number, 0, #000);
-    }
-    &exclamation-solid {
-        @include cw-covericon-before(exclamation-solid, 0, #000);
-    }
-    &revert-status{
-        @include cw-covericon-before(revert-status, 0, #000);
-    }
-    &pdf{
-        @include cw-covericon-before(pdf, 0, #000);
-    }
-    &flag{
-        @include cw-covericon-before(flag, 0, #000);
-    }
-    &paperclip{
-        @include cw-covericon-before(paperclip, 0, #000);
-    }
-    &industry {
-        @include cw-covericon-before(industry, 0, #000);
-    }
-    &your-contracts {
-        @include cw-covericon-before(your-contracts, 0, #000);
-    }
-    &3rdparty {
-        @include cw-covericon-before(3rdparty, 0, #000);
-    }
-    &checklist-shield {
-        @include cw-covericon-before(checklist-shield, 0, #000);
-    }
-    &general-liability {
-        @include cw-covericon-before(general-liability, 0, #000);
-    }
-    &epli {
-        @include cw-covericon-before(epli, 0, #000);
-    }
-    &other-docs {
-        @include cw-covericon-before(other-docs, 0, #000);
-    }
-    &us-map {
-        @include cw-covericon-before(us-map, 0, #000);
-    }
-    &popularity-high {
-        @include cw-covericon-before(popularity-high, 0, #000);
-    }
-    &popularity-low {
-        @include cw-covericon-before(popularity-low, 0, #000);
-    }
-    &popularity-med {
-        @include cw-covericon-before(popularity-med, 0, #000);
-    }
-    &property {
-        @include cw-covericon-before(property, 0, #000);
-    }
-    &restaurants {
-        @include cw-covericon-before(restaurants, 0, #000);
-    }
-    &get-certificate {
-        @include cw-covericon-before(get-certificate, 0, #000);
-    }
-    &industries-agriculture {
-        @include cw-covericon-before(industries-agriculture, 0, #000);
-    }
-    &industries-construction {
-        @include cw-covericon-before(industries-construction, 0, #000);
-    }
-    &industries-education {
-        @include cw-covericon-before(industries-education, 0, #000);
-    }
-    &industries-finance {
-        @include cw-covericon-before(industries-finance, 0, #000);
-    }
-    &industries-food {
-        @include cw-covericon-before(industries-food, 0, #000);
-    }
-    &industries-health {
-        @include cw-covericon-before(industries-health, 0, #000);
-    }
-    &industries-maintance {
-        @include cw-covericon-before(industries-maintance, 0, #000);
-    }
-    &industries-manufacturing {
-        @include cw-covericon-before(industries-manufacturing, 0, #000);
-    }
-    &industries-nonprofit {
-        @include cw-covericon-before(industries-nonprofit, 0, #000);
-    }
-    &industries-professional {
-        @include cw-covericon-before(industries-professional, 0, #000);
-    }
-    &industries-realstate {
-        @include cw-covericon-before(industries-realstate, 0, #000);
-    }
-    &industries-retailservices {
-        @include cw-covericon-before(industries-retailservices, 0, #000);
-    }
-    &industries-retailtrade {
-        @include cw-covericon-before(industries-retailtrade, 0, #000);
-    }
-    &industries-sports {
-        @include cw-covericon-before(industries-sports, 0, #000);
-    }
-    &industries-startups {
-        @include cw-covericon-before(industries-startups, 0, #000);
-    }
-    &industries-tech {
-        @include cw-covericon-before(industries-tech, 0, #000);
-    }
-    &industries-transportation {
-        @include cw-covericon-before(industries-transportation, 0, #000);
-    }
-    &industries-wholesale {
-        @include cw-covericon-before(industries-wholesale, 0, #000);
-    }
-    &industries-home-based-business {
-        @include cw-covericon-before(industries-home-based-business, 0, #000);
-    }
-    &industries-construction {
-        @include cw-covericon-before(industries-construction, 0, #000);
-    }
-    &industries-consultant {
-        @include cw-covericon-before(industries-consultant, 0, #000);
-    }
-    &industries-contractor {
-        @include cw-covericon-before(industries-contractor, 0, #000);
-    }
-    &industries-rental-and-leasing {
-        @include cw-covericon-before(industries-rental-and-leasing, 0, #000);
-    }
-    &industries-management-of-companies-and-enterprises {
-        @include cw-covericon-before(industries-management-of-companies-and-enterprises, 0, #000);
-    }
-    &industries-nonprofit {
-        @include cw-covericon-before(industries-nonprofit, 0, #000);
-    }
-    &industries-mining {
-        @include cw-covericon-before(industries-mining, 0, #000);
-    }
-    &industries-utilities {
-        @include cw-covericon-before(industries-utilities, 0, #000);
-    }
-    &insurance-type-aircraft-liability {
-        @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
-    }
-    &insurance-type-aviation-general-liability-coverage {
-        @include cw-covericon-before(insurance-type-aviation-general-liability-coverage, 0, #000);
-    }
-    &insurance-type-bailees-customers {
-        @include cw-covericon-before(insurance-type-bailees-customers, 0, #000);
-    }
-    &insurance-type-business-garage {
-        @include cw-covericon-before(insurance-type-business-garage, 0, #000);
-    }
-    &insurance-type-commercial-auto {
-        @include cw-covericon-before(insurance-type-commercial-auto, 0, #000);
-    }
-    &insurance-type-commercial-building-and-or-property {
-        @include cw-covericon-before(insurance-type-commercial-building-and-or-property, 0, #000);
-    }
-    &insurance-type-epli {
-        @include cw-covericon-before(insurance-type-epli, 0, #000);
-    }
-    &insurance-type-exhibitions {
-        @include cw-covericon-before(insurance-type-exhibitions, 0, #000);
-    }
-    &insurance-type-farmowners-multi-peril {
-        @include cw-covericon-before(insurance-type-farmowners-multi-peril, 0, #000);
-    }
-    &insurance-type-fiduciary-bond {
-        @include cw-covericon-before(insurance-type-fiduciary-bond, 0, #000);
-    }
-    &insurance-type-financial-institutions-bond {
-        @include cw-covericon-before(insurance-type-financial-institutions-bond, 0, #000);
-    }
-    &insurance-type-forgery-or-alteration {
-        @include cw-covericon-before(insurance-type-forgery-or-alteration, 0, #000);
-    }
-    &insurance-type-money-orders-and-counterfeit-money {
-        @include cw-covericon-before(insurance-type-money-orders-and-counterfeit-money, 0, #000);
-    }
-    &insurance-type-motor-carriers-liability-and-physical-damage {
-        @include cw-covericon-before(insurance-type-motor-carriers-liability-and-physical-damage, 0, #000);
-    }
-    &insurance-type-ocean-marine {
-        @include cw-covericon-before(insurance-type-ocean-marine, 0, #000);
-    }
-    &insurance-type-product-recall {
-        @include cw-covericon-before(insurance-type-product-recall, 0, #000);
-    }
-    &insurance-type-professional-liability-e-and-o {
-        @include cw-covericon-before(insurance-type-professional-liability-e-and-o, 0, #000);
-    }
-    &insurance-type-public-officials-liability {
-        @include cw-covericon-before(insurance-type-public-officials-liability, 0, #000);
-    }
-    &insurance-type-crime {
-        @include cw-covericon-before(insurance-type-crime, 0, #000);
-    }
-    &insurance-type-cyber-liability-and-data-breach {
-        @include cw-covericon-before(insurance-type-cyber-liability-and-data-breach, 0, #000);
-    }
-    &insurance-type-directors-and-officers-insurance {
-        @include cw-covericon-before(insurance-type-directors-and-officers-insurance, 0, #000);
-    }
-    &insurance-type-disability-insurance {
-        @include cw-covericon-before(insurance-type-disability-insurance, 0, #000);
-    }
-    &insurance-type-employee-benefits-liability {
-        @include cw-covericon-before(insurance-type-employee-benefits-liability, 0, #000);
-    }
-    &insurance-type-employee-dishonesty {
-        @include cw-covericon-before(insurance-type-employee-dishonesty, 0, #000);
-    }
-    &insurance-type-environmental-impairment {
-        @include cw-covericon-before(insurance-type-environmental-impairment, 0, #000);
-    }
-    &insurance-type-general-liability {
-        @include cw-covericon-before(insurance-type-general-liability, 0, #000);
-    }
-    &insurance-type-business-pack {
-        @include cw-covericon-before(insurance-type-business-pack, 0, #000);
-    }
-    &insurance-type-golf-carts {
-        @include cw-covericon-before(insurance-type-golf-carts, 0, #000);
-    }
-    &insurance-type-guests-property {
-        @include cw-covericon-before(insurance-type-guests-property, 0, #000);
-    }
-    &insurance-type-hangarkeepers-legal-liability {
-        @include cw-covericon-before(insurance-type-hangarkeepers-legal-liability, 0, #000);
-    }
-    &insurance-type-inland-marine {
-        @include cw-covericon-before(insurance-type-inland-marine, 0, #000);
-    }
-    &insurance-type-liquor-liability {
-        @include cw-covericon-before(insurance-type-liquor-liability, 0, #000);
-    }
-    &insurance-type-medical-malpractice {
-        @include cw-covericon-before(insurance-type-medical-malpractice, 0, #000);
-    }
-    &insurance-type-surety-bond {
-        @include cw-covericon-before(insurance-type-surety-bond, 0, #000);
-    }
-    &insurance-type-umbrella-liability {
-        @include cw-covericon-before(insurance-type-umbrella-liability, 0, #000);
-    }
-    &insurance-type-fiduciary-liability {
-        @include cw-covericon-before(insurance-type-fiduciary-liability, 0, #000);
-    }
-    &insurance-type-warehouse-operators-legal-liability {
-        @include cw-covericon-before(insurance-type-warehouse-operators-legal-liability, 0, #000);
-    }
-    &insurance-type-workers-compensation {
-        @include cw-covericon-before(insurance-type-workers-compensation, 0, #000);
-    }
-    &insurance-type-health-insurance {
-        @include cw-covericon-before(insurance-type-health-insurance, 0, #000);
-    }
-    &insurance-type-idontknow {
-        @include cw-covericon-before(insurance-type-idontknow, 0, #000);
-    }
-    &insurance-type-business-owners-policy-bop {
-        @include cw-covericon-before(insurance-type-business-owners-policy-bop, 0, #000);
-    }
-    &insurance-type-business-interruption-income-insurance {
-        @include cw-covericon-before(insurance-type-business-interruption-income-insurance, 0, #000);
-    }
-    &insurance-type-equipment-breakdown {
-        @include cw-covericon-before(insurance-type-equipment-breakdown, 0, #000);
-    }
-    &insurance-type-hired-and-non-owned-auto {
-        @include cw-covericon-before(insurance-type-hired-and-non-owned-auto, 0, #000);
-    }
-    &insurance-type-special-events {
-        @include cw-covericon-before(insurance-type-special-events, 0, #000);
-    }
-    &insurance-type-e-and-o {
-        @include cw-covericon-before(insurance-type-e-and-o, 0, #000);
-    }
-    &insurance-type-fidelity-bond {
-        @include cw-covericon-before(insurance-type-fidelity-bond, 0, #000);
-    }
-    &delete {
-        @include cw-covericon-before(delete, 0, #000);
-    }
-    &calendar {
-        @include cw-covericon-before(calendar, 0, #000);
-    }
-    &restore {
-        @include cw-covericon-before(restore, 0, #000);
-    }
-    &phone-nav {
-        @include cw-covericon-before(phone-nav, 0, #000);
-    }
-    &insurance-type-more {
-        @include cw-covericon-before(insurance-type-more, 0, #000);
-    }
-    &quotes-open {
-        @include cw-covericon-before(quotes-open, 0, #000);
-    }
-    &quotes-close {
-        @include cw-covericon-before(quotes-close, 0, #000);
-    }
-    &onlyclick-0-10 {
-        @include cw-covericon-before(onlyclick-0-10, 0, #000);
-    }
-    &onlyclick-minus {
-        @include cw-covericon-before(onlyclick-minus, 0, #000);
-    }
-    &onlyclick-location-rent-lease {
-        @include cw-covericon-before(onlyclick-location-rent-lease, 0, #000);
-    }
-    &onlyclick-location-own {
-        @include cw-covericon-before(onlyclick-location-own, 0, #000);
-    }
-    &onlyclick-location-non-combustible {
-        @include cw-covericon-before(onlyclick-location-non-combustible, 0, #000);
-    }
-    &onlyclick-location-joint-masonery {
-        @include cw-covericon-before(onlyclick-location-joint-masonery, 0, #000);
-    }
-    &onlyclick-location-homeoffice {
-        @include cw-covericon-before(onlyclick-location-homeoffice, 0, #000);
-    }
-    &onlyclick-location-frame {
-        @include cw-covericon-before(onlyclick-location-frame, 0, #000);
-    }
-    &onlyclick-location-fire-resistive {
-        @include cw-covericon-before(onlyclick-location-fire-resistive, 0, #000);
-    }
-    &onlyclick-lease {
-        @include cw-covericon-before(onlyclick-lease, 0, #000);
-    }
-    &onlyclick-dollar {
-        @include cw-covericon-before(onlyclick-dollar, 0, #000);
-    }
-    &onlyclick-backspace {
-        @include cw-covericon-before(onlyclick-backspace, 0, #000);
-    }
-    &onlyclick-50plus {
-        @include cw-covericon-before(onlyclick-50plus, 0, #000);
-    }
-    &onlyclick-10-50 {
-        @include cw-covericon-before(onlyclick-10-50, 0, #000);
-    }
-    &onlyclick-no {
-        @include cw-covericon-before(onlyclick-no, 0, #000);
-    }
-    &onlyclick-notsure {
-        @include cw-covericon-before(onlyclick-notsure, 0, #000);
-    }
-    &onlyclick-own {
-        @include cw-covericon-before(onlyclick-own, 0, #000);
-    }
-    &onlyclick-plus {
-        @include cw-covericon-before(onlyclick-plus, 0, #000);
-    }
-    &onlyclick-plus-2 {
-        @include cw-covericon-before(onlyclick-plus-2, 0, #000);
-    }
-    &onlyclick-less {
-        @include cw-covericon-before(onlyclick-less, 0, #000);
-    }
-    &onlyclick-yes {
-        @include cw-covericon-before(onlyclick-yes, 0, #000);
-    }
-    &onlyclick-ach {
-        @include cw-covericon-before(onlyclick-ach, 0, #000);
-    }
-    &onlyclick-creditcard {
-        @include cw-covericon-before(onlyclick-creditcard, 0, #000);
-    }
-    &onlyclick-wc-medical {
-        @include cw-covericon-before(onlyclick-wc-medical, 0, #000);
-    }
-    &onlyclick-wc-indemnity {
-        @include cw-covericon-before(onlyclick-wc-indemnity, 0, #000);
-    }
-    &onlyclick-wc-both {
-        @include cw-covericon-before(onlyclick-wc-both, 0, #000);
-    }
-    &onlyclick-3installments {
-        @include cw-covericon-before(onlyclick-3installments, 0, #000);
-    }
-    &onlyclick-10installments {
-        @include cw-covericon-before(onlyclick-10installments, 0, #000);
-    }
-    &onlyclick-fullpayment {
-        @include cw-covericon-before(onlyclick-fullpayment, 0, #000);
-    }
-    &subindustries-amusement-arcades {
-        @include cw-covericon-before(subindustries-amusement-arcades, 0, #000);
-    }
-    &subindustries-art-dealers {
-        @include cw-covericon-before(subindustries-art-dealers, 0, #000);
-    }
-    &subindustries-concession-stands {
-        @include cw-covericon-before(subindustries-concession-stands, 0, #000);
-    }
-    &subindustries-convention-and-trade-show-organizers-event-promoters {
-        @include cw-covericon-before(subindustries-convention-and-trade-show-organizers-event-promoters, 0, #000);
-    }
-    &subindustries-dietitians {
-        @include cw-covericon-before(subindustries-dietitians, 0, #000);
-    }
-    &subindustries-djs-and-musicians {
-        @include cw-covericon-before(subindustries-djs-and-musicians, 0, #000);
-    }
-    &subindustries-exterminating-and-pest-control-services {
-        @include cw-covericon-before(subindustries-exterminating-and-pest-control-services, 0, #000);
-    }
-    &subindustries-historical-sites-museums {
-        @include cw-covericon-before(subindustries-historical-sites-museums, 0, #000);
-    }
-    &subindustries-maid-services-janitorial-services {
-        @include cw-covericon-before(subindustries-maid-services-janitorial-services, 0, #000);
-    }
-    &subindustries-mail-order-houses {
-        @include cw-covericon-before(subindustries-mail-order-houses, 0, #000);
-    }
-    &subindustries-new-car-dealers {
-        @include cw-covericon-before(subindustries-new-car-dealers, 0, #000);
-    }
-    &subindustries-newsstands {
-        @include cw-covericon-before(subindustries-newsstands, 0, #000);
-    }
-    &subindustries-packaging-and-labeling-services {
-        @include cw-covericon-before(subindustries-packaging-and-labeling-services, 0, #000);
-    }
-    &subindustries-parking-lots-and-garages {
-        @include cw-covericon-before(subindustries-parking-lots-and-garages, 0, #000);
-    }
-    &subindustries-payroll-services {
-        @include cw-covericon-before(subindustries-payroll-services, 0, #000);
-    }
-    &subindustries-photographers {
-        @include cw-covericon-before(subindustries-photographers, 0, #000);
-    }
-    &subindustries-post-production-services {
-        @include cw-covericon-before(subindustries-post-production-services, 0, #000);
-    }
-    &subindustries-professional-employer-organizations {
-        @include cw-covericon-before(subindustries-professional-employer-organizations, 0, #000);
-    }
-    &subindustries-radio-stations {
-        @include cw-covericon-before(subindustries-radio-stations, 0, #000);
-    }
-    &subindustries-marinas {
-        @include cw-covericon-before(subindustries-marinas, 0, #000);
-    }
-    &subindustries-mobile-home-dealers {
-        @include cw-covericon-before(subindustries-mobile-home-dealers, 0, #000);
-    }
-    &subindustries-nail-salons {
-        @include cw-covericon-before(subindustries-nail-salons, 0, #000);
-    }
-    &subindustries-nature-parks {
-        @include cw-covericon-before(subindustries-nature-parks, 0, #000);
-    }
-    &subindustries-security-systems-services {
-        @include cw-covericon-before(subindustries-security-systems-services, 0, #000);
-    }
-    &subindustries-talent-agents {
-        @include cw-covericon-before(subindustries-talent-agents, 0, #000);
-    }
-    &subindustries-television-broadcasting-services {
-        @include cw-covericon-before(subindustries-television-broadcasting-services, 0, #000);
-    }
-    &subindustries-testing-laboratories {
-        @include cw-covericon-before(subindustries-testing-laboratories, 0, #000);
-    }
-    &subindustries-travel-agencies {
-        @include cw-covericon-before(subindustries-travel-agencies, 0, #000);
-    }
-    &subindustries-vending-machine-operators {
-        @include cw-covericon-before(subindustries-vending-machine-operators, 0, #000);
-    }
-    &subindustries-video-production-services {
-        @include cw-covericon-before(subindustries-video-production-services, 0, #000);
-    }
-    &subindustries-wedding-planners {
-        @include cw-covericon-before(subindustries-wedding-planners, 0, #000);
-    }
-    &subindustries-zoos-and-botanical-gardens {
-        @include cw-covericon-before(subindustries-zoos-and-botanical-gardens, 0, #000);
-    }
-    &subindustries-accountants-and-bookkeepers {
-        @include cw-covericon-before(subindustries-accountants-and-bookkeepers, 0, #000);
-    }
-    &subindustries-advertising-agencies {
-        @include cw-covericon-before(subindustries-advertising-agencies, 0, #000);
-    }
-    &subindustries-artists-and-writers {
-        @include cw-covericon-before(subindustries-artists-and-writers, 0, #000);
-    }
-    &subindustries-bakeries {
-        @include cw-covericon-before(subindustries-bakeries, 0, #000);
-    }
-    &subindustries-barber-shops {
-        @include cw-covericon-before(subindustries-barber-shops, 0, #000);
-    }
-    &subindustries-beauty-salons-estheticians {
-        @include cw-covericon-before(subindustries-beauty-salons-estheticians, 0, #000);
-    }
-    &subindustries-book-stores-libraries-and-archives {
-        @include cw-covericon-before(subindustries-book-stores-libraries-and-archives, 0, #000);
-    }
-    &subindustries-breweries-and-wineries {
-        @include cw-covericon-before(subindustries-breweries-and-wineries, 0, #000);
-    }
-    &subindustries-executive-search-services {
-        @include cw-covericon-before(subindustries-executive-search-services, 0, #000);
-    }
-    &subindustries-employment-placement-agencies {
-        @include cw-covericon-before(subindustries-employment-placement-agencies, 0, #000);
-    }
-    &subindustries-document-preparation-services {
-        @include cw-covericon-before(subindustries-document-preparation-services, 0, #000);
-    }
-    &subindustries-dental-laboratories {
-        @include cw-covericon-before(subindustries-dental-laboratories, 0, #000);
-    }
-    &subindustries-dance-companies-and-studios {
-        @include cw-covericon-before(subindustries-dance-companies-and-studios, 0, #000);
-    }
-    &subindustries-custom-computer-programming-services {
-        @include cw-covericon-before(subindustries-custom-computer-programming-services, 0, #000);
-    }
-    &subindustries-computer-facilities-management-services-computer-systems-design-services {
-        @include cw-covericon-before(subindustries-computer-facilities-management-services-computer-systems-design-services, 0, #000);
-    }
-    &subindustries-car-washing-services {
-        @include cw-covericon-before(subindustries-car-washing-services, 0, #000);
-    }
-    &subindustries-investigation-services {
-        @include cw-covericon-before(subindustries-investigation-services, 0, #000);
-    }
-    &subindustries-pharmacies {
-        @include cw-covericon-before(subindustries-pharmacies, 0, #000);
-    }
-    &subindustries-pet-stores {
-        @include cw-covericon-before(subindustries-pet-stores, 0, #000);
-    }
-    &subindustries-personal-trainers {
-        @include cw-covericon-before(subindustries-personal-trainers, 0, #000);
-    }
-    &subindustries-telemarketing-services-telephone-answering-services {
-        @include cw-covericon-before(subindustries-telemarketing-services-telephone-answering-services, 0, #000);
-    }
-    &subindustries-teachers {
-        @include cw-covericon-before(subindustries-teachers, 0, #000);
-    }
-    &subindustries-taxi-services {
-        @include cw-covericon-before(subindustries-taxi-services, 0, #000);
-    }
-    &subindustries-yoga-teachers {
-        @include cw-covericon-before(subindustries-yoga-teachers, 0, #000);
-    }
-    &subindustries-translators {
-        @include cw-covericon-before(subindustries-translators, 0, #000);
-    }
-    &subindustries-marketing-research-services-media-buying-agencies-media-representatives {
-        @include cw-covericon-before(subindustries-marketing-research-services-media-buying-agencies-media-representatives, 0, #000);
-    }
-    &subindustries-public-relations-agencies {
-        @include cw-covericon-before(subindustries-public-relations-agencies, 0, #000);
-    }
-    &subindustries-office-machine-repair-and-maintenance {
-        @include cw-covericon-before(subindustries-office-machine-repair-and-maintenance, 0, #000);
-    }
-    &subindustries-office-administrative-services {
-        @include cw-covericon-before(subindustries-office-administrative-services, 0, #000);
-    }
-    &subindustries-social-workers {
-        @include cw-covericon-before(subindustries-social-workers, 0, #000);
-    }
-    &subindustries-used-car-dealers {
-        @include cw-covericon-before(subindustries-used-car-dealers, 0, #000);
-    }
-    &subindustries-waste-related-activities {
-        @include cw-covericon-before(subindustries-waste-related-activities, 0, #000);
-    }
-    &subindustries-air-transportation {
-        @include cw-covericon-before(subindustries-air-transportation, 0, #000);
-    }
-    &subindustries-apparel-wholesalers {
-        @include cw-covericon-before(subindustries-apparel-wholesalers, 0, #000);
-    }
-    &subindustries-certified-public-accountants {
-        @include cw-covericon-before(subindustries-certified-public-accountants, 0, #000);
-    }
-    &subindustries-bus-transportation {
-        @include cw-covericon-before(subindustries-bus-transportation, 0, #000);
-    }
-    &subindustries-commercial-bakeries {
-        @include cw-covericon-before(subindustries-commercial-bakeries, 0, #000);
-    }
-    &subindustries-community-food-services {
-        @include cw-covericon-before(subindustries-community-food-services, 0, #000);
-    }
-    &subindustries-community-housing-services {
-        @include cw-covericon-before(subindustries-community-housing-services, 0, #000);
-    }
-    &subindustries-construction-material-wholesalers {
-        @include cw-covericon-before(subindustries-construction-material-wholesalers, 0, #000);
-    }
-    &subindustries-cosmetologists {
-        @include cw-covericon-before(subindustries-cosmetologists, 0, #000);
-    }
-    &subindustries-counselors {
-        @include cw-covericon-before(subindustries-counselors, 0, #000);
-    }
-    &subindustries-building-materials-stores {
-        @include cw-covericon-before(subindustries-building-materials-stores, 0, #000);
-    }
-    &subindustries-fuel-dealers {
-        @include cw-covericon-before(subindustries-fuel-dealers, 0, #000);
-    }
-    &subindustries-fishermen {
-        @include cw-covericon-before(subindustries-fishermen, 0, #000);
-    }
-    &subindustries-financial-institutions {
-        @include cw-covericon-before(subindustries-financial-institutions, 0, #000);
-    }
-    &subindustries-drycleaning-and-laundry-services {
-        @include cw-covericon-before(subindustries-drycleaning-and-laundry-services, 0, #000);
-    }
-    &subindustries-landscaping-and-lawn-mowing {
-        @include cw-covericon-before(subindustries-landscaping-and-lawn-mowing, 0, #000);
-    }
-    &subindustries-integrated-record-production-and-distribution {
-        @include cw-covericon-before(subindustries-integrated-record-production-and-distribution, 0, #000);
-    }
-    &subindustries-insurance-carriers {
-        @include cw-covericon-before(subindustries-insurance-carriers, 0, #000);
-    }
-    &subindustries-golf-courses-and-country-clubs {
-        @include cw-covericon-before(subindustries-golf-courses-and-country-clubs, 0, #000);
-    }
-    &subindustries-business-associations {
-        @include cw-covericon-before(subindustries-business-associations, 0, #000);
-    }
-    &subindustries-one-hour-photofinishing {
-        @include cw-covericon-before(subindustries-one-hour-photofinishing, 0, #000);
-    }
-    &subindustries-other-business-support-services {
-        @include cw-covericon-before(subindustries-other-business-support-services, 0, #000);
-    }
-    &subindustries-other-computer-related-services {
-        @include cw-covericon-before(subindustries-other-computer-related-services, 0, #000);
-    }
-    &subindustries-other-financial-services {
-        @include cw-covericon-before(subindustries-other-financial-services, 0, #000);
-    }
-    &subindustries-other-gasoline-stations {
-        @include cw-covericon-before(subindustries-other-gasoline-stations, 0, #000);
-    }
-    &subindustries-other-legal-services {
-        @include cw-covericon-before(subindustries-other-legal-services, 0, #000);
-    }
-    &subindustries-other-personal-services {
-        @include cw-covericon-before(subindustries-other-personal-services, 0, #000);
-    }
-    &subindustries-motion-picture-theaters {
-        @include cw-covericon-before(subindustries-motion-picture-theaters, 0, #000);
-    }
-    &subindustries-mental-health-practitioners {
-        @include cw-covericon-before(subindustries-mental-health-practitioners, 0, #000);
-    }
-    &subindustries-pet-care-services {
-        @include cw-covericon-before(subindustries-pet-care-services, 0, #000);
-    }
-    &subindustries-paper-based-publishers {
-        @include cw-covericon-before(subindustries-paper-based-publishers, 0, #000);
-    }
-    &subindustries-other-vehicle-dealers {
-        @include cw-covericon-before(subindustries-other-vehicle-dealers, 0, #000);
-    }
-    &subindustries-other-traveler-accommodations {
-        @include cw-covericon-before(subindustries-other-traveler-accommodations, 0, #000);
-    }
-    &subindustries-other-spectator-sports {
-        @include cw-covericon-before(subindustries-other-spectator-sports, 0, #000);
-    }
-    &subindustries-other-services-related-to-advertising {
-        @include cw-covericon-before(subindustries-other-services-related-to-advertising, 0, #000);
-    }
-    &subindustries-political-organizations {
-        @include cw-covericon-before(subindustries-political-organizations, 0, #000);
-    }
-    &subindustries-professional-organizations {
-        @include cw-covericon-before(subindustries-professional-organizations, 0, #000);
-    }
-    &subindustries-security-guards {
-        @include cw-covericon-before(subindustries-security-guards, 0, #000);
-    }
-    &subindustries-theater-companies-and-dinner-theaters {
-        @include cw-covericon-before(subindustries-theater-companies-and-dinner-theaters, 0, #000);
-    }
-    &subindustries-tire-retreading-companies {
-        @include cw-covericon-before(subindustries-tire-retreading-companies, 0, #000);
-    }
-    &subindustries-snow-plowing-services {
-        @include cw-covericon-before(subindustries-snow-plowing-services, 0, #000);
-    }
-    &subindustries-sound-recording-studios {
-        @include cw-covericon-before(subindustries-sound-recording-studios, 0, #000);
-    }
-    &subindustries-veterinarians {
-        @include cw-covericon-before(subindustries-veterinarians, 0, #000);
-    }
-    &subindustries-vehicle-manufacturers {
-        @include cw-covericon-before(subindustries-vehicle-manufacturers, 0, #000);
-    }
-    &subindustries-post-production-services {
-        @include cw-covericon-before(subindustries-post-production-services, 0, #000);
-    }
-    &onlyclick-monitored {
-        @include cw-covericon-before(onlyclick-monitored, 0, #000);
-    }
-    &onlyclick-unmonitored {
-        @include cw-covericon-before(onlyclick-unmonitored, 0, #000);
-    }
-    &onlyclick-material-asbestos {
-        @include cw-covericon-before(onlyclick-material-asbestos, 0, #000);
-    }
-    &onlyclick-material-brick {
-        @include cw-covericon-before(onlyclick-material-brick, 0, #000);
-    }
-    &onlyclick-material-concrete {
-        @include cw-covericon-before(onlyclick-material-concrete, 0, #000);
-    }
-    &onlyclick-material-metal {
-        @include cw-covericon-before(onlyclick-material-metal, 0, #000);
-    }
-    &onlyclick-material-other {
-        @include cw-covericon-before(onlyclick-material-other, 0, #000);
-    }
-    &onlyclick-material-tile {
-        @include cw-covericon-before(onlyclick-material-tile, 0, #000);
-    }
-    &onlyclick-material-wood {
-        @include cw-covericon-before(onlyclick-material-wood, 0, #000);
-    }
+  &certificates {
+    @include cw-covericon-before(certificates, 0, #000);
+  }
+  &policies {
+    @include cw-covericon-before(policies, 0, #000);
+  }
+  &quotes {
+    @include cw-covericon-before(quotes, 0, #000);
+  }
+  &contract {
+    @include cw-covericon-before(contract, 0, #000);
+  }
+  &group {
+    @include cw-covericon-before(group, 0, #000);
+  }
+  &individual {
+    @include cw-covericon-before(individual, 0, #000);
+  }
+  &licensed {
+    @include cw-covericon-before(licensed, 0, #000);
+  }
+  &schedule {
+    @include cw-covericon-before(schedule, 0, #000);
+  }
+  &separate {
+    @include cw-covericon-before(separate, 0, #000);
+  }
+  &shared {
+    @include cw-covericon-before(shared, 0, #000);
+  }
+  &student {
+    @include cw-covericon-before(student, 0, #000);
+  }
+  &edit-default {
+    @include cw-covericon-before(edit-default, 0, #000);
+  }
+  &phone-nav-default {
+    @include cw-covericon-before(phone-nav-default, 0, #000);
+  }
+  &delete-default {
+    @include cw-covericon-before(delete-default, 0, #000);
+  }
+  &cancel-default {
+    @include cw-covericon-before(cancel-default, 0, #000);
+  }
+  &add-default {
+    @include cw-covericon-before(add-default, 0, #000);
+  }
+  &check {
+    @include cw-covericon-before(check, 0, #000);
+  }
+  &phone-nav-outline {
+    @include cw-covericon-before(phone-nav-outline, 0, #000);
+  }
+  &employee {
+    @include cw-covericon-before(employee, 0, #000);
+  }
+  &employees {
+    @include cw-covericon-before(employees, 0, #000);
+  }
+  &about {
+    @include cw-covericon-before(about, 0, #000);
+  }
+  &account {
+    @include cw-covericon-before(account, 0, #000);
+  }
+  &add {
+    @include cw-covericon-before(add, 0, #000);
+  }
+  &admin {
+    @include cw-covericon-before(admin, 0, #000);
+  }
+  &agent {
+    @include cw-covericon-before(agent, 0, #000);
+  }
+  &cancel {
+    @include cw-covericon-before(cancel, 0, #000);
+  }
+  &cancel-filled {
+    @include cw-covericon-before(cancel-filled, 0, #000);
+  }
+  &chat {
+    @include cw-covericon-before(chat, 0, #000);
+  }
+  &checklist {
+    @include cw-covericon-before(checklist, 0, #000);
+  }
+  &contact {
+    @include cw-covericon-before(contact, 0, #000);
+  }
+  &current {
+    @include cw-covericon-before(current, 0, #000);
+  }
+  &download {
+    @include cw-covericon-before(download, 0, #000);
+  }
+  &edit {
+    @include cw-covericon-before(edit, 0, #000);
+  }
+  &email {
+    @include cw-covericon-before(email, 0, #000);
+  }
+  &feedback {
+    @include cw-covericon-before(feedback, 0, #000);
+  }
+  &info {
+    @include cw-covericon-before(info, 0, #000);
+  }
+  &logout {
+    @include cw-covericon-before(logout, 0, #000);
+  }
+  &newpolicy {
+    @include cw-covericon-before(newpolicy, 0, #000);
+  }
+  &notifications {
+    @include cw-covericon-before(notifications, 0, #000);
+  }
+  &phone {
+    @include cw-covericon-before(phone, 0, #000);
+  }
+  &receipts {
+    @include cw-covericon-before(receipts, 0, #000);
+  }
+  &save {
+    @include cw-covericon-before(save, 0, #000);
+  }
+  &save-filled {
+    @include cw-covericon-before(save-filled, 0, #000);
+  }
+  &schedule {
+    @include cw-covericon-before(schedule, 0, #000);
+  }
+  &calendar {
+    @include cw-covericon-before(calendar, 0, #000);
+  }
+  &settings {
+    @include cw-covericon-before(settings, 0, #000);
+  }
+  &settings-filled {
+    @include cw-covericon-before(settings-filled, 0, #000);
+  }
+  &share {
+    @include cw-covericon-before(share, 0, #000);
+  }
+  &tellfriends {
+    @include cw-covericon-before(tellfriends, 0, #000);
+  }
+  &tyc {
+    @include cw-covericon-before(tyc, 0, #000);
+  }
+  &video {
+    @include cw-covericon-before(video, 0, #000);
+  }
+  &policy-type {
+    @include cw-covericon-before(policy-type, 0, #000);
+  }
+  &past-claims {
+    @include cw-covericon-before(past-claims, 0, #000);
+  }
+  &yearly-revenues {
+    @include cw-covericon-before(yearly-revenues, 0, #000);
+  }
+  &business-size {
+    @include cw-covericon-before(business-size, 0, #000);
+  }
+  &location {
+    @include cw-covericon-before(location, 0, #000);
+  }
+  &employees-number {
+    @include cw-covericon-before(employees-number, 0, #000);
+  }
+  &exclamation-solid {
+    @include cw-covericon-before(exclamation-solid, 0, #000);
+  }
+  &revert-status {
+    @include cw-covericon-before(revert-status, 0, #000);
+  }
+  &pdf {
+    @include cw-covericon-before(pdf, 0, #000);
+  }
+  &flag {
+    @include cw-covericon-before(flag, 0, #000);
+  }
+  &paperclip {
+    @include cw-covericon-before(paperclip, 0, #000);
+  }
+  &industry {
+    @include cw-covericon-before(industry, 0, #000);
+  }
+  &your-contracts {
+    @include cw-covericon-before(your-contracts, 0, #000);
+  }
+  &3rdparty {
+    @include cw-covericon-before(3rdparty, 0, #000);
+  }
+  &checklist-shield {
+    @include cw-covericon-before(checklist-shield, 0, #000);
+  }
+  &general-liability {
+    @include cw-covericon-before(general-liability, 0, #000);
+  }
+  &epli {
+    @include cw-covericon-before(epli, 0, #000);
+  }
+  &other-docs {
+    @include cw-covericon-before(other-docs, 0, #000);
+  }
+  &us-map {
+    @include cw-covericon-before(us-map, 0, #000);
+  }
+  &popularity-high {
+    @include cw-covericon-before(popularity-high, 0, #000);
+  }
+  &popularity-low {
+    @include cw-covericon-before(popularity-low, 0, #000);
+  }
+  &popularity-med {
+    @include cw-covericon-before(popularity-med, 0, #000);
+  }
+  &property {
+    @include cw-covericon-before(property, 0, #000);
+  }
+  &restaurants {
+    @include cw-covericon-before(restaurants, 0, #000);
+  }
+  &get-certificate {
+    @include cw-covericon-before(get-certificate, 0, #000);
+  }
+  &industries-agriculture {
+    @include cw-covericon-before(industries-agriculture, 0, #000);
+  }
+  &industries-construction {
+    @include cw-covericon-before(industries-construction, 0, #000);
+  }
+  &industries-education {
+    @include cw-covericon-before(industries-education, 0, #000);
+  }
+  &industries-finance {
+    @include cw-covericon-before(industries-finance, 0, #000);
+  }
+  &industries-food {
+    @include cw-covericon-before(industries-food, 0, #000);
+  }
+  &industries-health {
+    @include cw-covericon-before(industries-health, 0, #000);
+  }
+  &industries-maintance {
+    @include cw-covericon-before(industries-maintance, 0, #000);
+  }
+  &industries-manufacturing {
+    @include cw-covericon-before(industries-manufacturing, 0, #000);
+  }
+  &industries-nonprofit {
+    @include cw-covericon-before(industries-nonprofit, 0, #000);
+  }
+  &industries-professional {
+    @include cw-covericon-before(industries-professional, 0, #000);
+  }
+  &industries-realstate {
+    @include cw-covericon-before(industries-realstate, 0, #000);
+  }
+  &industries-retailservices {
+    @include cw-covericon-before(industries-retailservices, 0, #000);
+  }
+  &industries-retailtrade {
+    @include cw-covericon-before(industries-retailtrade, 0, #000);
+  }
+  &industries-sports {
+    @include cw-covericon-before(industries-sports, 0, #000);
+  }
+  &industries-startups {
+    @include cw-covericon-before(industries-startups, 0, #000);
+  }
+  &industries-tech {
+    @include cw-covericon-before(industries-tech, 0, #000);
+  }
+  &industries-transportation {
+    @include cw-covericon-before(industries-transportation, 0, #000);
+  }
+  &industries-wholesale {
+    @include cw-covericon-before(industries-wholesale, 0, #000);
+  }
+  &industries-home-based-business {
+    @include cw-covericon-before(industries-home-based-business, 0, #000);
+  }
+  &industries-construction {
+    @include cw-covericon-before(industries-construction, 0, #000);
+  }
+  &industries-consultant {
+    @include cw-covericon-before(industries-consultant, 0, #000);
+  }
+  &industries-contractor {
+    @include cw-covericon-before(industries-contractor, 0, #000);
+  }
+  &industries-rental-and-leasing {
+    @include cw-covericon-before(industries-rental-and-leasing, 0, #000);
+  }
+  &industries-management-of-companies-and-enterprises {
+    @include cw-covericon-before(
+      industries-management-of-companies-and-enterprises,
+      0,
+      #000
+    );
+  }
+  &industries-nonprofit {
+    @include cw-covericon-before(industries-nonprofit, 0, #000);
+  }
+  &industries-mining {
+    @include cw-covericon-before(industries-mining, 0, #000);
+  }
+  &industries-utilities {
+    @include cw-covericon-before(industries-utilities, 0, #000);
+  }
+  &insurance-type-aircraft-liability {
+    @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
+  }
+  &insurance-type-aviation-general-liability-coverage {
+    @include cw-covericon-before(
+      insurance-type-aviation-general-liability-coverage,
+      0,
+      #000
+    );
+  }
+  &insurance-type-bailees-customers {
+    @include cw-covericon-before(insurance-type-bailees-customers, 0, #000);
+  }
+  &insurance-type-business-garage {
+    @include cw-covericon-before(insurance-type-business-garage, 0, #000);
+  }
+  &insurance-type-commercial-auto {
+    @include cw-covericon-before(insurance-type-commercial-auto, 0, #000);
+  }
+  &insurance-type-commercial-building-and-or-property {
+    @include cw-covericon-before(
+      insurance-type-commercial-building-and-or-property,
+      0,
+      #000
+    );
+  }
+  &insurance-type-epli {
+    @include cw-covericon-before(insurance-type-epli, 0, #000);
+  }
+  &insurance-type-exhibitions {
+    @include cw-covericon-before(insurance-type-exhibitions, 0, #000);
+  }
+  &insurance-type-farmowners-multi-peril {
+    @include cw-covericon-before(
+      insurance-type-farmowners-multi-peril,
+      0,
+      #000
+    );
+  }
+  &insurance-type-fiduciary-bond {
+    @include cw-covericon-before(insurance-type-fiduciary-bond, 0, #000);
+  }
+  &insurance-type-financial-institutions-bond {
+    @include cw-covericon-before(
+      insurance-type-financial-institutions-bond,
+      0,
+      #000
+    );
+  }
+  &insurance-type-forgery-or-alteration {
+    @include cw-covericon-before(insurance-type-forgery-or-alteration, 0, #000);
+  }
+  &insurance-type-money-orders-and-counterfeit-money {
+    @include cw-covericon-before(
+      insurance-type-money-orders-and-counterfeit-money,
+      0,
+      #000
+    );
+  }
+  &insurance-type-motor-carriers-liability-and-physical-damage {
+    @include cw-covericon-before(
+      insurance-type-motor-carriers-liability-and-physical-damage,
+      0,
+      #000
+    );
+  }
+  &insurance-type-ocean-marine {
+    @include cw-covericon-before(insurance-type-ocean-marine, 0, #000);
+  }
+  &insurance-type-product-recall {
+    @include cw-covericon-before(insurance-type-product-recall, 0, #000);
+  }
+  &insurance-type-professional-liability-e-and-o {
+    @include cw-covericon-before(
+      insurance-type-professional-liability-e-and-o,
+      0,
+      #000
+    );
+  }
+  &insurance-type-public-officials-liability {
+    @include cw-covericon-before(
+      insurance-type-public-officials-liability,
+      0,
+      #000
+    );
+  }
+  &insurance-type-crime {
+    @include cw-covericon-before(insurance-type-crime, 0, #000);
+  }
+  &insurance-type-cyber-liability-and-data-breach {
+    @include cw-covericon-before(
+      insurance-type-cyber-liability-and-data-breach,
+      0,
+      #000
+    );
+  }
+  &insurance-type-directors-and-officers-insurance {
+    @include cw-covericon-before(
+      insurance-type-directors-and-officers-insurance,
+      0,
+      #000
+    );
+  }
+  &insurance-type-disability-insurance {
+    @include cw-covericon-before(insurance-type-disability-insurance, 0, #000);
+  }
+  &insurance-type-employee-benefits-liability {
+    @include cw-covericon-before(
+      insurance-type-employee-benefits-liability,
+      0,
+      #000
+    );
+  }
+  &insurance-type-employee-dishonesty {
+    @include cw-covericon-before(insurance-type-employee-dishonesty, 0, #000);
+  }
+  &insurance-type-environmental-impairment {
+    @include cw-covericon-before(
+      insurance-type-environmental-impairment,
+      0,
+      #000
+    );
+  }
+  &insurance-type-general-liability {
+    @include cw-covericon-before(insurance-type-general-liability, 0, #000);
+  }
+  &insurance-type-business-pack {
+    @include cw-covericon-before(insurance-type-business-pack, 0, #000);
+  }
+  &insurance-type-golf-carts {
+    @include cw-covericon-before(insurance-type-golf-carts, 0, #000);
+  }
+  &insurance-type-guests-property {
+    @include cw-covericon-before(insurance-type-guests-property, 0, #000);
+  }
+  &insurance-type-hangarkeepers-legal-liability {
+    @include cw-covericon-before(
+      insurance-type-hangarkeepers-legal-liability,
+      0,
+      #000
+    );
+  }
+  &insurance-type-inland-marine {
+    @include cw-covericon-before(insurance-type-inland-marine, 0, #000);
+  }
+  &insurance-type-liquor-liability {
+    @include cw-covericon-before(insurance-type-liquor-liability, 0, #000);
+  }
+  &insurance-type-medical-malpractice {
+    @include cw-covericon-before(insurance-type-medical-malpractice, 0, #000);
+  }
+  &insurance-type-surety-bond {
+    @include cw-covericon-before(insurance-type-surety-bond, 0, #000);
+  }
+  &insurance-type-umbrella-liability {
+    @include cw-covericon-before(insurance-type-umbrella-liability, 0, #000);
+  }
+  &insurance-type-fiduciary-liability {
+    @include cw-covericon-before(insurance-type-fiduciary-liability, 0, #000);
+  }
+  &insurance-type-warehouse-operators-legal-liability {
+    @include cw-covericon-before(
+      insurance-type-warehouse-operators-legal-liability,
+      0,
+      #000
+    );
+  }
+  &insurance-type-workers-compensation {
+    @include cw-covericon-before(insurance-type-workers-compensation, 0, #000);
+  }
+  &insurance-type-health-insurance {
+    @include cw-covericon-before(insurance-type-health-insurance, 0, #000);
+  }
+  &insurance-type-idontknow {
+    @include cw-covericon-before(insurance-type-idontknow, 0, #000);
+  }
+  &insurance-type-business-owners-policy-bop {
+    @include cw-covericon-before(
+      insurance-type-business-owners-policy-bop,
+      0,
+      #000
+    );
+  }
+  &insurance-type-business-interruption-income-insurance {
+    @include cw-covericon-before(
+      insurance-type-business-interruption-income-insurance,
+      0,
+      #000
+    );
+  }
+  &insurance-type-equipment-breakdown {
+    @include cw-covericon-before(insurance-type-equipment-breakdown, 0, #000);
+  }
+  &insurance-type-hired-and-non-owned-auto {
+    @include cw-covericon-before(
+      insurance-type-hired-and-non-owned-auto,
+      0,
+      #000
+    );
+  }
+  &insurance-type-special-events {
+    @include cw-covericon-before(insurance-type-special-events, 0, #000);
+  }
+  &insurance-type-e-and-o {
+    @include cw-covericon-before(insurance-type-e-and-o, 0, #000);
+  }
+  &insurance-type-fidelity-bond {
+    @include cw-covericon-before(insurance-type-fidelity-bond, 0, #000);
+  }
+  &delete {
+    @include cw-covericon-before(delete, 0, #000);
+  }
+  &calendar {
+    @include cw-covericon-before(calendar, 0, #000);
+  }
+  &restore {
+    @include cw-covericon-before(restore, 0, #000);
+  }
+  &phone-nav {
+    @include cw-covericon-before(phone-nav, 0, #000);
+  }
+  &insurance-type-more {
+    @include cw-covericon-before(insurance-type-more, 0, #000);
+  }
+  &quotes-open {
+    @include cw-covericon-before(quotes-open, 0, #000);
+  }
+  &quotes-close {
+    @include cw-covericon-before(quotes-close, 0, #000);
+  }
+  &onlyclick-0-10 {
+    @include cw-covericon-before(onlyclick-0-10, 0, #000);
+  }
+  &onlyclick-minus {
+    @include cw-covericon-before(onlyclick-minus, 0, #000);
+  }
+  &onlyclick-location-rent-lease {
+    @include cw-covericon-before(onlyclick-location-rent-lease, 0, #000);
+  }
+  &onlyclick-location-own {
+    @include cw-covericon-before(onlyclick-location-own, 0, #000);
+  }
+  &onlyclick-location-non-combustible {
+    @include cw-covericon-before(onlyclick-location-non-combustible, 0, #000);
+  }
+  &onlyclick-location-joint-masonery {
+    @include cw-covericon-before(onlyclick-location-joint-masonery, 0, #000);
+  }
+  &onlyclick-location-homeoffice {
+    @include cw-covericon-before(onlyclick-location-homeoffice, 0, #000);
+  }
+  &onlyclick-location-frame {
+    @include cw-covericon-before(onlyclick-location-frame, 0, #000);
+  }
+  &onlyclick-location-fire-resistive {
+    @include cw-covericon-before(onlyclick-location-fire-resistive, 0, #000);
+  }
+  &onlyclick-lease {
+    @include cw-covericon-before(onlyclick-lease, 0, #000);
+  }
+  &onlyclick-dollar {
+    @include cw-covericon-before(onlyclick-dollar, 0, #000);
+  }
+  &onlyclick-backspace {
+    @include cw-covericon-before(onlyclick-backspace, 0, #000);
+  }
+  &onlyclick-50plus {
+    @include cw-covericon-before(onlyclick-50plus, 0, #000);
+  }
+  &onlyclick-10-50 {
+    @include cw-covericon-before(onlyclick-10-50, 0, #000);
+  }
+  &onlyclick-no {
+    @include cw-covericon-before(onlyclick-no, 0, #000);
+  }
+  &onlyclick-notsure {
+    @include cw-covericon-before(onlyclick-notsure, 0, #000);
+  }
+  &onlyclick-own {
+    @include cw-covericon-before(onlyclick-own, 0, #000);
+  }
+  &onlyclick-plus {
+    @include cw-covericon-before(onlyclick-plus, 0, #000);
+  }
+  &onlyclick-plus-2 {
+    @include cw-covericon-before(onlyclick-plus-2, 0, #000);
+  }
+  &onlyclick-less {
+    @include cw-covericon-before(onlyclick-less, 0, #000);
+  }
+  &onlyclick-yes {
+    @include cw-covericon-before(onlyclick-yes, 0, #000);
+  }
+  &onlyclick-ach {
+    @include cw-covericon-before(onlyclick-ach, 0, #000);
+  }
+  &onlyclick-creditcard {
+    @include cw-covericon-before(onlyclick-creditcard, 0, #000);
+  }
+  &onlyclick-wc-medical {
+    @include cw-covericon-before(onlyclick-wc-medical, 0, #000);
+  }
+  &onlyclick-wc-indemnity {
+    @include cw-covericon-before(onlyclick-wc-indemnity, 0, #000);
+  }
+  &onlyclick-wc-both {
+    @include cw-covericon-before(onlyclick-wc-both, 0, #000);
+  }
+  &onlyclick-3installments {
+    @include cw-covericon-before(onlyclick-3installments, 0, #000);
+  }
+  &onlyclick-10installments {
+    @include cw-covericon-before(onlyclick-10installments, 0, #000);
+  }
+  &onlyclick-fullpayment {
+    @include cw-covericon-before(onlyclick-fullpayment, 0, #000);
+  }
+  &subindustries-amusement-arcades {
+    @include cw-covericon-before(subindustries-amusement-arcades, 0, #000);
+  }
+  &subindustries-art-dealers {
+    @include cw-covericon-before(subindustries-art-dealers, 0, #000);
+  }
+  &subindustries-concession-stands {
+    @include cw-covericon-before(subindustries-concession-stands, 0, #000);
+  }
+  &subindustries-convention-and-trade-show-organizers-event-promoters {
+    @include cw-covericon-before(
+      subindustries-convention-and-trade-show-organizers-event-promoters,
+      0,
+      #000
+    );
+  }
+  &subindustries-dietitians {
+    @include cw-covericon-before(subindustries-dietitians, 0, #000);
+  }
+  &subindustries-djs-and-musicians {
+    @include cw-covericon-before(subindustries-djs-and-musicians, 0, #000);
+  }
+  &subindustries-exterminating-and-pest-control-services {
+    @include cw-covericon-before(
+      subindustries-exterminating-and-pest-control-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-historical-sites-museums {
+    @include cw-covericon-before(
+      subindustries-historical-sites-museums,
+      0,
+      #000
+    );
+  }
+  &subindustries-maid-services-janitorial-services {
+    @include cw-covericon-before(
+      subindustries-maid-services-janitorial-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-mail-order-houses {
+    @include cw-covericon-before(subindustries-mail-order-houses, 0, #000);
+  }
+  &subindustries-new-car-dealers {
+    @include cw-covericon-before(subindustries-new-car-dealers, 0, #000);
+  }
+  &subindustries-newsstands {
+    @include cw-covericon-before(subindustries-newsstands, 0, #000);
+  }
+  &subindustries-packaging-and-labeling-services {
+    @include cw-covericon-before(
+      subindustries-packaging-and-labeling-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-parking-lots-and-garages {
+    @include cw-covericon-before(
+      subindustries-parking-lots-and-garages,
+      0,
+      #000
+    );
+  }
+  &subindustries-payroll-services {
+    @include cw-covericon-before(subindustries-payroll-services, 0, #000);
+  }
+  &subindustries-photographers {
+    @include cw-covericon-before(subindustries-photographers, 0, #000);
+  }
+  &subindustries-post-production-services {
+    @include cw-covericon-before(
+      subindustries-post-production-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-professional-employer-organizations {
+    @include cw-covericon-before(
+      subindustries-professional-employer-organizations,
+      0,
+      #000
+    );
+  }
+  &subindustries-radio-stations {
+    @include cw-covericon-before(subindustries-radio-stations, 0, #000);
+  }
+  &subindustries-marinas {
+    @include cw-covericon-before(subindustries-marinas, 0, #000);
+  }
+  &subindustries-mobile-home-dealers {
+    @include cw-covericon-before(subindustries-mobile-home-dealers, 0, #000);
+  }
+  &subindustries-nail-salons {
+    @include cw-covericon-before(subindustries-nail-salons, 0, #000);
+  }
+  &subindustries-nature-parks {
+    @include cw-covericon-before(subindustries-nature-parks, 0, #000);
+  }
+  &subindustries-security-systems-services {
+    @include cw-covericon-before(
+      subindustries-security-systems-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-talent-agents {
+    @include cw-covericon-before(subindustries-talent-agents, 0, #000);
+  }
+  &subindustries-television-broadcasting-services {
+    @include cw-covericon-before(
+      subindustries-television-broadcasting-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-testing-laboratories {
+    @include cw-covericon-before(subindustries-testing-laboratories, 0, #000);
+  }
+  &subindustries-travel-agencies {
+    @include cw-covericon-before(subindustries-travel-agencies, 0, #000);
+  }
+  &subindustries-vending-machine-operators {
+    @include cw-covericon-before(
+      subindustries-vending-machine-operators,
+      0,
+      #000
+    );
+  }
+  &subindustries-video-production-services {
+    @include cw-covericon-before(
+      subindustries-video-production-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-wedding-planners {
+    @include cw-covericon-before(subindustries-wedding-planners, 0, #000);
+  }
+  &subindustries-zoos-and-botanical-gardens {
+    @include cw-covericon-before(
+      subindustries-zoos-and-botanical-gardens,
+      0,
+      #000
+    );
+  }
+  &subindustries-accountants-and-bookkeepers {
+    @include cw-covericon-before(
+      subindustries-accountants-and-bookkeepers,
+      0,
+      #000
+    );
+  }
+  &subindustries-advertising-agencies {
+    @include cw-covericon-before(subindustries-advertising-agencies, 0, #000);
+  }
+  &subindustries-artists-and-writers {
+    @include cw-covericon-before(subindustries-artists-and-writers, 0, #000);
+  }
+  &subindustries-bakeries {
+    @include cw-covericon-before(subindustries-bakeries, 0, #000);
+  }
+  &subindustries-barber-shops {
+    @include cw-covericon-before(subindustries-barber-shops, 0, #000);
+  }
+  &subindustries-beauty-salons-estheticians {
+    @include cw-covericon-before(
+      subindustries-beauty-salons-estheticians,
+      0,
+      #000
+    );
+  }
+  &subindustries-book-stores-libraries-and-archives {
+    @include cw-covericon-before(
+      subindustries-book-stores-libraries-and-archives,
+      0,
+      #000
+    );
+  }
+  &subindustries-breweries-and-wineries {
+    @include cw-covericon-before(subindustries-breweries-and-wineries, 0, #000);
+  }
+  &subindustries-executive-search-services {
+    @include cw-covericon-before(
+      subindustries-executive-search-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-employment-placement-agencies {
+    @include cw-covericon-before(
+      subindustries-employment-placement-agencies,
+      0,
+      #000
+    );
+  }
+  &subindustries-document-preparation-services {
+    @include cw-covericon-before(
+      subindustries-document-preparation-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-dental-laboratories {
+    @include cw-covericon-before(subindustries-dental-laboratories, 0, #000);
+  }
+  &subindustries-dance-companies-and-studios {
+    @include cw-covericon-before(
+      subindustries-dance-companies-and-studios,
+      0,
+      #000
+    );
+  }
+  &subindustries-custom-computer-programming-services {
+    @include cw-covericon-before(
+      subindustries-custom-computer-programming-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-computer-facilities-management-services-computer-systems-design-services {
+    @include cw-covericon-before(
+      subindustries-computer-facilities-management-services-computer-systems-design-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-car-washing-services {
+    @include cw-covericon-before(subindustries-car-washing-services, 0, #000);
+  }
+  &subindustries-investigation-services {
+    @include cw-covericon-before(subindustries-investigation-services, 0, #000);
+  }
+  &subindustries-pharmacies {
+    @include cw-covericon-before(subindustries-pharmacies, 0, #000);
+  }
+  &subindustries-pet-stores {
+    @include cw-covericon-before(subindustries-pet-stores, 0, #000);
+  }
+  &subindustries-personal-trainers {
+    @include cw-covericon-before(subindustries-personal-trainers, 0, #000);
+  }
+  &subindustries-telemarketing-services-telephone-answering-services {
+    @include cw-covericon-before(
+      subindustries-telemarketing-services-telephone-answering-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-teachers {
+    @include cw-covericon-before(subindustries-teachers, 0, #000);
+  }
+  &subindustries-taxi-services {
+    @include cw-covericon-before(subindustries-taxi-services, 0, #000);
+  }
+  &subindustries-yoga-teachers {
+    @include cw-covericon-before(subindustries-yoga-teachers, 0, #000);
+  }
+  &subindustries-translators {
+    @include cw-covericon-before(subindustries-translators, 0, #000);
+  }
+  &subindustries-marketing-research-services-media-buying-agencies-media-representatives {
+    @include cw-covericon-before(
+      subindustries-marketing-research-services-media-buying-agencies-media-representatives,
+      0,
+      #000
+    );
+  }
+  &subindustries-public-relations-agencies {
+    @include cw-covericon-before(
+      subindustries-public-relations-agencies,
+      0,
+      #000
+    );
+  }
+  &subindustries-office-machine-repair-and-maintenance {
+    @include cw-covericon-before(
+      subindustries-office-machine-repair-and-maintenance,
+      0,
+      #000
+    );
+  }
+  &subindustries-office-administrative-services {
+    @include cw-covericon-before(
+      subindustries-office-administrative-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-social-workers {
+    @include cw-covericon-before(subindustries-social-workers, 0, #000);
+  }
+  &subindustries-used-car-dealers {
+    @include cw-covericon-before(subindustries-used-car-dealers, 0, #000);
+  }
+  &subindustries-waste-related-activities {
+    @include cw-covericon-before(
+      subindustries-waste-related-activities,
+      0,
+      #000
+    );
+  }
+  &subindustries-air-transportation {
+    @include cw-covericon-before(subindustries-air-transportation, 0, #000);
+  }
+  &subindustries-apparel-wholesalers {
+    @include cw-covericon-before(subindustries-apparel-wholesalers, 0, #000);
+  }
+  &subindustries-certified-public-accountants {
+    @include cw-covericon-before(
+      subindustries-certified-public-accountants,
+      0,
+      #000
+    );
+  }
+  &subindustries-bus-transportation {
+    @include cw-covericon-before(subindustries-bus-transportation, 0, #000);
+  }
+  &subindustries-commercial-bakeries {
+    @include cw-covericon-before(subindustries-commercial-bakeries, 0, #000);
+  }
+  &subindustries-community-food-services {
+    @include cw-covericon-before(
+      subindustries-community-food-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-community-housing-services {
+    @include cw-covericon-before(
+      subindustries-community-housing-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-construction-material-wholesalers {
+    @include cw-covericon-before(
+      subindustries-construction-material-wholesalers,
+      0,
+      #000
+    );
+  }
+  &subindustries-cosmetologists {
+    @include cw-covericon-before(subindustries-cosmetologists, 0, #000);
+  }
+  &subindustries-counselors {
+    @include cw-covericon-before(subindustries-counselors, 0, #000);
+  }
+  &subindustries-building-materials-stores {
+    @include cw-covericon-before(
+      subindustries-building-materials-stores,
+      0,
+      #000
+    );
+  }
+  &subindustries-fuel-dealers {
+    @include cw-covericon-before(subindustries-fuel-dealers, 0, #000);
+  }
+  &subindustries-fishermen {
+    @include cw-covericon-before(subindustries-fishermen, 0, #000);
+  }
+  &subindustries-financial-institutions {
+    @include cw-covericon-before(subindustries-financial-institutions, 0, #000);
+  }
+  &subindustries-drycleaning-and-laundry-services {
+    @include cw-covericon-before(
+      subindustries-drycleaning-and-laundry-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-landscaping-and-lawn-mowing {
+    @include cw-covericon-before(
+      subindustries-landscaping-and-lawn-mowing,
+      0,
+      #000
+    );
+  }
+  &subindustries-integrated-record-production-and-distribution {
+    @include cw-covericon-before(
+      subindustries-integrated-record-production-and-distribution,
+      0,
+      #000
+    );
+  }
+  &subindustries-insurance-carriers {
+    @include cw-covericon-before(subindustries-insurance-carriers, 0, #000);
+  }
+  &subindustries-golf-courses-and-country-clubs {
+    @include cw-covericon-before(
+      subindustries-golf-courses-and-country-clubs,
+      0,
+      #000
+    );
+  }
+  &subindustries-business-associations {
+    @include cw-covericon-before(subindustries-business-associations, 0, #000);
+  }
+  &subindustries-one-hour-photofinishing {
+    @include cw-covericon-before(
+      subindustries-one-hour-photofinishing,
+      0,
+      #000
+    );
+  }
+  &subindustries-other-business-support-services {
+    @include cw-covericon-before(
+      subindustries-other-business-support-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-other-computer-related-services {
+    @include cw-covericon-before(
+      subindustries-other-computer-related-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-other-financial-services {
+    @include cw-covericon-before(
+      subindustries-other-financial-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-other-gasoline-stations {
+    @include cw-covericon-before(
+      subindustries-other-gasoline-stations,
+      0,
+      #000
+    );
+  }
+  &subindustries-other-legal-services {
+    @include cw-covericon-before(subindustries-other-legal-services, 0, #000);
+  }
+  &subindustries-other-personal-services {
+    @include cw-covericon-before(
+      subindustries-other-personal-services,
+      0,
+      #000
+    );
+  }
+  &subindustries-motion-picture-theaters {
+    @include cw-covericon-before(
+      subindustries-motion-picture-theaters,
+      0,
+      #000
+    );
+  }
+  &subindustries-mental-health-practitioners {
+    @include cw-covericon-before(
+      subindustries-mental-health-practitioners,
+      0,
+      #000
+    );
+  }
+  &subindustries-pet-care-services {
+    @include cw-covericon-before(subindustries-pet-care-services, 0, #000);
+  }
+  &subindustries-paper-based-publishers {
+    @include cw-covericon-before(subindustries-paper-based-publishers, 0, #000);
+  }
+  &subindustries-other-vehicle-dealers {
+    @include cw-covericon-before(subindustries-other-vehicle-dealers, 0, #000);
+  }
+  &subindustries-other-traveler-accommodations {
+    @include cw-covericon-before(
+      subindustries-other-traveler-accommodations,
+      0,
+      #000
+    );
+  }
+  &subindustries-other-spectator-sports {
+    @include cw-covericon-before(subindustries-other-spectator-sports, 0, #000);
+  }
+  &subindustries-other-services-related-to-advertising {
+    @include cw-covericon-before(
+      subindustries-other-services-related-to-advertising,
+      0,
+      #000
+    );
+  }
+  &subindustries-political-organizations {
+    @include cw-covericon-before(
+      subindustries-political-organizations,
+      0,
+      #000
+    );
+  }
+  &subindustries-professional-organizations {
+    @include cw-covericon-before(
+      subindustries-professional-organizations,
+      0,
+      #000
+    );
+  }
+  &subindustries-security-guards {
+    @include cw-covericon-before(subindustries-security-guards, 0, #000);
+  }
+  &subindustries-theater-companies-and-dinner-theaters {
+    @include cw-covericon-before(
+      subindustries-theater-companies-and-dinner-theaters,
+      0,
+      #000
+    );
+  }
+  &subindustries-tire-retreading-companies {
+    @include cw-covericon-before(
+      subindustries-tire-retreading-companies,
+      0,
+      #000
+    );
+  }
+  &subindustries-snow-plowing-services {
+    @include cw-covericon-before(subindustries-snow-plowing-services, 0, #000);
+  }
+  &subindustries-sound-recording-studios {
+    @include cw-covericon-before(
+      subindustries-sound-recording-studios,
+      0,
+      #000
+    );
+  }
+  &subindustries-veterinarians {
+    @include cw-covericon-before(subindustries-veterinarians, 0, #000);
+  }
+  &subindustries-vehicle-manufacturers {
+    @include cw-covericon-before(subindustries-vehicle-manufacturers, 0, #000);
+  }
+  &subindustries-post-production-services {
+    @include cw-covericon-before(
+      subindustries-post-production-services,
+      0,
+      #000
+    );
+  }
+  &onlyclick-monitored {
+    @include cw-covericon-before(onlyclick-monitored, 0, #000);
+  }
+  &onlyclick-unmonitored {
+    @include cw-covericon-before(onlyclick-unmonitored, 0, #000);
+  }
+  &onlyclick-material-asbestos {
+    @include cw-covericon-before(onlyclick-material-asbestos, 0, #000);
+  }
+  &onlyclick-material-brick {
+    @include cw-covericon-before(onlyclick-material-brick, 0, #000);
+  }
+  &onlyclick-material-concrete {
+    @include cw-covericon-before(onlyclick-material-concrete, 0, #000);
+  }
+  &onlyclick-material-metal {
+    @include cw-covericon-before(onlyclick-material-metal, 0, #000);
+  }
+  &onlyclick-material-other {
+    @include cw-covericon-before(onlyclick-material-other, 0, #000);
+  }
+  &onlyclick-material-tile {
+    @include cw-covericon-before(onlyclick-material-tile, 0, #000);
+  }
+  &onlyclick-material-wood {
+    @include cw-covericon-before(onlyclick-material-wood, 0, #000);
+  }
+  &antitrust {
+    @include cw-covericon-before(antitrust, 9, #000);
+  }
+  &communications {
+    @include cw-covericon-before(communications, 9, #000);
+  }
+  &election {
+    @include cw-covericon-before(election, 9, #000);
+  }
+  &government {
+    @include cw-covericon-before(government, 9, #000);
+  }
+  &indigent {
+    @include cw-covericon-before(indigent, 9, #000);
+  }
+  &international-trade {
+    @include cw-covericon-before(international-trade, 9, #000);
+  }
+  &ssd {
+    @include cw-covericon-before(ssd, 9, #000);
+  }
+  &tax {
+    @include cw-covericon-before(tax, 9, #000);
+  }
+  &tribal {
+    @include cw-covericon-before(tribal, 9, #000);
+  }
 }
