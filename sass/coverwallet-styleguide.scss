@@ -1319,4 +1319,7 @@
   &tribal {
     @include cw-covericon-before(tribal, 9, #000);
   }
+  &appellate {
+    @include cw-covericon-before(appellate, 9, #000);
+  }
 }
