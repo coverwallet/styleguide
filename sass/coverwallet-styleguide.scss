@@ -1322,4 +1322,10 @@
   &appellate {
     @include cw-covericon-before(appellate, 9, #000);
   }
+  &litigation {
+    @include cw-covericon-before(litigation, 9, #000);
+  }
+  &malpractice {
+    @include cw-covericon-before(malpractice, 9, #000);
+  }
 }
