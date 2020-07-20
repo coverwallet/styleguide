@@ -1328,4 +1328,7 @@
   &malpractice {
     @include cw-covericon-before(malpractice, 9, #000);
   }
+  &bankruptcy {
+    @include cw-covericon-before(bankruptcy, 9, #000);
+  }
 }
