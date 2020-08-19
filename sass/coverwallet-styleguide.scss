@@ -618,6 +618,9 @@
   &insurance-type-fidelity-bond {
     @include cw-covericon-before(insurance-type-fidelity-bond, 0, #000);
   }
+  &insurance-type-management-liability {
+    @include cw-covericon-before(insurance-type-management-liability, 0, #000);
+  }
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }
