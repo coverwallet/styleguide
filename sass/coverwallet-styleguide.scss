@@ -1331,4 +1331,28 @@
   &bankruptcy {
     @include cw-covericon-before(bankruptcy, 9, #000);
   }
+  &aviation {
+    @include cw-covericon-before(aviation, 9, #000);
+  }
+  &bonds {
+    @include cw-covericon-before(bonds, 9, #000);
+  }
+  &investment-counseling {
+    @include cw-covericon-before(investment-counseling, 9, #000);
+  }
+  &natural-resources {
+    @include cw-covericon-before(natural-resources, 9, #000);
+  }
+  &intellectual-property {
+    @include cw-covericon-before(intellectual-property, 9, #000);
+  }
+  &environmental {
+    @include cw-covericon-before(environmental, 9, #000);
+  }
+  &entertainment {
+    @include cw-covericon-before(entertainment, 9, #000);
+  }
+  &cannabis {
+    @include cw-covericon-before(cannabis, 9, #000);
+  }
 }
