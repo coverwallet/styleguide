@@ -3,5 +3,7 @@
 /node_modules/
 sass/.DS_STORE
 .DS_STORE
+.DS_Store
+.DS_Store/
 npm-debug.log
 .idea/
