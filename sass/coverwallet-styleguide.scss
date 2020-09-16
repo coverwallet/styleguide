@@ -1358,4 +1358,7 @@
   &cannabis {
     @include cw-covericon-before(cannabis, 9, #000);
   }
+  &insurance-type-umbrella-excess-liability {
+    @include cw-covericon-before(insurance-type-umbrella-excess-liability, 9, #000);
+  }
 }
