@@ -14,38 +14,38 @@ $cwColor-black-medium: lighten($cwColor-base-black, 75%);
 $cwColor-black-xmedium: lighten($cwColor-base-black, 54%);
 $cwColor-black-dark: lighten($cwColor-base-black, 31.4%);
 $color-text: #505050;
-$cw-images-path: 'images/' !default;
+$cw-images-path: '../images/' !default;
 
 // Fonts
-$cw-fonts-path: 'fonts/' !default;
+$cw-fonts-path: '../fonts/' !default;
 $fa-font-path: $cw-fonts-path !default;
-$font-coverwallet-eot: url($cw-fonts-path + "coverwallet.eot") !default;
-$font-coverwallet-woff: url($cw-fonts-path + "coverwallet.woff") !default;
-$font-coverwallet-ttf: url($cw-fonts-path + "coverwallet.ttf") !default;
-$font-coverwallet-svg: url($cw-fonts-path + "coverwallet.svg") !default;
+$font-coverwallet-eot: url($cw-fonts-path + 'coverwallet.eot') !default;
+$font-coverwallet-woff: url($cw-fonts-path + 'coverwallet.woff') !default;
+$font-coverwallet-ttf: url($cw-fonts-path + 'coverwallet.ttf') !default;
+$font-coverwallet-svg: url($cw-fonts-path + 'coverwallet.svg') !default;
 
-$font-coverwallet-general-eot: url($cw-fonts-path + "coverwallet-general.eot") !default;
-$font-coverwallet-general-woff: url($cw-fonts-path + "coverwallet-general.woff") !default;
-$font-coverwallet-general-ttf: url($cw-fonts-path + "coverwallet-general.ttf") !default;
-$font-coverwallet-general-svg: url($cw-fonts-path + "coverwallet-general.svg") !default;
+$font-coverwallet-general-eot: url($cw-fonts-path + 'coverwallet-general.eot') !default;
+$font-coverwallet-general-woff: url($cw-fonts-path + 'coverwallet-general.woff') !default;
+$font-coverwallet-general-ttf: url($cw-fonts-path + 'coverwallet-general.ttf') !default;
+$font-coverwallet-general-svg: url($cw-fonts-path + 'coverwallet-general.svg') !default;
 
-$font-awesome-eot: url($cw-fonts-path + "fontawesome-webfont.eot") !default;
-$font-awesome-eot-iefix: url($cw-fonts-path + "fontawesome-webfont.eot?#iefix") !default;
-$font-awesome-woff2: url($cw-fonts-path + "fontawesome-webfont.woff2") !default;
-$font-awesome-woff: url($cw-fonts-path + "fontawesome-webfont.woff") !default;
-$font-awesome-ttf: url($cw-fonts-path + "fontawesome-webfont.ttf") !default;
-$font-awesome-svg: url($cw-fonts-path + "fontawesome-webfont.svg?#fontawesomeregular") !default;
+$font-awesome-eot: url($cw-fonts-path + 'fontawesome-webfont.eot') !default;
+$font-awesome-eot-iefix: url($cw-fonts-path + 'fontawesome-webfont.eot?#iefix') !default;
+$font-awesome-woff2: url($cw-fonts-path + 'fontawesome-webfont.woff2') !default;
+$font-awesome-woff: url($cw-fonts-path + 'fontawesome-webfont.woff') !default;
+$font-awesome-ttf: url($cw-fonts-path + 'fontawesome-webfont.ttf') !default;
+$font-awesome-svg: url($cw-fonts-path + 'fontawesome-webfont.svg?#fontawesomeregular') !default;
 
 // Images
 $cw-images-email: url($cw-images-path + 'email.png') !default;
-$cw-images-password: url($cw-images-path + "password.png") !default;
-$cw-images-info: url($cw-images-path + "info.png") !default;
-$cw-images-account: url($cw-images-path + "account.png") !default;
-$cw-images-close: url($cw-images-path + "close-icon.png") !default;
+$cw-images-password: url($cw-images-path + 'password.png') !default;
+$cw-images-info: url($cw-images-path + 'info.png') !default;
+$cw-images-account: url($cw-images-path + 'account.png') !default;
+$cw-images-close: url($cw-images-path + 'close-icon.png') !default;
 $principal-fonts: 'Open Sans', sans-serif;
 
 // Config to neat grid
-@import "../bower_components/neat/app/assets/stylesheets/neat-helpers";
+@import '../bower_components/neat/app/assets/stylesheets/neat-helpers';
 $max-width: em(1170);
 $desktopParams: min-width 1200px !default;
 $tabletParams: max-width 1200px 8 !default;
@@ -56,7 +56,7 @@ $tablet: new-breakpoint($tabletParams);
 $mobile: new-breakpoint($mobileParams);
 $desktop: new-breakpoint($desktopParams);
 $retina-screen: new-breakpoint(-webkit-min-device-pixel-ratio 2);
-$line-height-default:30px;
+$line-height-default: 30px;
 
 // Navbar variables
 $navbar-padding: 0 25px;
@@ -86,7 +86,6 @@ $seo-footer-height-mobile: 120px;
 $seo-menu-width: 240px;
 $seo-menu-border: #e8e8e8;
 $seo-menu-background: #f8f9fa;
-
 
 /*
 Standar colors
