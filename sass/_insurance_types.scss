@@ -160,3 +160,6 @@
 .management_liability {
   @include cw-covericon-before(insurance-type-management-liability, 0, $cwColor-base-blue);
 }
+.excess_liability {
+  @include cw-covericon-before(insurance-type-excess-liability, 0, $cwColor-base-blue);
+}
