@@ -621,6 +621,9 @@
   &insurance-type-management-liability {
     @include cw-covericon-before(insurance-type-management-liability, 0, #000);
   }
+  &insurance-type-excess-liability {
+    @include cw-covericon-before(insurance-type-excess-liability, 9, #000);
+  }
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }
@@ -1357,8 +1360,5 @@
   }
   &cannabis {
     @include cw-covericon-before(cannabis, 9, #000);
-  }
-  &insurance-type-umbrella-excess-liability {
-    @include cw-covericon-before(insurance-type-umbrella-excess-liability, 9, #000);
   }
 }
