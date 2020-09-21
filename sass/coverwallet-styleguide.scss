@@ -621,7 +621,7 @@
   &insurance-type-management-liability {
     @include cw-covericon-before(insurance-type-management-liability, 0, #000);
   }
-t  &insurance-type-excess-liability {
+  &insurance-type-excess-liability {
     @include cw-covericon-before(insurance-type-excess-liability, 9, #000);
   }
   &delete {
