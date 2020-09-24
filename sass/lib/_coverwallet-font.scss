@@ -321,7 +321,8 @@
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-sound-recording-studios"></span> <span class='icon-name'>sound-recording-studios</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-veterinarians"></span> <span class='icon-name'>veterinarians</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-vehicle-manufacturers"></span> <span class='icon-name'>vehicle-manufacturers</span></li>
-         <li class='gallery-icon'><span class="styleguide-icon-subindustries-post-production-services"></span> <span class='icon-name'>post-production-services</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-subindustries-post-production-services"></span> <span class='icon-name'>post-production-services</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-subindustries-window"></span> <span class='icon-name'>glass</span></li>
     </ul>
 </div>
 
@@ -1298,6 +1299,9 @@
 }
 .cwicon-subindustries-veterinarians:before {
   content: "\ea26";
+}
+.cwicon-subindustries-window:before {
+  content: "\ea4d";
 }
 
 .cwicon-onlyclick-monitored:before {

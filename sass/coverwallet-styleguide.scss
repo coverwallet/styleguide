@@ -1361,4 +1361,7 @@
   &cannabis {
     @include cw-covericon-before(cannabis, 9, #000);
   }
+  &subindustries-window {
+    @include cw-covericon-before(subindustries-window, 9, #000);
+  }
 }
