@@ -17,7 +17,7 @@ $color-text: #505050;
 $cw-images-path: "../images/" !default;
 
 // Fonts
-$cw-fonts-path: "../fonts/" !default;
+$cw-fonts-path: "fonts/" !default;
 $fa-font-path: $cw-fonts-path !default;
 $font-coverwallet-eot: url($cw-fonts-path + "coverwallet.eot") !default;
 $font-coverwallet-woff: url($cw-fonts-path + "coverwallet.woff") !default;

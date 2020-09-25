@@ -316,3 +316,6 @@
 .post-production-services {
   @include cw-covericon-before(subindustries-post-production-services, 0, $cwColor-base-blue);
 }
+.window {
+  @include cw-covericon-before(subindustries-window, 0, $cwColor-base-blue);
+}
