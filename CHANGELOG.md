@@ -1,7 +1,7 @@
-## v2.22.2
+## v2.21.0
 
--
 - Fix font path in grunt server kss-node
+- Store build in dist folder
 
 ## v2.20.1
 
