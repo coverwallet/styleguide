@@ -7,11 +7,13 @@
   "scripts": {
     "postinstall": "npx bower install --allow-root",
     "generate": "kss-node ./sass ./styleguide --template ./template --css public/css/coverwallet-styleguide.css --js ../js/selectFx.js",
+    "build": "grunt dist",
     "grunt": "grunt serve",
     "start": "grunt serve"
   },
   "dependencies": {
-    "bower": "^1.8.2"
+    "bower": "^1.8.8",
+    "node-sass": "^4.14.1"
   },
   "engines": {
     "node": ">8.0.0"
