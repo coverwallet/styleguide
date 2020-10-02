@@ -1,6 +1,7 @@
-## v2.20.2
+## v2.22.2
 
-- Fix font path in grun server kss-node
+-
+- Fix font path in grunt server kss-node
 
 ## v2.20.1
 
