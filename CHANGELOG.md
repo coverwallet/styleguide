@@ -1,7 +1,11 @@
 ## v2.21.0
 
-- Fix font path in grunt server kss-node
+- Upgrade to node v10.17.x
 - Store build in dist folder
+
+## v2.20.2
+
+- Fix font path in grunt server kss-node
 
 ## v2.20.1
 
