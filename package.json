@@ -5,7 +5,7 @@
   "main": "sass/coverwallet.scss",
   "author": "Coverwallet <tech@coverwallet.com>",
   "scripts": {
-    "prepublish": "grunt dist",
+    "prepublish": "npm run build",
     "postinstall": "npx bower install --allow-root",
     "generate": "kss-node ./sass ./styleguide --template ./template --css public/css/coverwallet-styleguide.css --js ../js/selectFx.js",
     "build": "grunt dist",
