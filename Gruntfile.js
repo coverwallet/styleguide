@@ -49,7 +49,7 @@ module.exports = function(grunt) {
 
                 },
                 files: {
-                    'styleguide/public/coverwallet-styleguide.css': 'sass/coverwallet-styleguide.scss'
+                    'styleguide/public/css/coverwallet-styleguide.css': 'sass/coverwallet-styleguide.scss'
                 }
             }
 
