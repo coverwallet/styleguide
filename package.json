@@ -1,17 +1,19 @@
 {
   "name": "cw-styleguide",
-  "version": "2.20.2",
+  "version": "2.21.0",
   "description": "",
   "main": "sass/coverwallet.scss",
   "author": "Coverwallet <tech@coverwallet.com>",
   "scripts": {
+    "prepublish": "npm run build",
     "postinstall": "npx bower install --allow-root",
     "generate": "kss-node ./sass ./styleguide --template ./template --css public/css/coverwallet-styleguide.css --js ../js/selectFx.js",
+    "build": "grunt dist",
     "grunt": "grunt serve",
     "start": "grunt serve"
   },
   "dependencies": {
-    "bower": "^1.8.2"
+    "bower": "^1.8.8"
   },
   "engines": {
     "node": ">8.0.0"
@@ -30,6 +32,7 @@
     "grunt-sass": "^1.1.0",
     "kss": "2.1.1",
     "load-grunt-tasks": "^3.3.0",
+    "node-sass": "^4.13.1",
     "time-grunt": "^1.2.2"
   }
 }
