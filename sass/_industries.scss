@@ -73,6 +73,9 @@
 .mining {
   @include cw-covericon-before(industries-mining, 0, $cwColor-base-blue);
 }
+.business_trips {
+  @include cw-covericon-before(industries-business-trips, 0, $cwColor-base-blue);
+}
 .utilities {
   @include cw-covericon-before(industries-utilities, 0, $cwColor-base-blue);
 }

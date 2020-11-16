@@ -409,6 +409,9 @@
   &industries-utilities {
     @include cw-covericon-before(industries-utilities, 0, #000);
   }
+  &industries-business-trips {
+    @include cw-covericon-before(industries-business-trips, 0, #000);
+  }
   &insurance-type-aircraft-liability {
     @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
   }
