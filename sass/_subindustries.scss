@@ -319,3 +319,6 @@
 .window {
   @include cw-covericon-before(subindustries-window, 0, $cwColor-base-blue);
 }
+.testing_laboratories {
+  @include cw-covericon-before(testing-laboratories, 0, $cwColor-base-blue);
+}

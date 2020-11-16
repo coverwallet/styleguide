@@ -253,7 +253,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-security-systems-services"></span> <span class='icon-name'>security-systems-services</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-talent-agents"></span> <span class='icon-name'>talent-agents</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-television-broadcasting-services"></span> <span class='icon-name'>television-broadcasting-services</span></li>
-        <li class='gallery-icon'><span class="styleguide-icon-subindustries-testing-laboratories"></span> <span class='icon-name'>testing-laboratories</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-testing-laboratories"></span> <span class='icon-name'>testing-laboratories</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-travel-agencies"></span> <span class='icon-name'>travel-agencies</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-vending-machine-operators"></span> <span class='icon-name'>vending-machine-operators</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-subindustries-video-production-services"></span> <span class='icon-name'>video-production-services</span></li>
@@ -1078,9 +1078,6 @@
 .cwicon-subindustries-djs-and-musicians:before {
   content: "\e9dc";
 }
-.cwicon-subindustries-testing-laboratories:before {
-  content: "\e9dd";
-}
 .cwicon-subindustries-nature-parks:before {
   content: "\e9de";
 }
@@ -1422,4 +1419,7 @@
 }
 .cwicon-insurance-type-excess-liability:before {
   content: "\ea4c";
+}
+.cwicon-testing-laboratories:before {
+  content: "\e9dd";
 }
