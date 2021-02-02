@@ -627,6 +627,9 @@
   &insurance-type-excess-liability {
     @include cw-covericon-before(insurance-type-excess-liability, 9, #000);
   }
+  &insurance-type-vida-colectivos {
+    @include cw-covericon-before(insurance-type-vida-colectivos, 9, #000);
+  }
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }

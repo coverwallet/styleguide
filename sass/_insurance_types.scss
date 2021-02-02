@@ -163,3 +163,6 @@
 .excess_liability {
   @include cw-covericon-before(insurance-type-excess-liability, 0, $cwColor-base-blue);
 }
+.vida_colectivos {
+  @include cw-covericon-before(insurance-type-vida-colectivos, 0, $cwColor-base-blue);
+}
