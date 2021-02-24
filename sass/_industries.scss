@@ -79,3 +79,24 @@
 .utilities {
   @include cw-covericon-before(industries-utilities, 0, $cwColor-base-blue);
 }
+.extraterritoriales {
+  @include cw-covericon-before(industries-extraterritoriales, 0, $cwColor-base-blue);
+}
+.manufacturera {
+  @include cw-covericon-before(industries-manufacturera, 0, $cwColor-base-blue);
+}
+.extractivas {
+  @include cw-covericon-before(industries-extractivas, 0, $cwColor-base-blue);
+}
+.personal_domestico {
+  @include cw-covericon-before(industries-personal-domestico, 0, $cwColor-base-blue);
+}
+.publica_y_defensa {
+  @include cw-covericon-before(industries-publica-y-defensa, 0, $cwColor-base-blue);
+}
+.suministro_de_agua {
+  @include cw-covericon-before(industries-suministro-de-agua, 0, $cwColor-base-blue);
+}
+.suministro_de_energia {
+  @include cw-covericon-before(industries-suministro-de-energia, 0, $cwColor-base-blue);
+}

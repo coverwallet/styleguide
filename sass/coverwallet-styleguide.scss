@@ -412,6 +412,29 @@
   &industries-business-trips {
     @include cw-covericon-before(industries-business-trips, 0, #000);
   }
+  &industries-extraterritoriales {
+    @include cw-covericon-before(industries-extraterritoriales, 0, #000);
+  }
+  &industries-manufacturera {
+    @include cw-covericon-before(industries-manufacturera, 0, #000);
+  }
+  &industries-extractivas {
+    @include cw-covericon-before(industries-extractivas, 0, #000);
+  }
+  &industries-personal-domestico {
+    @include cw-covericon-before(industries-personal-domestico, 0, #000);
+  }
+  &industries-publica-y-defensa {
+    @include cw-covericon-before(industries-publica-y-defensa, 0, #000);
+  }
+  &industries-suministro-de-agua {
+    @include cw-covericon-before(industries-suministro-de-agua, 0, #000);
+  }
+  &industries-suministro-de-energia {
+    @include cw-covericon-before(industries-suministro-de-energia, 0, #000);
+  }
+
+
   &insurance-type-aircraft-liability {
     @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
   }
