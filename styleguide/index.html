@@ -73,6 +73,7 @@ Styleguide 1.1
 .button.primary {
   ...
 }
+
 </code></pre><p>kss-node also supports CSS preprocessors such as LESS, SASS and Stylus. You can use the // comment section for writing your document.</p>
 <pre><code>// Buttons
 //
@@ -118,7 +119,7 @@ And each description supports the Markdown writing.</p>
 .block__element--modifier { }
 </code></pre><p>Yes, double dashes, double underscores. We’ll see why in a moment.</p>
 <p>So, what’s up with BEM? It looks long and ugly. Well yes it is! But the fact that is is long and ugly is actually what makes it efficient.</p>
-<p>The main idea is simple: when you build a component, you give it a name. A child element of the component will be named like this <code>`.{{ name of component }}__{{ name of child-element }}</code>. When an element is slightly modified it will be named <code>``.{{ name of component }}--{{ name of modifier }}</code>. Of course, a child-element can be modified as well.</p>
+<p>The main idea is simple: when you build a component, you give it a name. A child element of the component will be named like this <code>.{{ name of component }}__{{ name of child-element }}``. When an element is slightly modified it will be named `</code>.{{ name of component }}--{{ name of modifier }}<code></code>. Of course, a child-element can be modified as well.</p>
 <p>So what’s up with the double dashes and underscores? Well, these allow hyphenated names like <code>.my-component</code>. Then you can read <code>.my-component--disabled</code> without a problem. Same goes for the double underscores. Worry not, you will get used to it very quickly.</p>
 <p>Since nothing’s better than a good ol’ example, here is a step-wizard module I wrote at work using the BEM naming system</p>
 <pre><code>.steps { }

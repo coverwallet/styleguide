@@ -425,16 +425,14 @@
     @include cw-covericon-before(industries-personal-domestico, 0, #000);
   }
   &industries-publica-y-defensa {
-    @include cw-covericon-before(industries-pública-y-defensa, 0, #000);
+    @include cw-covericon-before(industries-publica-y-defensa, 0, #000);
   }
   &industries-suministro-de-agua {
     @include cw-covericon-before(industries-suministro-de-agua, 0, #000);
   }
   &industries-suministro-de-energia {
-    @include cw-covericon-before(industries-suministro_de_energía, 0, #000);
+    @include cw-covericon-before(industries-suministro-de-energia, 0, #000);
   }
-
-
 
 
   &insurance-type-aircraft-liability {
