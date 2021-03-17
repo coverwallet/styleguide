@@ -166,3 +166,12 @@
 .vida_colectivos {
   @include cw-covericon-before(insurance-type-vida-colectivos, 0, $cwColor-base-blue);
 }
+.st_movil {
+  @include cw-covericon-before(insurance-type-st-movil, 0, $cwColor-base-blue);
+}
+.st_contratista {
+  @include cw-covericon-before(insurance-type-st-contratista, 0, $cwColor-base-blue);
+}
+.st_fijo{
+  @include cw-covericon-before(insurance-type-st-fijo, 0, $cwColor-base-blue);
+}
