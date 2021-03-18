@@ -130,6 +130,9 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-fidelity-bond"></span> <span class='icon-name'>insurance-type-fidelity-bond</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-management-liability"></span> <span class='icon-name'>insurance-type-management-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-vida-colectivos"></span> <span class='icon-name'>insurance-type-vida-colectivos</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-movil"></span> <span class='icon-name'>insurance-type-st-movil</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-contratista"></span> <span class='icon-name'>insurance-type-st-contratista</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-fijo"></span> <span class='icon-name'>insurance-type-st-fijo</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-crime"></span> <span class='icon-name'>insurance-type-crime</span></li>
@@ -1439,6 +1442,17 @@
   content: "\ea4f";
 }
 
+.cwicon-insurance-type-st-movil:before {
+  content: "\ea07";
+}
+
+.cwicon-insurance-type-st-contratista:before {
+  content: "\e958";
+}
+
+.cwicon-insurance-type-st-fijo:before {
+  content: "\e9f7";
+}
 
 .cwicon-industries-extraterritoriales:before {
   content: "\ea51";

@@ -653,6 +653,15 @@
   &insurance-type-vida-colectivos {
     @include cw-covericon-before(insurance-type-vida-colectivos, 9, #000);
   }
+  &insurance-type-st-movil {
+    @include cw-covericon-before(insurance-type-st-movil, 9, #000);
+  }
+  &insurance-type-st-contratista {
+    @include cw-covericon-before(insurance-type-st-contratista, 9, #000);
+  }
+  &insurance-type-st-fijo {
+    @include cw-covericon-before(insurance-type-st-fijo, 9, #000);
+  }
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }
