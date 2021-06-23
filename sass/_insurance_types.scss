@@ -175,3 +175,6 @@
 .st_fijo{
   @include cw-covericon-before(insurance-type-st-fijo, 0, $cwColor-base-blue);
 }
+.multirisk{
+  @include cw-covericon-before(insurance-type-multirisk, 0, $cwColor-base-blue);
+}

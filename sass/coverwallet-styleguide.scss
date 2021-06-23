@@ -662,6 +662,9 @@
   &insurance-type-st-fijo {
     @include cw-covericon-before(insurance-type-st-fijo, 9, #000);
   }
+  &insurance-type-multirisk {
+    @include cw-covericon-before(insurance-type-multirisk, 9, #000);
+  }
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }

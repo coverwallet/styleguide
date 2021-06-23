@@ -133,6 +133,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-movil"></span> <span class='icon-name'>insurance-type-st-movil</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-contratista"></span> <span class='icon-name'>insurance-type-st-contratista</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-fijo"></span> <span class='icon-name'>insurance-type-st-fijo</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-multirisk"></span> <span class='icon-name'>insurance-type-multirisk</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-crime"></span> <span class='icon-name'>insurance-type-crime</span></li>
@@ -1452,6 +1453,10 @@
 
 .cwicon-insurance-type-st-fijo:before {
   content: "\e9f7";
+}
+
+.cwicon-insurance-type-multirisk:before {
+  content: "\ea57";
 }
 
 .cwicon-industries-extraterritoriales:before {
