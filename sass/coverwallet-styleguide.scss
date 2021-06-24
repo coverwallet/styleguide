@@ -665,6 +665,34 @@
   &insurance-type-multirisk {
     @include cw-covericon-before(insurance-type-multirisk, 9, #000);
   }
+  &farming{
+    @include cw-covericon-before(farming, 9, #000);
+  }
+  &mines{
+    @include cw-covericon-before(mines, 9, #000);
+  }
+  &industry1{
+    @include cw-covericon-before(industry1, 9, #000);
+  }
+  &electricity{
+    @include cw-covericon-before(electricity, 9, #000);
+  }
+  &construction{
+    @include cw-covericon-before(construction, 9, #000);
+  }
+  &trade{
+    @include cw-covericon-before(trade, 9, #000);
+  }
+  &transport{
+    @include cw-covericon-before(transport, 9, #000);
+  }
+  &financial-services{
+    @include cw-covericon-before(financial-services, 9, #000);
+  }
+  &social-services{
+    @include cw-covericon-before(social-services, 9, #000);
+  }
+
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }
