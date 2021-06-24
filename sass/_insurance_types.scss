@@ -178,3 +178,30 @@
 .multirisk{
   @include cw-covericon-before(insurance-type-multirisk, 0, $cwColor-base-blue);
 }
+.farming{
+  @include cw-covericon-before(farming, 0, $cwColor-base-blue);
+}
+.mines{
+  @include cw-covericon-before(mines, 0, $cwColor-base-blue);
+}
+.industry1{
+  @include cw-covericon-before(industry1, 0, $cwColor-base-blue);
+}
+.electricity{
+  @include cw-covericon-before(electricity, 0, $cwColor-base-blue);
+}
+.construction{
+  @include cw-covericon-before(construction, 0, $cwColor-base-blue);
+}
+.trade{
+  @include cw-covericon-before(trade, 0, $cwColor-base-blue);
+}
+.transport{
+  @include cw-covericon-before(transport, 0, $cwColor-base-blue);
+}
+.financial-services{
+  @include cw-covericon-before(financial-services, 0, $cwColor-base-blue);
+}
+.social-services{
+  @include cw-covericon-before(social-services, 0, $cwColor-base-blue);
+}

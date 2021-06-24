@@ -134,6 +134,15 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-contratista"></span> <span class='icon-name'>insurance-type-st-contratista</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-fijo"></span> <span class='icon-name'>insurance-type-st-fijo</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-multirisk"></span> <span class='icon-name'>insurance-type-multirisk</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-farming"></span> <span class='icon-name'>farming</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-mines"></span> <span class='icon-name'>mines</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industry1"></span> <span class='icon-name'>industry1</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-electricity"></span> <span class='icon-name'>electricity</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-construction"></span> <span class='icon-name'>construction</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-trade"></span> <span class='icon-name'>trade</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-transport"></span> <span class='icon-name'>transport</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-financial-services"></span> <span class='icon-name'>financial-services</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-social-services"></span> <span class='icon-name'>social-services</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-crime"></span> <span class='icon-name'>insurance-type-crime</span></li>
@@ -1457,6 +1466,42 @@
 
 .cwicon-insurance-type-multirisk:before {
   content: "\ea57";
+}
+
+.cwicon-farming:before {
+  content: "\ea5f";
+}
+
+.cwicon-mines:before {
+  content: "\ea5e";
+}
+
+.cwicon-industry1:before {
+  content: "\ea5d";
+}
+
+.cwicon-electricity:before {
+  content: "\ea5c";
+}
+
+.cwicon-construction:before {
+  content: "\ea5b";
+}
+
+.cwicon-trade:before {
+  content: "\ea5a";
+}
+
+.cwicon-transport:before {
+  content: "\ea59";
+}
+
+.cwicon-financial-services:before {
+  content: "\ea58";
+}
+
+.cwicon-social-services:before {
+  content: "\ea60";
 }
 
 .cwicon-industries-extraterritoriales:before {
