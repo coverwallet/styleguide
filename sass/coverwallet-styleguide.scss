@@ -692,6 +692,9 @@
   &social-services{
     @include cw-covericon-before(social-services, 9, #000);
   }
+  &briefcase{
+    @include cw-covericon-before(briefcase, 9, #000);
+  }
 
   &delete {
     @include cw-covericon-before(delete, 0, #000);
