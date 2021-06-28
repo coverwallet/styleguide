@@ -143,6 +143,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-transport"></span> <span class='icon-name'>transport</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-financial-services"></span> <span class='icon-name'>financial-services</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-social-services"></span> <span class='icon-name'>social-services</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-briefcase"></span> <span class='icon-name'>briefcase</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-crime"></span> <span class='icon-name'>insurance-type-crime</span></li>
@@ -1502,6 +1503,10 @@
 
 .cwicon-social-services:before {
   content: "\ea60";
+}
+
+.cwicon-briefcase:before {
+  content: "\ea3e";
 }
 
 .cwicon-industries-extraterritoriales:before {

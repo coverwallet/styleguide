@@ -205,3 +205,9 @@
 .social-services{
   @include cw-covericon-before(social-services, 0, $cwColor-base-blue);
 }
+.social-services{
+  @include cw-covericon-before(social-services, 0, $cwColor-base-blue);
+}
+.briefcase{
+  @include cw-covericon-before(briefcase, 0, $cwColor-base-blue);
+}
