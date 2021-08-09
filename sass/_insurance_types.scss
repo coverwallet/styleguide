@@ -208,3 +208,6 @@
 .briefcase{
   @include cw-covericon-before(briefcase, 0, $cwColor-base-blue);
 }
+.view-lens{
+  @include cw-covericon-before(view-lens, 0, $cwColor-base-blue);
+}

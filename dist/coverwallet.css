@@ -6259,6 +6259,7 @@ html {
          <li class='gallery-icon'><span class="styleguide-icon-industries-publica-y-defensa"></span> <span class='icon-name'>industries-publica-y-defensa</span></li>
          <li class='gallery-icon'><span class="styleguide-icon-industries-suministro-de-agua"></span> <span class='icon-name'>industries-suministro-de-agua</span></li>
          <li class='gallery-icon'><span class="styleguide-icon-industries-suministro-de-energia"></span> <span class='icon-name'>industries-suministro-de-energia</span></li>
+         <li class='gallery-icon'><span class="view-lens"></span> <span class='icon-name'>view-lens</span></li>
     </ul>
 </div>
 
@@ -7497,6 +7498,9 @@ html {
 
 .cwicon-industries-suministro-de-energia:before, .suministro_de_energia:before {
   content: "\ea56"; }
+
+.cwicon-view-lens:before, .view-lens:before {
+  content: "\ea3f"; }
 
 /*
  General Icons
@@ -9949,6 +9953,10 @@ Styleguide 8.1
   color: #438bd7; }
 
 .multirisk:before {
+  padding-right: 0;
+  color: #438bd7; }
+  
+.view-lens:before {
   padding-right: 0;
   color: #438bd7; }
 

@@ -695,6 +695,9 @@
   &briefcase{
     @include cw-covericon-before(briefcase, 9, #000);
   }
+  &view-lens{
+    @include cw-covericon-before(view-lens, 9, #000);
+  }
 
   &delete {
     @include cw-covericon-before(delete, 0, #000);
