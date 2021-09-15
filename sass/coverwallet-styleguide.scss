@@ -409,6 +409,9 @@
   &industries-utilities {
     @include cw-covericon-before(industries-utilities, 0, #000);
   }
+  &industries-mall {
+    @include cw-covericon-before(industries-mall, 0, #000);
+  }
   &industries-business-trips {
     @include cw-covericon-before(industries-business-trips, 0, #000);
   }
@@ -433,7 +436,6 @@
   &industries-suministro-de-energia {
     @include cw-covericon-before(industries-suministro-de-energia, 0, #000);
   }
-
 
   &insurance-type-aircraft-liability {
     @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
@@ -665,37 +667,37 @@
   &insurance-type-multirisk {
     @include cw-covericon-before(insurance-type-multirisk, 9, #000);
   }
-  &farming{
+  &farming {
     @include cw-covericon-before(farming, 9, #000);
   }
-  &mines{
+  &mines {
     @include cw-covericon-before(mines, 9, #000);
   }
-  &industry1{
+  &industry1 {
     @include cw-covericon-before(industry1, 9, #000);
   }
-  &electricity{
+  &electricity {
     @include cw-covericon-before(electricity, 9, #000);
   }
-  &construction{
+  &construction {
     @include cw-covericon-before(construction, 9, #000);
   }
-  &trade{
+  &trade {
     @include cw-covericon-before(trade, 9, #000);
   }
-  &transport{
+  &transport {
     @include cw-covericon-before(transport, 9, #000);
   }
-  &financial-services{
+  &financial-services {
     @include cw-covericon-before(financial-services, 9, #000);
   }
-  &social-services{
+  &social-services {
     @include cw-covericon-before(social-services, 9, #000);
   }
-  &briefcase{
+  &briefcase {
     @include cw-covericon-before(briefcase, 9, #000);
   }
-  &view-lens{
+  &view-lens {
     @include cw-covericon-before(view-lens, 9, #000);
   }
 
