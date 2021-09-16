@@ -201,6 +201,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-industries-management-of-companies-and-enterprises"></span> <span class='icon-name'>industries-management-of-companies-and-enterprises</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-extraterritoriales"></span> <span class='icon-name'>industries-extraterritoriales</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturera"></span> <span class='icon-name'>industries-manufacturera</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-mall"></span> <span class='icon-name'>industries-mall</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-extractivas"></span> <span class='icon-name'>industries-extractivas</span></li>
     </ul>
     <ul class="list">
@@ -911,7 +912,7 @@
   content: "\e99c";
 }
 .cwicon-industries-business-trips:before {
-  content: "\ea4e";
+  content: "\ea40";
 }
 .cwicon-onlyclick-0-10:before {
   content: "\e99d";
@@ -1404,13 +1405,13 @@
   content: "\ea3f";
 }
 
-.cwicon-litigation:before {
-  content: "\ea40";
-}
+// .cwicon-litigation:before {
+//   content: "\ea40";
+// }
 
-.cwicon-malpractice:before {
-  content: "\ea41";
-}
+// .cwicon-malpractice:before {
+//   content: "\ea41";
+// }
 
 .cwicon-bankruptcy:before {
   content: "\ea42";
@@ -1451,7 +1452,7 @@
   content: "\e9dd";
 }
 .cwicon-insurance-type-vida-colectivos:before {
-  content: "\ea4f";
+  content: "\ea42";
 }
 
 .cwicon-insurance-type-st-movil:before {
@@ -1467,7 +1468,7 @@
 }
 
 .cwicon-insurance-type-multirisk:before {
-  content: "\ea57";
+  content: "\ea45";
 }
 
 .cwicon-farming:before {
@@ -1518,7 +1519,10 @@
   content: "\ea51";
 }
 .cwicon-industries-manufacturera:before {
-  content: "\ea52";
+  content: "\ea44";
+}
+.cwicon-industries-mall:before {
+  content: "\ea41";
 }
 .cwicon-industries-extractivas:before {
   content: "\ea50";
@@ -1530,7 +1534,7 @@
   content: "\ea54";
 }
 .cwicon-industries-suministro-de-agua:before {
-  content: "\ea55";
+  content: "\ea43";
 }
 .cwicon-industries-suministro-de-energia:before {
   content: "\ea56";
