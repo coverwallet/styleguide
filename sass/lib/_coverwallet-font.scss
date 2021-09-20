@@ -201,8 +201,11 @@
         <li class='gallery-icon'><span class="styleguide-icon-industries-management-of-companies-and-enterprises"></span> <span class='icon-name'>industries-management-of-companies-and-enterprises</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-extraterritoriales"></span> <span class='icon-name'>industries-extraterritoriales</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturera"></span> <span class='icon-name'>industries-manufacturera</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturera-v2"></span> <span class='icon-name'>industries-manufacturera-v2</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-mall"></span> <span class='icon-name'>industries-mall</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-extractivas"></span> <span class='icon-name'>industries-extractivas</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-mall-v2"></span> <span class='icon-name'>industries-mall-v2</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-extractivas-v2"></span> <span class='icon-name'>industries-extractivas-v2</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-industries-professional"></span> <span class='icon-name'>industries-professional</span></li>
@@ -1520,6 +1523,15 @@
 }
 .cwicon-industries-manufacturera:before {
   content: "\ea44";
+}
+.cwicon-industries-manufacturera-v2:before {
+  content: "\ea46";
+}
+.cwicon-industries-mall-v2:before {
+  content: "\ea47";
+}
+.cwicon-industries-extractivas-v2:before {
+  content: "\ea48";
 }
 .cwicon-industries-mall:before {
   content: "\ea41";
