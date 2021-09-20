@@ -113,6 +113,23 @@
 .manufacturera {
   @include cw-covericon-before(industries-manufacturera, 0, $cwColor-base-blue);
 }
+.manufacturera-v2 {
+  @include cw-covericon-before(
+    industries-manufacturera-v2,
+    0,
+    $cwColor-base-blue
+  );
+}
+.mall-v2 {
+  @include cw-covericon-before(industries-mall-v2, 0, $cwColor-base-blue);
+}
+.extractivas-v2 {
+  @include cw-covericon-before(
+    industries-extractivas-v2,
+    0,
+    $cwColor-base-blue
+  );
+}
 .mall {
   @include cw-covericon-before(industries-mall, 0, $cwColor-base-blue);
 }

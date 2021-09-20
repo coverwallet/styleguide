@@ -418,6 +418,15 @@
   &industries-manufacturera {
     @include cw-covericon-before(industries-manufacturera, 0, #000);
   }
+  &industries-manufacturera-v2 {
+    @include cw-covericon-before(industries-manufacturera-v2, 0, #000);
+  }
+  &industries-mall-v2 {
+    @include cw-covericon-before(industries-mall-v2, 0, #000);
+  }
+  &industries-extractivas-v2 {
+    @include cw-covericon-before(industries-extractivas-v2, 0, #000);
+  }
   &industries-mall {
     @include cw-covericon-before(industries-mall, 0, #000);
   }
