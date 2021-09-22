@@ -6180,6 +6180,7 @@ html {
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-more"></span> <span class='icon-name'>insurance-type-more</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-fidelity-bond"></span> <span class='icon-name'>insurance-type-fidelity-bond</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-management-liability"></span> <span class='icon-name'>insurance-type-management-liability</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-excess-liability"></span> <span class='icon-name'>insurance-type-excess-liability</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-vida-colectivos"></span> <span class='icon-name'>insurance-type-vida-colectivos</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-movil"></span> <span class='icon-name'>insurance-type-st-movil</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-st-contratista"></span> <span class='icon-name'>insurance-type-st-contratista</span></li>
@@ -7456,17 +7457,11 @@ html {
 .cwicon-environmental:before {
   content: "\ea48"; }
 
-.cwicon-entertainment:before {
+.cwicon-insurance-type-management-liability:before, .management_liability:before {
   content: "\ea49"; }
 
-.cwicon-cannabis:before {
-  content: "\ea4a"; }
-
-.cwicon-insurance-type-management-liability:before, .management_liability:before {
-  content: "\ea4b"; }
-
 .cwicon-insurance-type-excess-liability:before, .excess_liability:before {
-  content: "\ea4c"; }
+  content: "\ea4a"; }
 
 .cwicon-testing-laboratories:before, .testing_laboratories:before {
   content: "\e9dd"; }
