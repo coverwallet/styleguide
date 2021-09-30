@@ -191,6 +191,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-industries-extraterritoriales"></span> <span class='icon-name'>industries-extraterritoriales</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-manufacturera"></span> <span class='icon-name'>industries-manufacturera</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-industries-extractivas"></span> <span class='icon-name'>industries-extractivas</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-industries-mall-v2"></span> <span class='icon-name'>industries-mall-v2</span></li>
     </ul>
     <ul class="list">
         <li class='gallery-icon'><span class="styleguide-icon-industries-professional"></span> <span class='icon-name'>industries-professional</span></li>
@@ -1479,4 +1480,7 @@
 }
 .cwicon-industries-suministro-de-energia:before {
   content: "\ea56";
+}
+.cwicon-industries-mall-v2:before {
+  content: "\ea58";
 }

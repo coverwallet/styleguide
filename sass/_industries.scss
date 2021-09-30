@@ -88,6 +88,9 @@
 .extractivas {
   @include cw-covericon-before(industries-extractivas, 0, $cwColor-base-blue);
 }
+.mall-v2 {
+  @include cw-covericon-before(industries-mall-v2, 0, $cwColor-base-blue);
+}
 .personal_domestico {
   @include cw-covericon-before(industries-personal-domestico, 0, $cwColor-base-blue);
 }
