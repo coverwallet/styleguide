@@ -433,8 +433,9 @@
   &industries-suministro-de-energia {
     @include cw-covericon-before(industries-suministro-de-energia, 0, #000);
   }
-
-
+  &industries-mall-v2 {
+    @include cw-covericon-before(industries-mall-v2, 0, #000);
+  }
   &insurance-type-aircraft-liability {
     @include cw-covericon-before(insurance-type-aircraft-liability, 0, #000);
   }
