@@ -210,6 +210,8 @@
          <li class='gallery-icon'><span class="styleguide-icon-industries-suministro-de-agua"></span> <span class='icon-name'>industries-suministro-de-agua</span></li>
          <li class='gallery-icon'><span class="styleguide-icon-industries-suministro-de-energia"></span> <span class='icon-name'>industries-suministro-de-energia</span></li>
          <li class='gallery-icon'><span class="styleguide-icon-industries-mall-v2"></span> <span class='icon-name'>industries-mall-v2</span></li>
+         <li class='gallery-icon'><span class="styleguide-icon-industries-building"></span> <span class='icon-name'>industries-building</span></li>
+         <li class='gallery-icon'><span class="styleguide-icon-industries-electricity"></span> <span class='icon-name'>industries-electricity</span></li>
     </ul>
 </div>
 
@@ -1483,4 +1485,10 @@
 }
 .cwicon-industries-mall-v2:before {
   content: "\ea58";
+}
+.cwicon-industries-building:before {
+  content: "\ea59";
+}
+.cwicon-industries-electricity:before {
+  content: "\ea5a";
 }
