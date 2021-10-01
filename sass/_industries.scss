@@ -29,7 +29,11 @@
   @include cw-covericon-before(industries-realstate, 0, $cwColor-base-blue);
 }
 .retail_services {
-  @include cw-covericon-before(industries-retailservices, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-retailservices,
+    0,
+    $cwColor-base-blue
+  );
 }
 .retail_trade {
   @include cw-covericon-before(industries-retailtrade, 0, $cwColor-base-blue);
@@ -44,13 +48,21 @@
   @include cw-covericon-before(industries-tech, 0, $cwColor-base-blue);
 }
 .transportation_and_warehousing {
-  @include cw-covericon-before(industries-transportation, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-transportation,
+    0,
+    $cwColor-base-blue
+  );
 }
 .wholesale_trade {
   @include cw-covericon-before(industries-wholesale, 0, $cwColor-base-blue);
 }
 .home_based_business {
-  @include cw-covericon-before(industries-home-based-business, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-home-based-business,
+    0,
+    $cwColor-base-blue
+  );
 }
 .construction {
   @include cw-covericon-before(industries-construction, 0, $cwColor-base-blue);
@@ -62,10 +74,18 @@
   @include cw-covericon-before(industries-contractor, 0, $cwColor-base-blue);
 }
 .rentals_and_leasing {
-  @include cw-covericon-before(industries-rental-and-leasing, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-rental-and-leasing,
+    0,
+    $cwColor-base-blue
+  );
 }
 .management_of_companies_and_enterprises {
-  @include cw-covericon-before(industries-management-of-companies-and-enterprises, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-management-of-companies-and-enterprises,
+    0,
+    $cwColor-base-blue
+  );
 }
 .nonprofit {
   @include cw-covericon-before(industries-nonprofit, 0, $cwColor-base-blue);
@@ -74,13 +94,21 @@
   @include cw-covericon-before(industries-mining, 0, $cwColor-base-blue);
 }
 .business_trips {
-  @include cw-covericon-before(industries-business-trips, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-business-trips,
+    0,
+    $cwColor-base-blue
+  );
 }
 .utilities {
   @include cw-covericon-before(industries-utilities, 0, $cwColor-base-blue);
 }
 .extraterritoriales {
-  @include cw-covericon-before(industries-extraterritoriales, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-extraterritoriales,
+    0,
+    $cwColor-base-blue
+  );
 }
 .manufacturera {
   @include cw-covericon-before(industries-manufacturera, 0, $cwColor-base-blue);
@@ -89,14 +117,39 @@
   @include cw-covericon-before(industries-extractivas, 0, $cwColor-base-blue);
 }
 .personal_domestico {
-  @include cw-covericon-before(industries-personal-domestico, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-personal-domestico,
+    0,
+    $cwColor-base-blue
+  );
 }
 .publica_y_defensa {
-  @include cw-covericon-before(industries-publica-y-defensa, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-publica-y-defensa,
+    0,
+    $cwColor-base-blue
+  );
 }
 .suministro_de_agua {
-  @include cw-covericon-before(industries-suministro-de-agua, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-suministro-de-agua,
+    0,
+    $cwColor-base-blue
+  );
 }
 .suministro_de_energia {
-  @include cw-covericon-before(industries-suministro-de-energia, 0, $cwColor-base-blue);
+  @include cw-covericon-before(
+    industries-suministro-de-energia,
+    0,
+    $cwColor-base-blue
+  );
+}
+.mall-v2 {
+  @include cw-covericon-before(industries-mall-v2, 0, $cwColor-base-blue);
+}
+.building {
+  @include cw-covericon-before(industries-building, 0, $cwColor-base-blue);
+}
+.electricity {
+  @include cw-covericon-before(industries-electricity, 0, $cwColor-base-blue);
 }
