@@ -160,6 +160,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-hired-and-non-owned-auto"></span> <span class='icon-name'>insurance-type-hired-and-non-owned-auto</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-special-events"></span> <span class='icon-name'>insurance-type-special-events</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-e-and-o"></span> <span class='icon-name'>insurance-type-e-and-o</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-motor"></span> <span class='icon-name'>insurance-type-motor</span></li>
     </ul>
 </div>
 
@@ -814,6 +815,9 @@
 }
 .cwicon-insurance-type-e-and-o:before {
   content: "\e980";
+}
+.cwicon-insurance-type-motor:before {
+  content: "\ea5b";
 }
 .cwicon-insurance-type-fidelity-bond:before {
   content: "\e981";
