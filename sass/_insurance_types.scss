@@ -178,3 +178,6 @@
 .multirisk{
   @include cw-covericon-before(insurance-type-multirisk, 0, $cwColor-base-blue);
 }
+.motor{
+  @include cw-covericon-before(insurance-type-motor, 0, $cwColor-base-blue);
+}

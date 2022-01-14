@@ -672,6 +672,9 @@
   &insurance-type-multirisk {
     @include cw-covericon-before(insurance-type-multirisk, 9, #000);
   }
+  &insurance-type-motor {
+    @include cw-covericon-before(insurance-type-motor, 9, #000);
+  }
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }
