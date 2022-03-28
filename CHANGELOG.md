@@ -1,3 +1,5 @@
+## March 8th
+Added the `@coverwallet` scope to make new releases private
 ## v2.21.0
 
 - Upgrade to node v10.17.x

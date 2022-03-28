@@ -8,7 +8,7 @@ Import Sass file to load styles, fonts and mixins.
 
 ```scss
 // main.scss
-@import '~cw-styleguide/sass/coverwallet.scss';
+@import '@coverwallet/cw-styleguide/sass/coverwallet.scss';
 ```
 
 ### Start guide server

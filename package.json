@@ -1,5 +1,5 @@
 {
-  "name": "cw-styleguide",
+  "name": "@coverwallet/cw-styleguide",
   "version": "2.29.2",
   "description": "",
   "main": "sass/coverwallet.scss",
