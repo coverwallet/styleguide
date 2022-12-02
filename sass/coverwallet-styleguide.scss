@@ -675,6 +675,9 @@
   &insurance-type-motor {
     @include cw-covericon-before(insurance-type-motor, 9, #000);
   }
+  &insurance-type-motor-uber-pt {
+    @include cw-covericon-before(insurance-type-motor-uber-pt, 9, #000);
+  }
   &delete {
     @include cw-covericon-before(delete, 0, #000);
   }
