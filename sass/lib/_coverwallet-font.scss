@@ -161,6 +161,7 @@
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-special-events"></span> <span class='icon-name'>insurance-type-special-events</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-e-and-o"></span> <span class='icon-name'>insurance-type-e-and-o</span></li>
         <li class='gallery-icon'><span class="styleguide-icon-insurance-type-motor"></span> <span class='icon-name'>insurance-type-motor</span></li>
+        <li class='gallery-icon'><span class="styleguide-icon-insurance-type-motor-uber-pt"></span> <span class='icon-name'>insurance-type-motor-uber-pt</span></li>
     </ul>
 </div>
 
@@ -818,6 +819,9 @@
 }
 .cwicon-insurance-type-motor:before {
   content: "\ea5b";
+}
+.cwicon-insurance-type-motor-uber-pt:before {
+  content: "\ea5c";
 }
 .cwicon-insurance-type-fidelity-bond:before {
   content: "\e981";
