@@ -21,3 +21,7 @@ Added the `@coverwallet` scope to make new releases private
 
 - Set the correct font path variable `$cw-fonts-path: "../fonts/"`.
 - Set the correct images path variable `$cw-images-path: "../images/"`.
+
+## v2.29.3
+
+- Add the `motor-uber-pt` icon
