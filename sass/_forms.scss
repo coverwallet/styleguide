@@ -27,7 +27,7 @@ form {
             padding-left: 10px;
             font-size: 14px;
 
-            @include media($mobile) {
+            @media($mobile) {
                 display: block;
                 text-align: center;
                 padding-left: 0;
@@ -44,7 +44,7 @@ form {
                 min-width: 230px;
                 max-width: 230px;
 
-                @include media($mobile) {
+                @media($mobile) {
                   display: block;
                   width: 100%;
                   max-width: 100%;
@@ -57,7 +57,7 @@ form {
             .label-addition {
                 display: inline-block;
 
-                @include media($mobile) {
+                @media($mobile) {
                     display: inline;
                 }
             }
@@ -82,7 +82,7 @@ form {
                 width: 300px;
                 margin-right: 15px;
 
-                @include media($mobile) {
+                @media($mobile) {
                   width: 100%;
                   margin-right: 0;
                 }
@@ -168,7 +168,7 @@ form {
                 li {
                     span {
                         &:hover {
-                          @include media($desktop) {
+                          @media($desktop) {
                             background: $cwColor-blue-light;
                           }
                         }
@@ -386,7 +386,7 @@ form {
     .input-group {
         @include clearfix();
 
-        @include media($mobile){
+        @media($mobile){
             display: block;
             width: 100%;
 
@@ -402,7 +402,7 @@ form {
         &.input-group--inline {
             display: table-cell;
 
-            @include media($mobile){
+            @media($mobile){
               display: block;
               width: 100%;
             }
@@ -416,7 +416,7 @@ form {
             width: 100%;
             color: $cwColor-black-xmedium;
 
-            @include media($mobile) {
+            @media($mobile) {
                 text-align: center;
                 width: 100%;
             }

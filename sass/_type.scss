@@ -60,7 +60,7 @@ h6,
 }
 
 a, .link{
-    @include transition(color 400ms, background-color 400ms);
+    transition:color 400ms background-color 400ms;
     color: $cwColor-base-blue;
     margin: 0;
     padding: 0;
@@ -70,7 +70,7 @@ a, .link{
     text-decoration: none;
 
     &:hover{
-        @include media($desktop) {
+        @media($desktop) {
             color: $cwColor-black-dark;
             background-color: transparent;
         }
@@ -79,7 +79,7 @@ a, .link{
     &.link--light{
         color: #fff;
         &:hover{
-          @include media($desktop) {
+          @media($desktop) {
             color: #fff;
           }
         }

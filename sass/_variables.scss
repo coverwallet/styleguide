@@ -45,7 +45,6 @@ $cw-images-close: url($cw-images-path + "close-icon.png") !default;
 $principal-fonts: "Open Sans", sans-serif;
 
 // Config to neat grid
-@import "../bower_components/neat/app/assets/stylesheets/neat-helpers";
 $max-width: em(1170);
 $desktopParams: min-width 1200px !default;
 $tabletParams: max-width 1200px 8 !default;

@@ -78,7 +78,7 @@
 
 */
 @mixin cw-hide-tablet() {
-    @include media($tablet) {
+    @media($tablet) {
         display: none;
     }
 }
@@ -88,7 +88,7 @@
 
 */
 @mixin cw-hide-mobile() {
-    @include media($mobile) {
+    @media($mobile) {
         display: none;
     }
 }
@@ -98,7 +98,7 @@
 
 */
 @mixin cw-hide-desktop() {
-    @include media($desktop) {
+    @media($desktop) {
         display: none;
     }
 }
@@ -111,7 +111,7 @@
 
 */
 @mixin cw-span-columns-mobile($cols, $colsShift:''){
-    @include media($mobile){
+    @media($mobile){
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{
@@ -128,7 +128,7 @@
 
 */
 @mixin cw-span-columns-tablet($cols, $colsShift:''){
-    @include media($tablet){
+    @media($tablet){
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{
@@ -144,7 +144,7 @@
     $colsShift - Number of cols to shift
 */
 @mixin cw-span-columns-desktop($cols, $colsShift:''){
-    @include media($desktop){
+    @media($desktop){
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{

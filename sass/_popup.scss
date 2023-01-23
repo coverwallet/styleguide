@@ -30,7 +30,7 @@
 }
 
 .popup--mobile-full {
-  @include media($mobile) {
+  @media($mobile) {
     position: fixed;
     top: 0;
     right: 0;
