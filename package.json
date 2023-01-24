@@ -1,6 +1,6 @@
 {
   "name": "@coverwallet/cw-styleguide",
-  "version": "3.0.0",
+  "version": "3.0.0-rc32.Angel",
   "description": "",
   "main": "sass/coverwallet.scss",
   "author": "Coverwallet <tech@coverwallet.com>",
@@ -12,11 +12,12 @@
     "start": "grunt serve"
   },
   "dependencies": {
-    "bourbon": "^7.2.0",
-    "bourbon-neat": "^4.0.0",
-    "normalize-scss": "^7.0.1",
+    "bourbon": "^5.1.0",
+    "bourbon-neat": "^3.0.1",
+    "normalize-scss": "^4.2.1",
     "font-awesome": "4.7.0",
-    "animate.css": "^4.1.1"
+    "animate.css": "^3.7.2",
+    "material-design-lite": "1.2.1"
   },
   "engines": {
     "node": "16.x",
