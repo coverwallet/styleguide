@@ -87,7 +87,7 @@ $default-feature: min-width; // Default @media feature for the breakpoint() mixi
 
 */
 @mixin cw-hide-tablet() {
-    @media($tablet) {
+    @include media($tablet) {
         display: none;
     }
 }
@@ -97,7 +97,7 @@ $default-feature: min-width; // Default @media feature for the breakpoint() mixi
 
 */
 @mixin cw-hide-mobile() {
-    @media($mobile) {
+    @include media($mobile) {
         display: none;
     }
 }
@@ -107,7 +107,7 @@ $default-feature: min-width; // Default @media feature for the breakpoint() mixi
 
 */
 @mixin cw-hide-desktop() {
-    @media($desktop) {
+    @include media($desktop) {
         display: none;
     }
 }
@@ -120,7 +120,7 @@ $default-feature: min-width; // Default @media feature for the breakpoint() mixi
 
 */
 @mixin cw-span-columns-mobile($cols, $colsShift:''){
-    @media($mobile){
+    @include media($mobile){
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{
@@ -137,7 +137,7 @@ $default-feature: min-width; // Default @media feature for the breakpoint() mixi
 
 */
 @mixin cw-span-columns-tablet($cols, $colsShift:''){
-    @media($tablet){
+    @include media($tablet){
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{
@@ -153,7 +153,7 @@ $default-feature: min-width; // Default @media feature for the breakpoint() mixi
     $colsShift - Number of cols to shift
 */
 @mixin cw-span-columns-desktop($cols, $colsShift:''){
-    @media($desktop){
+    @include media($desktop){
         @include span-columns($cols);
         min-height: 1px;
         @if $colsShift != ""{

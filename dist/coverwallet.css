@@ -9750,6 +9750,91 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   content: "\e97d";
 }
 
+/*
+    Mixin to set border radius to element
+
+*/
+/*
+    Mixin to set box shado to element
+*/
+/*
+    Mixin to do responsive image
+
+*/
+/*
+    Mixin to add icon to element
+
+    $icon - Icon of fontawesome
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+/*
+    Mixin to add coverwallet icon to element
+
+    $icon - Icon of coverwallet
+    $padding-right - Padding right (default 0)
+    $color - Color of icon (default #000)
+
+*/
+/*
+    Mixin to hide element in tablets
+
+*/
+/*
+    Mixin to hide element in mobile
+
+*/
+/*
+    Mixin to hide element in desktop
+
+*/
+/*
+    Mixin to set columns for mobile
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+
+*/
+/*
+    Mixin to set columns for tablet
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+
+*/
+/*
+    Mixin to set columns for desktop
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+*/
+/*
+    Mixin to set columns for all widths
+
+    $cols - Number of cols
+    $colsShift - Number of cols to shift
+*/
+/*
+    Mixin to set opacity
+
+    $cols - Number of cols
+*/
+/*
+    Mixin to set opacity
+
+    $property - width or height
+    $expresion - Expression to calculate
+*/
+/*
+    Mixin to set Flexbox
+
+    Usage:
+
+    div {
+        @include flexbox();
+    }
+*/
 .row-group {
   position: relative;
   margin: 3px 0;
@@ -9764,7 +9849,7 @@ form .form-group.form-group--checkbox .form-checkbox input + label:before {
   content: "";
   display: block;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .row-group {
     padding: 0;
   }
@@ -9959,7 +10044,7 @@ a, .link {
   background: transparent;
   text-decoration: none;
 }
-@media (new-breakpoint(min-width 1200px)) {
+@media screen and (min-width: new-breakpoint(min-width 1200px)) {
   a:hover, .link:hover {
     color: #505050;
     background-color: transparent;
@@ -9968,7 +10053,7 @@ a, .link {
 a.link--light, .link.link--light {
   color: #fff;
 }
-@media (new-breakpoint(min-width 1200px)) {
+@media screen and (min-width: new-breakpoint(min-width 1200px)) {
   a.link--light:hover, .link.link--light:hover {
     color: #fff;
   }
@@ -10058,7 +10143,7 @@ form .form-group__additional-info {
   padding-left: 10px;
   font-size: 14px;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .form .form-group__additional-info,
   form .form-group__additional-info {
     display: block;
@@ -10080,7 +10165,7 @@ form .form-group .label.label--inline {
   min-width: 230px;
   max-width: 230px;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .form .form-group .label.label--inline,
   form .form-group .label.label--inline {
     display: block;
@@ -10095,7 +10180,7 @@ form .form-group .label.label--inline {
 form .form-group .label .label-addition {
   display: inline-block;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .form .form-group .label .label-addition,
   form .form-group .label .label-addition {
     display: inline;
@@ -10123,7 +10208,7 @@ form .form-group .form-input.form-input--short {
   width: 300px;
   margin-right: 15px;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .form .form-group .form-input.form-input--short,
   form .form-group .form-input.form-input--short {
     width: 100%;
@@ -10218,7 +10303,7 @@ form .form-group .form-select .cs-placeholder {
 form .form-group .form-select .cs-placeholder:after {
   content: "\f063";
 }
-@media (new-breakpoint(min-width 1200px)) {
+@media screen and (min-width: new-breakpoint(min-width 1200px)) {
   .form .form-group .form-select .cs-options li span:hover,
   form .form-group .form-select .cs-options li span:hover {
     background: #8eccf1;
@@ -10485,7 +10570,7 @@ form .input-group::after {
   content: "";
   display: block;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .form .input-group,
   form .input-group {
     display: block;
@@ -10504,7 +10589,7 @@ form .input-group::after {
 form .input-group.input-group--inline {
   display: table-cell;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .form .input-group.input-group--inline,
   form .input-group.input-group--inline {
     display: block;
@@ -10520,7 +10605,7 @@ form .input-group .input-group__help-message {
   width: 100%;
   color: #8a8a8a;
 }
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .form .input-group .input-group__help-message,
   form .input-group .input-group__help-message {
     text-align: center;
@@ -10844,7 +10929,7 @@ button.btn--border-blue, .btn.btn--border-blue {
   color: #438bd7;
   border: 1px solid #438bd7;
 }
-@media (new-breakpoint(min-width 1200px)) {
+@media screen and (min-width: new-breakpoint(min-width 1200px)) {
   button.btn--border:hover, button.btn--border-blue:hover, .btn.btn--border:hover, .btn.btn--border-blue:hover {
     background-color: #fff;
     color: #505050;
@@ -10860,7 +10945,7 @@ button.disabled, button[disabled], .btn.disabled, .btn[disabled] {
   background-color: #d2d2d2;
   border: 1px solid #d2d2d2;
 }
-@media (new-breakpoint(min-width 1200px)) {
+@media screen and (min-width: new-breakpoint(min-width 1200px)) {
   button:hover, .btn:hover {
     border: 1px solid #505050;
     background-color: #505050;
@@ -10965,7 +11050,7 @@ ul.list.list--type-4 li:before {
   margin-bottom: 10px;
 }
 
-@media (new-breakpoint(max-width 767px 4)) {
+@media screen and (min-width: new-breakpoint(max-width 767px 4)) {
   .popup--mobile-full {
     position: fixed;
     top: 0;

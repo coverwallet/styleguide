@@ -1,6 +1,6 @@
 {
   "name": "@coverwallet/cw-styleguide",
-  "version": "3.0.0-rc32.Angel",
+  "version": "3.0.0-rc34.Angel",
   "description": "",
   "main": "sass/coverwallet.scss",
   "author": "Coverwallet <tech@coverwallet.com>",

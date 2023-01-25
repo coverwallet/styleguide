@@ -1,4 +1,6 @@
-  .row-group  {
+@import '../mixins';
+
+.row-group  {
   position: relative;
   margin: 3px 0;
   padding: 5px 0;
@@ -8,7 +10,7 @@
   }
   @include clearfix();
 
-  @media($mobile) {
+  @include media($mobile) {
     padding: 0;
 
     > div {
