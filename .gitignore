@@ -1,4 +1,3 @@
-/bower_components/
 .sass-cache/
 /node_modules/
 sass/.DS_STORE
@@ -7,3 +6,4 @@ sass/.DS_STORE
 .DS_Store/
 npm-debug.log
 .idea/
+.vscode

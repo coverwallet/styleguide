@@ -1,3 +1,12 @@
+$grid-columns: 12 !default;
+$parent-columns: $grid-columns !default;
+$container-display-table: false !default;
+$gutter: modular-scale(1, 1em, $golden) !default;
+$column: modular-scale(3, 1em, $golden) !default;
+$fg-gutter: $gutter;
+$fg-column: $column;
+$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+
 /*
     Mixin to set border radius to element
 
@@ -175,9 +184,9 @@
     $cols - Number of cols
 */
 @mixin cw-opacity($opacity) {
-  opacity: $opacity;
-  $opacity-ie: $opacity * 100;
-  filter: alpha(opacity=$opacity-ie); //IE8
+    opacity: $opacity;
+    $opacity-ie: $opacity * 100;
+    filter: alpha(opacity=$opacity-ie); //IE8
 }
 
 
@@ -188,8 +197,8 @@
     $expresion - Expression to calculate
 */
 @mixin calc($property, $expression) {
-  #{$property}: -webkit-calc(#{$expression});
-  #{$property}: calc(#{$expression});
+    #{$property}: -webkit-calc(#{$expression});
+    #{$property}: calc(#{$expression});
 }
 
 
@@ -203,9 +212,163 @@
     }
 */
 @mixin flexbox {
-    display:-webkit-box; // old
-    display:-moz-box; // old
-    display:-ms-flexbox; // ie
-    display:-webkit-flex; // new
-    display:flex; // new
+    display: -webkit-box; // old
+    display: -moz-box; // old
+    display: -ms-flexbox; // ie
+    display: -webkit-flex; // new
+    display: flex; // new
+}
+
+// Shift - legacy from bourbon-neat 1.7.2
+@mixin shift($n-columns: 1) {
+    @if $n-columns != 0 {
+        margin-left: ($n-columns * flex-grid(1, $parent-columns)) + $n-columns * flex-gutter($parent-columns);
+    }
+
+    // Reset nesting context
+    $parent-columns: $grid-columns;
+}
+
+// Parses the first argument of span-columns()
+@function container-span($span: $span) {
+    @if length($span)==3 {
+        $container-columns: nth($span, 3);
+        @return $container-columns;
+    }
+
+    @else if length($span)==2 {
+        $container-columns: nth($span, 2);
+        @return $container-columns;
+    }
+
+    @return $grid-columns;
+}
+
+// Grid span columns - legacy from bourbon-neat 1.7.2
+@mixin span-columns($span: $columns of $container-columns, $display: block) {
+
+    $columns: nth($span, 1);
+    $container-columns: container-span($span);
+    $display-table: false;
+
+    @if $container-columns !=$grid-columns {
+        $parent-columns: $container-columns;
+    }
+
+    @else {
+        $parent-columns: $grid-columns;
+    }
+
+    @if $container-display-table ==true {
+        $display-table: true;
+    }
+
+    @else if $display ==table {
+        $display-table: true;
+    }
+
+    @else {
+        $display-table: false;
+    }
+
+    @if $display-table {
+        display: table-cell;
+        padding-right: flex-gutter($container-columns);
+        width: flex-grid($columns, $container-columns) + flex-gutter($container-columns);
+
+        &:last-child {
+            width: flex-grid($columns, $container-columns);
+            padding-right: 0;
+        }
+    }
+
+    @else if $display ==inline-block {
+        @include inline-block;
+        margin-right: flex-gutter($container-columns);
+        width: flex-grid($columns, $container-columns);
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    @else {
+        display: block;
+        float: left;
+        margin-right: flex-gutter($container-columns);
+        width: flex-grid($columns, $container-columns);
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+
+// Media Queries - legacy from bourbon-neat 1.7.2
+@mixin media($query: $feature $value $columns, $total-columns: $grid-columns) {
+
+    @if length($query)==1 {
+        @media screen and ($default-feature: nth($query, 1)) {
+            $default-grid-columns: $grid-columns;
+            $grid-columns: $total-columns;
+            @content;
+            $grid-columns: $default-grid-columns;
+        }
+    }
+
+    @else if length($query)==2 {
+        @media screen and (nth($query, 1): nth($query, 2)) {
+            $default-grid-columns: $grid-columns;
+            $grid-columns: $total-columns;
+            @content;
+            $grid-columns: $default-grid-columns;
+        }
+    }
+
+    @else if length($query)==3 {
+        @media screen and (nth($query, 1): nth($query, 2)) {
+            $default-grid-columns: $grid-columns;
+            $grid-columns: nth($query, 3);
+            @content;
+            $grid-columns: $default-grid-columns;
+        }
+    }
+
+    @else if length($query)==4 {
+        @media screen and (nth($query, 1): nth($query, 2)) and (nth($query, 3): nth($query, 4)) {
+            $default-grid-columns: $grid-columns;
+            $grid-columns: $total-columns;
+            @content;
+            $grid-columns: $default-grid-columns;
+        }
+    }
+
+    @else if length($query)==5 {
+        @media screen and (nth($query, 1): nth($query, 2)) and (nth($query, 3): nth($query, 4)) {
+            $default-grid-columns: $grid-columns;
+            $grid-columns: nth($query, 5);
+            @content;
+            $grid-columns: $default-grid-columns;
+        }
+    }
+
+    @else {
+        @warn "Wrong number of arguments for breakpoint(). Read the documentation for more details.";
+    }
+}
+
+// Clearfix / row container - legacy from bourbon-neat 1.7.2
+@mixin row($display: block) {
+    @include clearfix;
+
+    @if $display == table {
+        display: table;
+        $container-display-table: true;
+    }
+
+    @else {
+        display: block;
+        $container-display-table: false;
+    }
 }

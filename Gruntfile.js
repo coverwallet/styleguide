@@ -1,10 +1,7 @@
-'use strict';
 module.exports = function(grunt) {
-
-
-
+    
+    const sass = require('sass');
     require('load-grunt-tasks')(grunt);
-
     require('time-grunt')(grunt);
 
 
@@ -36,6 +33,7 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 options: {
+                    implementation: sass,
                     style: 'compressed',
                     sourcemap: 'none',
                     noCache: true

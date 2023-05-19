@@ -60,7 +60,7 @@ h6,
 }
 
 a, .link{
-    @include transition(color 400ms, background-color 400ms);
+    transition:color 400ms background-color 400ms;
     color: $cwColor-base-blue;
     margin: 0;
     padding: 0;

@@ -60,7 +60,7 @@ Styleguide 4
     }
 }
 button, .btn {
-    @include transition(none);
+    transition: none;
     font-size: 14px;
     border-radius: 3px;
     color: $cwColor-base-white;

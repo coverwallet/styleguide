@@ -1,14 +1,14 @@
-@import '../bower_components/normalize-scss/normalize.scss';
-@import '../bower_components/animate.css/animate.min';
+@import 'node_modules/normalize-scss/sass/normalize';
+@import 'node_modules/animate.css/animate.min';
 
-@import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import 'node_modules/bourbon/core/bourbon';
 @import 'lib/selectFx';
 
 @import 'variables';
 @import 'fontawesome';
 @import 'fonts';
 
-@import '../bower_components/neat/app/assets/stylesheets/neat';
+@import 'node_modules/bourbon-neat/core/neat';
 
 @import 'lib/coverwallet-font';
 @import 'lib/coverwallet-general-font';
