@@ -181,6 +181,6 @@
 .motor{
   @include cw-covericon-before(insurance-type-motor, 0, $cwColor-base-blue);
 }
-.motor-uber-pt{
-  @include cw-covericon-before(insurance-type-motor-uber-pt, 0, $cwColor-base-blue);
+.motor-insurance{
+  @include cw-covericon-before(motor-insurance, 0, $cwColor-base-blue);
 }
