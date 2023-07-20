@@ -7476,13 +7476,13 @@ html {
 .cwicon-insurance-type-vida-colectivos:before, .vida_colectivos:before, .styleguide-icon-insurance-type-vida-colectivos:before {
   content: "\ea4f"; }
 
-.cwicon-insurance-type-st-movil:before, .st_movil:before, .styleguide-icon-insurance-type-st-movil:before {
+.cwicon-insurance-type-st-movil:before, .st_movil:before, .styleguide-icon-insurance-type-st-movil:before, .other_computer:before {
   content: "\ea07"; }
 
-.cwicon-insurance-type-st-contratista:before, .st_contratista:before, .styleguide-icon-insurance-type-st-contratista:before {
+.cwicon-insurance-type-st-contratista:before, .st_contratista:before, .styleguide-icon-insurance-type-st-contratista:before, .warehouse:before {
   content: "\e958"; }
 
-.cwicon-insurance-type-st-fijo:before, .st_fijo:before, .styleguide-icon-insurance-type-st-fijo:before {
+.cwicon-insurance-type-st-fijo:before, .st_fijo:before, .styleguide-icon-insurance-type-st-fijo:before, .subindustries_custom_computer_programming_services:before {
   content: "\e9f7"; }
 
 .cwicon-insurance-type-multirisk:before, .multirisk:before, .styleguide-icon-insurance-type-multirisk:before {
@@ -9960,11 +9960,23 @@ Styleguide 8.1
   padding-right: 0;
   color: #438bd7; }
 
+.other_computer:before {
+  padding-right: 0;
+  color: #438bd7; }
+
 .st_contratista:before {
   padding-right: 0;
   color: #438bd7; }
 
+.warehouse:before {
+  padding-right: 0;
+  color: #438bd7; }
+
 .st_fijo:before {
+  padding-right: 0;
+  color: #438bd7; }
+  
+.subindustries_custom_computer_programming_services:before {
   padding-right: 0;
   color: #438bd7; }
 

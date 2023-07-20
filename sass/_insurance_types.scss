@@ -169,10 +169,19 @@
 .st_movil {
   @include cw-covericon-before(insurance-type-st-movil, 0, $cwColor-base-blue);
 }
+.other_computer {
+  @include cw-covericon-before(insurance-type-st-movil, 0, $cwColor-base-blue);
+}
 .st_contratista {
   @include cw-covericon-before(insurance-type-st-contratista, 0, $cwColor-base-blue);
 }
+.warehouse {
+  @include cw-covericon-before(insurance-type-st-contratista, 0, $cwColor-base-blue);
+}
 .st_fijo{
+  @include cw-covericon-before(insurance-type-st-fijo, 0, $cwColor-base-blue);
+}
+.subindustries_custom_computer_programming_services{
   @include cw-covericon-before(insurance-type-st-fijo, 0, $cwColor-base-blue);
 }
 .multirisk{
