@@ -29,3 +29,7 @@ Added the `@coverwallet` scope to make new releases private
 ## v2.29.4
 
 - Change the `motor-uber-pt` to `motor-insurance`
+
+## v2.29.5
+
+- Add `other_computer`, `warehouse`, `subindustries_custom_computer_programming_services` icons
